@@ -1,0 +1,415 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2007m_kozep_inf": {
+"formula_count": 4,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2007o_emelt_inf": {
+"formula_count": 13,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2007o_kozep_inf": {
+"formula_count": 21,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2008m_emelt_inf": {
+"formula_count": 3,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2008m_kozep_inf": {
+"formula_count": 7,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2008o_emelt_inf": {
+"formula_count": 5,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2008o_kozep_inf": {
+"formula_count": 9,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2009m_emelt_inf": {
+"formula_count": 13,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2009m_kozep_inf": {
+"formula_count": 5,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2009o_emelt_inf": {
+"formula_count": 11,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2009o_kozep_inf": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2010m_emelt_inf": {
+"formula_count": 9,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2010o_emelt_inf": {
+"formula_count": 9,
+"formula_depth_max": 3,
+"functions_per_formula_max": 2
+},
+"2010o_kozep_inf": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2011m_emelt_inf": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2011m_kozep_inf": {
+"formula_count": 10,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2012m_emelt_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2012m_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2012o_emelt_inf": {
+"formula_count": 6,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2012o_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2013m_emelt_inf": {
+"formula_count": 7,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2013m_kozep_inf": {
+"formula_count": 15,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2013o_emelt_inf": {
+"formula_count": 5,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2013o_kozep_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2014m_emelt_inf": {
+"formula_count": 8,
+"formula_depth_max": 3,
+"functions_per_formula_max": 4
+},
+"2014m_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2014o_emelt_inf": {
+"formula_count": 14,
+"formula_depth_max": 5,
+"functions_per_formula_max": 5
+},
+"2014o_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2015m_emelt_inf": {
+"formula_count": 10,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2015m_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2015o_emelt_inf": {
+"formula_count": 14,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2015o_kozep_inf": {
+"formula_count": 10,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2016m_emelt_inf": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2016m_kozep_inf": {
+"formula_count": 12,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2016o_emelt_inf": {
+"formula_count": 8,
+"formula_depth_max": 3,
+"functions_per_formula_max": 5
+},
+"2016o_kozep_inf": {
+"formula_count": 9,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2017m_emelt_inf": {
+"formula_count": 5,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2017m_kozep_inf": {
+"formula_count": 6,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2017o_emelt_inf": {
+"formula_count": 4,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2017o_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2018m_emelt_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2018m_kozep_inf": {
+"formula_count": 18,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2018o_emelt_inf": {
+"formula_count": 5,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2018o_kozep_inf": {
+"formula_count": 13,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2019m_emelt_inf": {
+"formula_count": 11,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2019m_kozep_inf": {
+"formula_count": 12,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2019o_emelt_inf": {
+"formula_count": 10,
+"formula_depth_max": 1,
+"functions_per_formula_max": 2
+},
+"2019o_kozep_inf": {
+"formula_count": 11,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2020m_emelt_inf": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2020m_kozep_inf": {
+"formula_count": 10,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2020o_emelt_inf": {
+"formula_count": 10,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2020o_kozep_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2021m_emelt_inf": {
+"formula_count": 10,
+"formula_depth_max": 2,
+"functions_per_formula_max": 3
+},
+"2021m_kozep_inf": {
+"formula_count": 9,
+"formula_depth_max": 2,
+"functions_per_formula_max": 4
+},
+"2021o_emelt_inf": {
+"formula_count": 11,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2021o_kozep_inf": {
+"formula_count": 14,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2022m_emelt_dk": {
+"formula_count": 12,
+"formula_depth_max": 3,
+"functions_per_formula_max": 4
+},
+"2022m_kozep_dk": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2022m_kozep_inf": {
+"formula_count": 12,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2022o_emelt_dk": {
+"formula_count": 10,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2022o_kozep_dk": {
+"formula_count": 4,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2022o_emelt_inf": {
+"formula_count": 9,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2022o_kozep_inf": {
+"formula_count": 10,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2023m_emelt_dk": {
+"formula_count": 21,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2023m_kozep_dk": {
+"formula_count": 11,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2023m_emelt_inf": {
+"formula_count": 12,
+"formula_depth_max": 3,
+"functions_per_formula_max": 4
+},
+"2023m_kozep_inf": {
+"formula_count": 4,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2023o_emelt_dk": {
+"formula_count": 9,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2023o_kozep_dk": {
+"formula_count": 9,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2023o_emelt_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 3
+},
+"2023o_kozep_inf": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2024m_emelt_dk": {
+"formula_count": 16,
+"formula_depth_max": 2,
+"functions_per_formula_max": 3
+},
+"2024m_kozep_dk": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2024o_emelt_dk": {
+"formula_count": 3,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+},
+"2024o_kozep_dk": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2025m_emelt_dk": {
+"formula_count": 12,
+"formula_depth_max": 2,
+"functions_per_formula_max": 6
+},
+"2025m_kozep_dk": {
+"formula_count": 9,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2025o_emelt_dk": {
+"formula_count": 12,
+"formula_depth_max": 3,
+"functions_per_formula_max": 3
+},
+"2025o_kozep_dk": {
+"formula_count": 7,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
+"2026m_emelt_dk": {
+"formula_count": 9,
+"formula_depth_max": 2,
+"functions_per_formula_max": 3
+},
+"2026m_kozep_dk": {
+"formula_count": 6,
+"formula_depth_max": 1,
+"functions_per_formula_max": 1
+}
+}
+}

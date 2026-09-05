@@ -48,13 +48,14 @@ EXCLUDE_FILE_PATTERNS = (
     "turiszt",           # Turisztika
 )
 
-# Pontozo/ertekelo tablak - nem mintamegoldasok.
+# Pontozo/ertekelo tablak - nem mintamegoldasok. Az "_ut." vegzodes az utmutato
+# sajat pontozotablaja (pl. e_inf_19maj_ut.xlsx): csupa SZUM, a fuggveny-szamlalast
+# elrontana (TERV 9. kockazat).
 EXCLUDE_SOLUTION_PATTERNS = (
-    "_ertekelo",
-    "ertekelo_",
-    "_javitasi",
-    "javitasi_",
-    "ertekelolap",
+    "ertekel",       # ertekelo, ertekelesi, ertekelolap
+    "javitasi",
+    "_ut.",
+    "_pontozo",
 )
 
 

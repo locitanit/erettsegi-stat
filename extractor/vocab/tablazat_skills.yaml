@@ -1,0 +1,90 @@
+# Táblázatkezelési készségek, amik nem függvények.
+# Az útmutató pontozási soraiban keressük ezeket a mintákat.
+#
+# key:      gépi azonosító (a JSON-ban ez lesz)
+# label:    magyar címke a felületre
+# patterns: reguláris kifejezések (kis-nagybetű mindegy)
+
+- key: diagram_oszlop
+  label: Oszlop- vagy sávdiagram
+  patterns: ['oszlopdiagram', 'sávdiagram', 'oszlop\s*diagram', 'sáv\s*diagram']
+- key: diagram_kor
+  label: Kördiagram
+  patterns: ['kördiagram', 'kör\s*diagram', 'perecdiagram']
+- key: diagram_vonal
+  label: Vonaldiagram
+  patterns: ['vonaldiagram', 'vonal\s*diagram', 'grafikon\s+típusa']
+- key: diagram_pont
+  label: Pontdiagram
+  patterns: ['pontdiagram', 'pont\s*\(xy\)', 'xy\s*diagram', 'buborékdiagram']
+- key: diagram_egyeb
+  label: Egyéb diagram
+  patterns: ['területdiagram', 'sugárdiagram', 'kombinált diagram', 'másodlagos tengely']
+
+- key: felt_formazas
+  label: Feltételes formázás
+  patterns: ['feltételes formáz']
+- key: egyeni_szamformatum
+  label: Egyéni számformátum
+  patterns: ['egyéni (szám)?formátum', 'saját számformátum', 'formátumkód']
+- key: penznem_formatum
+  label: Pénznem formátum
+  patterns: ['pénznem formátum', 'pénznemformátum']
+- key: datum_formatum
+  label: Dátumformátum
+  patterns: ['dátumformátum', 'dátum formátum', 'idő formátum']
+
+- key: rendezes
+  label: Rendezés
+  patterns: ['rendez(te|és|ett)', 'sorba rendez', 'növekvő sorrendbe', 'csökkenő sorrendbe']
+- key: szures
+  label: Szűrés
+  patterns: ['(auto)?szűr(ő|és|te|t )', 'irányított szűrő']
+- key: kimutatas
+  label: Kimutatás (pivot)
+  patterns: ['kimutatás', 'pivot']
+- key: reszosszeg
+  label: Részösszeg
+  patterns: ['részösszeg']
+
+- key: abszolut_hivatkozas
+  label: Abszolút vagy vegyes hivatkozás
+  patterns: ['abszolút hivatkozás', 'vegyes hivatkozás', 'másolható', 'hibamentesen másol']
+- key: munkalapok_kozott
+  label: Munkalapok közti hivatkozás
+  patterns: ['másik munkalap', 'munkalapok? közötti hivatkozás', 'munkalap!']
+- key: tartomanynev
+  label: Tartománynév
+  patterns: ['tartománynev', 'névvel ellátott tartomány', 'névkezelő']
+- key: uj_munkalap
+  label: Új munkalap létrehozása
+  patterns: ['új munkalapot', 'munkalapot (hozott )?létre', 'munkalap néven']
+
+- key: cella_egyesites
+  label: Cellaegyesítés
+  patterns: ['cellák(at)? egyesít', 'egyesített cell']
+- key: szegely_mintazat
+  label: Szegély és mintázat
+  patterns: ['szegély', 'mintázat', 'kitöltőszín', 'háttérszín']
+- key: igazitas
+  label: Igazítás
+  patterns: ['igazít(ás|ott|va)', 'sortöréssel több sorba', 'elforgat']
+- key: oszlopszelesseg
+  label: Oszlopszélesség és sormagasság
+  patterns: ['oszlopszélesség', 'sormagasság', 'oszlop szélesség']
+- key: rejtett
+  label: Elrejtés
+  patterns: ['elrejt(ette|és)', 'rejtett (sor|oszlop)']
+- key: rogzites
+  label: Ablaktábla rögzítése
+  patterns: ['ablaktábla', 'rögzítette a sor', 'panelek rögzítése']
+
+- key: adatimport
+  label: Adatimportálás szövegfájlból
+  patterns: ['forrásállomány tartalma', 'importál', 'beolvas(ta|ás)', 'kódolással']
+- key: ervenyesites
+  label: Érvényesítés
+  patterns: ['érvényesítés', 'legördülő lista', 'adatérvényesítés']
+- key: nyomtatasi_kep
+  label: Nyomtatási beállítás
+  patterns: ['nyomtatási kép', 'egy oldalra', 'nyomtatási terület', 'oldalbeállítás']

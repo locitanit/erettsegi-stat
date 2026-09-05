@@ -1,0 +1,549 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"diagram_pont": 1,
+"penznem_formatum": 1
+},
+"2007m_kozep_inf": {
+"diagram_oszlop": 2,
+"rendezes": 3,
+"szegely_mintazat": 1,
+"igazitas": 1,
+"adatimport": 2
+},
+"2007o_emelt_inf": {
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 2,
+"igazitas": 1,
+"adatimport": 1
+},
+"2007o_kozep_inf": {
+"rendezes": 2,
+"szures": 1,
+"abszolut_hivatkozas": 2,
+"munkalapok_kozott": 1,
+"szegely_mintazat": 1,
+"igazitas": 1
+},
+"2008m_emelt_inf": {
+"diagram_oszlop": 2,
+"rendezes": 3,
+"igazitas": 2,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2008m_kozep_inf": {
+"igazitas": 3,
+"adatimport": 1
+},
+"2008o_emelt_inf": {
+"diagram_oszlop": 2,
+"szegely_mintazat": 3,
+"igazitas": 2,
+"oszlopszelesseg": 1,
+"nyomtatasi_kep": 4
+},
+"2008o_kozep_inf": {
+"egyeni_szamformatum": 1,
+"abszolut_hivatkozas": 1,
+"igazitas": 5,
+"adatimport": 1
+},
+"2009m_emelt_inf": {
+"szures": 2,
+"igazitas": 2,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2009m_kozep_inf": {
+"diagram_oszlop": 2,
+"rendezes": 3,
+"igazitas": 4,
+"nyomtatasi_kep": 3
+},
+"2009o_emelt_inf": {
+"abszolut_hivatkozas": 2,
+"uj_munkalap": 1,
+"szegely_mintazat": 2,
+"igazitas": 1,
+"adatimport": 1
+},
+"2009o_kozep_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 1,
+"igazitas": 1,
+"adatimport": 1
+},
+"2010m_emelt_inf": {
+"diagram_oszlop": 4,
+"abszolut_hivatkozas": 1,
+"adatimport": 1
+},
+"2010o_emelt_inf": {
+"diagram_kor": 2,
+"abszolut_hivatkozas": 2,
+"adatimport": 1
+},
+"2010o_kozep_inf": {
+"diagram_oszlop": 4,
+"abszolut_hivatkozas": 2,
+"igazitas": 1,
+"oszlopszelesseg": 1
+},
+"2011m_emelt_inf": {
+"diagram_vonal": 2,
+"szegely_mintazat": 3,
+"adatimport": 1
+},
+"2011m_kozep_inf": {
+"rendezes": 3,
+"abszolut_hivatkozas": 2,
+"cella_egyesites": 1,
+"szegely_mintazat": 2,
+"adatimport": 2
+},
+"2012m_emelt_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 1,
+"igazitas": 1,
+"nyomtatasi_kep": 3
+},
+"2012m_kozep_inf": {
+"diagram_oszlop": 4,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 2,
+"igazitas": 2
+},
+"2012o_emelt_inf": {
+"diagram_pont": 1,
+"igazitas": 5
+},
+"2012o_kozep_inf": {
+"diagram_vonal": 2,
+"datum_formatum": 3,
+"rendezes": 1,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2013m_emelt_inf": {
+"diagram_oszlop": 2,
+"datum_formatum": 1,
+"szegely_mintazat": 1,
+"igazitas": 1,
+"oszlopszelesseg": 1,
+"adatimport": 2
+},
+"2013m_kozep_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"adatimport": 1
+},
+"2013o_emelt_inf": {
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"igazitas": 2,
+"adatimport": 1
+},
+"2013o_kozep_inf": {
+"egyeni_szamformatum": 2,
+"abszolut_hivatkozas": 3,
+"szegely_mintazat": 2,
+"igazitas": 4
+},
+"2014m_emelt_inf": {
+"szegely_mintazat": 1,
+"igazitas": 2,
+"adatimport": 3
+},
+"2014m_kozep_inf": {
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 2,
+"igazitas": 2,
+"adatimport": 3
+},
+"2014o_emelt_inf": {
+"abszolut_hivatkozas": 2,
+"igazitas": 4,
+"adatimport": 1
+},
+"2014o_kozep_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 3,
+"rejtett": 1,
+"adatimport": 1
+},
+"2015m_emelt_inf": {
+"diagram_oszlop": 2,
+"szures": 2,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"igazitas": 1
+},
+"2015m_kozep_inf": {
+"diagram_kor": 2,
+"rendezes": 3,
+"szegely_mintazat": 2,
+"igazitas": 3
+},
+"2015o_emelt_inf": {
+"szegely_mintazat": 2,
+"igazitas": 2,
+"adatimport": 2
+},
+"2015o_kozep_inf": {
+"diagram_vonal": 2,
+"egyeni_szamformatum": 1,
+"datum_formatum": 3,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 3,
+"igazitas": 2,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2016m_emelt_inf": {
+"penznem_formatum": 1,
+"abszolut_hivatkozas": 3,
+"munkalapok_kozott": 1,
+"szegely_mintazat": 3,
+"igazitas": 1
+},
+"2016m_kozep_inf": {
+"diagram_oszlop": 6,
+"rendezes": 1,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"igazitas": 3
+},
+"2016o_emelt_inf": {
+"diagram_vonal": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 1,
+"adatimport": 2
+},
+"2016o_kozep_inf": {
+"diagram_oszlop": 4,
+"szegely_mintazat": 3,
+"igazitas": 2,
+"oszlopszelesseg": 1
+},
+"2017m_emelt_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 2,
+"igazitas": 1,
+"adatimport": 2
+},
+"2017m_kozep_inf": {
+"diagram_vonal": 4,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"igazitas": 2,
+"adatimport": 1
+},
+"2017o_emelt_inf": {
+"diagram_kor": 6,
+"felt_formazas": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 3,
+"igazitas": 1,
+"adatimport": 1
+},
+"2017o_kozep_inf": {
+"diagram_kor": 4,
+"szegely_mintazat": 4
+},
+"2018m_emelt_inf": {
+"felt_formazas": 2,
+"egyeni_szamformatum": 1,
+"datum_formatum": 1,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 1,
+"adatimport": 3
+},
+"2018m_kozep_inf": {
+"diagram_kor": 4,
+"szegely_mintazat": 4,
+"igazitas": 4
+},
+"2018o_emelt_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 2,
+"igazitas": 1
+},
+"2018o_kozep_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 1,
+"igazitas": 1
+},
+"2019m_emelt_inf": {
+"felt_formazas": 2,
+"szegely_mintazat": 3,
+"igazitas": 1,
+"oszlopszelesseg": 1,
+"adatimport": 2
+},
+"2019m_kozep_inf": {
+"diagram_oszlop": 2,
+"rendezes": 4,
+"szegely_mintazat": 2,
+"igazitas": 1,
+"adatimport": 1
+},
+"2019o_emelt_inf": {
+"felt_formazas": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 3,
+"igazitas": 1,
+"oszlopszelesseg": 1,
+"adatimport": 2
+},
+"2019o_kozep_inf": {
+"diagram_kor": 4,
+"rendezes": 5,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"igazitas": 1,
+"adatimport": 1
+},
+"2020m_emelt_inf": {
+"szegely_mintazat": 5,
+"igazitas": 1
+},
+"2020m_kozep_inf": {
+"diagram_kor": 6,
+"rendezes": 3,
+"abszolut_hivatkozas": 3,
+"munkalapok_kozott": 2,
+"szegely_mintazat": 2,
+"igazitas": 1,
+"rejtett": 1
+},
+"2020o_emelt_inf": {
+"felt_formazas": 2,
+"rendezes": 1,
+"abszolut_hivatkozas": 2,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2020o_kozep_inf": {
+"egyeni_szamformatum": 1,
+"szegely_mintazat": 2,
+"igazitas": 2,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2021m_emelt_inf": {
+"diagram_kor": 2,
+"abszolut_hivatkozas": 1
+},
+"2021m_kozep_inf": {
+"diagram_oszlop": 4,
+"abszolut_hivatkozas": 4,
+"cella_egyesites": 1,
+"szegely_mintazat": 5,
+"igazitas": 2,
+"adatimport": 1
+},
+"2021o_emelt_inf": {
+"abszolut_hivatkozas": 2,
+"igazitas": 1
+},
+"2021o_kozep_inf": {
+"diagram_oszlop": 4,
+"egyeni_szamformatum": 1,
+"penznem_formatum": 1,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 2,
+"igazitas": 1,
+"adatimport": 1
+},
+"2022m_emelt_dk": {
+"felt_formazas": 4,
+"egyeni_szamformatum": 1,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"igazitas": 2,
+"oszlopszelesseg": 1
+},
+"2022m_kozep_dk": {
+"diagram_oszlop": 4,
+"datum_formatum": 1,
+"abszolut_hivatkozas": 1,
+"munkalapok_kozott": 1,
+"szegely_mintazat": 2,
+"igazitas": 2,
+"adatimport": 2
+},
+"2022m_kozep_inf": {
+"diagram_oszlop": 8,
+"abszolut_hivatkozas": 2,
+"igazitas": 1,
+"adatimport": 1
+},
+"2022o_emelt_dk": {
+"felt_formazas": 2,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 2,
+"igazitas": 3,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2022o_kozep_dk": {
+"diagram_vonal": 6,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"adatimport": 1
+},
+"2022o_emelt_inf": {
+"felt_formazas": 2,
+"rendezes": 2,
+"abszolut_hivatkozas": 5,
+"szegely_mintazat": 1,
+"igazitas": 2
+},
+"2022o_kozep_inf": {
+"diagram_oszlop": 4,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"igazitas": 4
+},
+"2023m_emelt_dk": {
+"felt_formazas": 2,
+"reszosszeg": 1,
+"abszolut_hivatkozas": 3,
+"szegely_mintazat": 3,
+"igazitas": 4,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2023m_kozep_dk": {
+"szegely_mintazat": 1,
+"igazitas": 2,
+"oszlopszelesseg": 1
+},
+"2023m_emelt_inf": {
+"felt_formazas": 2,
+"abszolut_hivatkozas": 2,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
+"2023m_kozep_inf": {
+"diagram_oszlop": 2,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 4,
+"igazitas": 2,
+"adatimport": 1
+},
+"2023o_emelt_dk": {
+"diagram_vonal": 4,
+"felt_formazas": 1,
+"abszolut_hivatkozas": 6,
+"szegely_mintazat": 7,
+"igazitas": 2,
+"adatimport": 1,
+"nyomtatasi_kep": 2
+},
+"2023o_kozep_dk": {
+"rendezes": 4,
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 4,
+"igazitas": 2,
+"adatimport": 2
+},
+"2023o_emelt_inf": {
+"felt_formazas": 1,
+"egyeni_szamformatum": 1,
+"abszolut_hivatkozas": 2,
+"igazitas": 1,
+"adatimport": 1
+},
+"2023o_kozep_inf": {
+"diagram_oszlop": 6,
+"datum_formatum": 1,
+"rendezes": 5,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"igazitas": 3
+},
+"2024m_emelt_dk": {
+"diagram_oszlop": 6,
+"felt_formazas": 4,
+"abszolut_hivatkozas": 4,
+"szegely_mintazat": 2,
+"igazitas": 1
+},
+"2024m_kozep_dk": {
+"abszolut_hivatkozas": 1,
+"cella_egyesites": 1,
+"adatimport": 1
+},
+"2024o_emelt_dk": {
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"igazitas": 2,
+"oszlopszelesseg": 3,
+"adatimport": 1
+},
+"2024o_kozep_dk": {
+"abszolut_hivatkozas": 1,
+"szegely_mintazat": 2,
+"igazitas": 2,
+"adatimport": 1
+},
+"2025m_emelt_dk": {
+"diagram_oszlop": 4,
+"felt_formazas": 3,
+"rendezes": 4,
+"szures": 1,
+"szegely_mintazat": 4,
+"igazitas": 3,
+"rejtett": 1,
+"adatimport": 2
+},
+"2025m_kozep_dk": {
+"penznem_formatum": 2,
+"abszolut_hivatkozas": 2,
+"uj_munkalap": 1,
+"cella_egyesites": 1,
+"szegely_mintazat": 4,
+"igazitas": 3,
+"oszlopszelesseg": 1,
+"rejtett": 1,
+"adatimport": 3
+},
+"2025o_emelt_dk": {
+"diagram_vonal": 4,
+"felt_formazas": 4,
+"abszolut_hivatkozas": 6,
+"szegely_mintazat": 5,
+"igazitas": 1,
+"adatimport": 2
+},
+"2025o_kozep_dk": {
+"abszolut_hivatkozas": 3,
+"szegely_mintazat": 1,
+"igazitas": 2,
+"rejtett": 1,
+"adatimport": 1
+},
+"2026m_emelt_dk": {
+"rendezes": 2,
+"adatimport": 3
+},
+"2026m_kozep_dk": {
+"rendezes": 4,
+"szegely_mintazat": 3,
+"igazitas": 2,
+"adatimport": 2,
+"nyomtatasi_kep": 2
+}
+}
+}

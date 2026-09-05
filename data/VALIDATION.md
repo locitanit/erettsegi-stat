@@ -14,7 +14,7 @@ Generálva: 2026-09-05 · extractor 0.1.0
 | Van javítási útmutató | 121 / 133 |
 | Van feladatlap | 133 / 133 |
 | Szöveg nem nyerhető ki (ocr_needed) | 0 |
-| Figyelmeztetéssel | 50 |
+| Figyelmeztetéssel | 51 |
 
 ## Sémahibák
 
@@ -51,24 +51,24 @@ Nincs.
 
 | Vizsga | Időszak | Szint | Figyelmeztetés |
 |---|---|---|---|
-| `2005m_emelt_inf` | 2005. május | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2005m_emelt_inf` | 2005. május | emelt | nincs javítási útmutató PDF |
 | `2005m_kozep_inf` | 2005. május | kozep | nincs javítási útmutató PDF |
 | `2005o_kozep_inf` | 2005. október | kozep | nincs javítási útmutató PDF |
-| `2006f_emelt_inf` | 2006. február | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap |
+| `2006f_emelt_inf` | 2006. február | emelt | nincs javítási útmutató PDF |
 | `2006f_kozep_inf` | 2006. február | kozep | nincs javítási útmutató PDF |
-| `2006m_emelt_inf` | 2006. május | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap |
+| `2006m_emelt_inf` | 2006. május | emelt | nincs javítási útmutató PDF |
 | `2006m_kozep_inf` | 2006. május | kozep | nincs javítási útmutató PDF |
-| `2006o_emelt_inf` | 2006. október | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2006o_emelt_inf` | 2006. október | emelt | nincs javítási útmutató PDF |
 | `2006o_kozep_inf` | 2006. október | kozep | nincs javítási útmutató PDF |
-| `2007m_emelt_inf` | 2007. május | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2007m_emelt_inf` | 2007. május | emelt | nincs javítási útmutató PDF |
 | `2009m_emelt_inf_id` | 2009. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2009m_kozep_inf_id` | 2009. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2010m_emelt_inf_id` | 2010. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2010m_kozep_inf_id` | 2010. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2011m_emelt_inf_id` | 2011. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2011m_kozep_inf_id` | 2011. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
-| `2011o_emelt_inf` | 2011. október | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
-| `2011o_kozep_inf` | 2011. október | kozep | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció |
+| `2011o_emelt_inf` | 2011. október | emelt | nincs javítási útmutató PDF |
+| `2011o_kozep_inf` | 2011. október | kozep | nincs javítási útmutató PDF |
 | `2012m_emelt_inf_id` | 2012. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2012m_kozep_inf_id` | 2012. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2013m_emelt_inf_id` | 2013. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
@@ -89,7 +89,8 @@ Nincs.
 | `2020m_kozep_inf_id` | 2020. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2021m_emelt_inf_id` | 2021. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2021m_kozep_inf_id` | 2021. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
-| `2022m_emelt_dk_id` | 2022. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2022m_emelt_dk` | 2022. május | emelt | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva |
+| `2022m_emelt_dk_id` | 2022. május (idegen nyelvű) | emelt | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva; idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2022m_kozep_dk_id` | 2022. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2022m_kozep_inf_id` | 2022. május (idegen nyelvű, informatika) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2023m_emelt_dk_id` | 2023. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
@@ -101,6 +102,38 @@ Nincs.
 | `2025m_kozep_dk_id` | 2025. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2026m_emelt_dk_id` | 2026. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2026m_kozep_dk_id` | 2026. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+
+## Feladatok és táblázatkezelés
+
+| Mutató | Érték |
+|---|---|
+| Feladatok összesen | 346 |
+| Táblázatkezelés-feladat | 82 |
+| Ebből van kinyert képlet | 82 |
+| Ebből van mintamegoldás-xlsx is | 10 |
+| Képletek összesen (útmutatóból) | 772 |
+| Ismeretlen függvénynév | 0 |
+
+Feladatok témakörönként: adatbazis: 82, prezentacio: 35, prezentacio_grafika: 15, programozas: 50, szoveg: 60, tablazat: 82, weblap: 29
+
+## Feladat-vágási figyelmeztetések
+
+| Vizsga | Figyelmeztetés |
+|---|---|
+| `2005m_emelt_inf` | nincs javítási útmutató PDF |
+| `2005m_kozep_inf` | nincs javítási útmutató PDF |
+| `2005o_kozep_inf` | nincs javítási útmutató PDF |
+| `2006f_emelt_inf` | nincs javítási útmutató PDF |
+| `2006f_kozep_inf` | nincs javítási útmutató PDF |
+| `2006m_emelt_inf` | nincs javítási útmutató PDF |
+| `2006m_kozep_inf` | nincs javítási útmutató PDF |
+| `2006o_emelt_inf` | nincs javítási útmutató PDF |
+| `2006o_kozep_inf` | nincs javítási útmutató PDF |
+| `2007m_emelt_inf` | nincs javítási útmutató PDF |
+| `2010m_kozep_inf` | 5 feladat várható, de 3 szakasz található az útmutatóban |
+| `2011o_emelt_inf` | nincs javítási útmutató PDF |
+| `2011o_kozep_inf` | nincs javítási útmutató PDF |
+| `2022m_emelt_dk` | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva |
 
 ## Megjegyzés
 

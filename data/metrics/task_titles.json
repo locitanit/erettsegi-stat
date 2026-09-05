@@ -1,0 +1,2600 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Télapó",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Ingatlanközvetítő",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Mataku",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Vigenère tábla",
+"topics": [
+"programozas"
+]
+}
+],
+"2007m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Műveltség",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Távközlés",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Albatrosz",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "4",
+"title": "Távolugrás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "5",
+"title": "Hajómenetrend",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2007o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Logika",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Bás-játék",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Feltalálók",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Foci",
+"topics": [
+"programozas"
+]
+}
+],
+"2007o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Diákkonyha",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Vasútfejlesztés",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Hangya",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "4",
+"title": "Kultúra",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "5",
+"title": "Mozdony",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2008m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Orchideák",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Tánciskola",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Mozi",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "SMS",
+"topics": [
+"programozas"
+]
+}
+],
+"2008m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Recept",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Érzékelés, észlelés",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Vasúttörténet",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "4",
+"title": "Népesség",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "5",
+"title": "Vízállás",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2008o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Egry",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Látogatottság",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Forma–1",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Robot",
+"topics": [
+"programozas"
+]
+}
+],
+"2008o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Begónia",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Modern idők",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Bandy",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "4",
+"title": "Időjárás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "5",
+"title": "Szótár",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2009m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Jó étek",
+"topics": [
+"szoveg",
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Sípálya",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Opera",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Lift",
+"topics": [
+"programozas"
+]
+}
+],
+"2009m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Film",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Béka",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Főzelék",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "4",
+"title": "Kézilabda",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "5",
+"title": "Utazás",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2009o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Tojás",
+"topics": [
+"szoveg",
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Emelt",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Recept",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Útépítés",
+"topics": [
+"programozas"
+]
+}
+],
+"2009o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Kolumbusz",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Tangram",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Házityúk",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "4",
+"title": "Taxi",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "5",
+"title": "Irodalmi Nobel-díj",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2010m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Vitorláshal",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Próbavizsga",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Rádióadók",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Helyjegy",
+"topics": [
+"programozas"
+]
+}
+],
+"2010m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Komárom",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "3",
+"title": "Vetélkedő",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "4",
+"title": "Vízvezeték-szerelők",
+"topics": [
+"weblap"
+]
+}
+],
+"2010o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Braille-írás",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Afrika",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Forint",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Anagramma",
+"topics": [
+"programozas"
+]
+}
+],
+"2010o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Szigetvár",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Bunsen-égő",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Combino",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Notebook",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2011m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Fertő tó",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Rába",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Tánc",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Szójáték",
+"topics": [
+"programozas"
+]
+}
+],
+"2011m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Magyar költők",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Az internet története",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "3",
+"title": "Körverseny",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Barlang",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2012m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Használati utasítás",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Római szám",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Védett fajok",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Futár",
+"topics": [
+"programozas"
+]
+}
+],
+"2012m_kozep_inf": [
+{
+"task_no": "1",
+"title": "QR-kód",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Kemping",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Útvonal",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Tanösvény",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2012o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Kávé",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Gyorsabb út",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Diákmunka",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Szín-kép",
+"topics": [
+"programozas"
+]
+}
+],
+"2012o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Agatha Christie",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Telefon",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Magas vérnyomás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "A. C. Kiadó",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2013m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Vetési varjú",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Sikerfilm",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Védett természeti területek",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Választások",
+"topics": [
+"programozas"
+]
+}
+],
+"2013m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Kőszén",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Szarka",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "3",
+"title": "Nyelvtudás az Unióban",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "ELTE 2007-2012",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2013o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Magyar versek",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Teszt kiértékelés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Konferencia",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Közúti ellenőrzés",
+"topics": [
+"programozas"
+]
+}
+],
+"2013o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Kajszi",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Tizenötös játék",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Fogyasztás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Napló",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2014m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Körforgalom",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Futás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Eurovíziós Dalfesztivál",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "IPv6",
+"topics": [
+"programozas"
+]
+}
+],
+"2014m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Latinovits",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Gitár",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Ittas vezetés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Utasfelmérés",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2014o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Népautók",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Tízpróba",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Balatoni hajók",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Nézőtér",
+"topics": [
+"programozas"
+]
+}
+],
+"2014o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Izzócsere",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Papír",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "3",
+"title": "Magyarország városai",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Középiskolai felvételi",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2015m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Energiacella",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Érettségi eredmények",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Könyvtári másolás",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Expedíció",
+"topics": [
+"programozas"
+]
+}
+],
+"2015m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Viharjelző rendszerek",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Naptárunk kialakulása",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Legjobb futballisták",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Hatoslottó",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2015o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Metrótörténet",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Kereskedés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Hangosfilmek",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Fej vagy írás",
+"topics": [
+"programozas"
+]
+}
+],
+"2015o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Őzlábgomba",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Finnugor nyelvrokonaink",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Üzemanyagár",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Szélerőművek",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2016m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Nemeuklideszi geometria",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Mobilparkolás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Bányászati területek",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Ötszáz",
+"topics": [
+"programozas"
+]
+}
+],
+"2016m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Örkény",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "A tizedes meg a többiek",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "3",
+"title": "Csevegőszoba",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4A",
+"title": "Nemzet Színésze",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2016o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Értesítés",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Menetrend",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Érdemes művészek",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Telefonos ügyfélszolgálat",
+"topics": [
+"programozas"
+]
+}
+],
+"2016o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Korismereti találkozó",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Bankjegyek",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "M2 menetrend",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "E-számok",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2017m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Hangszerek",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Pollenjelentés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Színésznövendékek",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Tesztverseny",
+"topics": [
+"programozas"
+]
+}
+],
+"2017m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Balatoni komp",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Parlagfű",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "3",
+"title": "Fogyasztás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Mindentudás Egyeteme",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2017o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Füge",
+"topics": [
+"szoveg",
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Szántóföld",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Válogatott",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Hiányzások",
+"topics": [
+"programozas"
+]
+}
+],
+"2017o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Atlétika",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Halogének",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Üvegválogató",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Szoftverleltár",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2018m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Burgonya",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Papírgyűjtés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "József Attila-díjasok",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Társalgó",
+"topics": [
+"programozas"
+]
+}
+],
+"2018m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Gumiabroncs",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Infografika",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Vízkeménység",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "NB I.",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2018o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Galileo Galilei",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Átszivárgás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Laprendelés",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Kerítés",
+"topics": [
+"programozas"
+]
+}
+],
+"2018o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Beiskolázás",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Asztalterítés",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Internethasználók aránya",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Operett",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2019m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Passzívház",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "BUD 2017",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Űrhajózás",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Céges autók",
+"topics": [
+"programozas"
+]
+}
+],
+"2019m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Fogyókúra",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Nemzeti park",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Poggyász",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Gyorsposta",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2019o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Fibonacci-sorozat",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Diszkoszvetés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Fordítóiroda",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "eUtazás",
+"topics": [
+"programozas"
+]
+}
+],
+"2019o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Cseppkő",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Csomagátvétel",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Facsemete",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Cukrászda",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2020m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Dobókocka",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Sejtautomata",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Akadémikusok",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Meteorológiai jelentés",
+"topics": [
+"programozas"
+]
+}
+],
+"2020m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Kányádi",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Fodrászat",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Pólórendelés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Teljesítők",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2020o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Egybesült karaj",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "2",
+"title": "Robotverseny",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Közösségi szolgálat",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Sorozatok",
+"topics": [
+"programozas"
+]
+}
+],
+"2020o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Gabonalisztek",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Pitagorasz",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Vegyszerek",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Hulladékszállítás",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2021m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Kenutörténelem",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Kupon",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Top2000",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Gödrök",
+"topics": [
+"programozas"
+]
+}
+],
+"2021m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Tűzgyújtási szabályok",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "A macska",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Segítők",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Gyűjtőállomások",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2021o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Világemlékezet",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Hajófigyelő",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Magyarországi tavak",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Sudoku",
+"topics": [
+"programozas"
+]
+}
+],
+"2021o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Szén-monoxid-érzékelő",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "A kapor",
+"topics": [
+"weblap"
+]
+},
+{
+"task_no": "3",
+"title": "Hulladéknaptár",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Nézők",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2022m_emelt_dk": [
+{
+"task_no": "1",
+"title": "Forgalomirányítás",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Fakultáció",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Vasútvonalak",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Építményadó",
+"topics": [
+"programozas"
+]
+}
+],
+"2022m_kozep_dk": [
+{
+"task_no": "1",
+"title": "Chili",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Anonymus pontverseny",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Érettségi eredmények",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Testvértelepülések",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Robot",
+"topics": [
+"programozas"
+]
+}
+],
+"2022m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Szmog",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Jelzések",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "E-bike kölcsönző",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Légitársaság",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2022o_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Robotikaszakkör logó",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "1B",
+"title": "Dobogókő",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Állóképesség",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Virágágyások",
+"topics": [
+"programozas"
+]
+}
+],
+"2022o_kozep_dk": [
+{
+"task_no": "1",
+"title": "Kerékpárszállítás",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Óra rajzolás",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Nappal",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Thorma János Múzeum",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Kockák",
+"topics": [
+"programozas"
+]
+}
+],
+"2022o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Budapesti hidak",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Új rendszámok",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Magyarország autópályái",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Jeladó",
+"topics": [
+"programozas"
+]
+}
+],
+"2022o_kozep_inf": [
+{
+"task_no": "1",
+"title": "E-autó",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Minták",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Torkos csütörtök",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Budapest városrészei",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2023m_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Dominó",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "1B",
+"title": "Adóazonosító jel",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Szinkron",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Ütemezés",
+"topics": [
+"programozas"
+]
+}
+],
+"2023m_kozep_dk": [
+{
+"task_no": "1",
+"title": "Ikarus",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Viharjelzés",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Pénzfeldobás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Kutyaaktivitás",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Kitaláló",
+"topics": [
+"programozas"
+]
+}
+],
+"2023m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Henger",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Időfutam",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Alvás",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "RGB színek",
+"topics": [
+"programozas"
+]
+}
+],
+"2023m_kozep_inf": [
+{
+"task_no": "1",
+"title": "Madáretetés",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Westernfilmek",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Ásványvizek",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Elemek",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2023o_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Forradalmi naptár",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "1B",
+"title": "Drónreptetés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Kultúrtörténet",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Reklám",
+"topics": [
+"programozas"
+]
+}
+],
+"2023o_kozep_dk": [
+{
+"task_no": "1",
+"title": "Gyilkos galóca",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "James Webb űrteleszkóp",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "TCR8",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Csöpi-filmek",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Szállítás",
+"topics": [
+"programozas"
+]
+}
+],
+"2023o_emelt_inf": [
+{
+"task_no": "1",
+"title": "Üzemanyag",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Próbavizsga",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Szakkörök",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Társas",
+"topics": [
+"programozas"
+]
+}
+],
+"2023o_kozep_inf": [
+{
+"task_no": "1",
+"title": "Nemes Nagy Ágnes",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Kémiai Nobel-díj",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "3",
+"title": "Fasor",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Alapfilmek",
+"topics": [
+"adatbazis"
+]
+}
+],
+"2024m_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Danuvia",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "1B",
+"title": "Lámpák",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Ingatlanközvetítő iroda",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Beléptető rendszer",
+"topics": [
+"programozas"
+]
+}
+],
+"2024m_kozep_dk": [
+{
+"task_no": "1",
+"title": "Biológia",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Minták",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Triatlon",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Földrengések",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Létra",
+"topics": [
+"programozas"
+]
+}
+],
+"2024o_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Iskolacsalogató",
+"topics": [
+"prezentacio_grafika",
+"weblap"
+]
+},
+{
+"task_no": "1B",
+"title": "Bolygópályák",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Asztalitenisz",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Autók mozgása",
+"topics": [
+"programozas"
+]
+}
+],
+"2024o_kozep_dk": [
+{
+"task_no": "1",
+"title": "A tölgy",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Vitorlázás",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Licitálás",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Érettségi",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Befőzés",
+"topics": [
+"programozas"
+]
+}
+],
+"2025m_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Garas Dezső",
+"topics": [
+"prezentacio_grafika",
+"weblap"
+]
+},
+{
+"task_no": "1B",
+"title": "Síparadicsomok",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Nyílt nap",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Könyvkiadás",
+"topics": [
+"programozas"
+]
+}
+],
+"2025m_kozep_dk": [
+{
+"task_no": "1",
+"title": "Az Árpád motorkocsi",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Sebességmérő",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Süti",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Szógyakoriság",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Kihívás",
+"topics": [
+"programozas"
+]
+}
+],
+"2025o_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Autóműszerfal-jelzések",
+"topics": [
+"prezentacio_grafika",
+"szoveg"
+]
+},
+{
+"task_no": "1B",
+"title": "Programozási nyelvek",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Fórum",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Sebesség",
+"topics": [
+"programozas"
+]
+}
+],
+"2025o_kozep_dk": [
+{
+"task_no": "1",
+"title": "Méh",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "Időmérő eszközök",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Szerencsepéntek",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Tour de France",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Forgalomszámlálás",
+"topics": [
+"programozas"
+]
+}
+],
+"2026m_emelt_dk": [
+{
+"task_no": "1A",
+"title": "Visszhang",
+"topics": [
+"prezentacio_grafika",
+"weblap"
+]
+},
+{
+"task_no": "1B",
+"title": "Útvonaltervezés",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "2",
+"title": "Taxitársaság",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "3",
+"title": "Városi autózás",
+"topics": [
+"programozas"
+]
+}
+],
+"2026m_kozep_dk": [
+{
+"task_no": "1",
+"title": "Padel",
+"topics": [
+"szoveg"
+]
+},
+{
+"task_no": "2",
+"title": "A napozás",
+"topics": [
+"prezentacio_grafika"
+]
+},
+{
+"task_no": "3",
+"title": "Hyrox",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "4",
+"title": "Képzelt színház",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "5",
+"title": "Nyomás",
+"topics": [
+"programozas"
+]
+}
+]
+}
+}

@@ -41,3 +41,22 @@ export interface ExamsFile {
   topic_labels: Record<TopicKey, string>;
   exams: Exam[];
 }
+
+export interface MetricsFile {
+  generated_by: string;
+  /** vizsga-azonosító -> kulcs -> darabszám */
+  by_exam: Record<string, Record<string, number>>;
+}
+
+export interface VocabFunction {
+  canon: string;
+  aliases: string[];
+  family: string;
+  since?: number;
+}
+
+export interface VocabFile {
+  functions: VocabFunction[];
+  function_families: Record<string, string>;
+  tablazat_skills: { key: string; label: string }[];
+}

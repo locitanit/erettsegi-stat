@@ -63,8 +63,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -134,9 +133,7 @@
    "period_raw": "2005 október",
    "storage_dir": "emelt/2005 október",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -301,8 +298,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -413,8 +409,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -525,8 +520,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -637,8 +631,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -715,8 +708,6 @@
    "storage_dir": "emelt/2007 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -839,8 +830,6 @@
    "period_raw": "2008 május",
    "storage_dir": "emelt/2008 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -968,8 +957,6 @@
    "period_raw": "2008 október",
    "storage_dir": "emelt/2008 október",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -1097,7 +1084,6 @@
    "storage_dir": "emelt/2009 május",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -1224,7 +1210,6 @@
    "storage_dir": "emelt/2009 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -1356,7 +1341,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -1481,8 +1465,6 @@
    "period_raw": "2010 május",
    "storage_dir": "emelt/2010 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -1612,8 +1594,6 @@
    "storage_dir": "emelt/2010 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -1745,8 +1725,6 @@
    "period_raw": "2010 október",
    "storage_dir": "emelt/2010 október",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -1812,7 +1790,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -1871,8 +1848,6 @@
    "period_raw": "2011 május",
    "storage_dir": "emelt/2011 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -1935,7 +1910,6 @@
    "storage_dir": "kozep/2011 május",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -1996,8 +1970,6 @@
    "period_raw": "2011 május (idegen)",
    "storage_dir": "emelt/2011 május (idegen)",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -2063,7 +2035,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -2166,8 +2137,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -2222,8 +2192,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
-    "nincs javítási útmutató PDF",
-    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció"
+    "nincs javítási útmutató PDF"
    ]
   },
   {
@@ -2238,8 +2207,6 @@
    "storage_dir": "emelt/2012 május",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -2247,7 +2214,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 6,
-    "megoldas": 55
+    "megoldas": 54
    },
    "source_types": {
     "txt": 4,
@@ -2257,7 +2224,6 @@
     "cs": 12,
     "csv": 6,
     "doc": 12,
-    "docx": 1,
     "mdb": 7,
     "pas": 1,
     "png": 1,
@@ -2304,7 +2270,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -2365,9 +2330,7 @@
    "period_raw": "2012 május (idegen)",
    "storage_dir": "emelt/2012 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -2375,7 +2338,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 7,
-    "megoldas": 55
+    "megoldas": 54
    },
    "source_types": {
     "txt": 5,
@@ -2385,7 +2348,6 @@
     "cs": 12,
     "csv": 6,
     "doc": 12,
-    "docx": 1,
     "mdb": 7,
     "pas": 1,
     "png": 1,
@@ -2433,7 +2395,6 @@
    "storage_dir": "kozep/2012 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -2498,8 +2459,6 @@
    "storage_dir": "emelt/2012 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -2571,14 +2530,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 50
+    "megoldas": 45
    },
    "source_types": {
     "txt": 4,
@@ -2591,7 +2549,6 @@
     "jpg": 5,
     "mdb": 9,
     "pptx": 3,
-    "xls": 5,
     "xlsx": 4
    },
    "has": {
@@ -2632,8 +2589,6 @@
    "period_raw": "2013 május",
    "storage_dir": "emelt/2013 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -2698,7 +2653,6 @@
    "storage_dir": "kozep/2013 május",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -2761,8 +2715,6 @@
    "storage_dir": "emelt/2013 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -2829,7 +2781,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -2893,8 +2844,6 @@
    "storage_dir": "emelt/2013 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -2958,7 +2907,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -3016,9 +2964,7 @@
    "period_raw": "2014 május",
    "storage_dir": "emelt/2014 május",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3082,7 +3028,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -3142,9 +3087,7 @@
    "period_raw": "2014 május (idegen)",
    "storage_dir": "emelt/2014 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3272,8 +3215,6 @@
    "period_raw": "2014 október",
    "storage_dir": "emelt/2014 október",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -3337,7 +3278,6 @@
    "storage_dir": "kozep/2014 október",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -3399,8 +3339,6 @@
    "storage_dir": "emelt/2015 május",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3408,7 +3346,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 7,
-    "megoldas": 11
+    "megoldas": 10
    },
    "source_types": {
     "txt": 5,
@@ -3422,7 +3360,7 @@
     "mdb": 1,
     "png": 1,
     "txt": 1,
-    "xlsx": 2
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -3464,7 +3402,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -3522,9 +3459,7 @@
    "period_raw": "2015 május (idegen)",
    "storage_dir": "emelt/2015 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3532,7 +3467,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 7,
-    "megoldas": 11
+    "megoldas": 10
    },
    "source_types": {
     "txt": 5,
@@ -3546,7 +3481,7 @@
     "mdb": 1,
     "png": 1,
     "txt": 1,
-    "xlsx": 2
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -3590,7 +3525,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -3651,8 +3585,6 @@
    "storage_dir": "emelt/2015 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3713,7 +3645,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -3773,8 +3704,6 @@
    "storage_dir": "emelt/2016 május",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3835,7 +3764,6 @@
    "storage_dir": "kozep/2016 május",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -3898,9 +3826,7 @@
    "period_raw": "2016 május (idegen)",
    "storage_dir": "emelt/2016 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -3963,7 +3889,6 @@
    "storage_dir": "kozep/2016 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -4029,8 +3954,6 @@
    "storage_dir": "emelt/2016 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -4092,7 +4015,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -4151,8 +4073,6 @@
    "period_raw": "2017 május",
    "storage_dir": "emelt/2017 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -4161,7 +4081,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 8,
-    "megoldas": 30
+    "megoldas": 24
    },
    "source_types": {
     "txt": 6,
@@ -4179,7 +4099,7 @@
     "sql": 1,
     "srt": 1,
     "txt": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4220,7 +4140,6 @@
    "storage_dir": "kozep/2017 május",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -4228,7 +4147,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 6,
-    "megoldas": 20
+    "megoldas": 15
    },
    "source_types": {
     "txt": 4,
@@ -4244,7 +4163,7 @@
     "png": 4,
     "sql": 1,
     "txt": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4284,9 +4203,7 @@
    "period_raw": "2017 május (idegen)",
    "storage_dir": "emelt/2017 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -4294,7 +4211,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 30
+    "megoldas": 24
    },
    "source_types": {
     "txt": 2,
@@ -4312,7 +4229,7 @@
     "sql": 1,
     "srt": 1,
     "txt": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4356,14 +4273,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 6,
-    "megoldas": 20
+    "megoldas": 15
    },
    "source_types": {
     "txt": 4,
@@ -4379,7 +4295,7 @@
     "png": 4,
     "sql": 1,
     "txt": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4422,7 +4338,6 @@
    "storage_dir": "emelt/2017 október",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -4431,7 +4346,7 @@
    "file_counts": {
     "feladatlap_pdf": 5,
     "forras": 9,
-    "megoldas": 34
+    "megoldas": 22
    },
    "source_types": {
     "txt": 6,
@@ -4447,7 +4362,7 @@
     "pkt": 1,
     "png": 3,
     "sql": 1,
-    "xlsx": 14
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -4489,14 +4404,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 6,
-    "megoldas": 19
+    "megoldas": 14
    },
    "source_types": {
     "txt": 4,
@@ -4513,7 +4427,7 @@
     "pptx": 1,
     "sql": 1,
     "txt": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4554,8 +4468,6 @@
    "storage_dir": "emelt/2018 május",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -4563,7 +4475,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 20
+    "megoldas": 14
    },
    "source_types": {
     "txt": 2,
@@ -4581,7 +4493,7 @@
     "pkt": 1,
     "sql": 1,
     "txt": 2,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4623,14 +4535,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 13
+    "megoldas": 8
    },
    "source_types": {
     "txt": 2,
@@ -4643,14 +4554,13 @@
     "pkt": 1,
     "png": 2,
     "sql": 1,
-    "txt": 1,
-    "xlsx": 5
+    "txt": 1
    },
    "has": {
     "feladatlap": true,
     "utmutato": true,
     "forras": true,
-    "megoldas_xlsx": true,
+    "megoldas_xlsx": false,
     "megoldas_sql": true,
     "megoldas_access": false,
     "megoldas_program": true,
@@ -4685,8 +4595,6 @@
    "storage_dir": "emelt/2018 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -4694,7 +4602,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 20
+    "megoldas": 14
    },
    "source_types": {
     "txt": 2,
@@ -4712,7 +4620,7 @@
     "pkt": 1,
     "sql": 1,
     "txt": 2,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -4756,14 +4664,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 13
+    "megoldas": 8
    },
    "source_types": {
     "txt": 1,
@@ -4776,14 +4683,13 @@
     "pkt": 1,
     "png": 2,
     "sql": 1,
-    "txt": 1,
-    "xlsx": 5
+    "txt": 1
    },
    "has": {
     "feladatlap": true,
     "utmutato": true,
     "forras": true,
-    "megoldas_xlsx": true,
+    "megoldas_xlsx": false,
     "megoldas_sql": true,
     "megoldas_access": false,
     "megoldas_program": true,
@@ -4820,8 +4726,6 @@
    "storage_dir": "emelt/2018 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -4829,7 +4733,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 33
+    "megoldas": 21
    },
    "source_types": {
     "txt": 1,
@@ -4847,7 +4751,7 @@
     "png": 2,
     "sql": 1,
     "txt": 5,
-    "xlsx": 14
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -4889,14 +4793,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 7,
-    "megoldas": 27
+    "megoldas": 17
    },
    "source_types": {
     "txt": 5,
@@ -4913,7 +4816,7 @@
     "pptx": 2,
     "sql": 1,
     "txt": 1,
-    "xlsx": 12
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -4953,8 +4856,6 @@
    "period_raw": "2019 május",
    "storage_dir": "emelt/2019 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -4963,7 +4864,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 6,
-    "megoldas": 24
+    "megoldas": 18
    },
    "source_types": {
     "txt": 3,
@@ -4978,7 +4879,7 @@
     "png": 6,
     "sql": 1,
     "txt": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5020,14 +4921,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 19
+    "megoldas": 14
    },
    "source_types": {
     "txt": 3,
@@ -5044,7 +4944,7 @@
     "png": 3,
     "pptx": 1,
     "sql": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5085,8 +4985,6 @@
    "storage_dir": "emelt/2019 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -5094,7 +4992,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 6,
-    "megoldas": 24
+    "megoldas": 18
    },
    "source_types": {
     "txt": 4,
@@ -5109,7 +5007,7 @@
     "png": 6,
     "sql": 1,
     "txt": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5152,7 +5050,6 @@
    "storage_dir": "kozep/2019 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -5160,7 +5057,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 19
+    "megoldas": 14
    },
    "source_types": {
     "txt": 3,
@@ -5177,7 +5074,7 @@
     "png": 3,
     "pptx": 1,
     "sql": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5219,9 +5116,7 @@
    "period_raw": "2019 október",
    "storage_dir": "emelt/2019 október",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -5229,7 +5124,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 43
+    "megoldas": 25
    },
    "source_types": {
     "zip": 5
@@ -5246,7 +5141,7 @@
     "pptx": 3,
     "sql": 1,
     "txt": 4,
-    "xlsx": 21
+    "xlsx": 3
    },
    "has": {
     "feladatlap": true,
@@ -5288,14 +5183,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 34
+    "megoldas": 24
    },
    "source_types": {
     "zip": 4
@@ -5313,7 +5207,7 @@
     "pptx": 2,
     "sql": 1,
     "txt": 1,
-    "xlsx": 14
+    "xlsx": 4
    },
    "has": {
     "feladatlap": true,
@@ -5353,8 +5247,6 @@
    "period_raw": "2020 május",
    "storage_dir": "emelt/2020 május",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -5363,7 +5255,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 47
+    "megoldas": 41
    },
    "source_types": {
     "zip": 5
@@ -5381,7 +5273,7 @@
     "sql": 1,
     "txt": 11,
     "xaml": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5423,14 +5315,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 44
+    "megoldas": 39
    },
    "source_types": {
     "zip": 4
@@ -5450,7 +5341,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5490,9 +5381,7 @@
    "period_raw": "2020 május (idegen)",
    "storage_dir": "emelt/2020 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -5500,7 +5389,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 47
+    "megoldas": 41
    },
    "source_types": {
     "txt": 2,
@@ -5519,7 +5408,7 @@
     "sql": 1,
     "txt": 11,
     "xaml": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5563,14 +5452,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 44
+    "megoldas": 39
    },
    "source_types": {
     "txt": 1,
@@ -5591,7 +5479,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5633,8 +5521,6 @@
    "period_raw": "2020 október",
    "storage_dir": "emelt/2020 október",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -5643,7 +5529,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 47
+    "megoldas": 35
    },
    "source_types": {
     "txt": 2,
@@ -5661,7 +5547,7 @@
     "sql": 1,
     "txt": 3,
     "xaml": 1,
-    "xlsx": 14
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -5703,14 +5589,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 68
+    "megoldas": 48
    },
    "source_types": {
     "txt": 1,
@@ -5730,7 +5615,7 @@
     "pptx": 4,
     "sql": 1,
     "xaml": 1,
-    "xlsx": 24
+    "xlsx": 4
    },
    "has": {
     "feladatlap": true,
@@ -5770,9 +5655,7 @@
    "period_raw": "2021 május",
    "storage_dir": "emelt/2021 május",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -5780,7 +5663,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 24
+    "megoldas": 18
    },
    "source_types": {
     "txt": 2,
@@ -5799,7 +5682,7 @@
     "sql": 1,
     "txt": 4,
     "xaml": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5841,14 +5724,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 30
+    "megoldas": 25
    },
    "source_types": {
     "txt": 1,
@@ -5869,7 +5751,7 @@
     "pptx": 1,
     "sql": 1,
     "xaml": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5910,8 +5792,6 @@
    "storage_dir": "emelt/2021 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -5919,7 +5799,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 24
+    "megoldas": 18
    },
    "source_types": {
     "txt": 2,
@@ -5938,7 +5818,7 @@
     "sql": 1,
     "txt": 4,
     "xaml": 1,
-    "xlsx": 7
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -5982,14 +5862,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 30
+    "megoldas": 25
    },
    "source_types": {
     "txt": 1,
@@ -6010,7 +5889,7 @@
     "pptx": 1,
     "sql": 1,
     "xaml": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -6053,8 +5932,6 @@
    "storage_dir": "emelt/2021 október",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -6062,7 +5939,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 5,
-    "megoldas": 30
+    "megoldas": 18
    },
    "source_types": {
     "txt": 1,
@@ -6081,7 +5958,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 14
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -6122,7 +5999,6 @@
    "storage_dir": "kozep/2021 október",
    "topics": [
     "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis"
@@ -6130,7 +6006,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 63
+    "megoldas": 43
    },
    "source_types": {
     "txt": 1,
@@ -6151,7 +6027,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 24
+    "xlsx": 4
    },
    "has": {
     "feladatlap": true,
@@ -6191,9 +6067,7 @@
    "period_raw": "2022 május",
    "storage_dir": "emelt/2022 május",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -6248,7 +6122,9 @@
    "total_points": null,
    "layout": "rmg_tools",
    "notes": null,
-   "warnings": []
+   "warnings": [
+    "nincs a tárgyhoz illő útmutató, másik tárgyé lett használva"
+   ]
   },
   {
    "id": "2022m_kozep_dk",
@@ -6270,7 +6146,7 @@
    "file_counts": {
     "feladatlap_pdf": 5,
     "forras": 4,
-    "megoldas": 46
+    "megoldas": 36
    },
    "source_types": {
     "txt": 1,
@@ -6294,7 +6170,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 12
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -6334,8 +6210,6 @@
    "period_raw": "2022 május (idegen)",
    "storage_dir": "emelt/2022 május (idegen)",
    "topics": [
-    "szoveg",
-    "prezentacio",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -6392,6 +6266,7 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": [
+    "nincs a tárgyhoz illő útmutató, másik tárgyé lett használva",
     "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
    ]
   },
@@ -6415,7 +6290,7 @@
    "file_counts": {
     "feladatlap_pdf": 5,
     "forras": 4,
-    "megoldas": 46
+    "megoldas": 36
    },
    "source_types": {
     "txt": 1,
@@ -6439,7 +6314,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 12
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -6483,14 +6358,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 34
+    "megoldas": 29
    },
    "source_types": {
     "txt": 1,
@@ -6512,7 +6386,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -6554,14 +6428,13 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 34
+    "megoldas": 29
    },
    "source_types": {
     "txt": 1,
@@ -6583,7 +6456,7 @@
     "sql": 1,
     "txt": 1,
     "xaml": 1,
-    "xlsx": 6
+    "xlsx": 1
    },
    "has": {
     "feladatlap": true,
@@ -6625,9 +6498,7 @@
    "period_raw": "2022 október",
    "storage_dir": "emelt/2022 október",
    "topics": [
-    "szoveg",
     "prezentacio_grafika",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -6635,7 +6506,7 @@
    "file_counts": {
     "feladatlap_pdf": 4,
     "forras": 4,
-    "megoldas": 48
+    "megoldas": 42
    },
    "source_types": {
     "txt": 1,
@@ -6656,7 +6527,7 @@
     "svg": 1,
     "txt": 8,
     "xaml": 1,
-    "xlsx": 10
+    "xlsx": 4
    },
    "has": {
     "feladatlap": true,
@@ -6745,7 +6616,7 @@
    },
    "pages": {
     "feladatlap": 11,
-    "utmutato": 10
+    "utmutato": 9
    },
    "text_ok": {
     "feladatlap": true,
@@ -6769,8 +6640,6 @@
    "storage_dir": "emelt/2022 október (informatika)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -6839,7 +6708,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -6907,9 +6775,7 @@
    "period_raw": "2023 május",
    "storage_dir": "emelt/2023 május",
    "topics": [
-    "szoveg",
     "prezentacio_grafika",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -7051,8 +6917,6 @@
    "storage_dir": "emelt/2023 május (idegen)",
    "topics": [
     "szoveg",
-    "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -7197,9 +7061,7 @@
    "period_raw": "2023 május (informatika)",
    "storage_dir": "emelt/2023 május (informatika)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -7270,7 +7132,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -7339,7 +7200,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -7408,8 +7268,6 @@
    "storage_dir": "emelt/2023 október",
    "topics": [
     "szoveg",
-    "prezentacio_grafika",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -7528,7 +7386,7 @@
    },
    "pages": {
     "feladatlap": 10,
-    "utmutato": 10
+    "utmutato": 11
    },
    "text_ok": {
     "feladatlap": true,
@@ -7551,9 +7409,7 @@
    "period_raw": "2023 október (informatika)",
    "storage_dir": "emelt/2023 október (informatika)",
    "topics": [
-    "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -7622,7 +7478,6 @@
    "topics": [
     "szoveg",
     "prezentacio",
-    "weblap",
     "tablazat",
     "adatbazis"
    ],
@@ -7690,8 +7545,6 @@
    "storage_dir": "emelt/2024 május",
    "topics": [
     "szoveg",
-    "prezentacio_grafika",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -7828,8 +7681,6 @@
    "period_raw": "2024 május (idegen)",
    "storage_dir": "emelt/2024 május (idegen)",
    "topics": [
-    "szoveg",
-    "prezentacio_grafika",
     "weblap",
     "tablazat",
     "adatbazis",
@@ -7971,7 +7822,6 @@
    "period_raw": "2024 október",
    "storage_dir": "emelt/2024 október",
    "topics": [
-    "szoveg",
     "prezentacio_grafika",
     "weblap",
     "tablazat",
@@ -8112,7 +7962,6 @@
    "period_raw": "2025 május",
    "storage_dir": "emelt/2025 május",
    "topics": [
-    "szoveg",
     "prezentacio_grafika",
     "weblap",
     "tablazat",
@@ -8234,7 +8083,6 @@
    "period_raw": "2025 május (idegen)",
    "storage_dir": "emelt/2025 május (idegen)",
    "topics": [
-    "szoveg",
     "prezentacio_grafika",
     "weblap",
     "tablazat",
@@ -8362,7 +8210,6 @@
    "topics": [
     "szoveg",
     "prezentacio_grafika",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"
@@ -8370,7 +8217,7 @@
    "file_counts": {
     "feladatlap_pdf": 5,
     "forras": 5,
-    "megoldas": 48
+    "megoldas": 42
    },
    "source_types": {
     "txt": 2,
@@ -8383,7 +8230,7 @@
     "sql": 26,
     "svg": 4,
     "txt": 2,
-    "xlsx": 8
+    "xlsx": 2
    },
    "has": {
     "feladatlap": true,
@@ -8484,7 +8331,6 @@
    "period_raw": "2026 május",
    "storage_dir": "emelt/2026 május",
    "topics": [
-    "szoveg",
     "prezentacio_grafika",
     "weblap",
     "tablazat",
@@ -8610,7 +8456,6 @@
    "topics": [
     "szoveg",
     "prezentacio_grafika",
-    "weblap",
     "tablazat",
     "adatbazis",
     "programozas"

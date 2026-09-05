@@ -1,4 +1,4 @@
-import type { ExamsFile } from "./types";
+import type { ExamsFile, MetricsFile, VocabFile } from "./types";
 
 /** A data/ mappa a Vite base-hez kepest (public/data alol szolgaljuk ki). */
 const dataUrl = (name: string) => `${import.meta.env.BASE_URL}data/${name}`;
@@ -56,3 +56,36 @@ export const topicShort: Record<string, string> = {
   prezentacio: "Prezentáció",
   prezentacio_grafika: "Prez. + grafika",
 };
+
+let vocabCache: Promise<VocabFile> | null = null;
+const metricsCache = new Map<string, Promise<MetricsFile>>();
+
+function fetchJson<T>(url: string, what: string): Promise<T> {
+  return fetch(url).then((r) => {
+    if (!r.ok) throw new Error(`Nem sikerült betölteni: ${what} (HTTP ${r.status})`);
+    return r.json() as Promise<T>;
+  });
+}
+
+export function loadVocab(): Promise<VocabFile> {
+  if (!vocabCache) {
+    vocabCache = fetchJson<VocabFile>(dataUrl("vocab.json"), "vocab.json").catch((e) => {
+      vocabCache = null;
+      throw e;
+    });
+  }
+  return vocabCache;
+}
+
+/** Egy metrika-fajl a data/metrics mappabol, pl. "excel_functions.json". */
+export function loadMetrics(name: string): Promise<MetricsFile> {
+  let p = metricsCache.get(name);
+  if (!p) {
+    p = fetchJson<MetricsFile>(dataUrl(`metrics/${name}`), name).catch((e) => {
+      metricsCache.delete(name);
+      throw e;
+    });
+    metricsCache.set(name, p);
+  }
+  return p;
+}

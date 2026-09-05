@@ -1,0 +1,92 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2022m_kozep_dk": {
+"SZUM": 13,
+"SZUMHATÖBB": 12,
+"DARABTELI": 10,
+"HA": 7,
+"DARABHATÖBB": 1,
+"MAX": 1,
+"HOL.VAN": 1,
+"INDEX": 1,
+"MA": 1
+},
+"2022o_kozep_dk": {
+"HA": 90,
+"SZUM": 90,
+"ÁTLAGHATÖBB": 21,
+"KEREKÍTÉS": 21,
+"ÁTLAG": 21,
+"DARABTELI": 15,
+"HOL.VAN": 2,
+"INDEX": 2,
+"MAX": 1,
+"MIN": 1
+},
+"2023m_kozep_dk": {
+"HA": 298,
+"VÉL": 100,
+"MAX": 5,
+"HOL.VAN": 5,
+"INDEX": 5,
+"ÁTLAG": 4,
+"DARABTELI": 1
+},
+"2023o_emelt_dk": {
+"FKERES": 200,
+"MARADÉK": 199,
+"DARABTELI": 6,
+"MAX": 2,
+"HOL.VAN": 1,
+"INDEX": 1,
+"DARAB2": 1,
+"ÖSSZEFŰZ": 1
+},
+"2023o_kozep_dk": {
+"HA": 190,
+"SZUMHATÖBB": 14,
+"DARABTELI": 13,
+"HOL.VAN": 2,
+"INDEX": 2,
+"DARAB": 2,
+"SZUM": 1,
+"MAX": 1,
+"DARABHATÖBB": 1,
+"MIN": 1
+},
+"2024m_kozep_dk": {
+"KICSI": 3,
+"HOL.VAN": 3,
+"INDEX": 3,
+"ÁTLAG": 3,
+"MIN": 3
+},
+"2024o_kozep_dk": {
+"MAX": 100,
+"DARABTELI": 60,
+"HOL.VAN": 40,
+"INDEX": 40
+},
+"2025m_kozep_dk": {
+"SZUM": 14,
+"KEREK.FEL": 14,
+"SZORZATÖSSZEG": 8,
+"DARAB": 7,
+"HOL.VAN": 2,
+"INDEX": 2,
+"MAX": 2
+},
+"2025o_kozep_dk": {
+"HA": 183,
+"SZUM": 39,
+"DARABTELI": 15,
+"VÉL": 12
+},
+"2026m_kozep_dk": {
+"SZUM": 150,
+"MIN": 50,
+"ÁTLAG": 50
+}
+}
+}

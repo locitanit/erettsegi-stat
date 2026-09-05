@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 
 from . import __version__
-from .config import DATA_DIR, TOPICS
+from .config import DATA_DIR
 from .discover import SOLUTION_KINDS, UTMUTATO_RE, Exam
 from .pdf_text import extract, page_count_only
 from .periods import DIGKULT_FROM_YEAR
@@ -32,13 +32,29 @@ def pick_utmutato(exam: Exam) -> tuple[Path | None, list[str]]:
     utmutato van meg, azt hasznaljuk, de jelezzuk.
     """
     warnings: list[str] = []
-    candidates: dict[Path, bool] = {}   # ut -> van-e nyelvi utotag
+    # ut -> (targy-kod a fajlnevbol, van-e nyelvi utotag)
+    candidates: dict[Path, tuple[str, bool]] = {}
     for tf in exam.topics.values():
         for p in tf.utmutato_pdfs:
             m = UTMUTATO_RE.match(p.name.lower())
-            candidates[p] = bool(m and m.group("lang"))
+            if m:
+                candidates[p] = (m.group("subj"), bool(m.group("lang")))
     if not candidates:
         return None, ["nincs javítási útmutató PDF"]
+
+    # 2022-2023-ban ugyanabban a mappaban ott van a digitalis kultura ES az
+    # informatika utmutatoja is. A targy donti el, melyik a vizsgae.
+    want_subj = "digkult" if exam.period.subject == "digitalis_kultura" else "inf"
+    by_subject = {
+        p: has_lang
+        for p, (subj, has_lang) in candidates.items()
+        if (subj == "digkult") == (want_subj == "digkult")
+    }
+    if by_subject:
+        candidates = by_subject
+    else:
+        candidates = {p: has_lang for p, (_, has_lang) in candidates.items()}
+        warnings.append("nincs a tárgyhoz illő útmutató, másik tárgyé lett használva")
 
     want_lang = exam.period.variant == "idegen"
     matching = [p for p, has_lang in candidates.items() if has_lang == want_lang]
@@ -54,8 +70,7 @@ def pick_utmutato(exam: Exam) -> tuple[Path | None, list[str]]:
 
 
 def build_exam_record(exam: Exam, storage: Path, with_text: bool = True) -> dict:
-    topics_present = [t for t in TOPICS if t in exam.topics]
-    order = [t for t in exam.topic_order if t in exam.topics] or topics_present
+    order = exam.exam_topics
 
     feladatlap_pdfs: list[Path] = []
     forras: list[Path] = []
@@ -102,12 +117,8 @@ def build_exam_record(exam: Exam, storage: Path, with_text: bool = True) -> dict
         warnings.append("a PDF-ből nem nyerhető ki szöveg (képként tárolt), OCR nincs")
     if not has["feladatlap"]:
         warnings.append("nincs feladatlap PDF")
-    if exam.topic_order and set(exam.topic_order) - set(exam.topics):
-        hianyzo = sorted(set(exam.topic_order) - set(exam.topics))
-        warnings.append(
-            "hiányzó témakör a letöltő sorrendjéhez képest: "
-            + ", ".join(TOPIC_LABELS.get(t, t) for t in hianyzo)
-        )
+    if not order:
+        warnings.append("egyetlen témakörhöz sincs feladatlap PDF")
 
     src_ext = Counter(p.suffix.lower().lstrip(".") for p in forras if p.suffix)
     sol_ext = Counter(p.suffix.lower().lstrip(".") for p in solutions if p.suffix)

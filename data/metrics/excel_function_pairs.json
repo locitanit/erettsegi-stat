@@ -1,0 +1,354 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"KEREKÍTÉS+ÁTLAG": 1,
+"HOL.VAN+INDEX": 1
+},
+"2007o_emelt_inf": {
+"HA+HOL.VAN": 2,
+"KEREK.LE+VÉL": 1,
+"INT+VÉL": 1,
+"MAX+MIN": 1,
+"HA+INDEX": 1
+},
+"2007o_kozep_inf": {
+"KEREKÍTÉS+ÁTLAG": 2,
+"AB.ÁTLAG+KEREKÍTÉS": 1,
+"FKERES+MAX": 1,
+"HOL.VAN+INDEX": 1
+},
+"2008m_emelt_inf": {
+"HA+KEREKÍTÉS": 1
+},
+"2008m_kozep_inf": {
+"HOL.VAN+INDEX": 1,
+"HOL.VAN+MIN": 1,
+"INDEX+MIN": 1,
+"HA+ÉS": 1
+},
+"2008o_emelt_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2008o_kozep_inf": {
+"HA+VAGY": 1,
+"HA+ÉS": 1,
+"MAX+MIN": 1,
+"DARABTELI+SZUMHA": 1
+},
+"2009m_emelt_inf": {
+"ARCSIN+KEREKÍTÉS": 2,
+"ARCSIN+PI": 1,
+"KEREKÍTÉS+PI": 1,
+"ARCSIN+FOK": 1,
+"FOK+KEREKÍTÉS": 1,
+"HOL.VAN+INDEX": 1,
+"HOL.VAN+MAX": 1,
+"INDEX+MAX": 1
+},
+"2009o_kozep_inf": {
+"PERC+ÓRA": 1
+},
+"2010m_emelt_inf": {
+"KEREK.LE+VÉL": 2,
+"BAL+NAGYBETŰS": 1,
+"KÖZÉP+SZÖVEG.KERES": 1,
+"KARAKTER+KEREK.LE": 1,
+"KARAKTER+VÉL": 1
+},
+"2010o_emelt_inf": {
+"HA+ÜRES": 2,
+"DARAB+INDEX": 1
+},
+"2010o_kozep_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2011m_emelt_inf": {
+"HOL.VAN+INDEX": 1,
+"FKERES+HA": 1
+},
+"2011m_kozep_inf": {
+"MPERC+PERC": 1,
+"MPERC+ÓRA": 1,
+"PERC+ÓRA": 1,
+"HOL.VAN+INDEX": 1,
+"HOL.VAN+MIN": 1,
+"INDEX+MIN": 1,
+"FKERES+MIN": 1
+},
+"2012m_emelt_inf": {
+"HOL.VAN+INDEX": 1,
+"FKERES+HA": 1,
+"HA+ÉS": 1
+},
+"2012o_emelt_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2012o_kozep_inf": {
+"HA+ÉS": 2,
+"KEREKÍTÉS+ÁTLAG": 1,
+"HOL.VAN+INDEX": 1
+},
+"2013m_emelt_inf": {
+"HOL.VAN+INDEX": 1,
+"HOL.VAN+MAX": 1,
+"INDEX+MAX": 1
+},
+"2013m_kozep_inf": {
+"HOL.VAN+INDEX": 2
+},
+"2013o_emelt_inf": {
+"KEREKÍTÉS+ÁTLAG": 1
+},
+"2013o_kozep_inf": {
+"HOL.VAN+INDEX": 1,
+"MA+ÉV": 1
+},
+"2014m_emelt_inf": {
+"KEREKÍTÉS+ÁTLAG": 1,
+"KEREKÍTÉS+MPERC": 1,
+"KEREKÍTÉS+PERC": 1,
+"KEREKÍTÉS+ÓRA": 1,
+"MPERC+PERC": 1,
+"MPERC+ÓRA": 1,
+"PERC+ÓRA": 1,
+"HOL.VAN+INDEX": 1
+},
+"2014o_emelt_inf": {
+"ABS+HATVÁNY": 5,
+"ABS+KEREK.LE": 4,
+"HATVÁNY+KEREK.LE": 4,
+"ABS+HA": 2,
+"HA+HATVÁNY": 2,
+"HA+KEREK.LE": 2,
+"HOL.VAN+INDEX": 2,
+"ABS+CSONK": 1,
+"CSONK+HATVÁNY": 1,
+"ABS+ÜRES": 1,
+"HA+ÜRES": 1,
+"HATVÁNY+ÜRES": 1,
+"KEREK.LE+ÜRES": 1
+},
+"2014o_kozep_inf": {
+"DARABTELI+HA": 1,
+"HA+HIBÁS": 1
+},
+"2015m_kozep_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2015o_emelt_inf": {
+"HA+ÁTLAGHA": 1,
+"HOL.VAN+INDEX": 1
+},
+"2015o_kozep_inf": {
+"HOL.VAN+INDEX": 2,
+"KEREKÍTÉS+ÁTLAG": 1
+},
+"2016m_emelt_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2016m_kozep_inf": {
+"HA+ÉS": 2,
+"HOL.VAN+INDEX": 1
+},
+"2016o_emelt_inf": {
+"HOL.VAN+INDEX": 4,
+"IDŐ+MOST": 1,
+"IDŐ+PERC": 1,
+"IDŐ+ÓRA": 1,
+"MOST+PERC": 1,
+"MOST+ÓRA": 1,
+"PERC+ÓRA": 1,
+"MA+MOST": 1
+},
+"2016o_kozep_inf": {
+"MAX+MIN": 1,
+"HOL.VAN+INDEX": 1
+},
+"2017m_emelt_inf": {
+"HOL.VAN+INDEX": 2,
+"KEREKÍTÉS+ÁTLAG": 1
+},
+"2017o_kozep_inf": {
+"HA+SZUM": 1
+},
+"2018m_emelt_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2018m_kozep_inf": {
+"HOL.VAN+INDEX": 3,
+"KEREKÍTÉS+ÁTLAG": 1
+},
+"2018o_emelt_inf": {
+"HA+VÉL": 1,
+"DARAB2+DARABTELI": 1,
+"HA+VAGY": 1,
+"DARABTELI+HA": 1
+},
+"2018o_kozep_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2019m_emelt_inf": {
+"HOL.VAN+INDEX": 1,
+"HOL.VAN+MAX": 1,
+"INDEX+MAX": 1
+},
+"2019m_kozep_inf": {
+"HA+VAGY": 2
+},
+"2019o_emelt_inf": {
+"DARAB2+DARABTELI": 1
+},
+"2020m_emelt_inf": {
+"HOL.VAN+INDEX": 2,
+"DARAB2+DARABTELI": 1
+},
+"2020m_kozep_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2020o_emelt_inf": {
+"DARABTELI+KICSI": 1
+},
+"2020o_kozep_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2021m_emelt_inf": {
+"HA+SZUMHA": 1,
+"HA+SZUM": 1,
+"FKERES+HÉT.NAPJA": 1
+},
+"2021m_kozep_inf": {
+"HA+MAX": 2,
+"HOL.VAN+INDEX": 2,
+"DARAB+HA": 1,
+"DARAB+MAX": 1,
+"HA+MIN": 1,
+"MAX+MIN": 1
+},
+"2021o_emelt_inf": {
+"DARABTELI+HA": 3,
+"FKERES+HA": 2,
+"HOL.VAN+INDEX": 2
+},
+"2022m_emelt_dk": {
+"DARAB2+HA": 2,
+"DARAB2+DARABTELI": 1,
+"DARABTELI+HA": 1,
+"HA+HOSSZ": 1,
+"HA+VAGY": 1,
+"HOSSZ+VAGY": 1,
+"DARABTELI+KICSI": 1
+},
+"2022m_kozep_dk": {
+"HOL.VAN+INDEX": 1
+},
+"2022o_emelt_dk": {
+"HOL.VAN+INDEX": 6
+},
+"2022o_kozep_dk": {
+"HOL.VAN+INDEX": 2
+},
+"2022o_emelt_inf": {
+"HOL.VAN+INDEX": 2,
+"BAL+HA": 2,
+"BAL+JOBB": 1
+},
+"2022o_kozep_inf": {
+"KEREKÍTÉS+ÁTLAG": 1,
+"HA+SZUM": 1
+},
+"2023m_emelt_dk": {
+"HOL.VAN+INDEX": 4,
+"KÖZÉP+ÉRTÉK": 2,
+"DÁTUM+HOL.VAN": 2,
+"DÁTUM+INDEX": 2,
+"HOSSZ+MARADÉK": 1,
+"HOSSZ+ÉS": 1,
+"MARADÉK+ÉS": 1,
+"HA+KÖZÉP": 1,
+"HA+ÉRTÉK": 1
+},
+"2023m_kozep_dk": {
+"HA+VÉL": 1,
+"HA+VÉLETLEN.KÖZÖTT": 1
+},
+"2023m_emelt_inf": {
+"HA+ÜRES": 4,
+"HOL.VAN+INDEX": 4,
+"HA+RANG.EGY": 2,
+"RANG.EGY+ÜRES": 2,
+"MAX+NEM": 1,
+"MAX+ÉS": 1,
+"MAX+ÜRES": 1,
+"NEM+ÉS": 1,
+"NEM+ÜRES": 1,
+"ÉS+ÜRES": 1
+},
+"2023m_kozep_inf": {
+"HOL.VAN+INDEX": 2
+},
+"2023o_emelt_dk": {
+"HOL.VAN+INDEX": 1,
+"HOL.VAN+MAX": 1,
+"INDEX+MAX": 1,
+"DARAB2+DARABTELI": 1,
+"DARABTELI+ÖSSZEFŰZ": 1
+},
+"2023o_kozep_dk": {
+"HOL.VAN+INDEX": 1
+},
+"2023o_emelt_inf": {
+"HOL.VAN+INDEX": 2,
+"KÖZÉP+SZÖVEG.KERES": 2,
+"DARABTELI+HA": 1,
+"BAL+KÖZÉP": 1,
+"BAL+SZÖVEG.KERES": 1
+},
+"2023o_kozep_inf": {
+"HOL.VAN+INDEX": 1
+},
+"2024m_emelt_dk": {
+"INDEX+VÉLETLEN.KÖZÖTT": 2,
+"HA+MAX": 2,
+"KARAKTER+VÉLETLEN.KÖZÖTT": 1,
+"KÖZÉP+VÉLETLEN.KÖZÖTT": 1,
+"HA+XVAGY": 1,
+"HOL.VAN+INDEX": 1,
+"HA+HOL.VAN": 1,
+"HOL.VAN+MAX": 1,
+"HAHIBA+HOL.VAN": 1
+},
+"2024m_kozep_dk": {
+"HOL.VAN+INDEX": 2
+},
+"2024o_kozep_dk": {
+"HOL.VAN+INDEX": 2
+},
+"2025m_emelt_dk": {
+"HOL.VAN+INDEX": 2,
+"ARCCOS+COS": 1,
+"ARCCOS+SIN": 1,
+"COS+SIN": 1,
+"HA+SZUM": 1
+},
+"2025m_kozep_dk": {
+"HOL.VAN+MAX": 2,
+"HOL.VAN+INDEX": 1,
+"INDEX+MAX": 1
+},
+"2025o_emelt_dk": {
+"HOL.VAN+INDEX": 4,
+"HA+ÉS": 2,
+"HA+NEM": 1,
+"NEM+ÉS": 1,
+"HA+VAGY": 1
+},
+"2025o_kozep_dk": {
+"HA+VÉL": 1
+},
+"2026m_emelt_dk": {
+"HOL.VAN+INDEX": 3,
+"GYÖK+HATVÁNY": 2
+}
+}
+}

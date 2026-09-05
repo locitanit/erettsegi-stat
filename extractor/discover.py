@@ -85,6 +85,18 @@ class Exam:
     def id(self) -> str:
         return self.period.exam_id(self.level)
 
+    @property
+    def exam_topics(self) -> list[str]:
+        """A vizsgan TENYLEG szereplo temakorok, a feladatok sorrendjeben.
+
+        A letolto minden temakor-mappaba bemasolja a teljes utmutato-PDF-et, ezert
+        egy mappa megleteboI meg nem kovetkezik, hogy az a temakor szerepelt a vizsgan.
+        A dontesi jel a feladatlap-PDF: az temakoronkent kulon fajl.
+        """
+        present = [t for t, tf in self.topics.items() if tf.feladatlap_pdfs]
+        ordered = [t for t in self.topic_order if t in present]
+        return ordered + [t for t in present if t not in ordered]
+
 
 def _classify_into(tf: TopicFiles, sub: str, path: Path) -> None:
     """Egy fajl besorolasa a feladatlap/utmutato/megoldas kategoriaba."""

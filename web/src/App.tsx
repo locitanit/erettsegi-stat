@@ -3,6 +3,8 @@ import { Menu, X } from "lucide-react";
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Placeholder from "./components/Placeholder";
+import Esedekes from "./pages/Esedekes";
+import Tablazatkezeles from "./pages/Tablazatkezeles";
 import Vizsgak from "./pages/Vizsgak";
 import Adatokrol from "./pages/Adatokrol";
 import { NavLink, useLocation } from "react-router-dom";
@@ -14,7 +16,7 @@ export default function App() {
   useEffect(() => setMenuOpen(false), [location.pathname]);
 
   return (
-    <div className="flex min-h-full flex-col md:flex-row">
+    <div className="flex min-h-full flex-col md:h-screen md:flex-row md:overflow-hidden">
       {/* Mobil fejlec */}
       <div
         className="flex items-center justify-between border-b px-4 py-3 md:hidden"
@@ -34,7 +36,7 @@ export default function App() {
 
       {/* Oldalsav */}
       <aside
-        className={`${menuOpen ? "block" : "hidden"} shrink-0 border-b px-3 py-4 md:sticky md:top-0 md:block md:h-screen md:w-[236px] md:border-b-0 md:border-r`}
+        className={`${menuOpen ? "block" : "hidden"} shrink-0 border-b px-3 py-4 md:block md:h-screen md:w-[236px] md:overflow-y-auto md:border-b-0 md:border-r`}
         style={{ borderColor: "var(--border)", background: "var(--surface)" }}
       >
         <div className="mb-5 hidden px-3 md:block">
@@ -58,16 +60,17 @@ export default function App() {
         </div>
       </aside>
 
-      <main className="min-w-0 flex-1">
+      {/* Csak a tartalom gorduljon: igy az oldalsav es a szurosav helyben marad. */}
+      <main className="min-w-0 flex-1 md:h-screen md:overflow-y-auto">
         <Routes>
           <Route path="/" element={<Placeholder title="Áttekintés" phase="3. fázisban" />} />
-          <Route path="/tablazatkezeles" element={<Placeholder title="Táblázatkezelés" phase="1. fázisban" />} />
+          <Route path="/tablazatkezeles" element={<Tablazatkezeles />} />
           <Route path="/adatbazis" element={<Placeholder title="Adatbázis-kezelés" phase="2. fázisban" />} />
           <Route path="/programozas" element={<Placeholder title="Programozás" phase="2. fázisban" />} />
           <Route path="/szovegszerkesztes" element={<Placeholder title="Szövegszerkesztés" phase="3. fázisban" />} />
           <Route path="/weblap" element={<Placeholder title="Weblap" phase="3. fázisban" />} />
           <Route path="/prezentacio" element={<Placeholder title="Prezentáció és grafika" phase="3. fázisban" />} />
-          <Route path="/esedekes" element={<Placeholder title="Mikor volt utoljára" phase="1. fázisban" />} />
+          <Route path="/esedekes" element={<Esedekes />} />
           <Route path="/vizsgak" element={<Vizsgak />} />
           <Route path="/adatokrol" element={<Adatokrol />} />
           <Route path="*" element={<Placeholder title="Nincs ilyen oldal" phase="menüből elérhető oldalakon" />} />

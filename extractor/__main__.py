@@ -15,10 +15,12 @@ import time
 from pathlib import Path
 
 from .build_exams import build_exams_json, write_exams_json
+from .build_metrics import write_metrics, write_vocab_json
+from .build_tasks import build_tasks_json, write_tasks_json
 from .config import DEFAULT_STORAGE, LEVELS, TOPICS
 from .discover import discover
 from .periods import strip_accents
-from .validate import load_exams, write_report
+from .validate import load_exams, load_tasks, write_report
 
 log = logging.getLogger("extractor")
 
@@ -47,7 +49,11 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.validate_only:
         payload = load_exams()
-        out = write_report(payload)
+        try:
+            tasks = load_tasks()["tasks"]
+        except FileNotFoundError:
+            tasks = []
+        out = write_report(payload, tasks=tasks)
         log.info("riport: %s", out)
         return 0
 
@@ -90,7 +96,28 @@ def main(argv: list[str] | None = None) -> int:
             pass
 
     out = write_exams_json(payload)
-    rep = write_report(payload)
+
+    # Feladat-szintu elemzes (1. fazistol). Reszleges futasnal is a TELJES
+    # tasks.json-t frissitjuk, hogy a metrikak konzisztensek maradjanak.
+    tasks_payload, task_warnings = build_tasks_json(selected)
+    if not args.all and (args.period or args.level):
+        try:
+            old_tasks = load_tasks()["tasks"]
+            keep = {t["exam_id"] for t in tasks_payload["tasks"]}
+            merged = [t for t in old_tasks if t["exam_id"] not in keep] + tasks_payload["tasks"]
+            tasks_payload["tasks"] = sorted(merged, key=lambda t: (t["exam_id"], t["task_no"]))
+        except FileNotFoundError:
+            pass
+    write_tasks_json(tasks_payload)
+    write_metrics(tasks_payload["tasks"])
+    write_vocab_json()
+    log.info(
+        "feladatok: %d, tablazat-feladat: %d",
+        len(tasks_payload["tasks"]),
+        sum(1 for t in tasks_payload["tasks"] if "tablazat" in t["topics"]),
+    )
+
+    rep = write_report(payload, tasks=tasks_payload["tasks"], task_warnings=task_warnings)
     log.info("kesz %.1f mp: %s, %s", time.time() - t0, out, rep)
     return 0
 
