@@ -1,0 +1,17 @@
+# extractor
+data/_cache/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# web
+node_modules/
+dist/
+.vite/
+
+# egyeb
+.DS_Store
+*.local
+web/public/data/
+*.tsbuildinfo

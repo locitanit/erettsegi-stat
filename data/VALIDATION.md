@@ -1,0 +1,109 @@
+# Adatminőségi riport
+
+Generálva: 2026-09-05 · extractor 0.1.0
+
+## Összesítés
+
+| Mutató | Érték |
+|---|---|
+| Vizsgák száma | 133 |
+| Középszint / emelt | 68 / 65 |
+| Informatika / digitális kultúra | 105 / 28 |
+| Normál / idegen nyelvű | 95 / 38 |
+| Időszakok | 2005–2026 |
+| Van javítási útmutató | 121 / 133 |
+| Van feladatlap | 133 / 133 |
+| Szöveg nem nyerhető ki (ocr_needed) | 0 |
+| Figyelmeztetéssel | 50 |
+
+## Sémahibák
+
+Nincs.
+
+## Lefedettség évenként
+
+| Év | Vizsga | Útmutató | Feladatlap | Szöveg nélkül |
+|---|---|---|---|---|
+| 2005 | 4 | 1 | 4 | 0 |
+| 2006 | 6 | 0 | 6 | 0 |
+| 2007 | 4 | 3 | 4 | 0 |
+| 2008 | 4 | 4 | 4 | 0 |
+| 2009 | 6 | 6 | 6 | 0 |
+| 2010 | 6 | 6 | 6 | 0 |
+| 2011 | 6 | 4 | 6 | 0 |
+| 2012 | 6 | 6 | 6 | 0 |
+| 2013 | 6 | 6 | 6 | 0 |
+| 2014 | 6 | 6 | 6 | 0 |
+| 2015 | 6 | 6 | 6 | 0 |
+| 2016 | 6 | 6 | 6 | 0 |
+| 2017 | 6 | 6 | 6 | 0 |
+| 2018 | 6 | 6 | 6 | 0 |
+| 2019 | 6 | 6 | 6 | 0 |
+| 2020 | 6 | 6 | 6 | 0 |
+| 2021 | 6 | 6 | 6 | 0 |
+| 2022 | 10 | 10 | 10 | 0 |
+| 2023 | 11 | 11 | 11 | 0 |
+| 2024 | 6 | 6 | 6 | 0 |
+| 2025 | 6 | 6 | 6 | 0 |
+| 2026 | 4 | 4 | 4 | 0 |
+
+## Figyelmeztetések vizsgánként
+
+| Vizsga | Időszak | Szint | Figyelmeztetés |
+|---|---|---|---|
+| `2005m_emelt_inf` | 2005. május | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2005m_kozep_inf` | 2005. május | kozep | nincs javítási útmutató PDF |
+| `2005o_kozep_inf` | 2005. október | kozep | nincs javítási útmutató PDF |
+| `2006f_emelt_inf` | 2006. február | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap |
+| `2006f_kozep_inf` | 2006. február | kozep | nincs javítási útmutató PDF |
+| `2006m_emelt_inf` | 2006. május | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap |
+| `2006m_kozep_inf` | 2006. május | kozep | nincs javítási útmutató PDF |
+| `2006o_emelt_inf` | 2006. október | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2006o_kozep_inf` | 2006. október | kozep | nincs javítási útmutató PDF |
+| `2007m_emelt_inf` | 2007. május | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2009m_emelt_inf_id` | 2009. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2009m_kozep_inf_id` | 2009. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2010m_emelt_inf_id` | 2010. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2010m_kozep_inf_id` | 2010. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2011m_emelt_inf_id` | 2011. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2011m_kozep_inf_id` | 2011. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2011o_emelt_inf` | 2011. október | emelt | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés |
+| `2011o_kozep_inf` | 2011. október | kozep | nincs javítási útmutató PDF; hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció |
+| `2012m_emelt_inf_id` | 2012. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2012m_kozep_inf_id` | 2012. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2013m_emelt_inf_id` | 2013. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2013m_kozep_inf_id` | 2013. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2014m_emelt_inf_id` | 2014. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2014m_kozep_inf_id` | 2014. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2015m_emelt_inf_id` | 2015. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2015m_kozep_inf_id` | 2015. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2016m_emelt_inf_id` | 2016. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2016m_kozep_inf_id` | 2016. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2017m_emelt_inf_id` | 2017. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2017m_kozep_inf_id` | 2017. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2018m_emelt_inf_id` | 2018. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2018m_kozep_inf_id` | 2018. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2019m_emelt_inf_id` | 2019. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2019m_kozep_inf_id` | 2019. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2020m_emelt_inf_id` | 2020. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2020m_kozep_inf_id` | 2020. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2021m_emelt_inf_id` | 2021. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2021m_kozep_inf_id` | 2021. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2022m_emelt_dk_id` | 2022. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2022m_kozep_dk_id` | 2022. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2022m_kozep_inf_id` | 2022. május (idegen nyelvu, informatika) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2023m_emelt_dk_id` | 2023. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2023m_kozep_dk_id` | 2023. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2023m_kozep_inf_id` | 2023. május (idegen nyelvu, informatika) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2024m_emelt_dk_id` | 2024. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2024m_kozep_dk_id` | 2024. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2025m_emelt_dk_id` | 2025. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2025m_kozep_dk_id` | 2025. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2026m_emelt_dk_id` | 2026. május (idegen nyelvu) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2026m_kozep_dk_id` | 2026. május (idegen nyelvu) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+
+## Megjegyzés
+
+A 2005–2011 közötti vizsgák egy része képként tárolt PDF; ezekből nem nyerhető ki szöveg,
+és a tervben rögzített döntés szerint OCR nem készül (TERV 11/3). Ezek a vizsgák a
+listában szerepelnek, de az elemzésekből kimaradnak.

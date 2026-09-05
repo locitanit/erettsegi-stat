@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Design-tokenek (TERV 6.3): semleges alap, egy kiemeloszin,
+   temakor-szinek CSAK diagram-sorozaton es aktiv menujelolon.
+   Vilagos es sotet tema, rendszerbeallitast kovetve.
+---------------------------------------------------------------- */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", monospace;
+}
+
+:root {
+  color-scheme: light dark;
+
+  --bg: #fbfbfa;
+  --surface: #ffffff;
+  --surface-2: #f4f4f3;
+  --text: #1c1c1a;
+  --text-muted: #6b6b66;
+  --text-faint: #96968f;
+  --border: #e3e3df;
+  --border-strong: #cfcfc9;
+  --accent: #2f5d8a;
+  --accent-soft: #e8eff6;
+  --warn: #9a5b16;
+  --warn-soft: #f7efe4;
+
+  /* temakor-szinek (radnoti-seru, visszafogott) */
+  --t-szoveg: #3a6ea5;
+  --t-tablazat: #2f7d5f;
+  --t-adatbazis: #8a5a2b;
+  --t-programozas: #6b4c8a;
+  --t-weblap: #b0563a;
+  --t-prezentacio: #47707d;
+  --t-prezentacio_grafika: #47707d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131315;
+    --surface: #1a1a1d;
+    --surface-2: #212125;
+    --text: #ececeb;
+    --text-muted: #a3a39d;
+    --text-faint: #77776f;
+    --border: #2c2c31;
+    --border-strong: #3c3c43;
+    --accent: #7aa9d6;
+    --accent-soft: #1e2a36;
+    --warn: #d5a05f;
+    --warn-soft: #2b2217;
+
+    --t-szoveg: #7aa9d6;
+    --t-tablazat: #6dbb99;
+    --t-adatbazis: #c9955c;
+    --t-programozas: #a58ac4;
+    --t-weblap: #d98d73;
+    --t-prezentacio: #82aab5;
+    --t-prezentacio_grafika: #82aab5;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Tipografia: harom meretfokozat. */
+.t-title { font-size: 20px; font-weight: 600; letter-spacing: -0.01em; }
+.t-subtitle { font-size: 15px; font-weight: 600; }
+.t-body { font-size: 14px; }
+.t-small { font-size: 12.5px; color: var(--text-muted); }
+.t-mono { font-family: var(--font-mono); font-size: 12.5px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.btn {
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.12s ease, border-color 0.12s ease;
+}
+.btn:hover { background: var(--surface-2); }
+.btn[aria-pressed="true"],
+.btn[data-active="true"] {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.input {
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 13px;
+  font-family: inherit;
+}
+.input::placeholder { color: var(--text-faint); }
+
+table.data { width: 100%; border-collapse: collapse; }
+table.data th,
+table.data td {
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.data th {
+  font-weight: 500;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  z-index: 1;
+}
+table.data tbody tr:hover { background: var(--surface-2); }
+
+.badge {
+  display: inline-block;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 11.5px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.badge-warn {
+  border-color: var(--warn);
+  background: var(--warn-soft);
+  color: var(--warn);
+}

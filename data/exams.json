@@ -1,0 +1,8729 @@
+{
+ "generated_by": "extractor 0.1.0",
+ "digkult_from_year": 2022,
+ "topic_labels": {
+  "szoveg": "Szövegszerkesztés",
+  "tablazat": "Táblázatkezelés",
+  "adatbazis": "Adatbázis-kezelés",
+  "programozas": "Programozás",
+  "weblap": "Weblap",
+  "prezentacio": "Prezentáció",
+  "prezentacio_grafika": "Prezentáció és grafika"
+ },
+ "exams": [
+  {
+   "id": "2005m_emelt_inf",
+   "year": 2005,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2005. május",
+   "period_raw": "2005 május",
+   "storage_dir": "emelt/2005 május",
+   "topics": [
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 3
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+   ]
+  },
+  {
+   "id": "2005m_kozep_inf",
+   "year": 2005,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2005. május",
+   "period_raw": "2005 május",
+   "storage_dir": "kozep/2005 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF"
+   ]
+  },
+  {
+   "id": "2005o_emelt_inf",
+   "year": 2005,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2005. október",
+   "period_raw": "2005 október",
+   "storage_dir": "emelt/2005 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 17
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {
+    "cfg": 1,
+    "dat": 1,
+    "dcu": 1,
+    "dfm": 1,
+    "doc": 2,
+    "dof": 1,
+    "dpr": 1,
+    "dsk": 1,
+    "exe": 2,
+    "mdb": 1,
+    "pas": 2,
+    "ppt": 1,
+    "res": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2005o_kozep_inf",
+   "year": 2005,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2005. október",
+   "period_raw": "2005 október",
+   "storage_dir": "kozep/2005 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF"
+   ]
+  },
+  {
+   "id": "2006f_emelt_inf",
+   "year": 2006,
+   "month": 2,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2006. február",
+   "period_raw": "2006 február",
+   "storage_dir": "emelt/2006 február",
+   "topics": [
+    "szoveg",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 6,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap"
+   ]
+  },
+  {
+   "id": "2006f_kozep_inf",
+   "year": 2006,
+   "month": 2,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2006. február",
+   "period_raw": "2006 február",
+   "storage_dir": "kozep/2006 február",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF"
+   ]
+  },
+  {
+   "id": "2006m_emelt_inf",
+   "year": 2006,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2006. május",
+   "period_raw": "2006 május",
+   "storage_dir": "emelt/2006 május",
+   "topics": [
+    "szoveg",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Weblap"
+   ]
+  },
+  {
+   "id": "2006m_kozep_inf",
+   "year": 2006,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2006. május",
+   "period_raw": "2006 május",
+   "storage_dir": "kozep/2006 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 6,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF"
+   ]
+  },
+  {
+   "id": "2006o_emelt_inf",
+   "year": 2006,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2006. október",
+   "period_raw": "2006 október",
+   "storage_dir": "emelt/2006 október",
+   "topics": [
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+   ]
+  },
+  {
+   "id": "2006o_kozep_inf",
+   "year": 2006,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2006. október",
+   "period_raw": "2006 október",
+   "storage_dir": "kozep/2006 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF"
+   ]
+  },
+  {
+   "id": "2007m_emelt_inf",
+   "year": 2007,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2007. május",
+   "period_raw": "2007 május",
+   "storage_dir": "emelt/2007 május",
+   "topics": [
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+   ]
+  },
+  {
+   "id": "2007m_kozep_inf",
+   "year": 2007,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2007. május",
+   "period_raw": "2007 május",
+   "storage_dir": "kozep/2007 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 28
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 4
+   },
+   "solution_types": {
+    "doc": 1,
+    "html": 2,
+    "jpg": 2,
+    "mdb": 6,
+    "pas": 15,
+    "ppt": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2007o_emelt_inf",
+   "year": 2007,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2007. október",
+   "period_raw": "2007 október",
+   "storage_dir": "emelt/2007 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 7
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {
+    "doc": 3,
+    "mdb": 1,
+    "pas": 1,
+    "txt": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2007o_kozep_inf",
+   "year": 2007,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2007. október",
+   "period_raw": "2007 október",
+   "storage_dir": "kozep/2007 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "doc": 2,
+    "gif": 1,
+    "html": 1,
+    "jpg": 2,
+    "mdb": 6,
+    "pas": 15,
+    "ppt": 1,
+    "txt": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2008m_emelt_inf",
+   "year": 2008,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2008. május",
+   "period_raw": "2008 május",
+   "storage_dir": "emelt/2008 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 43
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "exe": 1,
+    "gif": 2,
+    "html": 3,
+    "jpg": 8,
+    "mdb": 7,
+    "pas": 1,
+    "txt": 2,
+    "vb": 18,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2008m_kozep_inf",
+   "year": 2008,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2008. május",
+   "period_raw": "2008 május",
+   "storage_dir": "kozep/2008 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 32
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 2
+   },
+   "solution_types": {
+    "db": 1,
+    "doc": 2,
+    "dpr": 15,
+    "gif": 1,
+    "html": 1,
+    "jpg": 4,
+    "mdb": 6,
+    "ppt": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": false,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2008o_emelt_inf",
+   "year": 2008,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2008. október",
+   "period_raw": "2008 október",
+   "storage_dir": "emelt/2008 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 35
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "html": 3,
+    "jpg": 3,
+    "mdb": 7,
+    "pas": 1,
+    "txt": 2,
+    "vb": 18,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2008o_kozep_inf",
+   "year": 2008,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2008. október",
+   "period_raw": "2008 október",
+   "storage_dir": "kozep/2008 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 16
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 4
+   },
+   "solution_types": {
+    "dfm": 1,
+    "doc": 1,
+    "dpr": 4,
+    "gif": 1,
+    "html": 2,
+    "jpg": 2,
+    "mdb": 2,
+    "pas": 1,
+    "ppt": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2009m_emelt_inf",
+   "year": 2009,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2009. május",
+   "period_raw": "2009 május",
+   "storage_dir": "emelt/2009 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 9,
+    "megoldas": 33
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 3
+   },
+   "solution_types": {
+    "cpp": 1,
+    "cs": 18,
+    "doc": 1,
+    "html": 1,
+    "mdb": 7,
+    "png": 2,
+    "txt": 2,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2009m_kozep_inf",
+   "year": 2009,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2009. május",
+   "period_raw": "2009 május",
+   "storage_dir": "kozep/2009 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 7,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 15,
+    "doc": 1,
+    "html": 1,
+    "jpg": 5,
+    "mdb": 5,
+    "pptx": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2009m_emelt_inf_id",
+   "year": 2009,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2009. május (idegen nyelvu)",
+   "period_raw": "2009 május (idegen)",
+   "storage_dir": "emelt/2009 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 8,
+    "megoldas": 33
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 3
+   },
+   "solution_types": {
+    "cpp": 1,
+    "cs": 18,
+    "doc": 1,
+    "html": 1,
+    "mdb": 7,
+    "png": 2,
+    "txt": 2,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2009m_kozep_inf_id",
+   "year": 2009,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2009. május (idegen nyelvu)",
+   "period_raw": "2009 május (idegen)",
+   "storage_dir": "kozep/2009 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 6,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 15,
+    "doc": 1,
+    "html": 1,
+    "jpg": 5,
+    "mdb": 5,
+    "pptx": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2009o_emelt_inf",
+   "year": 2009,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2009. október",
+   "period_raw": "2009 október",
+   "storage_dir": "emelt/2009 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 9,
+    "megoldas": 8
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 3
+   },
+   "solution_types": {
+    "cpp": 1,
+    "doc": 1,
+    "mdb": 1,
+    "ppt": 1,
+    "txt": 2,
+    "xls": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2009o_kozep_inf",
+   "year": 2009,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2009. október",
+   "period_raw": "2009 október",
+   "storage_dir": "kozep/2009 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 6,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {
+    "doc": 1,
+    "gif": 3,
+    "html": 2,
+    "jpg": 1,
+    "mdb": 2,
+    "ppt": 1,
+    "thmx": 2,
+    "txt": 3,
+    "xls": 1,
+    "xml": 4
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": false,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2010m_emelt_inf",
+   "year": 2010,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2010. május",
+   "period_raw": "2010 május",
+   "storage_dir": "emelt/2010 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 39
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {
+    "cpp": 1,
+    "cs": 18,
+    "gif": 1,
+    "html": 4,
+    "jpg": 3,
+    "mdb": 7,
+    "png": 2,
+    "txt": 2,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2010m_kozep_inf",
+   "year": 2010,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2010. május",
+   "period_raw": "2010 május",
+   "storage_dir": "kozep/2010 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 7,
+    "megoldas": 65
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 3
+   },
+   "solution_types": {
+    "cs": 15,
+    "db": 1,
+    "doc": 3,
+    "docx": 1,
+    "html": 3,
+    "jpg": 25,
+    "mdb": 9,
+    "png": 4,
+    "ppt": 1,
+    "xls": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2010m_emelt_inf_id",
+   "year": 2010,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2010. május (idegen nyelvu)",
+   "period_raw": "2010 május (idegen)",
+   "storage_dir": "emelt/2010 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 39
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "cpp": 1,
+    "cs": 18,
+    "gif": 1,
+    "html": 4,
+    "jpg": 3,
+    "mdb": 7,
+    "png": 2,
+    "txt": 2,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2010m_kozep_inf_id",
+   "year": 2010,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2010. május (idegen nyelvu)",
+   "period_raw": "2010 május (idegen)",
+   "storage_dir": "kozep/2010 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 6,
+    "megoldas": 65
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {
+    "cs": 15,
+    "db": 1,
+    "doc": 3,
+    "docx": 1,
+    "html": 3,
+    "jpg": 25,
+    "mdb": 9,
+    "png": 4,
+    "ppt": 1,
+    "xls": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2010o_emelt_inf",
+   "year": 2010,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2010. október",
+   "period_raw": "2010 október",
+   "storage_dir": "emelt/2010 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 9,
+    "megoldas": 39
+   },
+   "source_types": {
+    "txt": 7,
+    "zip": 2
+   },
+   "solution_types": {
+    "gif": 1,
+    "html": 3,
+    "jpg": 4,
+    "mdb": 7,
+    "pas": 1,
+    "png": 1,
+    "txt": 3,
+    "vb": 18,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2010o_kozep_inf",
+   "year": 2010,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2010. október",
+   "period_raw": "2010 október",
+   "storage_dir": "kozep/2010 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 24
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 15,
+    "doc": 1,
+    "mdb": 5,
+    "ppt": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2011m_emelt_inf",
+   "year": 2011,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2011. május",
+   "period_raw": "2011 május",
+   "storage_dir": "emelt/2011 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 36
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 18,
+    "html": 3,
+    "jpg": 4,
+    "mdb": 7,
+    "pas": 1,
+    "txt": 2,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2011m_kozep_inf",
+   "year": 2011,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2011. május",
+   "period_raw": "2011 május",
+   "storage_dir": "kozep/2011 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 28
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 15,
+    "docx": 1,
+    "html": 2,
+    "jpg": 2,
+    "mdb": 6,
+    "png": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 7,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2011m_emelt_inf_id",
+   "year": 2011,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2011. május (idegen nyelvu)",
+   "period_raw": "2011 május (idegen)",
+   "storage_dir": "emelt/2011 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 36
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 18,
+    "html": 3,
+    "jpg": 4,
+    "mdb": 7,
+    "pas": 1,
+    "txt": 2,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2011m_kozep_inf_id",
+   "year": 2011,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2011. május (idegen nyelvu)",
+   "period_raw": "2011 május (idegen)",
+   "storage_dir": "kozep/2011 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 28
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 15,
+    "docx": 1,
+    "html": 2,
+    "jpg": 2,
+    "mdb": 6,
+    "png": 1,
+    "xls": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2011o_emelt_inf",
+   "year": 2011,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2011. október",
+   "period_raw": "2011 október",
+   "storage_dir": "emelt/2011 október",
+   "topics": [
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 11,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 9,
+    "zip": 2
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció, Szövegszerkesztés"
+   ]
+  },
+  {
+   "id": "2011o_kozep_inf",
+   "year": 2011,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2011. október",
+   "period_raw": "2011 október",
+   "storage_dir": "kozep/2011 október",
+   "topics": [
+    "szoveg",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 0
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {},
+   "has": {
+    "feladatlap": true,
+    "utmutato": false,
+    "forras": true,
+    "megoldas_xlsx": false,
+    "megoldas_sql": false,
+    "megoldas_access": false,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 0
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": null
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "nincs javítási útmutató PDF",
+    "hiányzó témakör a letöltő sorrendjéhez képest: Prezentáció"
+   ]
+  },
+  {
+   "id": "2012m_emelt_inf",
+   "year": 2012,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2012. május",
+   "period_raw": "2012 május",
+   "storage_dir": "emelt/2012 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 55
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 12,
+    "csv": 6,
+    "doc": 12,
+    "docx": 1,
+    "mdb": 7,
+    "pas": 1,
+    "png": 1,
+    "txt": 8,
+    "xls": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2012m_kozep_inf",
+   "year": 2012,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2012. május",
+   "period_raw": "2012 május",
+   "storage_dir": "kozep/2012 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 29
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 10,
+    "doc": 5,
+    "docx": 1,
+    "mdb": 5,
+    "pptx": 1,
+    "xls": 5,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2012m_emelt_inf_id",
+   "year": 2012,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2012. május (idegen nyelvu)",
+   "period_raw": "2012 május (idegen)",
+   "storage_dir": "emelt/2012 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 55
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 12,
+    "csv": 6,
+    "doc": 12,
+    "docx": 1,
+    "mdb": 7,
+    "pas": 1,
+    "png": 1,
+    "txt": 8,
+    "xls": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2012m_kozep_inf_id",
+   "year": 2012,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2012. május (idegen nyelvu)",
+   "period_raw": "2012 május (idegen)",
+   "storage_dir": "kozep/2012 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 29
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 10,
+    "doc": 5,
+    "docx": 1,
+    "mdb": 5,
+    "pptx": 1,
+    "xls": 5,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2012o_emelt_inf",
+   "year": 2012,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2012. október",
+   "period_raw": "2012 október",
+   "storage_dir": "emelt/2012 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 35
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 2,
+    "dfm": 2,
+    "doc": 2,
+    "docx": 1,
+    "dpr": 2,
+    "exe": 2,
+    "gif": 4,
+    "ico": 2,
+    "jpg": 2,
+    "lpi": 2,
+    "mdb": 3,
+    "pas": 2,
+    "res": 2,
+    "txt": 4,
+    "xls": 2,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2012o_kozep_inf",
+   "year": 2012,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2012. október",
+   "period_raw": "2012 október",
+   "storage_dir": "kozep/2012 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 50
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 1
+   },
+   "solution_types": {
+    "cs": 10,
+    "doc": 12,
+    "docx": 2,
+    "jpg": 5,
+    "mdb": 9,
+    "pptx": 3,
+    "xls": 5,
+    "xlsx": 4
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2013m_emelt_inf",
+   "year": 2013,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2013. május",
+   "period_raw": "2013 május",
+   "storage_dir": "emelt/2013 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 16
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "docx": 1,
+    "html": 1,
+    "jpg": 2,
+    "mdb": 1,
+    "png": 3,
+    "txt": 2,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2013m_kozep_inf",
+   "year": 2013,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2013. május",
+   "period_raw": "2013 május",
+   "storage_dir": "kozep/2013 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "html": 2,
+    "jpg": 2,
+    "mdb": 1,
+    "png": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2013m_emelt_inf_id",
+   "year": 2013,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2013. május (idegen nyelvu)",
+   "period_raw": "2013 május (idegen)",
+   "storage_dir": "emelt/2013 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 16
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "docx": 1,
+    "html": 1,
+    "jpg": 2,
+    "mdb": 1,
+    "png": 3,
+    "txt": 2,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2013m_kozep_inf_id",
+   "year": 2013,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2013. május (idegen nyelvu)",
+   "period_raw": "2013 május (idegen)",
+   "storage_dir": "kozep/2013 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "html": 2,
+    "jpg": 2,
+    "mdb": 1,
+    "png": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2013o_emelt_inf",
+   "year": 2013,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2013. október",
+   "period_raw": "2013 október",
+   "storage_dir": "emelt/2013 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 62
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "cpp": 2,
+    "cs": 12,
+    "csv": 6,
+    "doc": 16,
+    "mdb": 8,
+    "txt": 10,
+    "xls": 6,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2013o_kozep_inf",
+   "year": 2013,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2013. október",
+   "period_raw": "2013 október",
+   "storage_dir": "kozep/2013 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 15
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "docx": 3,
+    "mdb": 3,
+    "png": 3,
+    "ppt": 3,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": false,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2014m_emelt_inf",
+   "year": 2014,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2014. május",
+   "period_raw": "2014 május",
+   "storage_dir": "emelt/2014 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "mdb": 1,
+    "pas": 1,
+    "pptx": 1,
+    "txt": 3,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2014m_kozep_inf",
+   "year": 2014,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2014. május",
+   "period_raw": "2014 május",
+   "storage_dir": "kozep/2014 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 11
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 3,
+    "mdb": 1,
+    "png": 1,
+    "pptx": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2014m_emelt_inf_id",
+   "year": 2014,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2014. május (idegen nyelvu)",
+   "period_raw": "2014 május (idegen)",
+   "storage_dir": "emelt/2014 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "mdb": 1,
+    "pas": 1,
+    "pptx": 1,
+    "txt": 3,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2014m_kozep_inf_id",
+   "year": 2014,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2014. május (idegen nyelvu)",
+   "period_raw": "2014 május (idegen)",
+   "storage_dir": "kozep/2014 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 11
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 3,
+    "mdb": 1,
+    "png": 1,
+    "pptx": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 16
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2014o_emelt_inf",
+   "year": 2014,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2014. október",
+   "period_raw": "2014 október",
+   "storage_dir": "emelt/2014 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 22
+   },
+   "source_types": {
+    "docx": 1,
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "html": 2,
+    "jpg": 12,
+    "png": 4,
+    "txt": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2014o_kozep_inf",
+   "year": 2014,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2014. október",
+   "period_raw": "2014 október",
+   "storage_dir": "kozep/2014 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "html": 2,
+    "mdb": 1,
+    "png": 3,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2015m_emelt_inf",
+   "year": 2015,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2015. május",
+   "period_raw": "2015 május",
+   "storage_dir": "emelt/2015 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 11
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "cxx": 1,
+    "docx": 2,
+    "mdb": 1,
+    "png": 1,
+    "txt": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2015m_kozep_inf",
+   "year": 2015,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2015. május",
+   "period_raw": "2015 május",
+   "storage_dir": "kozep/2015 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 12
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 2,
+    "docx": 3,
+    "pptx": 1,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2015m_emelt_inf_id",
+   "year": 2015,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2015. május (idegen nyelvu)",
+   "period_raw": "2015 május (idegen)",
+   "storage_dir": "emelt/2015 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 11
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "cxx": 1,
+    "docx": 2,
+    "mdb": 1,
+    "png": 1,
+    "txt": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2015m_kozep_inf_id",
+   "year": 2015,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2015. május (idegen nyelvu)",
+   "period_raw": "2015 május (idegen)",
+   "storage_dir": "kozep/2015 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 12
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 2,
+    "docx": 3,
+    "pptx": 1,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 15
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2015o_emelt_inf",
+   "year": 2015,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2015. október",
+   "period_raw": "2015 október",
+   "storage_dir": "emelt/2015 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 18
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 4,
+    "docx": 3,
+    "txt": 5,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 17
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2015o_kozep_inf",
+   "year": 2015,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2015. október",
+   "period_raw": "2015 október",
+   "storage_dir": "kozep/2015 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 10
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 2,
+    "docx": 2,
+    "pptx": 1,
+    "txt": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2016m_emelt_inf",
+   "year": 2016,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2016. május",
+   "period_raw": "2016 május",
+   "storage_dir": "emelt/2016 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 12
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 1,
+    "cs": 2,
+    "docx": 2,
+    "txt": 3,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2016m_kozep_inf",
+   "year": 2016,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2016. május",
+   "period_raw": "2016 május",
+   "storage_dir": "kozep/2016 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 18
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "html": 2,
+    "jpg": 6,
+    "mdb": 1,
+    "png": 1,
+    "txt": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2016m_emelt_inf_id",
+   "year": 2016,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2016. május (idegen nyelvu)",
+   "period_raw": "2016 május (idegen)",
+   "storage_dir": "emelt/2016 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 12
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 1,
+    "cs": 2,
+    "docx": 2,
+    "txt": 3,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2016m_kozep_inf_id",
+   "year": 2016,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2016. május (idegen nyelvu)",
+   "period_raw": "2016 május (idegen)",
+   "storage_dir": "kozep/2016 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 18
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "docx": 2,
+    "html": 2,
+    "jpg": 6,
+    "mdb": 1,
+    "png": 1,
+    "txt": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2016o_emelt_inf",
+   "year": 2016,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2016. október",
+   "period_raw": "2016 október",
+   "storage_dir": "emelt/2016 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 19
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 2,
+    "cxx": 2,
+    "docx": 5,
+    "txt": 4,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2016o_kozep_inf",
+   "year": 2016,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2016. október",
+   "period_raw": "2016 október",
+   "storage_dir": "kozep/2016 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 11
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 2,
+    "docx": 2,
+    "pptx": 1,
+    "txt": 2,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2017m_emelt_inf",
+   "year": 2017,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2017. május",
+   "period_raw": "2017 május",
+   "storage_dir": "emelt/2017 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 8,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 3,
+    "jpeg": 1,
+    "jpg": 6,
+    "pkt": 1,
+    "png": 5,
+    "sql": 1,
+    "srt": 1,
+    "txt": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2017m_kozep_inf",
+   "year": 2017,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2017. május",
+   "period_raw": "2017 május",
+   "storage_dir": "kozep/2017 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 3,
+    "pkt": 1,
+    "png": 4,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2017m_emelt_inf_id",
+   "year": 2017,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2017. május (idegen nyelvu)",
+   "period_raw": "2017 május (idegen)",
+   "storage_dir": "emelt/2017 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 3,
+    "jpeg": 1,
+    "jpg": 6,
+    "pkt": 1,
+    "png": 5,
+    "sql": 1,
+    "srt": 1,
+    "txt": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2017m_kozep_inf_id",
+   "year": 2017,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2017. május (idegen nyelvu)",
+   "period_raw": "2017 május (idegen)",
+   "storage_dir": "kozep/2017 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 3,
+    "pkt": 1,
+    "png": 4,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2017o_emelt_inf",
+   "year": 2017,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2017. október",
+   "period_raw": "2017 október",
+   "storage_dir": "emelt/2017 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 9,
+    "megoldas": 34
+   },
+   "source_types": {
+    "txt": 6,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 3,
+    "css": 1,
+    "docx": 2,
+    "html": 3,
+    "jpg": 4,
+    "pkt": 1,
+    "png": 3,
+    "sql": 1,
+    "xlsx": 14
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2017o_kozep_inf",
+   "year": 2017,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2017. október",
+   "period_raw": "2017 október",
+   "storage_dir": "kozep/2017 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 19
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "pkt": 1,
+    "png": 4,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2018m_emelt_inf",
+   "year": 2018,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2018. május",
+   "period_raw": "2018 május",
+   "storage_dir": "emelt/2018 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "jpg": 2,
+    "js": 1,
+    "pkt": 1,
+    "sql": 1,
+    "txt": 2,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2018m_kozep_inf",
+   "year": 2018,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2018. május",
+   "period_raw": "2018 május",
+   "storage_dir": "kozep/2018 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 1,
+    "css": 1,
+    "html": 1,
+    "pkt": 1,
+    "png": 2,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 5
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2018m_emelt_inf_id",
+   "year": 2018,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2018. május (idegen nyelvu)",
+   "period_raw": "2018 május (idegen)",
+   "storage_dir": "emelt/2018 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "jpg": 2,
+    "js": 1,
+    "pkt": 1,
+    "sql": 1,
+    "txt": 2,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2018m_kozep_inf_id",
+   "year": 2018,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2018. május (idegen nyelvu)",
+   "period_raw": "2018 május (idegen)",
+   "storage_dir": "kozep/2018 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 13
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "cs": 1,
+    "css": 1,
+    "html": 1,
+    "pkt": 1,
+    "png": 2,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 5
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2018o_emelt_inf",
+   "year": 2018,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2018. október",
+   "period_raw": "2018 október",
+   "storage_dir": "emelt/2018 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 33
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 2,
+    "cs": 1,
+    "css": 1,
+    "docx": 2,
+    "html": 1,
+    "jpg": 1,
+    "pkt": 1,
+    "png": 2,
+    "sql": 1,
+    "txt": 5,
+    "xlsx": 14
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2018o_kozep_inf",
+   "year": 2018,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2018. október",
+   "period_raw": "2018 október",
+   "storage_dir": "kozep/2018 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 7,
+    "megoldas": 27
+   },
+   "source_types": {
+    "txt": 5,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 1,
+    "css": 1,
+    "docx": 2,
+    "html": 1,
+    "pkt": 1,
+    "png": 3,
+    "pptx": 2,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 12
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2019m_emelt_inf",
+   "year": 2019,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2019. május",
+   "period_raw": "2019 május",
+   "storage_dir": "emelt/2019 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 24
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "html": 3,
+    "pkt": 1,
+    "png": 6,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2019m_kozep_inf",
+   "year": 2019,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2019. május",
+   "period_raw": "2019 május",
+   "storage_dir": "kozep/2019 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 19
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "jpg": 2,
+    "pkt": 1,
+    "png": 3,
+    "pptx": 1,
+    "sql": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2019m_emelt_inf_id",
+   "year": 2019,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2019. május (idegen nyelvu)",
+   "period_raw": "2019 május (idegen)",
+   "storage_dir": "emelt/2019 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 6,
+    "megoldas": 24
+   },
+   "source_types": {
+    "txt": 4,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "html": 3,
+    "pkt": 1,
+    "png": 6,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2019m_kozep_inf_id",
+   "year": 2019,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2019. május (idegen nyelvu)",
+   "period_raw": "2019 május (idegen)",
+   "storage_dir": "kozep/2019 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 19
+   },
+   "source_types": {
+    "txt": 3,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "jpg": 2,
+    "pkt": 1,
+    "png": 3,
+    "pptx": 1,
+    "sql": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2019o_emelt_inf",
+   "year": 2019,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2019. október",
+   "period_raw": "2019 október",
+   "storage_dir": "emelt/2019 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 43
+   },
+   "source_types": {
+    "zip": 5
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 4,
+    "css": 1,
+    "html": 1,
+    "jpg": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 3,
+    "sql": 1,
+    "txt": 4,
+    "xlsx": 21
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2019o_kozep_inf",
+   "year": 2019,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2019. október",
+   "period_raw": "2019 október",
+   "storage_dir": "kozep/2019 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 34
+   },
+   "source_types": {
+    "zip": 4
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 1,
+    "css": 1,
+    "docx": 2,
+    "html": 1,
+    "java": 1,
+    "jpg": 3,
+    "pkt": 1,
+    "png": 4,
+    "pptx": 2,
+    "sql": 1,
+    "txt": 1,
+    "xlsx": 14
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2020m_emelt_inf",
+   "year": 2020,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2020. május",
+   "period_raw": "2020 május",
+   "storage_dir": "emelt/2020 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 47
+   },
+   "source_types": {
+    "zip": 5
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "css": 2,
+    "html": 3,
+    "java": 2,
+    "jpg": 12,
+    "js": 1,
+    "pkt": 1,
+    "png": 2,
+    "sql": 1,
+    "txt": 11,
+    "xaml": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2020m_kozep_inf",
+   "year": 2020,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2020. május",
+   "period_raw": "2020 május",
+   "storage_dir": "kozep/2020 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 44
+   },
+   "source_types": {
+    "zip": 4
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 7,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "jpg": 4,
+    "js": 5,
+    "map": 10,
+    "pkt": 1,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2020m_emelt_inf_id",
+   "year": 2020,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2020. május (idegen nyelvu)",
+   "period_raw": "2020 május (idegen)",
+   "storage_dir": "emelt/2020 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 47
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "css": 2,
+    "html": 3,
+    "java": 2,
+    "jpg": 12,
+    "js": 1,
+    "pkt": 1,
+    "png": 2,
+    "sql": 1,
+    "txt": 11,
+    "xaml": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2020m_kozep_inf_id",
+   "year": 2020,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2020. május (idegen nyelvu)",
+   "period_raw": "2020 május (idegen)",
+   "storage_dir": "kozep/2020 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 44
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 7,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "jpg": 4,
+    "js": 5,
+    "map": 10,
+    "pkt": 1,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2020o_emelt_inf",
+   "year": 2020,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2020. október",
+   "period_raw": "2020 október",
+   "storage_dir": "emelt/2020 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 47
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 4,
+    "css": 3,
+    "html": 5,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 10,
+    "sql": 1,
+    "txt": 3,
+    "xaml": 1,
+    "xlsx": 14
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2020o_kozep_inf",
+   "year": 2020,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2020. október",
+   "period_raw": "2020 október",
+   "storage_dir": "kozep/2020 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 68
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 4,
+    "cs": 2,
+    "css": 2,
+    "docx": 4,
+    "html": 1,
+    "java": 2,
+    "jpg": 12,
+    "js": 4,
+    "pkt": 1,
+    "png": 6,
+    "pptx": 4,
+    "sql": 1,
+    "xaml": 1,
+    "xlsx": 24
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2021m_emelt_inf",
+   "year": 2021,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2021. május",
+   "period_raw": "2021 május",
+   "storage_dir": "emelt/2021 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 24
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "pptx": 1,
+    "py": 1,
+    "sql": 1,
+    "txt": 4,
+    "xaml": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2021m_kozep_inf",
+   "year": 2021,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2021. május",
+   "period_raw": "2021 május",
+   "storage_dir": "kozep/2021 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "db": 1,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "jpg": 4,
+    "js": 4,
+    "pkt": 1,
+    "png": 2,
+    "pptx": 1,
+    "sql": 1,
+    "xaml": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2021m_emelt_inf_id",
+   "year": 2021,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2021. május (idegen nyelvu)",
+   "period_raw": "2021 május (idegen)",
+   "storage_dir": "emelt/2021 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 24
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "pptx": 1,
+    "py": 1,
+    "sql": 1,
+    "txt": 4,
+    "xaml": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2021m_kozep_inf_id",
+   "year": 2021,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2021. május (idegen nyelvu)",
+   "period_raw": "2021 május (idegen)",
+   "storage_dir": "kozep/2021 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "db": 1,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "jpg": 4,
+    "js": 4,
+    "pkt": 1,
+    "png": 2,
+    "pptx": 1,
+    "sql": 1,
+    "xaml": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2021o_emelt_inf",
+   "year": 2021,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2021. október",
+   "period_raw": "2021 október",
+   "storage_dir": "emelt/2021 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 30
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 4
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cs": 2,
+    "css": 1,
+    "docx": 2,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "py": 1,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 14
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2021o_kozep_inf",
+   "year": 2021,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2021. október",
+   "period_raw": "2021 október",
+   "storage_dir": "kozep/2021 október",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 63
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 4,
+    "cs": 2,
+    "css": 2,
+    "docx": 1,
+    "html": 4,
+    "java": 2,
+    "jpg": 9,
+    "js": 4,
+    "log": 1,
+    "pkt": 1,
+    "png": 6,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 24
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 13,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022m_emelt_dk",
+   "year": 2022,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2022. május",
+   "period_raw": "2022 május",
+   "storage_dir": "emelt/2022 május",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 5,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022m_kozep_dk",
+   "year": 2022,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2022. május",
+   "period_raw": "2022 május",
+   "storage_dir": "kozep/2022 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 46
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 2,
+    "html": 1,
+    "java": 2,
+    "jpg": 1,
+    "js": 4,
+    "mp3": 1,
+    "odp": 1,
+    "pkt": 1,
+    "png": 9,
+    "pptx": 2,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 12
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022m_emelt_dk_id",
+   "year": 2022,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2022. május (idegen nyelvu)",
+   "period_raw": "2022 május (idegen)",
+   "storage_dir": "emelt/2022 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 5,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2022m_kozep_dk_id",
+   "year": 2022,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2022. május (idegen nyelvu)",
+   "period_raw": "2022 május (idegen)",
+   "storage_dir": "kozep/2022 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 46
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 2,
+    "html": 1,
+    "java": 2,
+    "jpg": 1,
+    "js": 4,
+    "mp3": 1,
+    "odp": 1,
+    "pkt": 1,
+    "png": 9,
+    "pptx": 2,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 12
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2022m_kozep_inf",
+   "year": 2022,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2022. május (informatika)",
+   "period_raw": "2022 május (informatika)",
+   "storage_dir": "kozep/2022 május (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 34
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "jpg": 1,
+    "js": 4,
+    "mp3": 1,
+    "pkt": 1,
+    "png": 8,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022m_kozep_inf_id",
+   "year": 2022,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2022. május (idegen nyelvu, informatika)",
+   "period_raw": "2022 május (idegen) (informatika)",
+   "storage_dir": "kozep/2022 május (idegen) (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 34
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "jpg": 1,
+    "js": 4,
+    "mp3": 1,
+    "pkt": 1,
+    "png": 8,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 1,
+    "xaml": 1,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2022o_emelt_dk",
+   "year": 2022,
+   "month": 10,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2022. október",
+   "period_raw": "2022 október",
+   "storage_dir": "emelt/2022 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 48
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 2,
+    "css": 1,
+    "docx": 3,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "py": 4,
+    "sql": 9,
+    "svg": 1,
+    "txt": 8,
+    "xaml": 1,
+    "xlsx": 10
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022o_kozep_dk",
+   "year": 2022,
+   "month": 10,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2022. október",
+   "period_raw": "2022 október",
+   "storage_dir": "kozep/2022 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 3,
+    "megoldas": 54
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 4,
+    "cs": 2,
+    "css": 2,
+    "db": 1,
+    "docx": 4,
+    "html": 1,
+    "java": 2,
+    "jpg": 15,
+    "js": 4,
+    "pkt": 1,
+    "png": 7,
+    "pptx": 3,
+    "py": 1,
+    "sql": 1,
+    "svg": 1,
+    "xaml": 1,
+    "xlsx": 4
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022o_emelt_inf",
+   "year": 2022,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2022. október (informatika)",
+   "period_raw": "2022 október (informatika)",
+   "storage_dir": "emelt/2022 október (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 29
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 2,
+    "css": 1,
+    "docx": 3,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "py": 3,
+    "sql": 1,
+    "txt": 7,
+    "xaml": 1,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2022o_kozep_inf",
+   "year": 2022,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2022. október (informatika)",
+   "period_raw": "2022 október (informatika)",
+   "storage_dir": "kozep/2022 október (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 47
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 3,
+    "cs": 2,
+    "css": 2,
+    "db": 1,
+    "docx": 2,
+    "html": 1,
+    "java": 2,
+    "jpg": 15,
+    "js": 4,
+    "pkt": 1,
+    "png": 6,
+    "pptx": 3,
+    "sql": 1,
+    "xaml": 1,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023m_emelt_dk",
+   "year": 2023,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2023. május",
+   "period_raw": "2023 május",
+   "storage_dir": "emelt/2023 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 37
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "css": 1,
+    "db": 1,
+    "form": 1,
+    "html": 1,
+    "java": 4,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 1,
+    "py": 2,
+    "sql": 11,
+    "svg": 1,
+    "txt": 4,
+    "xaml": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023m_kozep_dk",
+   "year": 2023,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2023. május",
+   "period_raw": "2023 május",
+   "storage_dir": "kozep/2023 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 49
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 2,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 28,
+    "pptx": 1,
+    "sql": 1,
+    "svg": 2,
+    "xaml": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023m_emelt_dk_id",
+   "year": 2023,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2023. május (idegen nyelvu)",
+   "period_raw": "2023 május (idegen)",
+   "storage_dir": "emelt/2023 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 37
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 4
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "css": 1,
+    "db": 1,
+    "form": 1,
+    "html": 1,
+    "java": 4,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 1,
+    "py": 2,
+    "sql": 11,
+    "svg": 1,
+    "txt": 4,
+    "xaml": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2023m_kozep_dk_id",
+   "year": 2023,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2023. május (idegen nyelvu)",
+   "period_raw": "2023 május (idegen)",
+   "storage_dir": "kozep/2023 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 49
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 2,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 28,
+    "pptx": 1,
+    "sql": 1,
+    "svg": 2,
+    "xaml": 1,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2023m_emelt_inf",
+   "year": 2023,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2023. május (informatika)",
+   "period_raw": "2023 május (informatika)",
+   "storage_dir": "emelt/2023 május (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 21
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 3,
+    "css": 1,
+    "db": 1,
+    "form": 1,
+    "html": 1,
+    "java": 4,
+    "js": 1,
+    "pkt": 1,
+    "pptx": 1,
+    "py": 1,
+    "sql": 1,
+    "txt": 2,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023m_kozep_inf",
+   "year": 2023,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2023. május (informatika)",
+   "period_raw": "2023 május (informatika)",
+   "storage_dir": "kozep/2023 május (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 44
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 28,
+    "pptx": 1,
+    "sql": 1,
+    "svg": 1,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023m_kozep_inf_id",
+   "year": 2023,
+   "month": 5,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2023. május (idegen nyelvu, informatika)",
+   "period_raw": "2023 május (idegen) (informatika)",
+   "storage_dir": "kozep/2023 május (idegen) (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 44
+   },
+   "source_types": {
+    "zip": 4
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 28,
+    "pptx": 1,
+    "sql": 1,
+    "svg": 1,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2023o_emelt_dk",
+   "year": 2023,
+   "month": 10,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2023. október",
+   "period_raw": "2023 október",
+   "storage_dir": "emelt/2023 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 114
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 6,
+    "cs": 2,
+    "css": 1,
+    "docx": 6,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "ods": 6,
+    "pkt": 1,
+    "png": 6,
+    "pptx": 1,
+    "py": 1,
+    "sql": 61,
+    "txt": 10,
+    "xaml": 1,
+    "xlsx": 7
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023o_kozep_dk",
+   "year": 2023,
+   "month": 10,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2023. október",
+   "period_raw": "2023 október",
+   "storage_dir": "kozep/2023 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 72
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 4
+   },
+   "solution_types": {
+    "accdb": 11,
+    "cpp": 10,
+    "cs": 2,
+    "css": 2,
+    "docx": 11,
+    "form": 1,
+    "html": 1,
+    "java": 4,
+    "js": 1,
+    "pkt": 1,
+    "png": 9,
+    "pptx": 1,
+    "sql": 1,
+    "xaml": 1,
+    "xcf": 10,
+    "xlsx": 6
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023o_emelt_inf",
+   "year": 2023,
+   "month": 10,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2023. október (informatika)",
+   "period_raw": "2023 október (informatika)",
+   "storage_dir": "emelt/2023 október (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 18
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "pptx": 1,
+    "py": 1,
+    "sql": 1,
+    "txt": 4,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2023o_kozep_inf",
+   "year": 2023,
+   "month": 10,
+   "level": "kozep",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2023. október (informatika)",
+   "period_raw": "2023 október (informatika)",
+   "storage_dir": "kozep/2023 október (informatika)",
+   "topics": [
+    "szoveg",
+    "prezentacio",
+    "weblap",
+    "tablazat",
+    "adatbazis"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 27
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 2,
+    "css": 2,
+    "docx": 1,
+    "form": 1,
+    "html": 1,
+    "java": 4,
+    "js": 1,
+    "pkt": 1,
+    "png": 9,
+    "pptx": 1,
+    "sql": 1,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2024m_emelt_dk",
+   "year": 2024,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2024. május",
+   "period_raw": "2024 május",
+   "storage_dir": "emelt/2024 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 3,
+    "megoldas": 26
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 2
+   },
+   "solution_types": {
+    "cs": 4,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "java": 3,
+    "js": 1,
+    "pkt": 1,
+    "sql": 9,
+    "svg": 1,
+    "txt": 2,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 8,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2024m_kozep_dk",
+   "year": 2024,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2024. május",
+   "period_raw": "2024 május",
+   "storage_dir": "kozep/2024 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 33
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 4,
+    "css": 2,
+    "docx": 1,
+    "html": 2,
+    "java": 3,
+    "jpg": 6,
+    "js": 4,
+    "ogg": 1,
+    "pkt": 1,
+    "png": 3,
+    "sql": 1,
+    "svg": 1,
+    "xaml": 1,
+    "xlsx": 1,
+    "zip": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2024m_emelt_dk_id",
+   "year": 2024,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2024. május (idegen nyelvu)",
+   "period_raw": "2024 május (idegen)",
+   "storage_dir": "emelt/2024 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 4,
+    "megoldas": 26
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "cs": 4,
+    "css": 1,
+    "docx": 1,
+    "html": 1,
+    "java": 3,
+    "js": 1,
+    "pkt": 1,
+    "sql": 9,
+    "svg": 1,
+    "txt": 2,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 12,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2024m_kozep_dk_id",
+   "year": 2024,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2024. május (idegen nyelvu)",
+   "period_raw": "2024 május (idegen)",
+   "storage_dir": "kozep/2024 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 33
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 4,
+    "css": 2,
+    "docx": 1,
+    "html": 2,
+    "java": 3,
+    "jpg": 6,
+    "js": 4,
+    "ogg": 1,
+    "pkt": 1,
+    "png": 3,
+    "sql": 1,
+    "svg": 1,
+    "xaml": 1,
+    "xlsx": 1,
+    "zip": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2024o_emelt_dk",
+   "year": 2024,
+   "month": 10,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2024. október",
+   "period_raw": "2024 október",
+   "storage_dir": "emelt/2024 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 31
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 4
+   },
+   "solution_types": {
+    "cs": 2,
+    "css": 2,
+    "form": 1,
+    "html": 2,
+    "java": 3,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "py": 2,
+    "sql": 9,
+    "txt": 4,
+    "xaml": 1,
+    "xcf": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 16,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2024o_kozep_dk",
+   "year": 2024,
+   "month": 10,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2024. október",
+   "period_raw": "2024 október",
+   "storage_dir": "kozep/2024 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 39
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 4,
+    "cpp": 4,
+    "cs": 2,
+    "css": 2,
+    "db": 1,
+    "docx": 4,
+    "form": 1,
+    "html": 1,
+    "java": 4,
+    "js": 4,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 4,
+    "sql": 1,
+    "xaml": 1,
+    "xlsx": 4
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 10
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2025m_emelt_dk",
+   "year": 2025,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2025. május",
+   "period_raw": "2025 május",
+   "storage_dir": "emelt/2025 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 30
+   },
+   "source_types": {
+    "zip": 5
+   },
+   "solution_types": {
+    "css": 1,
+    "db": 1,
+    "html": 3,
+    "jpg": 15,
+    "py": 1,
+    "sql": 8,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 14,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2025m_kozep_dk",
+   "year": 2025,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2025. május",
+   "period_raw": "2025 május",
+   "storage_dir": "kozep/2025 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 3,
+    "megoldas": 5
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "docx": 1,
+    "svg": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2025m_emelt_dk_id",
+   "year": 2025,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2025. május (idegen nyelvu)",
+   "period_raw": "2025 május (idegen)",
+   "storage_dir": "emelt/2025 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 30
+   },
+   "source_types": {
+    "zip": 5
+   },
+   "solution_types": {
+    "css": 1,
+    "db": 1,
+    "html": 3,
+    "jpg": 15,
+    "py": 1,
+    "sql": 8,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 14,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2025m_kozep_dk_id",
+   "year": 2025,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2025. május (idegen nyelvu)",
+   "period_raw": "2025 május (idegen)",
+   "storage_dir": "kozep/2025 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 3,
+    "megoldas": 5
+   },
+   "source_types": {
+    "txt": 1,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cs": 1,
+    "docx": 1,
+    "svg": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 13,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2025o_emelt_dk",
+   "year": 2025,
+   "month": 10,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2025. október",
+   "period_raw": "2025 október",
+   "storage_dir": "emelt/2025 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 48
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "docx": 2,
+    "png": 4,
+    "py": 2,
+    "sql": 26,
+    "svg": 4,
+    "txt": 2,
+    "xlsx": 8
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 14,
+    "utmutato": 13
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2025o_kozep_dk",
+   "year": 2025,
+   "month": 10,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2025. október",
+   "period_raw": "2025 október",
+   "storage_dir": "kozep/2025 október",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 17
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 2,
+    "cpp": 3,
+    "docx": 3,
+    "png": 3,
+    "pptx": 3,
+    "xlsx": 3
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 11
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2026m_emelt_dk",
+   "year": 2026,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2026. május",
+   "period_raw": "2026 május",
+   "storage_dir": "emelt/2026 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 24
+   },
+   "source_types": {
+    "zip": 5
+   },
+   "solution_types": {
+    "css": 1,
+    "html": 1,
+    "jpg": 4,
+    "png": 3,
+    "py": 1,
+    "sql": 9,
+    "svg": 1,
+    "txt": 2,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 17,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2026m_kozep_dk",
+   "year": 2026,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "normal",
+   "period_label": "2026. május",
+   "period_raw": "2026 május",
+   "storage_dir": "kozep/2026 május",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 5
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "docx": 1,
+    "pptx": 1,
+    "py": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 10,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
+   "id": "2026m_emelt_dk_id",
+   "year": 2026,
+   "month": 5,
+   "level": "emelt",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2026. május (idegen nyelvu)",
+   "period_raw": "2026 május (idegen)",
+   "storage_dir": "emelt/2026 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 5,
+    "megoldas": 24
+   },
+   "source_types": {
+    "zip": 5
+   },
+   "solution_types": {
+    "css": 1,
+    "html": 1,
+    "jpg": 4,
+    "png": 3,
+    "py": 1,
+    "sql": 9,
+    "svg": 1,
+    "txt": 2,
+    "xlsx": 2
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": false,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": false,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 17,
+    "utmutato": 14
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  },
+  {
+   "id": "2026m_kozep_dk_id",
+   "year": 2026,
+   "month": 5,
+   "level": "kozep",
+   "subject": "digitalis_kultura",
+   "variant": "idegen",
+   "period_label": "2026. május (idegen nyelvu)",
+   "period_raw": "2026 május (idegen)",
+   "storage_dir": "kozep/2026 május (idegen)",
+   "topics": [
+    "szoveg",
+    "prezentacio_grafika",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 5,
+    "forras": 4,
+    "megoldas": 5
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 2
+   },
+   "solution_types": {
+    "accdb": 1,
+    "docx": 1,
+    "pptx": 1,
+    "py": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": false,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": false,
+    "megoldas_doc": true,
+    "megoldas_prez": true,
+    "megoldas_kep": false
+   },
+   "pages": {
+    "feladatlap": 11,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
+  }
+ ]
+}
