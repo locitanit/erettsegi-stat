@@ -61,8 +61,11 @@
 "forgatas_tukrozes": 1
 },
 "2010m_kozep_inf": {
-"dia_diagram": 5,
-"dia_tablazat": 4
+"attunes": 2,
+"alakzat": 8,
+"hatter": 1,
+"felsorolas": 2,
+"export": 2
 },
 "2010o_kozep_inf": {
 "animacio": 2,

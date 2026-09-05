@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
+import { Suspense, lazy, useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Placeholder from "./components/Placeholder";
-import Adatbazis from "./pages/Adatbazis";
-import Attekintes from "./pages/Attekintes";
-import KeywordTopic from "./pages/KeywordTopic";
-import Weblap from "./pages/Weblap";
-import Esedekes from "./pages/Esedekes";
-import Programozas from "./pages/Programozas";
-import Tablazatkezeles from "./pages/Tablazatkezeles";
-import Vizsgak from "./pages/Vizsgak";
-import Adatokrol from "./pages/Adatokrol";
+const Adatbazis = lazy(() => import("./pages/Adatbazis"));
+const Attekintes = lazy(() => import("./pages/Attekintes"));
+const KeywordTopic = lazy(() => import("./pages/KeywordTopic"));
+const Weblap = lazy(() => import("./pages/Weblap"));
+const Esedekes = lazy(() => import("./pages/Esedekes"));
+const Programozas = lazy(() => import("./pages/Programozas"));
+const Tablazatkezeles = lazy(() => import("./pages/Tablazatkezeles"));
+const Vizsgak = lazy(() => import("./pages/Vizsgak"));
+const Adatokrol = lazy(() => import("./pages/Adatokrol"));
 import { NavLink, useLocation } from "react-router-dom";
 
 export default function App() {
@@ -67,7 +67,9 @@ export default function App() {
 
       {/* Csak a tartalom gorduljon: igy az oldalsav es a szurosav helyben marad. */}
       <main className="min-w-0 flex-1 md:h-screen md:overflow-y-auto">
-        <Routes>
+        {/* Oldalankent kulon csomag: a Vizsgak-oldalhoz nem kell a diagramkonyvtar. */}
+        <Suspense fallback={<div className="p-8 t-small">Betöltés…</div>}>
+          <Routes>
           <Route path="/" element={<Attekintes />} />
           <Route path="/tablazatkezeles" element={<Tablazatkezeles />} />
           <Route path="/adatbazis" element={<Adatbazis />} />
@@ -103,7 +105,8 @@ export default function App() {
           <Route path="/vizsgak" element={<Vizsgak />} />
           <Route path="/adatokrol" element={<Adatokrol />} />
           <Route path="*" element={<Placeholder title="Nincs ilyen oldal" phase="menüből elérhető oldalakon" />} />
-        </Routes>
+          </Routes>
+        </Suspense>
       </main>
     </div>
   );

@@ -107,23 +107,23 @@ Nincs.
 
 | Mutató | Érték |
 |---|---|
-| Feladatok összesen | 346 |
-| Táblázatkezelés-feladat | 82 |
-| Ebből van kinyert képlet | 82 |
+| Feladatok összesen | 348 |
+| Táblázatkezelés-feladat | 83 |
+| Ebből van kinyert képlet | 83 |
 | Ebből van mintamegoldás-xlsx is | 63 |
-| Képletek összesen (útmutatóból) | 772 |
+| Képletek összesen (útmutatóból) | 780 |
 | Ismeretlen függvénynév | 0 |
 
-Feladatok témakörönként: adatbazis: 82, prezentacio: 35, prezentacio_grafika: 15, programozas: 50, szoveg: 60, tablazat: 82, weblap: 29
+Feladatok témakörönként: adatbazis: 83, prezentacio: 35, prezentacio_grafika: 15, programozas: 50, szoveg: 60, tablazat: 83, weblap: 29
 
 ## Adatbázis-kezelés és programozás
 
 | Mutató | Érték |
 |---|---|
-| Adatbázis-feladat | 82 |
-| Ebből van kinyert lekérdezés | 82 |
+| Adatbázis-feladat | 83 |
+| Ebből van kinyert lekérdezés | 83 |
 | Ebből van .sql mintamegoldás is | 42 |
-| Lekérdezések összesen (útmutatóból) | 772 |
+| Lekérdezések összesen (útmutatóból) | 780 |
 | Programozás-feladat | 50 |
 | Ebből van típusalgoritmus-kulcsszó | 50 |
 | Ebből ismert a megoldás nyelve | 50 |
@@ -140,7 +140,7 @@ darabszámnak nem.
 | Szövegszerkesztés-feladat / kulcsszóval | 60 / 60 |
 | Weblap-feladat / HTML-mintamegoldással | 29 / 29 |
 | Prezentáció-feladat / kulcsszóval | 50 / 50 |
-| Feladat pontszámmal | 259 / 346 |
+| Feladat pontszámmal | 259 / 348 |
 | Vizsga pontszámmal | 64 |
 
 A pontszámok a pontozótábla xlsx-ből jönnek, nem a PDF-ből: ott a keretezés
@@ -163,7 +163,6 @@ elcsúsztatja a számokat. Egy vizsga pontjai csak akkor kerülnek be, ha az
 | `2006o_emelt_inf` | nincs javítási útmutató PDF |
 | `2006o_kozep_inf` | nincs javítási útmutató PDF |
 | `2007m_emelt_inf` | nincs javítási útmutató PDF |
-| `2010m_kozep_inf` | 5 feladat várható, de 3 szakasz található az útmutatóban |
 | `2011o_emelt_inf` | nincs javítási útmutató PDF |
 | `2011o_kozep_inf` | nincs javítási útmutató PDF |
 | `2022m_emelt_dk` | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva |

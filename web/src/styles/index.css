@@ -17,8 +17,8 @@
   --surface: #ffffff;
   --surface-2: #f4f4f3;
   --text: #1c1c1a;
-  --text-muted: #6b6b66;
-  --text-faint: #96968f;
+  --text-muted: #5c5c57;
+  --text-faint: #737370;
   --border: #e3e3df;
   --border-strong: #cfcfc9;
   --accent: #2f5d8a;
@@ -43,7 +43,7 @@
     --surface-2: #212125;
     --text: #ececeb;
     --text-muted: #a3a39d;
-    --text-faint: #77776f;
+    --text-faint: #8f8f88;
     --border: #2c2c31;
     --border-strong: #3c3c43;
     --accent: #7aa9d6;

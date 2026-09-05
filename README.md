@@ -4,9 +4,10 @@ A digitális kultúra / informatika érettségik (2005–) adatalapú elemzése.
 Élő oldal: <https://locitanit.github.io/erettsegi-stat/>
 
 A teljes terv és az elfogadási feltételek: [TERV.md](TERV.md).
-Jelenlegi állapot: **3. fázis kész** – mind a hat témakörnek van elemzése és oldala,
-megvannak a pontszámok (a pontozótáblákból) és az Áttekintés oldal a
-pontarányokkal.
+Jelenlegi állapot: **kész (4. fázis)**. Mind a hat témakörnek van elemzése és oldala,
+megvannak a pontszámok és az Áttekintés oldal. Mind a 83 útmutató hibátlanul
+feldolgozható, a bővítés-menet bitre azonos eredményt ad, és a Lighthouse
+mind a négy mutatóban 90 fölött van.
 Az idegen nyelvű vizsgák nem szerepelnek az elemzésben (nincs saját nyelvű útmutatójuk).
 
 ## Hogyan működik
@@ -91,6 +92,20 @@ Az `npm run dev` és `npm run build` előtt automatikusan lefut a `sync-data`, a
 | `extractor/overrides/` | kézi javítások időszakonként |
 | `data/` | a kimenet: `exams.json`, `tasks.json`, `vocab.json`, `metrics/`, `VALIDATION.md` – ez van git-ben |
 | `web/` | a weboldal (Vite + React + TypeScript + ECharts) |
+
+## Minőség
+
+| Mutató | Érték |
+|---|---|
+| Feldolgozott útmutató | 83 / 83 |
+| 2012 utáni feladat figyelmeztetéssel | 0 / 253 |
+| Ismeretlen függvénynév | 0 |
+| Pontszám-ellenőrzés | mind a 64 pontozótábla pontosan 100 vagy 120 pontot ad |
+| Teszt | 65 (`python -m pytest extractor/tests`) |
+| Lighthouse | teljesítmény 91, akadálymentesség 100, gyakorlat 100, SEO 100 |
+
+A bővítés-menet ellenőrizve: egy időszakot kivéve és `--period`-del visszatéve
+minden kimeneti fájl **bitre azonos** a teljes újraépítéssel.
 
 ## Forrás és szerzői jog
 

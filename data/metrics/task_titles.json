@@ -444,17 +444,31 @@
 ]
 },
 {
+"task_no": "2A",
+"title": "Vírusok",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2B",
+"title": "Környezetbarát",
+"topics": [
+"weblap"
+]
+},
+{
 "task_no": "3",
 "title": "Vetélkedő",
 "topics": [
-"prezentacio"
+"tablazat"
 ]
 },
 {
 "task_no": "4",
 "title": "Vízvezeték-szerelők",
 "topics": [
-"weblap"
+"adatbazis"
 ]
 }
 ],

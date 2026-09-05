@@ -66,6 +66,11 @@
 "formula_depth_max": 3,
 "functions_per_formula_max": 3
 },
+"2010m_kozep_inf": {
+"formula_count": 8,
+"formula_depth_max": 2,
+"functions_per_formula_max": 2
+},
 "2010o_emelt_inf": {
 "formula_count": 9,
 "formula_depth_max": 3,

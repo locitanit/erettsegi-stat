@@ -15,6 +15,7 @@ from . import __version__
 from .build_exams import pick_utmutato
 from .config import DATA_DIR
 from .discover import Exam
+from .overrides import Override, load as load_override
 from .parsers import adatbazis as adatbazis_parser
 from .parsers import points as points_parser
 from .parsers import szoveg as szoveg_parser
@@ -70,8 +71,11 @@ def _points_fields(tp: points_parser.TaskPoints | None) -> dict:
     }
 
 
-def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
+def build_exam_tasks(
+    exam: Exam, override: Override | None = None
+) -> tuple[list[dict], list[str]]:
     """Egy vizsga feladat-rekordjai + vizsgaszintu figyelmeztetesek."""
+    override = override or load_override(exam.period, exam.level)
     warnings: list[str] = []
     utmutato, w = pick_utmutato(exam)
     warnings += w
@@ -81,22 +85,37 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
     text = extract(utmutato).text
     topic_files = {t: [p.stem for p in exam.topics[t].feladatlap_pdfs] for t in exam.exam_topics}
     expected = len({n for names in topic_files.values() for n in names})
-    sections, w2 = split(text, expected)
+    sections, w2 = split(text, expected, anchors=override.section_starts)
     warnings += w2
+    if override.skip_tasks:
+        sections = [s for s in sections if s.task_no not in override.skip_tasks]
     if not sections:
         return [], warnings
 
     mapping, method, w3 = match_topics(sections, topic_files, exam.exam_topics)
     warnings += w3
+    for task_no, topics in override.task_topics.items():
+        mapping[task_no] = topics
+        method[task_no] = "override"
 
     # Pontszamok a pontozotablabol. Csak akkor hasznaljuk, ha a vizsga osszpontszama
     # a hivatalos 100 (kozep) vagy 120 (emelt) - kulonben elrontottuk az olvasast.
-    task_points, wp = points_parser.read_exam_points(exam.scoring_sheets)
+    scoring = [p for p in exam.scoring_sheets if not override.excludes(p.name)]
+    task_points, wp = points_parser.read_exam_points(scoring)
     warnings += wp
     total = points_parser.exam_total(task_points)
     if task_points and total not in (100, 120):
-        warnings.append(f"a pontozótábla összpontszáma {total}, nem 100 vagy 120 – a pontok kimaradnak")
+        warnings.append(
+            f"a pontozótábla összpontszáma {total}, nem 100 vagy 120 – a pontok kimaradnak"
+        )
         task_points = {}
+    for task_no, value in override.task_points.items():
+        entry = task_points.setdefault(
+            task_no, points_parser.TaskPoints(task_no=task_no, title="")
+        )
+        entry.exam_points = value
+
+    solution_files = [p for p in exam.all_solution_files if not override.excludes(p.name)]
 
     tasks: list[dict] = []
     for s in sections:
@@ -107,6 +126,7 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
             "topics_from": method.get(s.task_no, "sorrend"),
             "utmutato": utmutato.name,
             "features_from": [],
+            "override": override.applied_fields(),
         }
 
         if "szoveg" in topics:
@@ -119,9 +139,7 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
 
         if "weblap" in topics:
             web_files = [
-                p
-                for p in exam.all_solution_files
-                if p.suffix.lower() in {".html", ".htm", ".css"}
+                p for p in solution_files if p.suffix.lower() in {".html", ".htm", ".css"}
             ]
             web_stats, web_warn = weblap_parser.from_solution_files(web_files)
             task_warnings += web_warn
@@ -137,7 +155,7 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
 
         if "adatbazis" in topics:
             stats, queries = adatbazis_parser.from_utmutato(s.text)
-            sql_files = [p for p in exam.all_solution_files if p.suffix.lower() == ".sql"]
+            sql_files = [p for p in solution_files if p.suffix.lower() == ".sql"]
             sql_stats, sql_warn = adatbazis_parser.from_sql_files(sql_files)
             task_warnings += sql_warn
 
@@ -157,7 +175,7 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
             tf = exam.topics["programozas"]
             feladatlap_text = "\n".join(extract(p).text for p in tf.feladatlap_pdfs)
             stats = programozas_parser.analyse(
-                s.text, feladatlap_text, tf.forras_files, exam.all_solution_files
+                s.text, feladatlap_text, tf.forras_files, solution_files
             )
             features["programozas"] = {
                 **stats.as_dict(),
@@ -171,7 +189,7 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
 
         if "tablazat" in topics:
             stats, skills = tablazat_parser.from_utmutato(s.text)
-            xlsx = [p for p in exam.all_solution_files if p.suffix.lower() == ".xlsx"]
+            xlsx = [p for p in solution_files if p.suffix.lower() == ".xlsx"]
             xstats, xwarn = tablazat_parser.from_xlsx(xlsx)
             task_warnings += xwarn
 

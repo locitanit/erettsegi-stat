@@ -175,6 +175,17 @@
 "having": 1,
 "top_limit": 1
 },
+"2010m_kozep_inf": {
+"where": 5,
+"group_by": 1,
+"like": 1,
+"order_by": 1,
+"top_limit": 1,
+"fn_min": 1,
+"subquery": 1,
+"alias": 1,
+"fn_count": 1
+},
 "2010o_emelt_inf": {
 "where": 10,
 "alias": 6,

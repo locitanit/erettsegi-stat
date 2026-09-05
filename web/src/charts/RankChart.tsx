@@ -4,6 +4,12 @@ import { baseOption, chartTokens, SERIES_COLORS } from "./theme";
 import { hu } from "../data/loader";
 import type { Row } from "../data/aggregate";
 
+/** A tengely felso hatara: 12 % rahagyas a savok vegere irt szamnak. */
+function headroom(values: number[]): number | undefined {
+  const max = Math.max(0, ...values);
+  return max > 0 ? Math.ceil(max * 1.12) : undefined;
+}
+
 /**
  * Vizszintes rangsor-diagram. Minden temakor-oldal ezt hasznalja, hogy a
  * megjelenes egyseges legyen (TERV 6.3).
@@ -46,6 +52,9 @@ export default function RankChart({
     },
     xAxis: {
       type: "value",
+      // A leghosszabb sav melle is kell hely a szamnak, kulonben keskeny
+      // kepernyo"n levagodik a felirat.
+      max: headroom(data.map((d) => value(d.row))),
       axisLine: { show: false },
       axisTick: { show: false },
       splitLine: { lineStyle: { color: t.border } },

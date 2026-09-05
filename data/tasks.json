@@ -45,7 +45,8 @@
     "utmutato": "e_info_05okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -152,7 +153,8 @@
     "utmutato": "e_info_05okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -212,7 +214,8 @@
     "utmutato": "e_info_05okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -266,7 +269,8 @@
     "utmutato": "e_info_05okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -330,7 +334,8 @@
     "utmutato": "k_info_07maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -390,7 +395,8 @@
     "utmutato": "k_info_07maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -482,7 +488,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -556,7 +563,8 @@
     "utmutato": "k_info_07maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -629,7 +637,8 @@
     "utmutato": "k_info_07maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -685,7 +694,8 @@
     "utmutato": "e_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -761,7 +771,8 @@
     "utmutato": "e_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -825,7 +836,8 @@
     "utmutato": "e_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -882,7 +894,8 @@
     "utmutato": "e_info_07okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -960,7 +973,8 @@
     "utmutato": "k_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1023,7 +1037,8 @@
     "utmutato": "k_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1118,7 +1133,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1207,7 +1223,8 @@
     "utmutato": "k_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1282,7 +1299,8 @@
     "utmutato": "k_info_07okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1366,7 +1384,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1453,7 +1472,8 @@
     "utmutato": "e_info_08maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1537,7 +1557,8 @@
     "utmutato": "e_info_08maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1614,7 +1635,8 @@
     "utmutato": "e_info_08maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1679,7 +1701,8 @@
     "utmutato": "k_info_08maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1756,7 +1779,8 @@
     "utmutato": "k_info_08maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1855,7 +1879,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -1936,7 +1961,8 @@
     "utmutato": "k_info_08maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2008,7 +2034,8 @@
     "utmutato": "k_info_08maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2091,7 +2118,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2176,7 +2204,8 @@
     "utmutato": "e_info_08okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2262,7 +2291,8 @@
     "utmutato": "e_info_08okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2336,7 +2366,8 @@
     "utmutato": "e_info_08okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2404,7 +2435,8 @@
     "utmutato": "k_info_08okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2456,7 +2488,8 @@
     "utmutato": "k_info_08okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2544,7 +2577,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2615,7 +2649,8 @@
     "utmutato": "k_info_08okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2673,7 +2708,8 @@
     "utmutato": "k_info_08okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2786,7 +2822,8 @@
      "utmutato",
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2887,7 +2924,8 @@
     "utmutato": "e_info_09maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -2973,7 +3011,8 @@
     "utmutato": "e_info_09maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3046,7 +3085,8 @@
     "utmutato": "e_info_09maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3116,7 +3156,8 @@
     "utmutato": "k_info_09maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3177,7 +3218,8 @@
     "utmutato": "k_info_09maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3281,7 +3323,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3355,7 +3398,8 @@
     "utmutato": "k_info_09maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3434,7 +3478,8 @@
     "utmutato": "k_info_09maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3511,7 +3556,8 @@
     "features_from": [
      "utmutato",
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3580,7 +3626,8 @@
     "utmutato": "e_info_09okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3653,7 +3700,8 @@
     "utmutato": "e_info_09okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3708,7 +3756,8 @@
     "utmutato": "e_info_09okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3761,7 +3810,8 @@
     "utmutato": "k_info_09okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3813,7 +3863,8 @@
     "utmutato": "k_info_09okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3921,7 +3972,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -3988,7 +4040,8 @@
     "utmutato": "k_info_09okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4049,7 +4102,8 @@
     "utmutato": "k_info_09okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4135,7 +4189,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4230,7 +4285,8 @@
     "utmutato": "e_info_10maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4315,7 +4371,8 @@
     "utmutato": "e_info_10maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4387,7 +4444,8 @@
     "utmutato": "e_info_10maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4404,7 +4462,7 @@
    "subtask_count": null,
    "subtask_points": [],
    "text_stats": {
-    "utmutato_words": 1230
+    "utmutato_words": 550
    },
    "sources": [
     {
@@ -4449,15 +4507,13 @@
    "features": {
     "szoveg": {
      "ops": {
-      "stilus": 1,
       "tabulator": 4,
-      "tablazat": 9,
+      "tablazat": 3,
       "labjegyzet": 6,
-      "felsorolas": 4,
-      "szegely_mintazat": 6,
-      "betuformazas": 8,
-      "bekezdesformazas": 14,
-      "oldalbeallitas": 8,
+      "szegely_mintazat": 1,
+      "betuformazas": 5,
+      "bekezdesformazas": 10,
+      "oldalbeallitas": 7,
       "elvalasztas": 1
      }
     }
@@ -4467,15 +4523,16 @@
     "utmutato": "k_info_10maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
   {
-   "id": "2010m_kozep_inf_3",
+   "id": "2010m_kozep_inf_2A",
    "exam_id": "2010m_kozep_inf",
-   "task_no": "3",
-   "title": "Vetélkedő",
+   "task_no": "2A",
+   "title": "Vírusok",
    "topics": [
     "prezentacio"
    ],
@@ -4484,7 +4541,7 @@
    "subtask_count": null,
    "subtask_points": [],
    "text_stats": {
-    "utmutato_words": 727
+    "utmutato_words": 367
    },
    "sources": [
     {
@@ -4593,8 +4650,11 @@
    "features": {
     "prezentacio": {
      "ops": {
-      "dia_diagram": 5,
-      "dia_tablazat": 4
+      "attunes": 2,
+      "alakzat": 8,
+      "hatter": 1,
+      "felsorolas": 2,
+      "export": 2
      }
     }
    },
@@ -4603,15 +4663,16 @@
     "utmutato": "k_info_10maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
   {
-   "id": "2010m_kozep_inf_4",
+   "id": "2010m_kozep_inf_2B",
    "exam_id": "2010m_kozep_inf",
-   "task_no": "4",
-   "title": "Vízvezeték-szerelők",
+   "task_no": "2B",
+   "title": "Környezetbarát",
    "topics": [
     "weblap"
    ],
@@ -4620,7 +4681,7 @@
    "subtask_count": null,
    "subtask_points": [],
    "text_stats": {
-    "utmutato_words": 1080
+    "utmutato_words": 313
    },
    "sources": [
     {
@@ -4682,10 +4743,10 @@
      "rule_count": 0,
      "frameworks": [],
      "ops": {
-      "tablazatos_elrendezes": 4,
+      "tablazatos_elrendezes": 6,
       "hivatkozas": 3,
-      "lista": 3,
-      "szinkod": 2,
+      "lista": 2,
+      "szinkod": 3,
       "oldalcim": 1
      }
     }
@@ -4696,7 +4757,183 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
+   },
+   "warnings": []
+  },
+  {
+   "id": "2010m_kozep_inf_3",
+   "exam_id": "2010m_kozep_inf",
+   "task_no": "3",
+   "title": "Vetélkedő",
+   "topics": [
+    "tablazat"
+   ],
+   "points": null,
+   "exam_points": null,
+   "subtask_count": null,
+   "subtask_points": [],
+   "text_stats": {
+    "utmutato_words": 727
+   },
+   "sources": [
+    {
+     "name": "fo.txt",
+     "type": "txt"
+    }
+   ],
+   "solutions": [
+    {
+     "name": "bufe.mdb",
+     "type": "mdb"
+    },
+    {
+     "name": "buffet.mdb",
+     "type": "mdb"
+    },
+    {
+     "name": "kantine.mdb",
+     "type": "mdb"
+    },
+    {
+     "name": "viz.mdb",
+     "type": "mdb"
+    },
+    {
+     "name": "egyetem.mdb",
+     "type": "mdb"
+    },
+    {
+     "name": "Feladat1.cs",
+     "type": "cs"
+    },
+    {
+     "name": "Feladat2.cs",
+     "type": "cs"
+    },
+    {
+     "name": "Feladat3.cs",
+     "type": "cs"
+    }
+   ],
+   "features": {
+    "tablazat": {
+     "functions": {
+      "DARAB": 2,
+      "KEREKÍTÉS": 2,
+      "MAX": 1,
+      "SZUMHA": 1,
+      "MIN": 1,
+      "HOL.VAN": 1,
+      "INDEX": 1,
+      "FKERES": 1,
+      "OSZLOP": 1
+     },
+     "function_pairs": {
+      "DARAB+KEREKÍTÉS": 1,
+      "HOL.VAN+INDEX": 1,
+      "FKERES+OSZLOP": 1
+     },
+     "formula_count": 8,
+     "formula_depth_max": 2,
+     "functions_per_formula_max": 2,
+     "skills": {
+      "diagram_oszlop": 6,
+      "rendezes": 5,
+      "abszolut_hivatkozas": 2,
+      "szegely_mintazat": 3,
+      "igazitas": 1,
+      "oszlopszelesseg": 1,
+      "adatimport": 1
+     },
+     "xlsx": null
+    }
+   },
+   "provenance": {
+    "topics_from": "sorrend",
+    "utmutato": "k_info_10maj_ut.pdf",
+    "features_from": [
+     "utmutato"
+    ],
+    "override": []
+   },
+   "warnings": []
+  },
+  {
+   "id": "2010m_kozep_inf_4",
+   "exam_id": "2010m_kozep_inf",
+   "task_no": "4",
+   "title": "Vízvezeték-szerelők",
+   "topics": [
+    "adatbazis"
+   ],
+   "points": null,
+   "exam_points": null,
+   "subtask_count": null,
+   "subtask_points": [],
+   "text_stats": {
+    "utmutato_words": 1080
+   },
+   "sources": [
+    {
+     "name": "hely.txt",
+     "type": "txt"
+    },
+    {
+     "name": "munkalap.txt",
+     "type": "txt"
+    },
+    {
+     "name": "szerelo.txt",
+     "type": "txt"
+    }
+   ],
+   "solutions": [
+    {
+     "name": "egyetem.mdb",
+     "type": "mdb"
+    },
+    {
+     "name": "Feladat1.cs",
+     "type": "cs"
+    },
+    {
+     "name": "Feladat2.cs",
+     "type": "cs"
+    },
+    {
+     "name": "Feladat3.cs",
+     "type": "cs"
+    }
+   ],
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 5,
+      "group_by": 1,
+      "like": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "fn_min": 1,
+      "subquery": 1,
+      "alias": 1,
+      "fn_count": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
+   "provenance": {
+    "topics_from": "sorrend",
+    "utmutato": "k_info_10maj_ut.pdf",
+    "features_from": [
+     "utmutato"
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4782,7 +5019,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4874,7 +5112,8 @@
     "utmutato": "e_info_10okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -4966,7 +5205,8 @@
     "utmutato": "e_info_10okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5043,7 +5283,8 @@
     "utmutato": "e_info_10okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5112,7 +5353,8 @@
     "utmutato": "k_info_10okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5176,7 +5418,8 @@
     "utmutato": "k_info_10okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5254,7 +5497,8 @@
     "utmutato": "k_info_10okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5330,7 +5574,8 @@
     "utmutato": "k_info_10okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5421,7 +5666,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5506,7 +5752,8 @@
     "utmutato": "e_info_11maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5590,7 +5837,8 @@
     "utmutato": "e_info_11maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5665,7 +5913,8 @@
     "utmutato": "e_info_11maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5732,7 +5981,8 @@
     "utmutato": "k_info_11maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5827,7 +6077,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5915,7 +6166,8 @@
     "utmutato": "k_info_11maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -5985,7 +6237,8 @@
     "utmutato": "k_info_11maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6117,7 +6370,8 @@
     "utmutato": "e_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6242,7 +6496,8 @@
     "utmutato": "e_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6389,7 +6644,8 @@
     "utmutato": "e_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6532,7 +6788,8 @@
     "utmutato": "e_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6604,7 +6861,8 @@
     "utmutato": "k_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6673,7 +6931,8 @@
     "utmutato": "k_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6765,7 +7024,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6846,7 +7106,8 @@
     "utmutato": "k_inf_12maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -6983,7 +7244,8 @@
     "utmutato": "e_inf_12okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7150,7 +7412,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7263,7 +7526,8 @@
     "utmutato": "e_inf_12okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7379,7 +7643,8 @@
     "utmutato": "e_inf_12okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7539,7 +7804,8 @@
     "utmutato": "k_inf_12okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7649,7 +7915,8 @@
     "utmutato": "k_inf_12okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7818,7 +8085,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -7893,7 +8161,8 @@
     "utmutato": "k_inf_12okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8011,7 +8280,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8138,7 +8408,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8257,7 +8528,8 @@
     "utmutato": "e_inf_13maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8365,7 +8637,8 @@
     "utmutato": "e_inf_13maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8485,7 +8758,8 @@
     "utmutato": "k_inf_13maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8596,7 +8870,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8738,7 +9013,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8827,7 +9103,8 @@
     "utmutato": "k_inf_13maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -8974,7 +9251,8 @@
     "utmutato": "e_inf_13okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9121,7 +9399,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9265,7 +9544,8 @@
     "utmutato": "e_inf_13okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9411,7 +9691,8 @@
     "utmutato": "e_inf_13okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9532,7 +9813,8 @@
     "utmutato": "k_inf_13okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9644,7 +9926,8 @@
     "utmutato": "k_inf_13okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9782,7 +10065,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9882,7 +10166,8 @@
     "utmutato": "k_inf_13okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -9984,7 +10269,8 @@
     "utmutato": "e_inf_14maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10132,7 +10418,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10246,7 +10533,8 @@
     "utmutato": "e_inf_14maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10363,7 +10651,8 @@
     "utmutato": "e_inf_14maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10495,7 +10784,8 @@
     "utmutato": "k_inf_14maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10594,7 +10884,8 @@
     "utmutato": "k_inf_14maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10727,7 +11018,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10820,7 +11112,8 @@
     "utmutato": "k_inf_14maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -10946,7 +11239,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11080,7 +11374,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11200,7 +11495,8 @@
     "utmutato": "e_inf_14okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11321,7 +11617,8 @@
     "utmutato": "e_inf_14okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11451,7 +11748,8 @@
     "utmutato": "k_inf_14okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11569,7 +11867,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11709,7 +12008,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11802,7 +12102,8 @@
     "utmutato": "k_inf_14okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -11919,7 +12220,8 @@
     "utmutato": "e_inf_15maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12033,7 +12335,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12152,7 +12455,8 @@
     "utmutato": "e_inf_15maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12268,7 +12572,8 @@
     "utmutato": "e_inf_15maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12393,7 +12698,8 @@
     "utmutato": "k_inf_15maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12492,7 +12798,8 @@
     "utmutato": "k_inf_15maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12636,7 +12943,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12731,7 +13039,8 @@
     "utmutato": "k_inf_15maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12842,7 +13151,8 @@
     "utmutato": "e_inf_15okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -12982,7 +13292,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13097,7 +13408,8 @@
     "utmutato": "e_inf_15okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13219,7 +13531,8 @@
     "utmutato": "e_inf_15okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13338,7 +13651,8 @@
     "utmutato": "k_inf_15okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13435,7 +13749,8 @@
     "utmutato": "k_inf_15okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13582,7 +13897,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13680,7 +13996,8 @@
     "utmutato": "k_inf_15okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13776,7 +14093,8 @@
     "utmutato": "e_inf_16maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13892,7 +14210,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -13984,7 +14303,8 @@
     "utmutato": "e_inf_16maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14080,7 +14400,8 @@
     "utmutato": "e_inf_16maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14179,7 +14500,8 @@
     "utmutato": "k_inf_16maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14257,7 +14579,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14382,7 +14705,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14461,7 +14785,8 @@
     "utmutato": "k_inf_16maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14562,7 +14887,8 @@
     "utmutato": "e_inf_16okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14697,7 +15023,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14793,7 +15120,8 @@
     "utmutato": "e_inf_16okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14889,7 +15217,8 @@
     "utmutato": "e_inf_16okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -14992,7 +15321,8 @@
     "utmutato": "k_inf_16okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15077,7 +15407,8 @@
     "utmutato": "k_inf_16okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15200,7 +15531,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15277,7 +15609,8 @@
     "utmutato": "k_inf_16okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15416,7 +15749,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15541,7 +15875,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15655,7 +15990,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15753,7 +16089,8 @@
     "utmutato": "e_inf_17maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15850,7 +16187,8 @@
     "utmutato": "k_inf_17maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -15978,7 +16316,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16101,7 +16440,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16200,7 +16540,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16402,7 +16743,8 @@
      "utmutato",
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16499,7 +16841,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16611,7 +16954,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16707,7 +17051,8 @@
     "utmutato": "e_inf_17okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16805,7 +17150,8 @@
     "utmutato": "k_inf_17okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -16901,7 +17247,8 @@
     "utmutato": "k_inf_17okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17026,7 +17373,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17127,7 +17475,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17214,7 +17563,8 @@
     "utmutato": "e_inf_18maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17339,7 +17689,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17448,7 +17799,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17544,7 +17896,8 @@
     "utmutato": "e_inf_18maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17637,7 +17990,8 @@
     "utmutato": "k_inf_18maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17717,7 +18071,8 @@
     "utmutato": "k_inf_18maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17811,7 +18166,8 @@
     "utmutato": "k_inf_18maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17900,7 +18256,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -17998,7 +18355,8 @@
     "utmutato": "e_inf_18okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18130,7 +18488,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18238,7 +18597,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18335,7 +18695,8 @@
     "utmutato": "e_inf_18okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18438,7 +18799,8 @@
     "utmutato": "k_inf_18okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18528,7 +18890,8 @@
     "utmutato": "k_inf_18okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18666,7 +19029,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18765,7 +19129,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -18897,7 +19262,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19021,7 +19387,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19130,7 +19497,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19227,7 +19595,8 @@
     "utmutato": "e_inf_19maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19324,7 +19693,8 @@
     "utmutato": "k_inf_19maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19414,7 +19784,8 @@
     "utmutato": "k_inf_19maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19547,7 +19918,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19641,7 +20013,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19730,7 +20103,8 @@
     "utmutato": "e_inf_19okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19868,7 +20242,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -19974,7 +20349,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20077,7 +20453,8 @@
     "utmutato": "e_inf_19okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20177,7 +20554,8 @@
     "utmutato": "k_inf_19okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20281,7 +20659,8 @@
     "utmutato": "k_inf_19okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20424,7 +20803,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20512,7 +20892,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20673,7 +21054,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20799,7 +21181,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -20905,7 +21288,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21005,7 +21389,8 @@
     "utmutato": "e_inf_20maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21105,7 +21490,8 @@
     "utmutato": "k_inf_20maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21211,7 +21597,8 @@
     "utmutato": "k_inf_20maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21320,7 +21707,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21411,7 +21799,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21571,7 +21960,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21678,7 +22068,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21786,7 +22177,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21886,7 +22278,8 @@
     "utmutato": "e_inf_20okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -21992,7 +22385,8 @@
     "utmutato": "k_inf_20okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22098,7 +22492,8 @@
     "utmutato": "k_inf_20okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22216,7 +22611,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22309,7 +22705,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22410,7 +22807,8 @@
     "utmutato": "e_inf_21maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22514,7 +22912,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22616,7 +23015,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22715,7 +23115,8 @@
     "utmutato": "e_inf_21maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22817,7 +23218,8 @@
     "utmutato": "k_inf_21maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -22887,7 +23289,8 @@
     "utmutato": "k_inf_21maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23005,7 +23408,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23099,7 +23503,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23197,7 +23602,8 @@
     "utmutato": "e_inf_21okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23291,7 +23697,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23403,7 +23810,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23500,7 +23908,8 @@
     "utmutato": "e_inf_21okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23601,7 +24010,8 @@
     "utmutato": "k_inf_21okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23789,7 +24199,8 @@
     "features_from": [
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23906,7 +24317,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -23997,7 +24409,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24102,7 +24515,8 @@
     "utmutato": "e_inf_22maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24215,7 +24629,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24319,7 +24734,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24415,7 +24831,8 @@
     "utmutato": "e_inf_22maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24510,7 +24927,8 @@
     "utmutato": "k_digkult_22maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24626,7 +25044,8 @@
     "utmutato": "k_digkult_22maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24812,7 +25231,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24905,7 +25325,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -24975,7 +25396,8 @@
     "utmutato": "k_digkult_22maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25074,7 +25496,8 @@
     "utmutato": "k_inf_22maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25178,7 +25601,8 @@
     "utmutato": "k_inf_22maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25279,7 +25703,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25370,7 +25795,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25524,7 +25950,8 @@
     "utmutato": "e_digkult_22okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25679,7 +26106,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25787,7 +26215,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25893,7 +26322,8 @@
     "utmutato": "e_digkult_22okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -25990,7 +26420,8 @@
     "utmutato": "k_digkult_22okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26111,7 +26542,8 @@
     "utmutato": "k_digkult_22okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26334,7 +26766,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26431,7 +26864,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26502,7 +26936,8 @@
     "utmutato": "k_digkult_22okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26605,7 +27040,8 @@
     "utmutato": "e_inf_22okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26738,7 +27174,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26845,7 +27282,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -26947,7 +27385,8 @@
     "utmutato": "e_inf_22okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27049,7 +27488,8 @@
     "utmutato": "k_inf_22okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27172,7 +27612,8 @@
     "utmutato": "k_inf_22okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27282,7 +27723,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27377,7 +27819,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27540,7 +27983,8 @@
     "utmutato": "e_digkult_23maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27684,7 +28128,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27801,7 +28246,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -27910,7 +28356,8 @@
     "utmutato": "e_digkult_23maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28003,7 +28450,8 @@
     "utmutato": "k_digkult_23maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28113,7 +28561,8 @@
     "utmutato": "k_digkult_23maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28344,7 +28793,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28445,7 +28895,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28521,7 +28972,8 @@
     "utmutato": "k_digkult_23maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28638,7 +29090,8 @@
     "utmutato": "e_inf_23maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28748,7 +29201,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28854,7 +29308,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -28954,7 +29409,8 @@
     "utmutato": "e_inf_23maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29050,7 +29506,8 @@
     "utmutato": "k_inf_23maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29148,7 +29605,8 @@
     "utmutato": "k_inf_23maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29249,7 +29707,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29340,7 +29799,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29504,7 +29964,8 @@
     "utmutato": "e_digkult_23okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29728,7 +30189,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -29912,7 +30374,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30085,7 +30548,8 @@
     "utmutato": "e_digkult_23okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30209,7 +30673,8 @@
     "utmutato": "k_digkult_23okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30349,7 +30814,8 @@
     "utmutato": "k_digkult_23okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30555,7 +31021,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30677,7 +31144,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30778,7 +31246,8 @@
     "utmutato": "k_digkult_23okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30873,7 +31342,8 @@
     "utmutato": "e_inf_23okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -30988,7 +31458,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31096,7 +31567,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31198,7 +31670,8 @@
     "utmutato": "e_inf_23okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31293,7 +31766,8 @@
     "utmutato": "k_inf_23okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31400,7 +31874,8 @@
     "utmutato": "k_inf_23okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31509,7 +31984,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31598,7 +32074,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31701,7 +32178,8 @@
     "utmutato": "e_digkult_24maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31819,7 +32297,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -31938,7 +32417,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32042,7 +32522,8 @@
     "utmutato": "e_digkult_24maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32134,7 +32615,8 @@
     "utmutato": "k_digkult_24maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32227,7 +32709,8 @@
     "utmutato": "k_digkult_24maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32406,7 +32889,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32502,7 +32986,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32574,7 +33059,8 @@
     "utmutato": "k_digkult_24maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32839,7 +33325,8 @@
      "utmutato",
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -32934,7 +33421,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33049,7 +33537,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33155,7 +33644,8 @@
     "utmutato": "e_digkult_24okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33219,7 +33709,8 @@
     "utmutato": "k_digkult_24okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33338,7 +33829,8 @@
     "utmutato": "k_digkult_24okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33484,7 +33976,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33580,7 +34073,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33661,7 +34155,8 @@
     "utmutato": "k_digkult_24okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33848,7 +34343,8 @@
      "utmutato",
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -33983,7 +34479,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34087,7 +34584,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34195,7 +34693,8 @@
     "utmutato": "e_digkult_25maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34279,7 +34778,8 @@
     "utmutato": "k_digkult_25maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34346,7 +34846,8 @@
     "utmutato": "k_digkult_25maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34467,7 +34968,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34543,7 +35045,8 @@
     "utmutato": "k_digkult_25maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34611,7 +35114,8 @@
     "utmutato": "k_digkult_25maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34879,7 +35383,8 @@
     "features_from": [
      "utmutato",
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -34999,7 +35504,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35108,7 +35614,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35209,7 +35716,8 @@
     "utmutato": "e_digkult_25okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35296,7 +35804,8 @@
     "utmutato": "k_digkult_25okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35389,7 +35898,8 @@
     "utmutato": "k_digkult_25okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35495,7 +36005,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35569,7 +36080,8 @@
     "utmutato": "k_digkult_25okt_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35646,7 +36158,8 @@
     "utmutato": "k_digkult_25okt_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35841,7 +36354,8 @@
      "utmutato",
      "utmutato",
      "html"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -35949,7 +36463,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36064,7 +36579,8 @@
     "features_from": [
      "utmutato",
      "sql"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36169,7 +36685,8 @@
     "utmutato": "e_digkult_26maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36255,7 +36772,8 @@
     "utmutato": "k_digkult_26maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36301,7 +36819,8 @@
     "utmutato": "k_digkult_26maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36395,7 +36914,8 @@
     "features_from": [
      "utmutato",
      "xlsx"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36471,7 +36991,8 @@
     "utmutato": "k_digkult_26maj_ut.pdf",
     "features_from": [
      "utmutato"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   },
@@ -36547,7 +37068,8 @@
     "utmutato": "k_digkult_26maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
-    ]
+    ],
+    "override": []
    },
    "warnings": []
   }

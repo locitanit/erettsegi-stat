@@ -101,15 +101,13 @@
 "elvalasztas": 1
 },
 "2010m_kozep_inf": {
-"stilus": 1,
 "tabulator": 4,
-"tablazat": 9,
+"tablazat": 3,
 "labjegyzet": 6,
-"felsorolas": 4,
-"szegely_mintazat": 6,
-"betuformazas": 8,
-"bekezdesformazas": 14,
-"oldalbeallitas": 8,
+"szegely_mintazat": 1,
+"betuformazas": 5,
+"bekezdesformazas": 10,
+"oldalbeallitas": 7,
 "elvalasztas": 1
 },
 "2010o_kozep_inf": {

@@ -56,6 +56,11 @@
 "KARAKTER+KEREK.LE": 1,
 "KARAKTER+VÉL": 1
 },
+"2010m_kozep_inf": {
+"DARAB+KEREKÍTÉS": 1,
+"HOL.VAN+INDEX": 1,
+"FKERES+OSZLOP": 1
+},
 "2010o_emelt_inf": {
 "HA+ÜRES": 2,
 "DARAB+INDEX": 1

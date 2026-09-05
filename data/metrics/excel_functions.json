@@ -131,6 +131,17 @@
 "SZÖVEG.KERES": 1,
 "KARAKTER": 1
 },
+"2010m_kozep_inf": {
+"DARAB": 2,
+"KEREKÍTÉS": 2,
+"MAX": 1,
+"SZUMHA": 1,
+"MIN": 1,
+"HOL.VAN": 1,
+"INDEX": 1,
+"FKERES": 1,
+"OSZLOP": 1
+},
 "2010o_emelt_inf": {
 "HA": 3,
 "ÜRES": 2,

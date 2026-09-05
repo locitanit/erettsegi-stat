@@ -3,6 +3,7 @@
 A fejlecek evjaratonkent maskepp neznek ki, ezert tobb mintat probalunk:
 
     1. Balatoni komp            (2005-)
+    2A Virusok                  (2010: alszam pont nelkul)
     1A. Siparadicsomok          (emelt, 2022-)
     1.A Robotikaszakkor logo    (emelt, 2022 oktober)
     3. Suti                                                       1 pont
@@ -28,7 +29,7 @@ from dataclasses import dataclass, field
 # A sor vegen allhat a keretezes miatt atcsuszott "N pont".
 HEADER_RE = re.compile(
     r"^[ \t]*(?P<num>\d{1,2})"
-    r"(?:\.[ \t]*(?P<sub1>[AB])\b|(?P<sub2>[AB])\.|\.)"
+    r"(?:\.[ \t]*(?P<sub1>[AB])\b|(?P<sub2>[AB])\.|\.|(?P<sub3>[AB])(?=[ \t]))"
     # A cim nagybetuvel kezdodik, vagy "eUtazas" / "iPhone" modjara kis+nagy betuvel.
     r"[ \t]*(?P<title>(?:[A-ZÁÉÍÓÖŐÚÜŰ]|[a-z][A-ZÁÉÍÓÖŐÚÜŰ])[^\n]{1,44}?)"
     r"(?:[ \t]{2,}\d+[ \t]*pont.*)?[ \t]*$"
@@ -80,7 +81,7 @@ def _candidates(lines: list[str]) -> dict[tuple[int, str], list[tuple[int, str]]
         m = HEADER_RE.match(line)
         if not m:
             continue
-        key = (int(m["num"]), m["sub1"] or m["sub2"] or "")
+        key = (int(m["num"]), m["sub1"] or m["sub2"] or m["sub3"] or "")
         if key[0] < 1 or key[0] > 12:
             continue
         out.setdefault(key, []).append((i, m["title"].strip()))
@@ -117,14 +118,50 @@ def _choose(
     return best
 
 
-def split(text: str, expected: int | None = None) -> tuple[list[Section], list[str]]:
+def _apply_anchors(
+    lines: list[str],
+    cand: dict[tuple[int, str], list[tuple[int, str]]],
+    anchors: dict[str, str],
+) -> list[str]:
+    """Kezi szakaszkezdetek: a megadott szovegreszlet sora lesz a fejlec.
+
+    Az anchor felulirja az automatikus talalatot, es olyan feladatot is felvehet,
+    amit a minta egyaltalan nem ismer fel.
+    """
+    warnings: list[str] = []
+    folded = [_fold(l) for l in lines]
+    for task_no, snippet in anchors.items():
+        needle = _fold(snippet)
+        if not needle:
+            continue
+        index = next((i for i, l in enumerate(folded) if needle in l), None)
+        if index is None:
+            warnings.append(f"a(z) {task_no}. feladathoz megadott szövegrészlet nem található")
+            continue
+        m = re.match(r"^(\d{1,2})([AB]?)$", task_no.strip())
+        if not m:
+            warnings.append(f"érvénytelen feladatszám az override-ban: {task_no}")
+            continue
+        title = lines[index].strip() or task_no
+        cand[(int(m.group(1)), m.group(2))] = [(index, title)]
+    return warnings
+
+
+def split(
+    text: str,
+    expected: int | None = None,
+    anchors: dict[str, str] | None = None,
+) -> tuple[list[Section], list[str]]:
     """Az utmutato szovegebo"l feladat-szakaszok + figyelmeztetesek.
 
     `expected`: a varhato feladatszam (a kulonbozo feladatlap-PDF-ek szama).
+    `anchors`:  kezi szakaszkezdetek az override-bol: feladatszam -> szovegreszlet.
     """
     lines = text.splitlines()
     warnings: list[str] = []
     cand = _candidates(lines)
+    if anchors:
+        warnings += _apply_anchors(lines, cand, anchors)
     if not cand:
         return [], ["az útmutatóban nem található feladat-fejléc"]
 

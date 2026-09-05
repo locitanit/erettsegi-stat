@@ -9,6 +9,7 @@ from . import __version__
 from .config import DATA_DIR
 from .discover import SOLUTION_KINDS, UTMUTATO_RE, Exam
 from .pdf_text import extract, page_count_only
+from .overrides import load as load_override
 from .periods import DIGKULT_FROM_YEAR
 
 # Magyar temakor-cimkek (a figyelmeztetesekben es az exams.json-ban is ezek jelennek meg).
@@ -70,6 +71,7 @@ def pick_utmutato(exam: Exam) -> tuple[Path | None, list[str]]:
 
 
 def build_exam_record(exam: Exam, storage: Path, with_text: bool = True) -> dict:
+    override = load_override(exam.period, exam.level)
     order = exam.exam_topics
 
     feladatlap_pdfs: list[Path] = []
@@ -147,7 +149,7 @@ def build_exam_record(exam: Exam, storage: Path, with_text: bool = True) -> dict
         "ocr_needed": ocr_needed,
         "total_points": None,      # 1. fazistol (utmutatobol)
         "layout": exam.layout,
-        "notes": None,
+        "notes": override.notes,
         "warnings": warnings,
     }
 

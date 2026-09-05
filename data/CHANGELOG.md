@@ -1,5 +1,14 @@
 # Adatváltozások
 
+## 2026-09-05 – 4. fázis (minőség)
+- A 2010-es útmutató „2A Vírusok” alakú fejlécét is felismeri a vágó, így
+  **mind a 83 útmutató hibátlanul feldolgozható** (348 feladat, 83 táblázat-feladat).
+- Override-mechanizmus: `section_starts`, `task_topics`, `task_points`,
+  `skip_tasks`, `exclude`, `notes` – lásd `extractor/overrides/README.md`.
+  Jelenleg egyetlen override sem kell.
+- A bővítés-menet ellenőrizve: időszak kivétele és `--period`-del visszatétele
+  bitre azonos kimenetet ad.
+
 ## 2026-09-05 – 3. fázis (szöveg, weblap, prezentáció, pontszámok)
 - Mind a hat témakörnek van elemzése.
 - Szövegszerkesztés (60 feladat) és prezentáció-grafika (50 feladat):

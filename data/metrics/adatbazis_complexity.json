@@ -79,6 +79,12 @@
 "max_tables_per_query": 3,
 "max_conditions": 4
 },
+"2010m_kozep_inf": {
+"query_count": 8,
+"subquery_count": 1,
+"max_tables_per_query": 3,
+"max_conditions": 4
+},
 "2010o_emelt_inf": {
 "query_count": 12,
 "subquery_count": 3,

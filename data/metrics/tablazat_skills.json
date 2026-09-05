@@ -81,6 +81,15 @@
 "abszolut_hivatkozas": 1,
 "adatimport": 1
 },
+"2010m_kozep_inf": {
+"diagram_oszlop": 6,
+"rendezes": 5,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 3,
+"igazitas": 1,
+"oszlopszelesseg": 1,
+"adatimport": 1
+},
 "2010o_emelt_inf": {
 "diagram_kor": 2,
 "abszolut_hivatkozas": 2,

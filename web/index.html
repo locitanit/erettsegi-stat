@@ -5,9 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A digitális kultúra és informatika érettségik adatalapú elemzése 2005-től." />
     <title>Érettségi-statisztika</title>
+
+    <!-- Egyszerű, kérés nélküli ikon: külön favicon.ico-t nem kell letölteni. -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%232f7d5f'/%3E%3Crect x='3' y='9' width='2.6' height='4' fill='%23fff'/%3E%3Crect x='6.7' y='6' width='2.6' height='7' fill='%23fff'/%3E%3Crect x='10.4' y='3' width='2.6' height='10' fill='%23fff'/%3E%3C/svg%3E"
+    />
+
+    <!--
+      A betűkészlet nem blokkolja a megjelenítést: előbb a rendszerbetűvel
+      jelenik meg az oldal, az Inter utólag lép be.
+    -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      />
+    </noscript>
   </head>
   <body>
     <div id="root"></div>

@@ -37,6 +37,15 @@ def test_emelt_alszamok():
     assert [s.task_no for s in sections] == ["1A", "1B", "2"]
 
 
+def test_alszam_pont_nelkul():
+    """A 2010-es utmutato "2A Virusok" alakot hasznal, pont nelkul."""
+    text = _doc(["1. Komárom", "2A Vírusok", "2B Környezetbarát", "3. Vetélkedő"])
+    sections, warnings = split(text, expected=4)
+    assert [s.task_no for s in sections] == ["1", "2A", "2B", "3"]
+    assert [s.title for s in sections] == ["Komárom", "Vírusok", "Környezetbarát", "Vetélkedő"]
+    assert warnings == []
+
+
 def test_kisbetus_cim():
     text = _doc(["1. Fibonacci-sorozat", "2. eUtazás"])
     sections, _ = split(text, expected=2)
