@@ -76,7 +76,7 @@ export default function FilterBar({
           value={filters.norm}
           onChange={(v) => update({ norm: v })}
           options={[
-            { value: "db", label: "Képlet (db)" },
+            { value: "db", label: "Darab" },
             { value: "pct", label: "Vizsgák %-a" },
           ]}
         />

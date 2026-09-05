@@ -57,12 +57,65 @@ def build_metrics(tasks: list[dict]) -> dict[str, dict]:
             ),
         }
 
+    sql_clauses: dict[str, dict[str, int]] = {}
+    sql_clauses_files: dict[str, dict[str, int]] = {}
+    db_complexity: dict[str, dict] = {}
+    algorithms: dict[str, dict[str, int]] = {}
+    prog_io: dict[str, dict[str, int]] = {}
+    solution_langs: dict[str, dict[str, int]] = {}
+    prog_shape: dict[str, dict] = {}
+
+    for task in tasks:
+        exam_id = task["exam_id"]
+        feats = task.get("features") or {}
+
+        db = feats.get("adatbazis")
+        if db:
+            _add(sql_clauses, exam_id, db.get("sql_clauses", {}))
+            if db.get("sql"):
+                _add(sql_clauses_files, exam_id, db["sql"].get("sql_clauses", {}))
+            prev = db_complexity.get(exam_id, {})
+            db_complexity[exam_id] = {
+                "query_count": prev.get("query_count", 0) + db.get("query_count", 0),
+                "subquery_count": prev.get("subquery_count", 0) + db.get("subquery_count", 0),
+                "max_tables_per_query": max(
+                    prev.get("max_tables_per_query", 0), db.get("max_tables_per_query", 0)
+                ),
+                "max_conditions": max(
+                    prev.get("max_conditions", 0), db.get("max_conditions", 0)
+                ),
+            }
+
+        prog = feats.get("programozas")
+        if prog:
+            _add(algorithms, exam_id, prog.get("algorithms", {}))
+            _add(prog_io, exam_id, prog.get("io", {}))
+            _add(solution_langs, exam_id, {lang: 1 for lang in prog.get("solution_langs", [])})
+            prev = prog_shape.get(exam_id, {})
+            prog_shape[exam_id] = {
+                "subtask_count": max(
+                    prev.get("subtask_count", 0), prog.get("subtask_count", 0)
+                ),
+                "input_rows": max(prev.get("input_rows", 0), prog.get("input_rows") or 0),
+                "input_cols": max(prev.get("input_cols", 0), prog.get("input_cols") or 0),
+                "feladatlap_words": max(
+                    prev.get("feladatlap_words", 0), prog.get("feladatlap_words", 0)
+                ),
+            }
+
     return {
         "excel_functions.json": functions,
         "excel_function_pairs.json": pairs,
         "excel_functions_xlsx.json": functions_xlsx,
         "tablazat_skills.json": skills,
         "tablazat_complexity.json": complexity,
+        "sql_clauses.json": sql_clauses,
+        "sql_clauses_files.json": sql_clauses_files,
+        "adatbazis_complexity.json": db_complexity,
+        "algorithms.json": algorithms,
+        "programozas_io.json": prog_io,
+        "solution_langs.json": solution_langs,
+        "programozas_shape.json": prog_shape,
         "task_titles.json": dict(titles),
     }
 

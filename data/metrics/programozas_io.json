@@ -1,0 +1,243 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"kbd_in": 8,
+"file_in": 2
+},
+"2007o_emelt_inf": {
+"screen_out": 11,
+"kbd_in": 8,
+"file_out": 1
+},
+"2008m_emelt_inf": {
+"screen_out": 14,
+"kbd_in": 1,
+"file_out": 1
+},
+"2008o_emelt_inf": {
+"screen_out": 15,
+"kbd_in": 1,
+"file_out": 1
+},
+"2009m_emelt_inf": {
+"screen_out": 13,
+"kbd_in": 2,
+"file_out": 1
+},
+"2009o_emelt_inf": {
+"screen_out": 12,
+"kbd_in": 4,
+"file_out": 2
+},
+"2010m_emelt_inf": {
+"screen_out": 15,
+"kbd_in": 2,
+"file_out": 1
+},
+"2010o_emelt_inf": {
+"screen_out": 6,
+"kbd_in": 5,
+"file_out": 2,
+"file_in": 1
+},
+"2011m_emelt_inf": {
+"screen_out": 8,
+"kbd_in": 3,
+"file_out": 1
+},
+"2012m_emelt_inf": {
+"screen_out": 11,
+"kbd_in": 3,
+"file_out": 1
+},
+"2012o_emelt_inf": {
+"screen_out": 7,
+"kbd_in": 5,
+"file_out": 1
+},
+"2013m_emelt_inf": {
+"screen_out": 17,
+"kbd_in": 1,
+"file_out": 1
+},
+"2013o_emelt_inf": {
+"screen_out": 19,
+"kbd_in": 3,
+"file_out": 1
+},
+"2014m_emelt_inf": {
+"screen_out": 15,
+"kbd_in": 3,
+"file_out": 1
+},
+"2014o_emelt_inf": {
+"screen_out": 16,
+"file_in": 3,
+"file_out": 3,
+"kbd_in": 2
+},
+"2015m_emelt_inf": {
+"screen_out": 23,
+"kbd_in": 3,
+"file_out": 1
+},
+"2015o_emelt_inf": {
+"screen_out": 8,
+"kbd_in": 3,
+"file_out": 1
+},
+"2016m_emelt_inf": {
+"screen_out": 10,
+"kbd_in": 4,
+"file_out": 1
+},
+"2016o_emelt_inf": {
+"screen_out": 14,
+"kbd_in": 2,
+"file_out": 1
+},
+"2017m_emelt_inf": {
+"screen_out": 27,
+"kbd_in": 3,
+"file_out": 2
+},
+"2017o_emelt_inf": {
+"screen_out": 14,
+"kbd_in": 3
+},
+"2018m_emelt_inf": {
+"screen_out": 15,
+"kbd_in": 4,
+"file_out": 2
+},
+"2018o_emelt_inf": {
+"screen_out": 9,
+"kbd_in": 4,
+"file_out": 1
+},
+"2019m_emelt_inf": {
+"screen_out": 12,
+"kbd_in": 6,
+"file_out": 1
+},
+"2019o_emelt_inf": {
+"screen_out": 9,
+"kbd_in": 1,
+"file_out": 1
+},
+"2020m_emelt_inf": {
+"screen_out": 9,
+"kbd_in": 5,
+"file_out": 1
+},
+"2020o_emelt_inf": {
+"screen_out": 17,
+"kbd_in": 7,
+"file_in": 1,
+"file_out": 1
+},
+"2021m_emelt_inf": {
+"screen_out": 17,
+"kbd_in": 3,
+"file_out": 2
+},
+"2021o_emelt_inf": {
+"screen_out": 10,
+"kbd_in": 6
+},
+"2022m_emelt_dk": {
+"screen_out": 13,
+"kbd_in": 3
+},
+"2022m_kozep_dk": {
+"screen_out": 9,
+"kbd_in": 1
+},
+"2022o_emelt_dk": {
+"screen_out": 15,
+"kbd_in": 5,
+"file_out": 1
+},
+"2022o_kozep_dk": {
+"kbd_in": 3,
+"screen_out": 2
+},
+"2022o_emelt_inf": {
+"screen_out": 14,
+"kbd_in": 4,
+"file_out": 1
+},
+"2023m_emelt_dk": {
+"screen_out": 18,
+"kbd_in": 4,
+"file_in": 1,
+"file_out": 1
+},
+"2023m_kozep_dk": {
+"screen_out": 6,
+"file_in": 1,
+"kbd_in": 1
+},
+"2023m_emelt_inf": {
+"screen_out": 13,
+"kbd_in": 7,
+"file_in": 1
+},
+"2023o_emelt_dk": {
+"screen_out": 22,
+"kbd_in": 5,
+"file_out": 2
+},
+"2023o_kozep_dk": {
+"screen_out": 4
+},
+"2023o_emelt_inf": {
+"screen_out": 16,
+"kbd_in": 2,
+"file_out": 2
+},
+"2024m_emelt_dk": {
+"screen_out": 18,
+"kbd_in": 2,
+"file_in": 1,
+"file_out": 1
+},
+"2024m_kozep_dk": {
+"screen_out": 4
+},
+"2024o_emelt_dk": {
+"screen_out": 16,
+"kbd_in": 6
+},
+"2024o_kozep_dk": {
+"screen_out": 4,
+"kbd_in": 3
+},
+"2025m_emelt_dk": {
+"screen_out": 17,
+"file_out": 6,
+"kbd_in": 5,
+"file_in": 1
+},
+"2025m_kozep_dk": {
+"kbd_in": 4,
+"screen_out": 4
+},
+"2025o_emelt_dk": {
+"screen_out": 10,
+"kbd_in": 3
+},
+"2025o_kozep_dk": {
+"screen_out": 6
+},
+"2026m_emelt_dk": {
+"screen_out": 14,
+"kbd_in": 7
+},
+"2026m_kozep_dk": {
+"kbd_in": 4,
+"screen_out": 2
+}
+}
+}

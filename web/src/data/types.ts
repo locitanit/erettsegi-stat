@@ -58,5 +58,13 @@ export interface VocabFunction {
 export interface VocabFile {
   functions: VocabFunction[];
   function_families: Record<string, string>;
-  tablazat_skills: { key: string; label: string }[];
+  tablazat_skills: VocabLabel[];
+  sql_keywords: VocabLabel[];
+  algorithms: VocabLabel[];
+  programozas_io: VocabLabel[];
+}
+
+export interface VocabLabel {
+  key: string;
+  label: string;
 }

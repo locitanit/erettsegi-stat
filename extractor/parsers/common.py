@@ -67,3 +67,23 @@ def count_keywords(text: str, keywords: tuple[Keyword, ...]) -> dict[str, int]:
 
 def word_count(text: str) -> int:
     return len(re.findall(r"\w+", text, re.UNICODE))
+
+
+# Az oldal tetejere/aljara nyomtatott fejlec es lablec. Ez beleszakad a tobbsoros
+# SQL-blokkokba, ezert az adatbazis-elemzes elott ki kell szedni.
+PAGE_FURNITURE = re.compile(
+    r"(gyakorlati vizsga|írásbeli vizsga|Javítási-értékelési|értékelőlap"
+    # A "K2413   2025. május 12." alaku lablecben a vizsgakod es a datum egy sorban van.
+    r"|Azonosító|^\s*jel:|Név:\s*\.{5}|^\s*[A-ZÉ]\d{4}\b"
+    r"|^\s*\d+\s*/\s*\d+\s*$"
+    r"|^\s*\d{4}\.\s+(január|február|március|április|május|június|július|augusztus"
+    r"|szeptember|október|november|december)\s+\d{1,2}\.\s*$)",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
+def strip_page_furniture(text: str) -> str:
+    """Oldalfejlec/lablec eltavolitasa es a sor vegere csuszott "N pont" levagasa."""
+    return "\n".join(
+        _trim_points(line) for line in text.splitlines() if not PAGE_FURNITURE.search(line)
+    )

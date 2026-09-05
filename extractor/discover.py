@@ -86,6 +86,21 @@ class Exam:
         return self.period.exam_id(self.level)
 
     @property
+    def all_solution_files(self) -> list[Path]:
+        """A vizsga OSSZES mintamegoldas-fajlja, fajlnev szerint egyszer.
+
+        A letolto a kiadott megoldas-archivumot MINDEN temakor-mappaba kicsomagolja,
+        ezert egy .sql fajl ugyanugy ott van a `tablazat/` alatt, mint az `adatbazis/`
+        alatt. A temakori mappa tehat nem mond semmit a fajl temakorerol - a
+        kiterjesztes igen.
+        """
+        seen: dict[str, Path] = {}
+        for tf in self.topics.values():
+            for p in tf.solution_files:
+                seen.setdefault(p.name.lower(), p)
+        return sorted(seen.values(), key=lambda p: p.name.lower())
+
+    @property
     def exam_topics(self) -> list[str]:
         """A vizsgan TENYLEG szereplo temakorok, a feladatok sorrendjeben.
 

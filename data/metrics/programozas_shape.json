@@ -1,0 +1,305 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 0,
+"input_cols": 0,
+"feladatlap_words": 384
+},
+"2007o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 113,
+"input_cols": 1,
+"feladatlap_words": 644
+},
+"2008m_emelt_inf": {
+"subtask_count": 8,
+"input_rows": 61,
+"input_cols": 1,
+"feladatlap_words": 551
+},
+"2008o_emelt_inf": {
+"subtask_count": 5,
+"input_rows": 14,
+"input_cols": 1,
+"feladatlap_words": 609
+},
+"2009m_emelt_inf": {
+"subtask_count": 8,
+"input_rows": 86,
+"input_cols": 1,
+"feladatlap_words": 792
+},
+"2009o_emelt_inf": {
+"subtask_count": 6,
+"input_rows": 1106,
+"input_cols": 1,
+"feladatlap_words": 617
+},
+"2010m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 114,
+"input_cols": 1,
+"feladatlap_words": 609
+},
+"2010o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 121,
+"input_cols": 1,
+"feladatlap_words": 524
+},
+"2011m_emelt_inf": {
+"subtask_count": 5,
+"input_rows": 7825,
+"input_cols": 1,
+"feladatlap_words": 619
+},
+"2012m_emelt_inf": {
+"subtask_count": 9,
+"input_rows": 61,
+"input_cols": 1,
+"feladatlap_words": 559
+},
+"2012o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 2500,
+"input_cols": 1,
+"feladatlap_words": 423
+},
+"2013m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 40,
+"input_cols": 1,
+"feladatlap_words": 602
+},
+"2013o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 354,
+"input_cols": 1,
+"feladatlap_words": 554
+},
+"2014m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 375,
+"input_cols": 1,
+"feladatlap_words": 715
+},
+"2014o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 15,
+"input_cols": 1,
+"feladatlap_words": 436
+},
+"2015m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 306,
+"input_cols": 1,
+"feladatlap_words": 786
+},
+"2015o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 4321,
+"input_cols": 1,
+"feladatlap_words": 485
+},
+"2016m_emelt_inf": {
+"subtask_count": 8,
+"input_rows": 514,
+"input_cols": 1,
+"feladatlap_words": 550
+},
+"2016o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 458,
+"input_cols": 1,
+"feladatlap_words": 802
+},
+"2017m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 304,
+"input_cols": 1,
+"feladatlap_words": 668
+},
+"2017o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 206,
+"input_cols": 1,
+"feladatlap_words": 711
+},
+"2018m_emelt_inf": {
+"subtask_count": 8,
+"input_rows": 516,
+"input_cols": 1,
+"feladatlap_words": 746
+},
+"2018o_emelt_inf": {
+"subtask_count": 6,
+"input_rows": 98,
+"input_cols": 1,
+"feladatlap_words": 617
+},
+"2019m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 294,
+"input_cols": 1,
+"feladatlap_words": 782
+},
+"2019o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 699,
+"input_cols": 1,
+"feladatlap_words": 810
+},
+"2020m_emelt_inf": {
+"subtask_count": 6,
+"input_rows": 374,
+"input_cols": 1,
+"feladatlap_words": 767
+},
+"2020o_emelt_inf": {
+"subtask_count": 8,
+"input_rows": 1095,
+"input_cols": 1,
+"feladatlap_words": 839
+},
+"2021m_emelt_inf": {
+"subtask_count": 6,
+"input_rows": 694,
+"input_cols": 1,
+"feladatlap_words": 710
+},
+"2021o_emelt_inf": {
+"subtask_count": 5,
+"input_rows": 13,
+"input_cols": 1,
+"feladatlap_words": 811
+},
+"2022m_emelt_dk": {
+"subtask_count": 7,
+"input_rows": 544,
+"input_cols": 1,
+"feladatlap_words": 715
+},
+"2022m_kozep_dk": {
+"subtask_count": 3,
+"input_rows": 0,
+"input_cols": 0,
+"feladatlap_words": 280
+},
+"2022o_emelt_dk": {
+"subtask_count": 6,
+"input_rows": 466,
+"input_cols": 1,
+"feladatlap_words": 854
+},
+"2022o_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 0,
+"input_cols": 0,
+"feladatlap_words": 321
+},
+"2022o_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 250,
+"input_cols": 1,
+"feladatlap_words": 788
+},
+"2023m_emelt_dk": {
+"subtask_count": 7,
+"input_rows": 28,
+"input_cols": 6,
+"feladatlap_words": 716
+},
+"2023m_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 1,
+"input_cols": 15,
+"feladatlap_words": 369
+},
+"2023m_emelt_inf": {
+"subtask_count": 6,
+"input_rows": 360,
+"input_cols": 1,
+"feladatlap_words": 711
+},
+"2023o_emelt_dk": {
+"subtask_count": 10,
+"input_rows": 971,
+"input_cols": 1,
+"feladatlap_words": 846
+},
+"2023o_kozep_dk": {
+"subtask_count": 3,
+"input_rows": 1,
+"input_cols": 15,
+"feladatlap_words": 282
+},
+"2023o_emelt_inf": {
+"subtask_count": 8,
+"input_rows": 43,
+"input_cols": 1,
+"feladatlap_words": 911
+},
+"2024m_emelt_dk": {
+"subtask_count": 7,
+"input_rows": 750,
+"input_cols": 1,
+"feladatlap_words": 829
+},
+"2024m_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 1,
+"input_cols": 18,
+"feladatlap_words": 369
+},
+"2024o_emelt_dk": {
+"subtask_count": 7,
+"input_rows": 1705,
+"input_cols": 4,
+"feladatlap_words": 842
+},
+"2024o_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 1,
+"input_cols": 15,
+"feladatlap_words": 298
+},
+"2025m_emelt_dk": {
+"subtask_count": 6,
+"input_rows": 361,
+"input_cols": 5,
+"feladatlap_words": 848
+},
+"2025m_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 0,
+"input_cols": 0,
+"feladatlap_words": 533
+},
+"2025o_emelt_dk": {
+"subtask_count": 6,
+"input_rows": 76,
+"input_cols": 1,
+"feladatlap_words": 647
+},
+"2025o_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 1,
+"input_cols": 16,
+"feladatlap_words": 380
+},
+"2026m_emelt_dk": {
+"subtask_count": 8,
+"input_rows": 150,
+"input_cols": 3,
+"feladatlap_words": 1181
+},
+"2026m_kozep_dk": {
+"subtask_count": 5,
+"input_rows": 1,
+"input_cols": 14,
+"feladatlap_words": 392
+}
+}
+}

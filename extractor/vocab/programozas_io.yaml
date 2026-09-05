@@ -1,0 +1,17 @@
+# Be- és kimenet a programozás-feladatokban.
+
+- key: file_in
+  label: Beolvasás fájlból
+  patterns: ['(állományt|fájlt) (meg)?nyit', 'beolvas(ta|ás|sa)? .{0,30}(állomány|fájl)',
+             '(állományból|fájlból) (be)?olvas', 'feldolgoz(za|ta)? (az|a) .{0,20}(állomány|fájl)']
+- key: kbd_in
+  label: Bekérés billentyűzetről
+  patterns: ['bekér(te|i|és)', 'billentyűzetr(ől|ol)', 'felhasználó (által megadott|tól)',
+             'a felhasználótól']
+- key: screen_out
+  label: Kiírás képernyőre
+  patterns: ['képernyőre (ír|jelenít)', 'megjelenít(ette|i|és)', 'kiírat', 'a képernyőn']
+- key: file_out
+  label: Kiírás fájlba
+  patterns: ['állományba (ír|ment)', 'fájlba (ír|ment)', '(állományt|fájlt) hozott létre',
+             'létrehozta (az|a) .{0,25}(állomány|fájl)']

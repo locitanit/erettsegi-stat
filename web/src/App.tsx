@@ -3,7 +3,9 @@ import { Menu, X } from "lucide-react";
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Placeholder from "./components/Placeholder";
+import Adatbazis from "./pages/Adatbazis";
 import Esedekes from "./pages/Esedekes";
+import Programozas from "./pages/Programozas";
 import Tablazatkezeles from "./pages/Tablazatkezeles";
 import Vizsgak from "./pages/Vizsgak";
 import Adatokrol from "./pages/Adatokrol";
@@ -65,8 +67,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Placeholder title="Áttekintés" phase="3. fázisban" />} />
           <Route path="/tablazatkezeles" element={<Tablazatkezeles />} />
-          <Route path="/adatbazis" element={<Placeholder title="Adatbázis-kezelés" phase="2. fázisban" />} />
-          <Route path="/programozas" element={<Placeholder title="Programozás" phase="2. fázisban" />} />
+          <Route path="/adatbazis" element={<Adatbazis />} />
+          <Route path="/programozas" element={<Programozas />} />
           <Route path="/szovegszerkesztes" element={<Placeholder title="Szövegszerkesztés" phase="3. fázisban" />} />
           <Route path="/weblap" element={<Placeholder title="Weblap" phase="3. fázisban" />} />
           <Route path="/prezentacio" element={<Placeholder title="Prezentáció és grafika" phase="3. fázisban" />} />

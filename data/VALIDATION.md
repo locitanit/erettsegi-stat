@@ -110,11 +110,28 @@ Nincs.
 | Feladatok összesen | 346 |
 | Táblázatkezelés-feladat | 82 |
 | Ebből van kinyert képlet | 82 |
-| Ebből van mintamegoldás-xlsx is | 10 |
+| Ebből van mintamegoldás-xlsx is | 63 |
 | Képletek összesen (útmutatóból) | 772 |
 | Ismeretlen függvénynév | 0 |
 
 Feladatok témakörönként: adatbazis: 82, prezentacio: 35, prezentacio_grafika: 15, programozas: 50, szoveg: 60, tablazat: 82, weblap: 29
+
+## Adatbázis-kezelés és programozás
+
+| Mutató | Érték |
+|---|---|
+| Adatbázis-feladat | 82 |
+| Ebből van kinyert lekérdezés | 82 |
+| Ebből van .sql mintamegoldás is | 42 |
+| Lekérdezések összesen (útmutatóból) | 772 |
+| Programozás-feladat | 50 |
+| Ebből van típusalgoritmus-kulcsszó | 50 |
+| Ebből ismert a megoldás nyelve | 50 |
+| Ebből ismert a bemenet mérete | 46 |
+
+A típusalgoritmus-felismerés kulcsszó-alapú becslés: az útmutató nem nevezi meg
+a típusalgoritmust, csak leírja a feladatot. A számok trendre jók, pontos
+darabszámnak nem.
 
 ## Feladat-vágási figyelmeztetések
 

@@ -1,0 +1,385 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"fajlkezeles": 6,
+"osszegzes": 5,
+"maximumkivalasztas": 3,
+"atlagszamitas": 1,
+"matrix": 1
+},
+"2007o_emelt_inf": {
+"fajlkezeles": 15,
+"osszegzes": 6,
+"kereses": 5,
+"sztringfeldolgozas": 4,
+"megszamlalas": 3,
+"statisztika_kiiras": 3,
+"rendezes": 1
+},
+"2008m_emelt_inf": {
+"fajlkezeles": 11,
+"maximumkivalasztas": 9,
+"megszamlalas": 5,
+"osszegzes": 5,
+"minimumkivalasztas": 4,
+"szetvalogatas": 3,
+"rendezes": 2,
+"sztringfeldolgozas": 1,
+"statisztika_kiiras": 1
+},
+"2008o_emelt_inf": {
+"fajlkezeles": 21,
+"osszegzes": 6,
+"sztringfeldolgozas": 6,
+"maximumkivalasztas": 1,
+"minimumkivalasztas": 1,
+"szetvalogatas": 1
+},
+"2009m_emelt_inf": {
+"fajlkezeles": 24,
+"maximumkivalasztas": 7,
+"minimumkivalasztas": 7,
+"osszegzes": 5,
+"sztringfeldolgozas": 2
+},
+"2009o_emelt_inf": {
+"fajlkezeles": 16,
+"osszegzes": 5,
+"sztringfeldolgozas": 4,
+"statisztika_kiiras": 3,
+"metszet_unio": 1
+},
+"2010m_emelt_inf": {
+"fajlkezeles": 14,
+"osszegzes": 5,
+"megszamlalas": 4,
+"sztringfeldolgozas": 2
+},
+"2010o_emelt_inf": {
+"fajlkezeles": 40,
+"maximumkivalasztas": 11,
+"osszegzes": 5,
+"kereses": 3,
+"szetvalogatas": 3,
+"rendezes": 3,
+"megszamlalas": 2,
+"sztringfeldolgozas": 2
+},
+"2011m_emelt_inf": {
+"fajlkezeles": 31,
+"maximumkivalasztas": 9,
+"osszegzes": 6,
+"sztringfeldolgozas": 4,
+"eldontes": 2,
+"atlagszamitas": 1,
+"szetvalogatas": 1
+},
+"2012m_emelt_inf": {
+"fajlkezeles": 20,
+"osszegzes": 8,
+"maximumkivalasztas": 4,
+"rendezes": 1,
+"sztringfeldolgozas": 1
+},
+"2012o_emelt_inf": {
+"fajlkezeles": 15,
+"maximumkivalasztas": 6,
+"megszamlalas": 5,
+"osszegzes": 5,
+"eldontes": 4,
+"sztringfeldolgozas": 3,
+"kereses": 2
+},
+"2013m_emelt_inf": {
+"fajlkezeles": 11,
+"maximumkivalasztas": 7,
+"osszegzes": 6,
+"kereses": 4,
+"atlagszamitas": 3,
+"sztringfeldolgozas": 2
+},
+"2013o_emelt_inf": {
+"fajlkezeles": 12,
+"osszegzes": 5,
+"maximumkivalasztas": 4,
+"kereses": 3,
+"statisztika_kiiras": 2,
+"atlagszamitas": 1,
+"szetvalogatas": 1,
+"sztringfeldolgozas": 1
+},
+"2014m_emelt_inf": {
+"fajlkezeles": 28,
+"minimumkivalasztas": 7,
+"osszegzes": 5,
+"maximumkivalasztas": 5,
+"megszamlalas": 4,
+"sztringfeldolgozas": 4,
+"atlagszamitas": 2
+},
+"2014o_emelt_inf": {
+"fajlkezeles": 24,
+"osszegzes": 5,
+"maximumkivalasztas": 5,
+"kereses": 2,
+"statisztika_kiiras": 1
+},
+"2015m_emelt_inf": {
+"fajlkezeles": 15,
+"osszegzes": 5,
+"sztringfeldolgozas": 4,
+"statisztika_kiiras": 4,
+"atlagszamitas": 1,
+"maximumkivalasztas": 1,
+"kivalogatas": 1
+},
+"2015o_emelt_inf": {
+"fajlkezeles": 11,
+"maximumkivalasztas": 6,
+"osszegzes": 5,
+"kereses": 4,
+"sztringfeldolgozas": 2,
+"atlagszamitas": 1,
+"eldontes": 1
+},
+"2016m_emelt_inf": {
+"fajlkezeles": 15,
+"megszamlalas": 13,
+"osszegzes": 5
+},
+"2016o_emelt_inf": {
+"fajlkezeles": 10,
+"maximumkivalasztas": 8,
+"statisztika_kiiras": 2,
+"megszamlalas": 1,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2017m_emelt_inf": {
+"fajlkezeles": 15,
+"sztringfeldolgozas": 6,
+"maximumkivalasztas": 5,
+"osszegzes": 2
+},
+"2017o_emelt_inf": {
+"datumkezeles": 19,
+"maximumkivalasztas": 7,
+"osszegzes": 6,
+"fajlkezeles": 6,
+"sztringfeldolgozas": 2,
+"megszamlalas": 1,
+"szetvalogatas": 1
+},
+"2018m_emelt_inf": {
+"fajlkezeles": 17,
+"maximumkivalasztas": 6,
+"osszegzes": 4,
+"sztringfeldolgozas": 3,
+"megszamlalas": 1
+},
+"2018o_emelt_inf": {
+"fajlkezeles": 10,
+"sztringfeldolgozas": 6,
+"osszegzes": 2,
+"maximumkivalasztas": 1,
+"kereses": 1
+},
+"2019m_emelt_inf": {
+"fajlkezeles": 14,
+"datumkezeles": 14,
+"maximumkivalasztas": 7,
+"statisztika_kiiras": 2,
+"megszamlalas": 1,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2019o_emelt_inf": {
+"fajlkezeles": 18,
+"datumkezeles": 12,
+"maximumkivalasztas": 5,
+"sztringfeldolgozas": 3,
+"minimumkivalasztas": 2,
+"megszamlalas": 1,
+"osszegzes": 1,
+"eldontes": 1,
+"kivalogatas": 1,
+"statisztika_kiiras": 1
+},
+"2020m_emelt_inf": {
+"fajlkezeles": 16,
+"maximumkivalasztas": 8,
+"minimumkivalasztas": 8,
+"atlagszamitas": 3,
+"sztringfeldolgozas": 2,
+"osszegzes": 1,
+"rendezes": 1,
+"datumkezeles": 1
+},
+"2020o_emelt_inf": {
+"fajlkezeles": 18,
+"datumkezeles": 18,
+"osszegzes": 4,
+"sztringfeldolgozas": 2,
+"megszamlalas": 1,
+"eldontes": 1
+},
+"2021m_emelt_inf": {
+"fajlkezeles": 18,
+"maximumkivalasztas": 6,
+"metszet_unio": 2,
+"megszamlalas": 1,
+"osszegzes": 1
+},
+"2021o_emelt_inf": {
+"fajlkezeles": 11,
+"megszamlalas": 1,
+"osszegzes": 1,
+"sztringfeldolgozas": 1,
+"matrix": 1
+},
+"2022m_emelt_dk": {
+"fajlkezeles": 24,
+"sztringfeldolgozas": 4,
+"osszegzes": 2,
+"rendezes": 2
+},
+"2022m_kozep_dk": {
+"minimumkivalasztas": 3,
+"megszamlalas": 1,
+"osszegzes": 1
+},
+"2022o_emelt_dk": {
+"fajlkezeles": 11,
+"sztringfeldolgozas": 5,
+"eldontes": 2,
+"osszegzes": 1
+},
+"2022o_kozep_dk": {
+"megszamlalas": 10,
+"eldontes": 2,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2022o_emelt_inf": {
+"fajlkezeles": 14,
+"minimumkivalasztas": 3,
+"osszegzes": 2,
+"maximumkivalasztas": 2,
+"sztringfeldolgozas": 1
+},
+"2023m_emelt_dk": {
+"datumkezeles": 20,
+"fajlkezeles": 15,
+"rendezes": 4,
+"maximumkivalasztas": 3,
+"megszamlalas": 2,
+"osszegzes": 2,
+"minimumkivalasztas": 1
+},
+"2023m_kozep_dk": {
+"fajlkezeles": 3,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2023m_emelt_inf": {
+"kereses": 7,
+"eldontes": 6,
+"fajlkezeles": 6,
+"megszamlalas": 4,
+"minimumkivalasztas": 2,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2023o_emelt_dk": {
+"megszamlalas": 22,
+"fajlkezeles": 17,
+"osszegzes": 12,
+"maximumkivalasztas": 7,
+"rendezes": 2,
+"sztringfeldolgozas": 1
+},
+"2023o_kozep_dk": {
+"fajlkezeles": 2,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2023o_emelt_inf": {
+"fajlkezeles": 29,
+"maximumkivalasztas": 5,
+"megszamlalas": 2,
+"statisztika_kiiras": 2,
+"osszegzes": 1,
+"eldontes": 1,
+"sztringfeldolgozas": 1
+},
+"2024m_emelt_dk": {
+"fajlkezeles": 19,
+"sztringfeldolgozas": 5,
+"osszegzes": 1,
+"kivalogatas": 1,
+"statisztika_kiiras": 1
+},
+"2024m_kozep_dk": {
+"fajlkezeles": 2,
+"sztringfeldolgozas": 2,
+"osszegzes": 1
+},
+"2024o_emelt_dk": {
+"fajlkezeles": 18,
+"maximumkivalasztas": 12,
+"sztringfeldolgozas": 5,
+"megszamlalas": 3,
+"kereses": 3,
+"osszegzes": 1,
+"eldontes": 1
+},
+"2024o_kozep_dk": {
+"maximumkivalasztas": 6,
+"fajlkezeles": 2,
+"osszegzes": 1
+},
+"2025m_emelt_dk": {
+"fajlkezeles": 25,
+"megszamlalas": 13,
+"datumkezeles": 10,
+"osszegzes": 6,
+"maximumkivalasztas": 6,
+"kereses": 6,
+"sztringfeldolgozas": 5,
+"eldontes": 4,
+"statisztika_kiiras": 2,
+"kivalasztas": 1,
+"rendezes": 1
+},
+"2025m_kozep_dk": {
+"osszegzes": 3,
+"fajlkezeles": 2,
+"megszamlalas": 1
+},
+"2025o_emelt_dk": {
+"fajlkezeles": 8,
+"minimumkivalasztas": 6,
+"osszegzes": 1,
+"sztringfeldolgozas": 1
+},
+"2025o_kozep_dk": {
+"osszegzes": 8,
+"maximumkivalasztas": 6,
+"fajlkezeles": 2
+},
+"2026m_emelt_dk": {
+"fajlkezeles": 18,
+"maximumkivalasztas": 5,
+"osszegzes": 4,
+"megszamlalas": 2
+},
+"2026m_kozep_dk": {
+"minimumkivalasztas": 8,
+"maximumkivalasztas": 5,
+"kereses": 3,
+"fajlkezeles": 2,
+"osszegzes": 1
+}
+}
+}

@@ -1086,5 +1086,207 @@
    "key": "nyomtatasi_kep",
    "label": "Nyomtatási beállítás"
   }
+ ],
+ "sql_keywords": [
+  {
+   "key": "distinct",
+   "label": "DISTINCT"
+  },
+  {
+   "key": "where",
+   "label": "WHERE"
+  },
+  {
+   "key": "group_by",
+   "label": "GROUP BY"
+  },
+  {
+   "key": "having",
+   "label": "HAVING"
+  },
+  {
+   "key": "order_by",
+   "label": "ORDER BY"
+  },
+  {
+   "key": "top_limit",
+   "label": "TOP / LIMIT"
+  },
+  {
+   "key": "like",
+   "label": "LIKE"
+  },
+  {
+   "key": "in_list",
+   "label": "IN"
+  },
+  {
+   "key": "between",
+   "label": "BETWEEN"
+  },
+  {
+   "key": "is_null",
+   "label": "IS NULL"
+  },
+  {
+   "key": "union",
+   "label": "UNION"
+  },
+  {
+   "key": "join_explicit",
+   "label": "JOIN (kifejtett)"
+  },
+  {
+   "key": "alias",
+   "label": "Álnév (AS)"
+  },
+  {
+   "key": "desc_asc",
+   "label": "Rendezési irány (ASC/DESC)"
+  },
+  {
+   "key": "fn_count",
+   "label": "COUNT"
+  },
+  {
+   "key": "fn_sum",
+   "label": "SUM"
+  },
+  {
+   "key": "fn_avg",
+   "label": "AVG"
+  },
+  {
+   "key": "fn_min",
+   "label": "MIN"
+  },
+  {
+   "key": "fn_max",
+   "label": "MAX"
+  },
+  {
+   "key": "fn_date",
+   "label": "Dátumfüggvény (YEAR, MONTH…)"
+  },
+  {
+   "key": "fn_text",
+   "label": "Szövegfüggvény (LEFT, MID…)"
+  },
+  {
+   "key": "dml_insert",
+   "label": "INSERT"
+  },
+  {
+   "key": "dml_update",
+   "label": "UPDATE"
+  },
+  {
+   "key": "dml_delete",
+   "label": "DELETE"
+  },
+  {
+   "key": "ddl_create",
+   "label": "CREATE TABLE"
+  },
+  {
+   "key": "select_into",
+   "label": "SELECT … INTO (táblakészítő)"
+  },
+  {
+   "key": "subquery",
+   "label": "Allekérdezés"
+  }
+ ],
+ "algorithms": [
+  {
+   "key": "megszamlalas",
+   "label": "Megszámlálás"
+  },
+  {
+   "key": "osszegzes",
+   "label": "Összegzés"
+  },
+  {
+   "key": "atlagszamitas",
+   "label": "Átlagszámítás"
+  },
+  {
+   "key": "maximumkivalasztas",
+   "label": "Maximumkiválasztás"
+  },
+  {
+   "key": "minimumkivalasztas",
+   "label": "Minimumkiválasztás"
+  },
+  {
+   "key": "eldontes",
+   "label": "Eldöntés"
+  },
+  {
+   "key": "kivalasztas",
+   "label": "Kiválasztás"
+  },
+  {
+   "key": "kereses",
+   "label": "Keresés"
+  },
+  {
+   "key": "kivalogatas",
+   "label": "Kiválogatás"
+  },
+  {
+   "key": "szetvalogatas",
+   "label": "Szétválogatás"
+  },
+  {
+   "key": "rendezes",
+   "label": "Rendezés"
+  },
+  {
+   "key": "metszet_unio",
+   "label": "Metszet, unió"
+  },
+  {
+   "key": "rekurzio",
+   "label": "Rekurzió"
+  },
+  {
+   "key": "fajlkezeles",
+   "label": "Fájlkezelés"
+  },
+  {
+   "key": "sztringfeldolgozas",
+   "label": "Szövegfeldolgozás"
+  },
+  {
+   "key": "matrix",
+   "label": "Kétdimenziós tömb"
+  },
+  {
+   "key": "datumkezeles",
+   "label": "Dátumkezelés"
+  },
+  {
+   "key": "statisztika_kiiras",
+   "label": "Statisztika kiírása"
+  }
+ ],
+ "programozas_io": [
+  {
+   "key": "file_in",
+   "label": "Beolvasás fájlból"
+  },
+  {
+   "key": "kbd_in",
+   "label": "Bekérés billentyűzetről"
+  },
+  {
+   "key": "screen_out",
+   "label": "Kiírás képernyőre"
+  },
+  {
+   "key": "file_out",
+   "label": "Kiírás fájlba"
+  }
  ]
 }

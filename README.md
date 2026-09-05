@@ -4,8 +4,9 @@ A digitális kultúra / informatika érettségik (2005–) adatalapú elemzése.
 Élő oldal: <https://locitanit.github.io/erettsegi-stat/>
 
 A teljes terv és az elfogadási feltételek: [TERV.md](TERV.md).
-Jelenlegi állapot: **1. fázis kész** – a vizsgák felderítése, az útmutató-vágás, a
-táblázatkezelés-elemzés, a Táblázatkezelés és a „Mikor volt utoljára” oldal.
+Jelenlegi állapot: **2. fázis kész** – a vizsgák felderítése, az útmutató-vágás, a
+táblázatkezelés-, adatbázis- és programozás-elemzés, és a hozzájuk tartozó oldalak
+(Táblázatkezelés, Adatbázis-kezelés, Programozás, „Mikor volt utoljára”).
 Az idegen nyelvű vizsgák nem szerepelnek az elemzésben (nincs saját nyelvű útmutatójuk).
 
 ## Hogyan működik

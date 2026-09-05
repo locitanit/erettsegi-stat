@@ -1,0 +1,61 @@
+# Típusalgoritmusok magyar kulcsszavai a programozás-feladatokhoz.
+#
+# FONTOS: ez becslés. Az útmutató nem nevezi meg a típusalgoritmust, csak leírja,
+# mit kell csinálni – ezért a mintákat a leírás tipikus fordulataira illesztjük.
+# A felületen ez „kulcsszó-alapú” jelöléssel jelenik meg.
+
+- key: megszamlalas
+  label: Megszámlálás
+  patterns: ['megszámol', 'megszámlál', 'hány (darab|alkalommal|olyan|könyv|adat|sor|elem)', 'darabszám']
+- key: osszegzes
+  label: Összegzés
+  patterns: ['összegez', 'összeget? (számol|meghatároz|képez)', 'összesít', '\bösszesen\b']
+- key: atlagszamitas
+  label: Átlagszámítás
+  patterns: ['átlag']
+- key: maximumkivalasztas
+  label: Maximumkiválasztás
+  patterns: ['legnagyobb', 'legtöbb', 'legmagasabb', 'maximum', 'leghosszabb', 'legdrágább']
+- key: minimumkivalasztas
+  label: Minimumkiválasztás
+  patterns: ['legkisebb', 'legkevesebb', 'legalacsonyabb', 'minimum', 'legrövidebb', 'legolcsóbb']
+- key: eldontes
+  label: Eldöntés
+  patterns: ['van-e olyan', 'eldönt', 'szerepel-e', 'előfordul-e', 'létezik-e', 'igaz-e']
+- key: kivalasztas
+  label: Kiválasztás
+  patterns: ['az első olyan', 'megkeresi az első', 'melyik az a']
+- key: kereses
+  label: Keresés
+  patterns: ['keres(i|te|és)', 'megkeres', 'megállapít(otta|ja), hogy .{0,40}szerepel']
+- key: kivalogatas
+  label: Kiválogatás
+  patterns: ['kiválogat', 'az összes olyan', 'valamennyi olyan', 'listáz(za|ta)? (az|a) összes']
+- key: szetvalogatas
+  label: Szétválogatás
+  patterns: ['szétválogat', 'csoportosít', 'csoportonként']
+- key: rendezes
+  label: Rendezés
+  patterns: ['rendez(i|te|és|ve)', 'sorrendbe (állít|rak|tesz)', 'ábécérend']
+- key: metszet_unio
+  label: Metszet, unió
+  patterns: ['metszet', '\bunió', 'közös elem', 'mindkét (halmaz|listá)']
+- key: rekurzio
+  label: Rekurzió
+  patterns: ['rekurz']
+- key: fajlkezeles
+  label: Fájlkezelés
+  patterns: ['állomány(t|ba|ból|ok)', 'fájl(t|ba|ból)', '\.txt\b', '\.csv\b']
+- key: sztringfeldolgozas
+  label: Szövegfeldolgozás
+  patterns: ['szövegrészlet', 'karakterlánc', 'részletet keres', 'szóköz', 'kettőspont',
+             'vessző(vel)? (elválaszt|tagol)', 'darabol', 'kis- és nagybetű']
+- key: matrix
+  label: Kétdimenziós tömb
+  patterns: ['kétdimenziós', 'mátrix', 'sor és oszlop', 'táblázatos szerkezet']
+- key: datumkezeles
+  label: Dátumkezelés
+  patterns: ['dátum', 'évszám', 'negyedév', 'hónap', 'napok száma']
+- key: statisztika_kiiras
+  label: Statisztika kiírása
+  patterns: ['statisztik', 'gyakorisági', 'eloszlás']

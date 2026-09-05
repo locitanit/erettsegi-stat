@@ -162,6 +162,41 @@ def build_report(
         a("Még nincs feladat-szintű adat (`python -m extractor --all`).")
         a("")
 
+    if tasks:
+        a("## Adatbázis-kezelés és programozás")
+        a("")
+        db = [t for t in tasks if "adatbazis" in t["topics"]]
+        pr = [t for t in tasks if "programozas" in t["topics"]]
+        db_q = [t for t in db if (t["features"].get("adatbazis") or {}).get("query_count")]
+        db_sql = [t for t in db if (t["features"].get("adatbazis") or {}).get("sql")]
+        pr_alg = [t for t in pr if (t["features"].get("programozas") or {}).get("algorithms")]
+        pr_lang = [t for t in pr if (t["features"].get("programozas") or {}).get("solution_langs")]
+        pr_rows = [t for t in pr if (t["features"].get("programozas") or {}).get("input_rows")]
+        queries = sum((t["features"].get("adatbazis") or {}).get("query_count", 0) for t in db)
+
+        a("| Mutató | Érték |")
+        a("|---|---|")
+        a(f"| Adatbázis-feladat | {len(db)} |")
+        a(f"| Ebből van kinyert lekérdezés | {len(db_q)} |")
+        a(f"| Ebből van .sql mintamegoldás is | {len(db_sql)} |")
+        a(f"| Lekérdezések összesen (útmutatóból) | {queries} |")
+        a(f"| Programozás-feladat | {len(pr)} |")
+        a(f"| Ebből van típusalgoritmus-kulcsszó | {len(pr_alg)} |")
+        a(f"| Ebből ismert a megoldás nyelve | {len(pr_lang)} |")
+        a(f"| Ebből ismert a bemenet mérete | {len(pr_rows)} |")
+        a("")
+        gap = [t for t in db if t not in db_q] + [t for t in pr if t not in pr_alg]
+        if gap:
+            a("Ellenőrzendő feladatok:")
+            a("")
+            for t in gap:
+                a(f"- `{t['exam_id']}` {t['task_no']}. {t['title']}")
+            a("")
+        a("A típusalgoritmus-felismerés kulcsszó-alapú becslés: az útmutató nem nevezi meg")
+        a("a típusalgoritmust, csak leírja a feladatot. A számok trendre jók, pontos")
+        a("darabszámnak nem.")
+        a("")
+
     if task_warnings:
         a("## Feladat-vágási figyelmeztetések")
         a("")

@@ -126,7 +126,13 @@ def vocab_payload() -> dict:
             "pénzügyi": "Pénzügyi",
             "egyeb": "Egyéb",
         },
-        "tablazat_skills": [
-            {"key": k.key, "label": k.label} for k in load_keywords("tablazat_skills.yaml")
-        ],
+        "tablazat_skills": _labels("tablazat_skills.yaml"),
+        "sql_keywords": _labels("sql_keywords.yaml")
+        + [{"key": "subquery", "label": "Allekérdezés"}],
+        "algorithms": _labels("algorithm_keywords.yaml"),
+        "programozas_io": _labels("programozas_io.yaml"),
     }
+
+
+def _labels(filename: str) -> list[dict]:
+    return [{"key": k.key, "label": k.label} for k in load_keywords(filename)]

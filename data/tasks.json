@@ -164,11 +164,33 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 2,
+      "group_by": 2,
+      "fn_count": 2,
+      "top_limit": 1,
+      "fn_min": 1,
+      "subquery": 1,
+      "like": 1,
+      "alias": 1,
+      "having": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_05okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -191,11 +213,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 6,
+      "osszegzes": 5,
+      "maximumkivalasztas": 3,
+      "atlagszamitas": 1,
+      "matrix": 1
+     },
+     "io": {
+      "kbd_in": 8,
+      "file_in": 2
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "Pascal"
+     ],
+     "input_rows": null,
+     "input_cols": null,
+     "input_separator": null,
+     "feladatlap_words": 384
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_05okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -466,11 +512,33 @@
      "type": "pas"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "fn_max": 3,
+      "order_by": 2,
+      "desc_asc": 2,
+      "between": 1,
+      "group_by": 1,
+      "fn_count": 1,
+      "top_limit": 1,
+      "subquery": 1,
+      "alias": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_07maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -618,11 +686,33 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 12,
+      "in_list": 3,
+      "alias": 2,
+      "subquery": 2,
+      "distinct": 2,
+      "order_by": 1,
+      "like": 1,
+      "group_by": 1,
+      "having": 1,
+      "fn_count": 1
+     },
+     "query_count": 12,
+     "subquery_count": 2,
+     "max_tables_per_query": 3,
+     "max_conditions": 8,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_07okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -645,11 +735,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 15,
+      "osszegzes": 6,
+      "kereses": 5,
+      "sztringfeldolgozas": 4,
+      "megszamlalas": 3,
+      "statisztika_kiiras": 3,
+      "rendezes": 1
+     },
+     "io": {
+      "screen_out": 11,
+      "kbd_in": 8,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "Pascal"
+     ],
+     "input_rows": 113,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 644
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_07okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -943,11 +1060,35 @@
      "type": "pas"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "alias": 6,
+      "fn_count": 3,
+      "order_by": 2,
+      "desc_asc": 2,
+      "group_by": 2,
+      "fn_date": 2,
+      "dml_update": 1,
+      "is_null": 1,
+      "top_limit": 1,
+      "fn_max": 1,
+      "like": 1
+     },
+     "query_count": 10,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 2,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_07okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -1131,11 +1272,36 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 5,
+      "group_by": 1,
+      "having": 1,
+      "fn_count": 1,
+      "dml_update": 1,
+      "top_limit": 1,
+      "alias": 1,
+      "fn_date": 1,
+      "distinct": 1,
+      "fn_min": 1,
+      "subquery": 1,
+      "between": 1,
+      "dml_delete": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 7,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_08maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -1175,11 +1341,41 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 11,
+      "maximumkivalasztas": 9,
+      "megszamlalas": 5,
+      "osszegzes": 5,
+      "minimumkivalasztas": 4,
+      "szetvalogatas": 3,
+      "rendezes": 2,
+      "sztringfeldolgozas": 1,
+      "statisztika_kiiras": 1
+     },
+     "io": {
+      "screen_out": 14,
+      "kbd_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "Pascal",
+      "Visual Basic"
+     ],
+     "input_rows": 61,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 551
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_08maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -1468,11 +1664,32 @@
      "type": "dpr"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "order_by": 3,
+      "alias": 2,
+      "distinct": 1,
+      "group_by": 1,
+      "fn_count": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "subquery": 1
+     },
+     "query_count": 9,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_08maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -1654,11 +1871,38 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "fn_min": 3,
+      "order_by": 2,
+      "group_by": 2,
+      "alias": 2,
+      "fn_date": 2,
+      "is_null": 2,
+      "like": 1,
+      "distinct": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_count": 1,
+      "dml_update": 1,
+      "subquery": 1,
+      "between": 1
+     },
+     "query_count": 10,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_08okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -1698,11 +1942,38 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 21,
+      "osszegzes": 6,
+      "sztringfeldolgozas": 6,
+      "maximumkivalasztas": 1,
+      "minimumkivalasztas": 1,
+      "szetvalogatas": 1
+     },
+     "io": {
+      "screen_out": 15,
+      "kbd_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "Pascal",
+      "Visual Basic"
+     ],
+     "input_rows": 14,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 609
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_08okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -1930,11 +2201,34 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "alias": 3,
+      "like": 1,
+      "fn_avg": 1,
+      "fn_min": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "group_by": 1,
+      "having": 1,
+      "fn_count": 1,
+      "select_into": 1
+     },
+     "query_count": 7,
+     "subquery_count": 0,
+     "max_tables_per_query": 1,
+     "max_conditions": 2,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_08okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -2153,11 +2447,34 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "alias": 5,
+      "group_by": 4,
+      "like": 2,
+      "fn_count": 2,
+      "order_by": 1,
+      "fn_min": 1,
+      "fn_max": 1,
+      "top_limit": 1,
+      "distinct": 1,
+      "subquery": 1
+     },
+     "query_count": 11,
+     "subquery_count": 1,
+     "max_tables_per_query": 4,
+     "max_conditions": 7,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_09maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -2197,11 +2514,37 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 24,
+      "maximumkivalasztas": 7,
+      "minimumkivalasztas": 7,
+      "osszegzes": 5,
+      "sztringfeldolgozas": 2
+     },
+     "io": {
+      "screen_out": 13,
+      "kbd_in": 2,
+      "file_out": 1
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "C#",
+      "C++"
+     ],
+     "input_rows": 86,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 792
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_09maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -2488,11 +2831,31 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "join_explicit": 2,
+      "top_limit": 2,
+      "order_by": 1,
+      "desc_asc": 1,
+      "fn_date": 1,
+      "distinct": 1,
+      "alias": 1
+     },
+     "query_count": 8,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_09maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -2642,11 +3005,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 3,
+      "top_limit": 2,
+      "is_null": 2,
+      "dml_update": 2,
+      "group_by": 2,
+      "fn_count": 2,
+      "fn_date": 2,
+      "subquery": 2,
+      "fn_min": 1,
+      "alias": 1,
+      "desc_asc": 1,
+      "having": 1,
+      "like": 1,
+      "in_list": 1
+     },
+     "query_count": 10,
+     "subquery_count": 2,
+     "max_tables_per_query": 2,
+     "max_conditions": 5,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_09okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -2669,11 +3059,36 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 16,
+      "osszegzes": 5,
+      "sztringfeldolgozas": 4,
+      "statisztika_kiiras": 3,
+      "metszet_unio": 1
+     },
+     "io": {
+      "screen_out": 12,
+      "kbd_in": 4,
+      "file_out": 2
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "C++"
+     ],
+     "input_rows": 1106,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 617
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_09okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -2909,11 +3324,33 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 11,
+      "fn_count": 5,
+      "group_by": 4,
+      "having": 3,
+      "order_by": 2,
+      "alias": 2,
+      "between": 1,
+      "desc_asc": 1,
+      "in_list": 1,
+      "subquery": 1
+     },
+     "query_count": 12,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 2,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_09okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -3105,11 +3542,37 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 12,
+      "fn_count": 5,
+      "group_by": 4,
+      "alias": 4,
+      "subquery": 3,
+      "distinct": 2,
+      "order_by": 2,
+      "desc_asc": 2,
+      "fn_max": 2,
+      "in_list": 2,
+      "like": 1,
+      "dml_update": 1,
+      "having": 1,
+      "top_limit": 1
+     },
+     "query_count": 15,
+     "subquery_count": 3,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_10maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -3149,11 +3612,36 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 14,
+      "osszegzes": 5,
+      "megszamlalas": 4,
+      "sztringfeldolgozas": 2
+     },
+     "io": {
+      "screen_out": 15,
+      "kbd_in": 2,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "C++"
+     ],
+     "input_rows": 114,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 609
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_10maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -3590,11 +4078,36 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "alias": 6,
+      "is_null": 5,
+      "order_by": 3,
+      "desc_asc": 3,
+      "fn_date": 3,
+      "subquery": 3,
+      "group_by": 2,
+      "top_limit": 2,
+      "fn_max": 2,
+      "in_list": 2,
+      "distinct": 1,
+      "fn_count": 1
+     },
+     "query_count": 12,
+     "subquery_count": 3,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_10okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -3634,11 +4147,41 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 40,
+      "maximumkivalasztas": 11,
+      "osszegzes": 5,
+      "kereses": 3,
+      "szetvalogatas": 3,
+      "rendezes": 3,
+      "megszamlalas": 2,
+      "sztringfeldolgozas": 2
+     },
+     "io": {
+      "screen_out": 6,
+      "kbd_in": 5,
+      "file_out": 2,
+      "file_in": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "Pascal",
+      "Visual Basic"
+     ],
+     "input_rows": 121,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 524
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_10okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -3857,11 +4400,32 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 4,
+      "alias": 2,
+      "group_by": 1,
+      "fn_count": 1,
+      "fn_sum": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "like": 1,
+      "dml_update": 1
+     },
+     "query_count": 6,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_10okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -4043,11 +4607,36 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "fn_date": 4,
+      "like": 4,
+      "order_by": 3,
+      "group_by": 2,
+      "top_limit": 2,
+      "desc_asc": 2,
+      "fn_count": 2,
+      "alias": 2,
+      "subquery": 2,
+      "distinct": 2,
+      "between": 1,
+      "in_list": 1
+     },
+     "query_count": 10,
+     "subquery_count": 2,
+     "max_tables_per_query": 4,
+     "max_conditions": 5,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_11maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -4087,11 +4676,39 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 31,
+      "maximumkivalasztas": 9,
+      "osszegzes": 6,
+      "sztringfeldolgozas": 4,
+      "eldontes": 2,
+      "atlagszamitas": 1,
+      "szetvalogatas": 1
+     },
+     "io": {
+      "screen_out": 8,
+      "kbd_in": 3,
+      "file_out": 1
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#",
+      "Pascal"
+     ],
+     "input_rows": 7825,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 619
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_info_11maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -4312,11 +4929,34 @@
      "type": "cs"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 3,
+      "desc_asc": 2,
+      "subquery": 2,
+      "like": 1,
+      "group_by": 1,
+      "fn_count": 1,
+      "top_limit": 1,
+      "fn_max": 1,
+      "in_list": 1,
+      "between": 1
+     },
+     "query_count": 10,
+     "subquery_count": 2,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_info_11maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -4533,11 +5173,37 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 12,
+      "subquery": 4,
+      "order_by": 3,
+      "fn_count": 3,
+      "group_by": 2,
+      "desc_asc": 2,
+      "in_list": 2,
+      "like": 1,
+      "between": 1,
+      "top_limit": 1,
+      "fn_max": 1,
+      "alias": 1,
+      "having": 1,
+      "is_null": 1
+     },
+     "query_count": 13,
+     "subquery_count": 4,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_12maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -4589,11 +5255,37 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 20,
+      "osszegzes": 8,
+      "maximumkivalasztas": 4,
+      "rendezes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 11,
+      "kbd_in": 3,
+      "file_out": 1
+     },
+     "subtask_count": 9,
+     "solution_langs": [
+      "C#",
+      "Pascal"
+     ],
+     "input_rows": 61,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 559
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_12maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -4765,14 +5457,27 @@
       "szegely_mintazat": 2,
       "igazitas": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "FKERES": 129,
+       "DARABTELI": 5,
+       "SZUM": 2,
+       "DARAB2": 1,
+       "KEREK.LE": 1
+      },
+      "function_pairs": {},
+      "formula_count": 138,
+      "formula_depth_max": 1,
+      "functions_per_formula_max": 1
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_12maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -4825,11 +5530,33 @@
      "type": "cs"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 3,
+      "group_by": 2,
+      "fn_count": 2,
+      "like": 1,
+      "top_limit": 1,
+      "alias": 1,
+      "having": 1,
+      "desc_asc": 1,
+      "subquery": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_12maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -5010,14 +5737,26 @@
       "diagram_pont": 1,
       "igazitas": 5
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "ÉS": 12,
+       "HA": 12,
+       "DARABTELI": 2,
+       "DARABÜRES": 1
+      },
+      "function_pairs": {},
+      "formula_count": 27,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 1
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_12okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -5053,11 +5792,33 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "group_by": 3,
+      "distinct": 2,
+      "is_null": 2,
+      "fn_count": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_avg": 1,
+      "fn_sum": 1
+     },
+     "query_count": 10,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_12okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -5080,11 +5841,39 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 15,
+      "maximumkivalasztas": 6,
+      "megszamlalas": 5,
+      "osszegzes": 5,
+      "eldontes": 4,
+      "sztringfeldolgozas": 3,
+      "kereses": 2
+     },
+     "io": {
+      "screen_out": 7,
+      "kbd_in": 5,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "Pascal"
+     ],
+     "input_rows": 2500,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 423
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_12okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -5300,14 +6089,37 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 1095,
+       "ÉS": 1095,
+       "KEREKÍTÉS": 9,
+       "ÁTLAG": 9,
+       "MAX": 9,
+       "MIN": 9,
+       "DARABTELI": 9,
+       "HOL.VAN": 9,
+       "INDEX": 9,
+       "DARABÜRES": 3,
+       "DARAB": 3
+      },
+      "function_pairs": {
+       "HA+ÉS": 1095,
+       "KEREKÍTÉS+ÁTLAG": 9,
+       "HOL.VAN+INDEX": 9
+      },
+      "formula_count": 1146,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_12okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -5352,11 +6164,35 @@
      "type": "cs"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "order_by": 2,
+      "fn_sum": 2,
+      "like": 1,
+      "top_limit": 1,
+      "fn_min": 1,
+      "is_null": 1,
+      "fn_count": 1,
+      "group_by": 1,
+      "having": 1,
+      "subquery": 1,
+      "alias": 1
+     },
+     "query_count": 10,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_12okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -5459,14 +6295,34 @@
       "oszlopszelesseg": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "KEREKÍTÉS": 318,
+       "MAX": 3,
+       "HOL.VAN": 2,
+       "INDEX": 2,
+       "SZUMHA": 2,
+       "ÁTLAG": 1,
+       "DARABTELI": 1,
+       "SZUM": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 2,
+       "HOL.VAN+MAX": 2,
+       "INDEX+MAX": 2
+      },
+      "formula_count": 326,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_13maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -5506,11 +6362,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 5,
+      "desc_asc": 2,
+      "top_limit": 2,
+      "fn_min": 2,
+      "subquery": 2,
+      "alias": 2,
+      "group_by": 2,
+      "fn_max": 1,
+      "distinct": 1,
+      "fn_count": 1,
+      "in_list": 1
+     },
+     "query_count": 9,
+     "subquery_count": 2,
+     "max_tables_per_query": 4,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_13maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -5533,11 +6413,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 11,
+      "maximumkivalasztas": 7,
+      "osszegzes": 6,
+      "kereses": 4,
+      "atlagszamitas": 3,
+      "sztringfeldolgozas": 2
+     },
+     "io": {
+      "screen_out": 17,
+      "kbd_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 40,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 602
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_13maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -5671,14 +6577,40 @@
       "szegely_mintazat": 3,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 47,
+       "DARABTELI": 24,
+       "HOL.VAN": 22,
+       "INDEX": 22,
+       "SZUM": 2,
+       "FKERES": 2,
+       "ÉS": 2,
+       "MAX": 1,
+       "NAGY": 1,
+       "KICSI": 1,
+       "MIN": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 22,
+       "HA+HOL.VAN": 18,
+       "HA+INDEX": 18,
+       "FKERES+HA": 2,
+       "FKERES+ÉS": 2,
+       "HA+ÉS": 2
+      },
+      "formula_count": 81,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_13maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -5706,11 +6638,31 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "alias": 3,
+      "group_by": 2,
+      "fn_sum": 2,
+      "order_by": 1,
+      "like": 1,
+      "having": 1,
+      "fn_count": 1
+     },
+     "query_count": 8,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_13maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -5877,14 +6829,27 @@
       "igazitas": 2,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "DARABTELI": 76,
+       "KEREKÍTÉS": 2,
+       "ÁTLAG": 2
+      },
+      "function_pairs": {
+       "KEREKÍTÉS+ÁTLAG": 2
+      },
+      "formula_count": 78,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_13okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -5949,11 +6914,37 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "in_list": 3,
+      "order_by": 2,
+      "group_by": 2,
+      "dml_update": 2,
+      "is_null": 1,
+      "distinct": 1,
+      "like": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_count": 1,
+      "alias": 1,
+      "having": 1,
+      "fn_min": 1
+     },
+     "query_count": 12,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_13okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -6005,11 +6996,40 @@
      "type": "mdb"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 12,
+      "osszegzes": 5,
+      "maximumkivalasztas": 4,
+      "kereses": 3,
+      "statisztika_kiiras": 2,
+      "atlagszamitas": 1,
+      "szetvalogatas": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 19,
+      "kbd_in": 3,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "C++"
+     ],
+     "input_rows": 354,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 554
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_13okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -6147,14 +7167,34 @@
       "szegely_mintazat": 2,
       "igazitas": 4
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "FKERES": 76,
+       "MA": 76,
+       "ÉV": 76,
+       "HA": 76,
+       "DARABTELI": 14,
+       "MAX": 2,
+       "ÁTLAG": 2,
+       "HOL.VAN": 2,
+       "INDEX": 2
+      },
+      "function_pairs": {
+       "MA+ÉV": 76,
+       "HOL.VAN+INDEX": 2
+      },
+      "formula_count": 248,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_13okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -6186,11 +7226,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "group_by": 3,
+      "like": 1,
+      "fn_date": 1,
+      "between": 1,
+      "fn_count": 1,
+      "fn_avg": 1,
+      "having": 1,
+      "fn_min": 1,
+      "distinct": 1,
+      "in_list": 1,
+      "subquery": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 6,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_13okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -6297,14 +7361,53 @@
       "igazitas": 2,
       "adatimport": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 44,
+       "DARABTELI": 27,
+       "KEREKÍTÉS": 24,
+       "SZORZATÖSSZEG": 22,
+       "FKERES": 22,
+       "HOL.VAN": 9,
+       "INDEX": 9,
+       "ÁTLAG": 6,
+       "MAX": 3,
+       "MPERC": 1,
+       "PERC": 1,
+       "ÓRA": 1,
+       "MIN": 1
+      },
+      "function_pairs": {
+       "DARABTELI+HA": 22,
+       "DARABTELI+KEREKÍTÉS": 22,
+       "DARABTELI+SZORZATÖSSZEG": 22,
+       "HA+KEREKÍTÉS": 22,
+       "HA+SZORZATÖSSZEG": 22,
+       "KEREKÍTÉS+SZORZATÖSSZEG": 22,
+       "FKERES+HA": 22,
+       "HOL.VAN+INDEX": 9,
+       "KEREKÍTÉS+ÁTLAG": 1,
+       "KEREKÍTÉS+MPERC": 1,
+       "KEREKÍTÉS+PERC": 1,
+       "KEREKÍTÉS+ÓRA": 1,
+       "MPERC+PERC": 1,
+       "MPERC+ÓRA": 1,
+       "PERC+ÓRA": 1,
+       "HOL.VAN+MAX": 1,
+       "INDEX+MAX": 1
+      },
+      "formula_count": 68,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 4
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_14maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -6340,11 +7443,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "order_by": 2,
+      "group_by": 2,
+      "having": 2,
+      "fn_count": 2,
+      "alias": 2,
+      "fn_date": 2,
+      "in_list": 1,
+      "subquery": 1,
+      "fn_max": 1,
+      "top_limit": 1,
+      "desc_asc": 1
+     },
+     "query_count": 9,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_14maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -6367,11 +7494,39 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 28,
+      "minimumkivalasztas": 7,
+      "osszegzes": 5,
+      "maximumkivalasztas": 5,
+      "megszamlalas": 4,
+      "sztringfeldolgozas": 4,
+      "atlagszamitas": 2
+     },
+     "io": {
+      "screen_out": 15,
+      "kbd_in": 3,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "Pascal"
+     ],
+     "input_rows": 375,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 715
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_14maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -6510,14 +7665,31 @@
       "igazitas": 2,
       "adatimport": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "SZUM": 53,
+       "KEREKÍTÉS": 40,
+       "ÁTLAG": 12,
+       "SZUMHA": 7,
+       "DARABTELI": 2,
+       "ABS": 1,
+       "FKERES": 1
+      },
+      "function_pairs": {
+       "ABS+FKERES": 1
+      },
+      "formula_count": 115,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_14maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -6545,11 +7717,34 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "alias": 6,
+      "order_by": 3,
+      "top_limit": 3,
+      "desc_asc": 2,
+      "subquery": 2,
+      "group_by": 2,
+      "fn_sum": 2,
+      "fn_max": 1,
+      "between": 1,
+      "fn_min": 1
+     },
+     "query_count": 11,
+     "subquery_count": 2,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_14maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -6656,14 +7851,38 @@
       "igazitas": 4,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 110,
+       "ABS": 100,
+       "HATVÁNY": 100,
+       "KEREK.LE": 100,
+       "SZUM": 10,
+       "NAGY": 3,
+       "HOL.VAN": 3,
+       "INDEX": 3
+      },
+      "function_pairs": {
+       "ABS+HA": 100,
+       "ABS+HATVÁNY": 100,
+       "ABS+KEREK.LE": 100,
+       "HA+HATVÁNY": 100,
+       "HA+KEREK.LE": 100,
+       "HATVÁNY+KEREK.LE": 100,
+       "HOL.VAN+INDEX": 3
+      },
+      "formula_count": 126,
+      "formula_depth_max": 5,
+      "functions_per_formula_max": 4
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_14okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -6699,11 +7918,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 11,
+      "fn_count": 5,
+      "order_by": 4,
+      "group_by": 4,
+      "subquery": 4,
+      "alias": 3,
+      "desc_asc": 3,
+      "in_list": 3,
+      "top_limit": 2,
+      "distinct": 2,
+      "like": 1,
+      "having": 1
+     },
+     "query_count": 11,
+     "subquery_count": 4,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_14okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -6730,11 +7973,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 24,
+      "osszegzes": 5,
+      "maximumkivalasztas": 5,
+      "kereses": 2,
+      "statisztika_kiiras": 1
+     },
+     "io": {
+      "screen_out": 16,
+      "file_in": 3,
+      "file_out": 3,
+      "kbd_in": 2
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 15,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 436
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_14okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -6870,14 +8139,37 @@
       "rejtett": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "KEREKÍTÉS": 346,
+       "DARABTELI": 33,
+       "FKERES": 5,
+       "HOL.VAN": 1,
+       "INDEX": 1,
+       "MAX": 1,
+       "SZUMHA": 1,
+       "DARAB2": 1,
+       "HA": 1,
+       "SZUM": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 1,
+       "HOL.VAN+MAX": 1,
+       "INDEX+MAX": 1,
+       "DARABTELI+HA": 1
+      },
+      "formula_count": 388,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_14okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -6909,11 +8201,31 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "order_by": 2,
+      "group_by": 2,
+      "fn_count": 2,
+      "alias": 2,
+      "having": 1,
+      "top_limit": 1,
+      "desc_asc": 1
+     },
+     "query_count": 6,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_14okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -7014,14 +8326,29 @@
       "szegely_mintazat": 1,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "BAL": 11,
+       "HA": 11,
+       "FKERES": 11,
+       "KEREKÍTÉS": 11
+      },
+      "function_pairs": {
+       "BAL+HA": 11,
+       "FKERES+KEREKÍTÉS": 11
+      },
+      "formula_count": 22,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_15maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -7057,11 +8384,39 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "group_by": 4,
+      "distinct": 3,
+      "order_by": 2,
+      "alias": 2,
+      "fn_sum": 2,
+      "subquery": 2,
+      "between": 1,
+      "having": 1,
+      "fn_count": 1,
+      "fn_max": 1,
+      "fn_min": 1,
+      "top_limit": 1,
+      "in_list": 1,
+      "is_null": 1,
+      "join_explicit": 1
+     },
+     "query_count": 11,
+     "subquery_count": 2,
+     "max_tables_per_query": 3,
+     "max_conditions": 6,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_15maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -7084,11 +8439,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 15,
+      "osszegzes": 5,
+      "sztringfeldolgozas": 4,
+      "statisztika_kiiras": 4,
+      "atlagszamitas": 1,
+      "maximumkivalasztas": 1,
+      "kivalogatas": 1
+     },
+     "io": {
+      "screen_out": 23,
+      "kbd_in": 3,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 306,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 786
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_15maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -7237,14 +8619,37 @@
       "szegely_mintazat": 2,
       "igazitas": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 238,
+       "DARABTELI": 176,
+       "ÜRES": 100,
+       "SZUM": 39,
+       "ÉS": 38,
+       "HOL.VAN": 2,
+       "ÁTLAG": 1,
+       "DARABÜRES": 1,
+       "MIN": 1,
+       "INDEX": 1,
+       "MAX": 1
+      },
+      "function_pairs": {
+       "HA+ÜRES": 100,
+       "HA+ÉS": 38,
+       "HOL.VAN+INDEX": 1
+      },
+      "formula_count": 459,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_15maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -7276,11 +8681,34 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "group_by": 3,
+      "order_by": 2,
+      "having": 2,
+      "fn_count": 2,
+      "top_limit": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "between": 1,
+      "alias": 1,
+      "fn_sum": 1
+     },
+     "query_count": 9,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_15maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -7401,14 +8829,38 @@
       "igazitas": 2,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 433,
+       "DARABTELI": 45,
+       "FKERES": 40,
+       "SZUM": 25,
+       "ÁTLAGHA": 20,
+       "AB.DARAB2": 6,
+       "INDEX": 3,
+       "MAX": 2,
+       "HOL.VAN": 2,
+       "HÉT.NAPJA": 2
+      },
+      "function_pairs": {
+       "HA+ÁTLAGHA": 20,
+       "HOL.VAN+INDEX": 2,
+       "HA+HÉT.NAPJA": 1,
+       "HA+INDEX": 1,
+       "HÉT.NAPJA+INDEX": 1
+      },
+      "formula_count": 554,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 4
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_15okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -7444,11 +8896,36 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "alias": 4,
+      "order_by": 2,
+      "fn_max": 2,
+      "subquery": 2,
+      "is_null": 1,
+      "fn_date": 1,
+      "fn_sum": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_count": 1,
+      "fn_min": 1,
+      "in_list": 1
+     },
+     "query_count": 9,
+     "subquery_count": 2,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_15okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -7471,11 +8948,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 11,
+      "maximumkivalasztas": 6,
+      "osszegzes": 5,
+      "kereses": 4,
+      "sztringfeldolgozas": 2,
+      "atlagszamitas": 1,
+      "eldontes": 1
+     },
+     "io": {
+      "screen_out": 8,
+      "kbd_in": 3,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 4321,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 485
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_15okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -7617,14 +9121,36 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 173,
+       "KÖZÉP": 72,
+       "DARABTELI": 18,
+       "HOL.VAN": 4,
+       "INDEX": 4,
+       "SZUM": 2,
+       "SZORZATÖSSZEG": 2,
+       "KEREKÍTÉS": 2,
+       "ÁTLAG": 2,
+       "MAX": 2,
+       "MIN": 2
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 4,
+       "KEREKÍTÉS+ÁTLAG": 2
+      },
+      "formula_count": 277,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_15okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -7656,11 +9182,34 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "order_by": 3,
+      "group_by": 3,
+      "alias": 2,
+      "fn_sum": 2,
+      "distinct": 1,
+      "top_limit": 1,
+      "fn_min": 1,
+      "subquery": 1,
+      "desc_asc": 1,
+      "fn_count": 1
+     },
+     "query_count": 7,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 2,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_15okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -7769,14 +9318,34 @@
       "szegely_mintazat": 3,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "FKERES": 92,
+       "KEREKÍTÉS": 92,
+       "DARABTELI": 19,
+       "SZUMHATÖBB": 18,
+       "HA": 15,
+       "MIN": 15,
+       "SZUM": 1,
+       "HOL.VAN": 1,
+       "INDEX": 1,
+       "MAX": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 1
+      },
+      "formula_count": 254,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_16maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -7812,11 +9381,32 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "order_by": 2,
+      "group_by": 2,
+      "like": 2,
+      "top_limit": 2,
+      "alias": 2,
+      "distinct": 1,
+      "desc_asc": 1,
+      "fn_count": 1
+     },
+     "query_count": 11,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 8,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_16maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -7839,11 +9429,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 15,
+      "megszamlalas": 13,
+      "osszegzes": 5
+     },
+     "io": {
+      "screen_out": 10,
+      "kbd_in": 4,
+      "file_out": 1
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "C#",
+      "C++"
+     ],
+     "input_rows": 514,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 550
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_16maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -7981,14 +9595,35 @@
       "szegely_mintazat": 3,
       "igazitas": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 299,
+       "ÉS": 299,
+       "DARABTELI": 22,
+       "SZUMHA": 12,
+       "MAX": 2,
+       "HOL.VAN": 2,
+       "INDEX": 2,
+       "ÁTLAG": 1,
+       "FKERES": 1
+      },
+      "function_pairs": {
+       "HA+ÉS": 299,
+       "HOL.VAN+INDEX": 2,
+       "FKERES+MAX": 1
+      },
+      "formula_count": 338,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_16maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -8020,11 +9655,31 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 5,
+      "alias": 2,
+      "order_by": 1,
+      "group_by": 1,
+      "having": 1,
+      "fn_count": 1,
+      "fn_date": 1,
+      "is_null": 1
+     },
+     "query_count": 6,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_16maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -8159,14 +9814,40 @@
       "szegely_mintazat": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HOL.VAN": 174,
+       "INDEX": 174,
+       "DARAB": 172,
+       "SIN": 12,
+       "COS": 11,
+       "IDŐ": 2,
+       "MOST": 2,
+       "PERC": 2,
+       "ÓRA": 2,
+       "RADIÁN": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 174,
+       "IDŐ+MOST": 2,
+       "IDŐ+PERC": 2,
+       "IDŐ+ÓRA": 2,
+       "MOST+PERC": 2,
+       "MOST+ÓRA": 2,
+       "PERC+ÓRA": 2
+      },
+      "formula_count": 372,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 5
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_16okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -8202,11 +9883,36 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "group_by": 4,
+      "fn_count": 4,
+      "order_by": 3,
+      "subquery": 3,
+      "alias": 2,
+      "desc_asc": 2,
+      "in_list": 2,
+      "having": 2,
+      "like": 1,
+      "top_limit": 1,
+      "distinct": 1,
+      "is_null": 1
+     },
+     "query_count": 11,
+     "subquery_count": 3,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_16okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -8229,11 +9935,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 10,
+      "maximumkivalasztas": 8,
+      "statisztika_kiiras": 2,
+      "megszamlalas": 1,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 14,
+      "kbd_in": 2,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 458,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 802
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_16okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -8373,14 +10105,34 @@
       "igazitas": 2,
       "oszlopszelesseg": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "MAX": 12,
+       "MIN": 11,
+       "ÁTLAG": 10,
+       "DARABTELI": 2,
+       "ÁTLAGHA": 2,
+       "DARAB2": 1,
+       "SZUM": 1,
+       "HOL.VAN": 1,
+       "INDEX": 1
+      },
+      "function_pairs": {
+       "MAX+MIN": 10,
+       "HOL.VAN+INDEX": 1
+      },
+      "formula_count": 30,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_16okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -8408,11 +10160,33 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "order_by": 3,
+      "group_by": 3,
+      "fn_count": 3,
+      "like": 3,
+      "desc_asc": 2,
+      "distinct": 2,
+      "alias": 2,
+      "top_limit": 1,
+      "having": 1
+     },
+     "query_count": 9,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_16okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -8531,14 +10305,30 @@
       "igazitas": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HOL.VAN": 133,
+       "INDEX": 133,
+       "KEREKÍTÉS": 7,
+       "ÁTLAG": 7,
+       "DARABTELI": 7
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 133,
+       "KEREKÍTÉS+ÁTLAG": 7
+      },
+      "formula_count": 147,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_17maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -8578,11 +10368,52 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 5,
+      "alias": 3,
+      "group_by": 2,
+      "fn_count": 2,
+      "order_by": 1,
+      "having": 1,
+      "between": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "fn_min": 1
+     },
+     "query_count": 6,
+     "subquery_count": 1,
+     "max_tables_per_query": 4,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "alias": 3,
+       "where": 2,
+       "fn_count": 2,
+       "group_by": 2,
+       "order_by": 2,
+       "join_explicit": 2,
+       "dml_insert": 1,
+       "dml_update": 1,
+       "between": 1,
+       "fn_sum": 1,
+       "having": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_17maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -8605,11 +10436,35 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 15,
+      "sztringfeldolgozas": 6,
+      "maximumkivalasztas": 5,
+      "osszegzes": 2
+     },
+     "io": {
+      "screen_out": 27,
+      "kbd_in": 3,
+      "file_out": 2
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 304,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 668
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_17maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -8744,14 +10599,32 @@
       "igazitas": 2,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "BAL": 433,
+       "KEREKÍTÉS": 432,
+       "ÉV": 432,
+       "HA": 432,
+       "SZUMHA": 15,
+       "SZUM": 2,
+       "DARABTELI": 1
+      },
+      "function_pairs": {
+       "BAL+HA": 432,
+       "BAL+DARABTELI": 1
+      },
+      "formula_count": 1314,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_17maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -8783,11 +10656,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "fn_date": 4,
+      "order_by": 3,
+      "group_by": 2,
+      "alias": 2,
+      "fn_count": 2,
+      "between": 1,
+      "like": 1,
+      "desc_asc": 1,
+      "having": 1
+     },
+     "query_count": 9,
+     "subquery_count": 0,
+     "max_tables_per_query": 4,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 5,
+       "join_explicit": 3,
+       "order_by": 2,
+       "desc_asc": 2,
+       "group_by": 2,
+       "alias": 2,
+       "fn_count": 2,
+       "like": 1,
+       "fn_sum": 1,
+       "having": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_17maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -8939,14 +10852,25 @@
       "igazitas": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "DARABTELI": 10,
+       "KEREKÍTÉS": 10,
+       "HOL.VAN": 2
+      },
+      "function_pairs": {},
+      "formula_count": 22,
+      "formula_depth_max": 1,
+      "functions_per_formula_max": 1
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_17okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -8982,11 +10906,53 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "is_null": 3,
+      "order_by": 2,
+      "top_limit": 2,
+      "desc_asc": 2,
+      "fn_date": 2,
+      "subquery": 2,
+      "like": 1,
+      "fn_max": 1,
+      "distinct": 1,
+      "in_list": 1,
+      "between": 1
+     },
+     "query_count": 8,
+     "subquery_count": 2,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "order_by": 3,
+       "desc_asc": 3,
+       "join_explicit": 2,
+       "alias": 2,
+       "dml_update": 1,
+       "group_by": 1,
+       "fn_count": 1,
+       "fn_min": 1,
+       "fn_max": 1
+      },
+      "query_count": 4,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 3
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_17okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -9009,11 +10975,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "datumkezeles": 19,
+      "maximumkivalasztas": 7,
+      "osszegzes": 6,
+      "fajlkezeles": 6,
+      "sztringfeldolgozas": 2,
+      "megszamlalas": 1,
+      "szetvalogatas": 1
+     },
+     "io": {
+      "screen_out": 14,
+      "kbd_in": 3
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 206,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 711
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_17okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -9161,14 +11153,30 @@
       "diagram_kor": 4,
       "szegely_mintazat": 4
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "SZUM": 155,
+       "HA": 150,
+       "SZUMHATÖBB": 27,
+       "DARABTELI": 10,
+       "KEREK.FEL": 3,
+       "DARAB": 1
+      },
+      "function_pairs": {
+       "HA+SZUM": 150
+      },
+      "formula_count": 196,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_17okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -9200,11 +11208,53 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "distinct": 2,
+      "group_by": 2,
+      "alias": 2,
+      "fn_count": 2,
+      "order_by": 1,
+      "like": 1,
+      "having": 1,
+      "fn_date": 1
+     },
+     "query_count": 11,
+     "subquery_count": 0,
+     "max_tables_per_query": 4,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "alias": 3,
+       "order_by": 2,
+       "where": 2,
+       "join_explicit": 2,
+       "fn_count": 2,
+       "group_by": 2,
+       "distinct": 1,
+       "between": 1,
+       "fn_max": 1,
+       "having": 1,
+       "top_limit": 1,
+       "desc_asc": 1,
+       "fn_sum": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_17okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -9321,14 +11371,31 @@
       "szegely_mintazat": 1,
       "adatimport": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "FKERES": 516,
+       "HA": 515,
+       "SZUM": 1,
+       "MAX": 1,
+       "HOL.VAN": 1,
+       "INDEX": 1,
+       "SZUMHATÖBB": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 1
+      },
+      "formula_count": 1035,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_18maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -9356,11 +11423,55 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "group_by": 3,
+      "fn_count": 3,
+      "order_by": 2,
+      "having": 2,
+      "top_limit": 2,
+      "distinct": 1,
+      "like": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "desc_asc": 1,
+      "between": 1
+     },
+     "query_count": 10,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "alias": 2,
+       "group_by": 2,
+       "order_by": 2,
+       "join_explicit": 2,
+       "desc_asc": 2,
+       "fn_count": 2,
+       "where": 1,
+       "dml_update": 1,
+       "dml_insert": 1,
+       "fn_min": 1,
+       "fn_max": 1,
+       "having": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_18maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -9383,11 +11494,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 17,
+      "maximumkivalasztas": 6,
+      "osszegzes": 4,
+      "sztringfeldolgozas": 3,
+      "megszamlalas": 1
+     },
+     "io": {
+      "screen_out": 15,
+      "kbd_in": 4,
+      "file_out": 2
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "C#",
+      "C++"
+     ],
+     "input_rows": 516,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 746
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_18maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -9540,11 +11677,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "alias": 3,
+      "group_by": 2,
+      "order_by": 1,
+      "top_limit": 1,
+      "fn_min": 1,
+      "fn_sum": 1,
+      "like": 1,
+      "fn_date": 1,
+      "having": 1,
+      "fn_count": 1
+     },
+     "query_count": 10,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "order_by": 4,
+       "alias": 4,
+       "desc_asc": 4,
+       "where": 3,
+       "join_explicit": 2,
+       "dml_insert": 1,
+       "top_limit": 1,
+       "group_by": 1,
+       "fn_sum": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_18maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -9675,14 +11852,32 @@
       "szegely_mintazat": 2,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 578,
+       "VÉL": 288,
+       "VAGY": 288,
+       "DARABTELI": 30,
+       "DARAB2": 2
+      },
+      "function_pairs": {
+       "HA+VÉL": 288,
+       "HA+VAGY": 288,
+       "DARAB2+DARABTELI": 2,
+       "DARABTELI+HA": 2
+      },
+      "formula_count": 606,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_18okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -9710,11 +11905,55 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "alias": 3,
+      "order_by": 2,
+      "group_by": 2,
+      "having": 2,
+      "fn_count": 2,
+      "distinct": 2,
+      "is_null": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "fn_sum": 1,
+      "top_limit": 1,
+      "desc_asc": 1
+     },
+     "query_count": 11,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "order_by": 2,
+       "desc_asc": 2,
+       "group_by": 2,
+       "join_explicit": 2,
+       "alias": 2,
+       "fn_sum": 2,
+       "dml_update": 1,
+       "dml_insert": 1,
+       "top_limit": 1,
+       "fn_count": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_18okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -9737,11 +11976,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 10,
+      "sztringfeldolgozas": 6,
+      "osszegzes": 2,
+      "maximumkivalasztas": 1,
+      "kereses": 1
+     },
+     "io": {
+      "screen_out": 9,
+      "kbd_in": 4,
+      "file_out": 1
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "C#",
+      "C++"
+     ],
+     "input_rows": 98,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 617
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_18okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -9904,14 +12169,31 @@
       "abszolut_hivatkozas": 1,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 402,
+       "SZUM": 4,
+       "HOL.VAN": 4,
+       "INDEX": 4,
+       "DARABTELI": 2,
+       "MAX": 2,
+       "MIN": 2
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 4
+      },
+      "formula_count": 416,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_18okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -9943,11 +12225,52 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "order_by": 3,
+      "alias": 2,
+      "top_limit": 2,
+      "desc_asc": 2,
+      "distinct": 2,
+      "fn_max": 1,
+      "group_by": 1,
+      "fn_count": 1,
+      "between": 1
+     },
+     "query_count": 9,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "order_by": 4,
+       "desc_asc": 4,
+       "where": 3,
+       "group_by": 3,
+       "join_explicit": 3,
+       "alias": 2,
+       "distinct": 1,
+       "fn_avg": 1,
+       "top_limit": 1,
+       "fn_count": 1,
+       "fn_sum": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_18okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -10062,14 +12385,32 @@
       "oszlopszelesseg": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "SZUM": 206,
+       "DARABHATÖBB": 53,
+       "SZUMHATÖBB": 53,
+       "HOL.VAN": 1,
+       "INDEX": 1,
+       "MAX": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 1,
+       "HOL.VAN+MAX": 1,
+       "INDEX+MAX": 1
+      },
+      "formula_count": 313,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_19maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -10097,11 +12438,57 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "subquery": 3,
+      "fn_date": 3,
+      "group_by": 3,
+      "fn_count": 3,
+      "order_by": 2,
+      "desc_asc": 2,
+      "fn_max": 2,
+      "distinct": 2,
+      "alias": 2,
+      "top_limit": 1,
+      "fn_min": 1,
+      "in_list": 1,
+      "having": 1,
+      "between": 1
+     },
+     "query_count": 11,
+     "subquery_count": 4,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "order_by": 3,
+       "alias": 3,
+       "desc_asc": 3,
+       "group_by": 2,
+       "top_limit": 2,
+       "join_explicit": 2,
+       "dml_delete": 1,
+       "dml_update": 1,
+       "fn_count": 1,
+       "fn_min": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_19maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -10124,11 +12511,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 14,
+      "datumkezeles": 14,
+      "maximumkivalasztas": 7,
+      "statisztika_kiiras": 2,
+      "megszamlalas": 1,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 12,
+      "kbd_in": 6,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 294,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 782
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_19maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -10279,14 +12693,30 @@
       "igazitas": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 202,
+       "VAGY": 101,
+       "SZUM": 1,
+       "ÁTLAG": 1,
+       "DARABTELI": 1,
+       "DARABHATÖBB": 1
+      },
+      "function_pairs": {
+       "HA+VAGY": 101
+      },
+      "formula_count": 206,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_19maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -10314,11 +12744,50 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "fn_min": 3,
+      "fn_count": 3,
+      "fn_max": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "group_by": 1,
+      "subquery": 1,
+      "alias": 1
+     },
+     "query_count": 8,
+     "subquery_count": 2,
+     "max_tables_per_query": 2,
+     "max_conditions": 2,
+     "sql": {
+      "sql_clauses": {
+       "order_by": 3,
+       "join_explicit": 3,
+       "desc_asc": 3,
+       "alias": 2,
+       "fn_count": 2,
+       "where": 1,
+       "distinct": 1,
+       "group_by": 1,
+       "top_limit": 1
+      },
+      "query_count": 4,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_19maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -10459,14 +12928,28 @@
       "oszlopszelesseg": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "MAX": 72,
+       "DARABTELI": 6,
+       "NAGY": 3,
+       "DARAB2": 3
+      },
+      "function_pairs": {
+       "DARAB2+DARABTELI": 3
+      },
+      "formula_count": 81,
+      "formula_depth_max": 1,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_19okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -10494,11 +12977,53 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "order_by": 5,
+      "fn_count": 3,
+      "desc_asc": 3,
+      "group_by": 2,
+      "top_limit": 2,
+      "alias": 1,
+      "fn_sum": 1,
+      "between": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "distinct": 1
+     },
+     "query_count": 10,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "alias": 5,
+       "where": 4,
+       "fn_count": 3,
+       "order_by": 3,
+       "desc_asc": 3,
+       "group_by": 2,
+       "fn_min": 1,
+       "fn_max": 1,
+       "join_explicit": 1,
+       "fn_date": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 4
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_19okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -10521,11 +13046,41 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 18,
+      "datumkezeles": 12,
+      "maximumkivalasztas": 5,
+      "sztringfeldolgozas": 3,
+      "minimumkivalasztas": 2,
+      "megszamlalas": 1,
+      "osszegzes": 1,
+      "eldontes": 1,
+      "kivalogatas": 1,
+      "statisztika_kiiras": 1
+     },
+     "io": {
+      "screen_out": 9,
+      "kbd_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": 699,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 810
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_19okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -10704,14 +13259,32 @@
       "igazitas": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 198,
+       "ÖSSZEFŰZ": 198,
+       "DARABTELI": 24,
+       "SZUMHATÖBB": 24,
+       "SZUM": 8,
+       "ÁTLAG": 4,
+       "MAX": 4,
+       "MIN": 4
+      },
+      "function_pairs": {
+       "HA+ÖSSZEFŰZ": 198
+      },
+      "formula_count": 266,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_19okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -10735,11 +13308,49 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "group_by": 2,
+      "order_by": 1,
+      "fn_avg": 1,
+      "alias": 1,
+      "having": 1,
+      "fn_count": 1
+     },
+     "query_count": 9,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "alias": 3,
+       "group_by": 2,
+       "order_by": 2,
+       "join_explicit": 2,
+       "desc_asc": 2,
+       "distinct": 1,
+       "is_null": 1,
+       "fn_min": 1,
+       "having": 1,
+       "fn_count": 1
+      },
+      "query_count": 4,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_19okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -10872,14 +13483,29 @@
       "szegely_mintazat": 5,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HOL.VAN": 3422,
+       "INDEX": 3422,
+       "DARABTELI": 61,
+       "DARAB2": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 3422,
+       "DARAB2+DARABTELI": 1
+      },
+      "formula_count": 3483,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_20maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -10907,11 +13533,53 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 12,
+      "alias": 5,
+      "is_null": 3,
+      "fn_count": 3,
+      "order_by": 2,
+      "subquery": 2,
+      "fn_avg": 2,
+      "in_list": 1,
+      "group_by": 1,
+      "fn_min": 1,
+      "between": 1
+     },
+     "query_count": 14,
+     "subquery_count": 2,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "alias": 3,
+       "join_explicit": 3,
+       "where": 2,
+       "order_by": 2,
+       "fn_sum": 2,
+       "fn_count": 1,
+       "group_by": 1,
+       "top_limit": 1,
+       "desc_asc": 1,
+       "dml_insert": 1,
+       "fn_max": 1
+      },
+      "query_count": 4,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_20maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -10934,11 +13602,40 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 16,
+      "maximumkivalasztas": 8,
+      "minimumkivalasztas": 8,
+      "atlagszamitas": 3,
+      "sztringfeldolgozas": 2,
+      "osszegzes": 1,
+      "rendezes": 1,
+      "datumkezeles": 1
+     },
+     "io": {
+      "screen_out": 9,
+      "kbd_in": 5,
+      "file_out": 1
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "C#",
+      "Java"
+     ],
+     "input_rows": 374,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 767
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_20maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -11084,14 +13781,29 @@
       "igazitas": 1,
       "rejtett": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 194,
+       "SZUM": 104,
+       "SZUMHATÖBB": 12,
+       "HOL.VAN": 7,
+       "INDEX": 7
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 7
+      },
+      "formula_count": 317,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_20maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -11115,11 +13827,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "fn_date": 3,
+      "alias": 3,
+      "is_null": 2,
+      "group_by": 2,
+      "fn_min": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_count": 1
+     },
+     "query_count": 8,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "like": 3,
+       "order_by": 2,
+       "desc_asc": 2,
+       "group_by": 2,
+       "join_explicit": 2,
+       "alias": 2,
+       "fn_count": 2,
+       "dml_update": 1,
+       "having": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_20maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -11235,14 +13987,30 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "SZUM": 100,
+       "FKERES": 100,
+       "DARABTELI": 52,
+       "MAX": 50,
+       "MIN": 50,
+       "KICSI": 50
+      },
+      "function_pairs": {
+       "DARABTELI+KICSI": 50
+      },
+      "formula_count": 352,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_20okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -11270,11 +14038,55 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "group_by": 4,
+      "fn_count": 4,
+      "order_by": 3,
+      "subquery": 3,
+      "having": 2,
+      "in_list": 2,
+      "between": 2,
+      "alias": 2,
+      "fn_sum": 1,
+      "like": 1,
+      "is_null": 1,
+      "join_explicit": 1,
+      "distinct": 1
+     },
+     "query_count": 9,
+     "subquery_count": 3,
+     "max_tables_per_query": 4,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "alias": 3,
+       "join_explicit": 3,
+       "where": 2,
+       "group_by": 2,
+       "order_by": 2,
+       "top_limit": 2,
+       "desc_asc": 2,
+       "fn_sum": 2,
+       "fn_count": 1,
+       "dml_insert": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_20okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -11297,11 +14109,39 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 18,
+      "datumkezeles": 18,
+      "osszegzes": 4,
+      "sztringfeldolgozas": 2,
+      "megszamlalas": 1,
+      "eldontes": 1
+     },
+     "io": {
+      "screen_out": 17,
+      "kbd_in": 7,
+      "file_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "C#",
+      "Java"
+     ],
+     "input_rows": 1095,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 839
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_20okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -11461,14 +14301,31 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "KEREKÍTÉS": 72,
+       "HA": 72,
+       "DARABTELI": 6,
+       "SZUM": 3,
+       "MAX": 3,
+       "HOL.VAN": 3,
+       "INDEX": 3
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 3
+      },
+      "formula_count": 159,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_20okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -11492,11 +14349,54 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "group_by": 4,
+      "fn_date": 3,
+      "fn_count": 3,
+      "order_by": 2,
+      "top_limit": 2,
+      "desc_asc": 2,
+      "having": 2,
+      "fn_max": 1,
+      "fn_sum": 1,
+      "alias": 1
+     },
+     "query_count": 12,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "alias": 3,
+       "order_by": 2,
+       "desc_asc": 2,
+       "join_explicit": 2,
+       "dml_delete": 1,
+       "dml_update": 1,
+       "top_limit": 1,
+       "group_by": 1,
+       "fn_count": 1,
+       "fn_avg": 1,
+       "fn_date": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "k_inf_20okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -11613,14 +14513,30 @@
       "diagram_kor": 2,
       "abszolut_hivatkozas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "SZÖVEG": 148,
+       "KEREKÍTÉS": 148,
+       "KEREK.FEL": 148,
+       "HA": 148,
+       "SZUMHA": 148,
+       "DARABTELI": 7
+      },
+      "function_pairs": {
+       "HA+SZUMHA": 148
+      },
+      "formula_count": 599,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_21maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -11648,11 +14564,49 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "order_by": 3,
+      "like": 1,
+      "group_by": 1,
+      "having": 1,
+      "fn_count": 1,
+      "in_list": 1,
+      "subquery": 1
+     },
+     "query_count": 6,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "alias": 3,
+       "join_explicit": 3,
+       "fn_count": 2,
+       "group_by": 2,
+       "order_by": 2,
+       "top_limit": 2,
+       "desc_asc": 2,
+       "dml_update": 1,
+       "fn_sum": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_21maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -11675,11 +14629,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 18,
+      "maximumkivalasztas": 6,
+      "metszet_unio": 2,
+      "megszamlalas": 1,
+      "osszegzes": 1
+     },
+     "io": {
+      "screen_out": 17,
+      "kbd_in": 3,
+      "file_out": 2
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 694,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 710
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_21maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -11829,14 +14810,34 @@
       "igazitas": 2,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "DARAB": 34,
+       "MIN": 31,
+       "HA": 31,
+       "MAX": 31,
+       "HOL.VAN": 31,
+       "INDEX": 31,
+       "DARABHATÖBB": 3
+      },
+      "function_pairs": {
+       "DARAB+HA": 31,
+       "DARAB+MAX": 31,
+       "HA+MAX": 31,
+       "HOL.VAN+INDEX": 31
+      },
+      "formula_count": 99,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_21maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -11860,11 +14861,54 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "group_by": 3,
+      "fn_count": 2,
+      "distinct": 2,
+      "fn_avg": 2,
+      "fn_sum": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "is_null": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1
+     },
+     "query_count": 9,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "order_by": 2,
+       "desc_asc": 2,
+       "join_explicit": 2,
+       "alias": 2,
+       "dml_insert": 1,
+       "dml_update": 1,
+       "like": 1,
+       "group_by": 1,
+       "having": 1,
+       "fn_count": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_21maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -11959,14 +15003,30 @@
       "abszolut_hivatkozas": 2,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "DARABTELI": 86,
+       "NAGY": 8,
+       "HOL.VAN": 8,
+       "INDEX": 8,
+       "HA": 2
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 8,
+       "DARABTELI+HA": 2
+      },
+      "formula_count": 102,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_21okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -11994,11 +15054,58 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "group_by": 4,
+      "alias": 3,
+      "having": 3,
+      "fn_count": 3,
+      "order_by": 2,
+      "desc_asc": 2,
+      "top_limit": 2,
+      "like": 1,
+      "fn_sum": 1,
+      "between": 1,
+      "fn_min": 1,
+      "fn_max": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "is_null": 1
+     },
+     "query_count": 10,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "alias": 2,
+       "join_explicit": 2,
+       "fn_count": 1,
+       "dml_insert": 1,
+       "dml_update": 1,
+       "group_by": 1,
+       "order_by": 1,
+       "top_limit": 1,
+       "desc_asc": 1,
+       "fn_sum": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 4,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "sorrend",
     "utmutato": "e_inf_21okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -12021,11 +15128,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 11,
+      "megszamlalas": 1,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1,
+      "matrix": 1
+     },
+     "io": {
+      "screen_out": 10,
+      "kbd_in": 6
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 13,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 811
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_21okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -12226,14 +15359,28 @@
       "igazitas": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HÉT.NAPJA": 276,
+       "FKERES": 276,
+       "DARABTELI": 27,
+       "DÁTUM": 9,
+       "SZUM": 9,
+       "SZORZATÖSSZEG": 3
+      },
+      "function_pairs": {},
+      "formula_count": 600,
+      "formula_depth_max": 1,
+      "functions_per_formula_max": 1
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_21okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -12257,11 +15404,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "alias": 3,
+      "group_by": 3,
+      "fn_count": 3,
+      "order_by": 2,
+      "between": 2,
+      "fn_sum": 2,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_max": 1,
+      "having": 1
+     },
+     "query_count": 11,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "order_by": 2,
+       "desc_asc": 2,
+       "group_by": 2,
+       "alias": 2,
+       "fn_count": 2,
+       "join_explicit": 2,
+       "dml_delete": 1,
+       "having": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_21okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -12391,14 +15578,32 @@
       "igazitas": 2,
       "oszlopszelesseg": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 44,
+       "DARAB2": 44,
+       "DARABTELI": 14,
+       "KICSI": 1,
+       "AB.DARAB2": 1
+      },
+      "function_pairs": {
+       "DARAB2+DARABTELI": 13,
+       "DARAB2+HA": 13,
+       "DARABTELI+HA": 13,
+       "DARABTELI+KICSI": 1
+      },
+      "formula_count": 77,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 4
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_22maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -12426,11 +15631,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "order_by": 3,
+      "group_by": 3,
+      "alias": 3,
+      "fn_max": 2,
+      "is_null": 1,
+      "in_list": 1,
+      "having": 1,
+      "desc_asc": 1,
+      "fn_count": 1
+     },
+     "query_count": 11,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "alias": 3,
+       "join_explicit": 3,
+       "where": 2,
+       "group_by": 2,
+       "order_by": 2,
+       "top_limit": 2,
+       "desc_asc": 2,
+       "fn_sum": 2,
+       "fn_count": 1,
+       "dml_insert": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_22maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -12453,11 +15698,36 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 24,
+      "sztringfeldolgozas": 4,
+      "osszegzes": 2,
+      "rendezes": 2
+     },
+     "io": {
+      "screen_out": 13,
+      "kbd_in": 3
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java"
+     ],
+     "input_rows": 544,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 715
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_22maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -12702,11 +15972,11 @@
        "SZUMHATÖBB": 12,
        "DARABTELI": 10,
        "HA": 7,
-       "DARABHATÖBB": 1,
        "MAX": 1,
        "HOL.VAN": 1,
        "INDEX": 1,
-       "MA": 1
+       "MA": 1,
+       "DARABHATÖBB": 1
       },
       "function_pairs": {
        "HOL.VAN+INDEX": 1
@@ -12755,11 +16025,49 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "order_by": 5,
+      "desc_asc": 4,
+      "group_by": 3,
+      "fn_count": 3,
+      "where": 2,
+      "distinct": 2,
+      "top_limit": 1,
+      "subquery": 1
+     },
+     "query_count": 7,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 1,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "alias": 3,
+       "order_by": 2,
+       "desc_asc": 2,
+       "group_by": 2,
+       "join_explicit": 2,
+       "dml_update": 1,
+       "is_null": 1,
+       "fn_count": 1,
+       "fn_avg": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_22maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -12782,11 +16090,35 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "minimumkivalasztas": 3,
+      "megszamlalas": 1,
+      "osszegzes": 1
+     },
+     "io": {
+      "screen_out": 9,
+      "kbd_in": 1
+     },
+     "subtask_count": 3,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java"
+     ],
+     "input_rows": null,
+     "input_cols": null,
+     "input_separator": null,
+     "feladatlap_words": 280
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_22maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -12925,14 +16257,26 @@
       "igazitas": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "SZUMHATÖBB": 12,
+       "DARABTELI": 10,
+       "SZUM": 1,
+       "DARABHATÖBB": 1
+      },
+      "function_pairs": {},
+      "formula_count": 24,
+      "formula_depth_max": 1,
+      "functions_per_formula_max": 1
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_22maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -12956,11 +16300,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 11,
+      "order_by": 4,
+      "alias": 4,
+      "fn_min": 3,
+      "top_limit": 2,
+      "distinct": 1,
+      "subquery": 1,
+      "group_by": 1,
+      "having": 1,
+      "fn_sum": 1
+     },
+     "query_count": 11,
+     "subquery_count": 1,
+     "max_tables_per_query": 4,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "alias": 3,
+       "order_by": 2,
+       "desc_asc": 2,
+       "group_by": 2,
+       "join_explicit": 2,
+       "dml_update": 1,
+       "is_null": 1,
+       "fn_count": 1,
+       "fn_avg": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_22maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -13131,14 +16515,44 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 28395,
+       "HOL.VAN": 9491,
+       "INDEX": 9491,
+       "NAGYBETŰS": 9465,
+       "BAL": 9465,
+       "JOBB": 9465,
+       "KÖZÉP": 9465,
+       "DARABTELI": 525,
+       "MIN": 3,
+       "KEREK.LE": 2,
+       "KEREK.FEL": 2,
+       "MAX": 2
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 9491,
+       "BAL+HA": 9465,
+       "BAL+JOBB": 9465,
+       "BAL+KÖZÉP": 9465,
+       "HA+JOBB": 9465,
+       "HA+KÖZÉP": 9465,
+       "JOBB+KÖZÉP": 9465,
+       "KEREK.LE+MIN": 2,
+       "KEREK.FEL+MAX": 2
+      },
+      "formula_count": 47881,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 8
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_22okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -13162,11 +16576,54 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "fn_sum": 3,
+      "order_by": 2,
+      "desc_asc": 2,
+      "fn_count": 1,
+      "subquery": 1,
+      "group_by": 1,
+      "top_limit": 1,
+      "alias": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 11,
+       "fn_sum": 5,
+       "fn_count": 5,
+       "alias": 5,
+       "order_by": 4,
+       "desc_asc": 4,
+       "group_by": 4,
+       "top_limit": 3,
+       "join_explicit": 3,
+       "subquery": 1,
+       "having": 1,
+       "like": 1,
+       "dml_update": 1,
+       "dml_insert": 1
+      },
+      "query_count": 14,
+      "subquery_count": 1,
+      "max_tables_per_query": 3,
+      "max_conditions": 5
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -13189,11 +16646,37 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 11,
+      "sztringfeldolgozas": 5,
+      "eldontes": 2,
+      "osszegzes": 1
+     },
+     "io": {
+      "screen_out": 15,
+      "kbd_in": 5,
+      "file_out": 1
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 466,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 854
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -13546,11 +17029,54 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 5,
+      "order_by": 3,
+      "desc_asc": 2,
+      "distinct": 1,
+      "like": 1,
+      "top_limit": 1,
+      "fn_max": 1,
+      "subquery": 1,
+      "group_by": 1,
+      "alias": 1,
+      "fn_count": 1
+     },
+     "query_count": 6,
+     "subquery_count": 1,
+     "max_tables_per_query": 2,
+     "max_conditions": 2,
+     "sql": {
+      "sql_clauses": {
+       "where": 6,
+       "alias": 2,
+       "order_by": 2,
+       "like": 2,
+       "desc_asc": 2,
+       "is_null": 2,
+       "dml_delete": 1,
+       "dml_update": 1,
+       "fn_avg": 1,
+       "fn_count": 1,
+       "top_limit": 1,
+       "join_explicit": 1
+      },
+      "query_count": 7,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -13573,11 +17099,36 @@
      "type": "py"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "megszamlalas": 10,
+      "eldontes": 2,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "kbd_in": 3,
+      "screen_out": 2
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": null,
+     "input_cols": null,
+     "input_separator": null,
+     "feladatlap_words": 321
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -13707,14 +17258,38 @@
       "szegely_mintazat": 1,
       "igazitas": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 28395,
+       "HOL.VAN": 9465,
+       "INDEX": 9465,
+       "NAGYBETŰS": 9465,
+       "BAL": 9465,
+       "JOBB": 9465,
+       "KÖZÉP": 9465,
+       "DARABTELI": 525
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 9465,
+       "BAL+HA": 9465,
+       "BAL+JOBB": 9465,
+       "BAL+KÖZÉP": 9465,
+       "HA+JOBB": 9465,
+       "HA+KÖZÉP": 9465,
+       "JOBB+KÖZÉP": 9465
+      },
+      "formula_count": 47850,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 8
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_22okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -13742,11 +17317,55 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "group_by": 4,
+      "having": 3,
+      "fn_count": 3,
+      "in_list": 3,
+      "subquery": 3,
+      "order_by": 2,
+      "alias": 2,
+      "desc_asc": 2,
+      "distinct": 1,
+      "like": 1,
+      "fn_text": 1,
+      "top_limit": 1
+     },
+     "query_count": 10,
+     "subquery_count": 3,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "alias": 4,
+       "fn_count": 4,
+       "where": 3,
+       "join_explicit": 3,
+       "group_by": 2,
+       "order_by": 2,
+       "top_limit": 2,
+       "desc_asc": 2,
+       "dml_update": 1,
+       "dml_insert": 1,
+       "fn_sum": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -13769,11 +17388,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 14,
+      "minimumkivalasztas": 3,
+      "osszegzes": 2,
+      "maximumkivalasztas": 2,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 14,
+      "kbd_in": 4,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 250,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 788
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -13941,14 +17587,31 @@
       "szegely_mintazat": 3,
       "igazitas": 4
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 90,
+       "SZUM": 90,
+       "ÁTLAGHATÖBB": 21,
+       "KEREKÍTÉS": 21,
+       "ÁTLAG": 21,
+       "DARABTELI": 15
+      },
+      "function_pairs": {
+       "HA+SZUM": 90,
+       "KEREKÍTÉS+ÁTLAG": 21
+      },
+      "formula_count": 147,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_22okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -13972,11 +17635,55 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 3,
+      "group_by": 3,
+      "fn_sum": 3,
+      "is_null": 2,
+      "alias": 2,
+      "having": 2,
+      "fn_count": 2,
+      "desc_asc": 1,
+      "top_limit": 1,
+      "fn_min": 1,
+      "subquery": 1
+     },
+     "query_count": 9,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 2,
+     "sql": {
+      "sql_clauses": {
+       "where": 6,
+       "alias": 2,
+       "order_by": 2,
+       "like": 2,
+       "desc_asc": 2,
+       "is_null": 2,
+       "dml_delete": 1,
+       "dml_update": 1,
+       "fn_avg": 1,
+       "fn_count": 1,
+       "top_limit": 1,
+       "join_explicit": 1
+      },
+      "query_count": 7,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_22okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -14153,14 +17860,45 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "KÖZÉP": 253,
+       "ÉRTÉK": 253,
+       "HA": 119,
+       "ÜRES": 96,
+       "HOL.VAN": 40,
+       "INDEX": 40,
+       "HOSSZ": 23,
+       "MARADÉK": 23,
+       "ÉS": 23,
+       "SZORZATÖSSZEG": 23,
+       "DÁTUM": 20,
+       "DARABTELI": 1
+      },
+      "function_pairs": {
+       "KÖZÉP+ÉRTÉK": 253,
+       "HA+ÜRES": 96,
+       "HOL.VAN+INDEX": 40,
+       "HOSSZ+MARADÉK": 23,
+       "HOSSZ+ÉS": 23,
+       "MARADÉK+ÉS": 23,
+       "HA+KÖZÉP": 23,
+       "HA+ÉRTÉK": 23,
+       "DÁTUM+HOL.VAN": 20,
+       "DÁTUM+INDEX": 20
+      },
+      "formula_count": 436,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_23maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -14184,11 +17922,56 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "distinct": 3,
+      "order_by": 3,
+      "alias": 3,
+      "group_by": 2,
+      "fn_count": 2,
+      "like": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "having": 1,
+      "desc_asc": 1
+     },
+     "query_count": 11,
+     "subquery_count": 1,
+     "max_tables_per_query": 4,
+     "max_conditions": 6,
+     "sql": {
+      "sql_clauses": {
+       "where": 13,
+       "alias": 6,
+       "order_by": 5,
+       "fn_count": 5,
+       "group_by": 4,
+       "join_explicit": 3,
+       "desc_asc": 2,
+       "distinct": 2,
+       "having": 1,
+       "like": 1,
+       "dml_update": 1,
+       "top_limit": 1,
+       "in_list": 1,
+       "subquery": 1
+      },
+      "query_count": 16,
+      "subquery_count": 1,
+      "max_tables_per_query": 4,
+      "max_conditions": 6
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -14211,11 +17994,41 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "datumkezeles": 20,
+      "fajlkezeles": 15,
+      "rendezes": 4,
+      "maximumkivalasztas": 3,
+      "megszamlalas": 2,
+      "osszegzes": 2,
+      "minimumkivalasztas": 1
+     },
+     "io": {
+      "screen_out": 18,
+      "kbd_in": 4,
+      "file_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 28,
+     "input_cols": 6,
+     "input_separator": "tabulátor",
+     "feladatlap_words": 716
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -14536,11 +18349,52 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 4,
+      "order_by": 2,
+      "distinct": 1,
+      "fn_count": 1,
+      "fn_date": 1,
+      "group_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_min": 1
+     },
+     "query_count": 4,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "order_by": 2,
+       "desc_asc": 2,
+       "join_explicit": 2,
+       "alias": 2,
+       "dml_insert": 1,
+       "dml_update": 1,
+       "dml_delete": 1,
+       "top_limit": 1,
+       "group_by": 1,
+       "fn_count": 1,
+       "like": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 4,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -14568,11 +18422,36 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 3,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 6,
+      "file_in": 1,
+      "kbd_in": 1
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java"
+     ],
+     "input_rows": 1,
+     "input_cols": 15,
+     "input_separator": "vessző",
+     "feladatlap_words": 369
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -14707,14 +18586,30 @@
       "oszlopszelesseg": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 96,
+       "ÜRES": 96,
+       "HOL.VAN": 20,
+       "INDEX": 20,
+       "DARABTELI": 1
+      },
+      "function_pairs": {
+       "HA+ÜRES": 96,
+       "HOL.VAN+INDEX": 20
+      },
+      "formula_count": 117,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_23maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -14742,11 +18637,54 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 12,
+      "alias": 6,
+      "fn_count": 4,
+      "subquery": 4,
+      "order_by": 3,
+      "in_list": 3,
+      "group_by": 3,
+      "top_limit": 2,
+      "fn_avg": 2,
+      "fn_min": 1,
+      "fn_date": 1,
+      "having": 1
+     },
+     "query_count": 14,
+     "subquery_count": 4,
+     "max_tables_per_query": 5,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "alias": 3,
+       "fn_count": 3,
+       "join_explicit": 3,
+       "group_by": 2,
+       "dml_update": 1,
+       "order_by": 1,
+       "top_limit": 1,
+       "desc_asc": 1,
+       "in_list": 1,
+       "subquery": 1
+      },
+      "query_count": 6,
+      "subquery_count": 1,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -14769,11 +18707,40 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "kereses": 7,
+      "eldontes": 6,
+      "fajlkezeles": 6,
+      "megszamlalas": 4,
+      "minimumkivalasztas": 2,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 13,
+      "kbd_in": 7,
+      "file_in": 1
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 360,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 711
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -14910,14 +18877,28 @@
       "igazitas": 2,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "MAX": 4,
+       "HOL.VAN": 4,
+       "INDEX": 4,
+       "ÁTLAG": 4
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 4
+      },
+      "formula_count": 12,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_23maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -14941,11 +18922,51 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "order_by": 2,
+      "top_limit": 2,
+      "is_null": 1,
+      "desc_asc": 1,
+      "like": 1,
+      "alias": 1,
+      "fn_count": 1
+     },
+     "query_count": 7,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 2,
+     "sql": {
+      "sql_clauses": {
+       "where": 4,
+       "order_by": 2,
+       "desc_asc": 2,
+       "join_explicit": 2,
+       "alias": 2,
+       "dml_insert": 1,
+       "dml_update": 1,
+       "dml_delete": 1,
+       "top_limit": 1,
+       "group_by": 1,
+       "fn_count": 1,
+       "like": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 4,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_23maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -15188,21 +19209,29 @@
       "functions": {
        "FKERES": 200,
        "MARADÉK": 199,
-       "DARABTELI": 6,
+       "DARABTELI": 48,
+       "HA": 37,
+       "HOL.VAN": 4,
+       "INDEX": 4,
+       "BAL": 3,
+       "KÖZÉP": 3,
+       "SZÖVEG.KERES": 3,
        "MAX": 2,
-       "HOL.VAN": 1,
-       "INDEX": 1,
        "DARAB2": 1,
        "ÖSSZEFŰZ": 1
       },
       "function_pairs": {
-       "HOL.VAN+INDEX": 1,
+       "DARABTELI+HA": 37,
+       "HOL.VAN+INDEX": 4,
+       "BAL+KÖZÉP": 3,
+       "BAL+SZÖVEG.KERES": 3,
+       "KÖZÉP+SZÖVEG.KERES": 3,
        "HOL.VAN+MAX": 1,
        "INDEX+MAX": 1,
        "DARAB2+DARABTELI": 1,
        "DARABTELI+ÖSSZEFŰZ": 1
       },
-      "formula_count": 407,
+      "formula_count": 455,
       "formula_depth_max": 3,
       "functions_per_formula_max": 4
      }
@@ -15302,11 +19331,66 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 13,
+      "group_by": 3,
+      "subquery": 3,
+      "like": 2,
+      "order_by": 2,
+      "fn_sum": 2,
+      "alias": 2,
+      "fn_text": 1,
+      "between": 1,
+      "desc_asc": 1,
+      "having": 1,
+      "distinct": 1,
+      "in_list": 1,
+      "fn_count": 1,
+      "fn_date": 1,
+      "top_limit": 1,
+      "fn_min": 1
+     },
+     "query_count": 14,
+     "subquery_count": 3,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "where": 12,
+       "group_by": 5,
+       "order_by": 4,
+       "alias": 4,
+       "top_limit": 3,
+       "desc_asc": 3,
+       "fn_sum": 3,
+       "join_explicit": 3,
+       "like": 2,
+       "fn_count": 2,
+       "between": 1,
+       "having": 1,
+       "distinct": 1,
+       "in_list": 1,
+       "subquery": 1,
+       "fn_date": 1,
+       "dml_update": 1,
+       "dml_insert": 1
+      },
+      "query_count": 16,
+      "subquery_count": 1,
+      "max_tables_per_query": 4,
+      "max_conditions": 3
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -15394,11 +19478,40 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "megszamlalas": 22,
+      "fajlkezeles": 17,
+      "osszegzes": 12,
+      "maximumkivalasztas": 7,
+      "rendezes": 2,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 22,
+      "kbd_in": 5,
+      "file_out": 2
+     },
+     "subtask_count": 10,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 971,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 846
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -15786,11 +19899,50 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 3,
+      "alias": 2,
+      "group_by": 2,
+      "having": 2,
+      "fn_count": 2,
+      "fn_sum": 1,
+      "order_by": 1,
+      "desc_asc": 1
+     },
+     "query_count": 5,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 3,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "alias": 3,
+       "join_explicit": 2,
+       "dml_delete": 1,
+       "fn_count": 1,
+       "group_by": 1,
+       "fn_min": 1,
+       "order_by": 1,
+       "is_null": 1,
+       "desc_asc": 1,
+       "distinct": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -15846,11 +19998,34 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 2,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 4
+     },
+     "subtask_count": 3,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java"
+     ],
+     "input_rows": 1,
+     "input_cols": 15,
+     "input_separator": "vessző",
+     "feladatlap_words": 282
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -15970,14 +20145,35 @@
       "igazitas": 1,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "DARABTELI": 42,
+       "HA": 37,
+       "HOL.VAN": 3,
+       "INDEX": 3,
+       "BAL": 3,
+       "KÖZÉP": 3,
+       "SZÖVEG.KERES": 3
+      },
+      "function_pairs": {
+       "DARABTELI+HA": 37,
+       "HOL.VAN+INDEX": 3,
+       "BAL+KÖZÉP": 3,
+       "BAL+SZÖVEG.KERES": 3,
+       "KÖZÉP+SZÖVEG.KERES": 3
+      },
+      "formula_count": 48,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_23okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -16005,11 +20201,54 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 8,
+      "order_by": 3,
+      "group_by": 3,
+      "distinct": 3,
+      "fn_count": 2,
+      "alias": 2,
+      "like": 1,
+      "having": 1,
+      "in_list": 1,
+      "subquery": 1,
+      "top_limit": 1,
+      "desc_asc": 1
+     },
+     "query_count": 10,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "join_explicit": 3,
+       "alias": 3,
+       "group_by": 2,
+       "order_by": 2,
+       "top_limit": 2,
+       "desc_asc": 2,
+       "dml_update": 1,
+       "fn_count": 1,
+       "dml_insert": 1,
+       "fn_sum": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 4,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -16032,11 +20271,40 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 29,
+      "maximumkivalasztas": 5,
+      "megszamlalas": 2,
+      "statisztika_kiiras": 2,
+      "osszegzes": 1,
+      "eldontes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 16,
+      "kbd_in": 2,
+      "file_out": 2
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 43,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 911
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_inf_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -16184,14 +20452,30 @@
       "szegely_mintazat": 1,
       "igazitas": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "DARABTELI": 13,
+       "SZUMHATÖBB": 13,
+       "SZUM": 1,
+       "MAX": 1,
+       "HOL.VAN": 1,
+       "INDEX": 1
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 1
+      },
+      "formula_count": 29,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 2
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_23okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -16215,11 +20499,49 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 5,
+      "order_by": 2,
+      "alias": 1,
+      "group_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_count": 1
+     },
+     "query_count": 6,
+     "subquery_count": 0,
+     "max_tables_per_query": 3,
+     "max_conditions": 6,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "alias": 3,
+       "join_explicit": 2,
+       "dml_delete": 1,
+       "fn_count": 1,
+       "group_by": 1,
+       "fn_min": 1,
+       "order_by": 1,
+       "is_null": 1,
+       "desc_asc": 1,
+       "distinct": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_inf_23okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -16320,14 +20642,38 @@
       "szegely_mintazat": 2,
       "igazitas": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 601,
+       "DARABTELI": 107,
+       "VÉLETLEN.KÖZÖTT": 100,
+       "KARAKTER": 99,
+       "INDEX": 2,
+       "HOL.VAN": 1,
+       "MAX": 1
+      },
+      "function_pairs": {
+       "KARAKTER+VÉLETLEN.KÖZÖTT": 99,
+       "INDEX+VÉLETLEN.KÖZÖTT": 1,
+       "HA+HOL.VAN": 1,
+       "HA+INDEX": 1,
+       "HA+MAX": 1,
+       "HOL.VAN+INDEX": 1,
+       "HOL.VAN+MAX": 1,
+       "INDEX+MAX": 1
+      },
+      "formula_count": 808,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 4
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_24maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -16351,11 +20697,64 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 12,
+      "order_by": 3,
+      "in_list": 3,
+      "fn_sum": 2,
+      "fn_min": 2,
+      "fn_max": 2,
+      "group_by": 2,
+      "having": 2,
+      "top_limit": 2,
+      "fn_count": 2,
+      "distinct": 1,
+      "fn_date": 1,
+      "between": 1,
+      "subquery": 1,
+      "alias": 1
+     },
+     "query_count": 14,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 5,
+     "sql": {
+      "sql_clauses": {
+       "where": 13,
+       "alias": 5,
+       "order_by": 3,
+       "group_by": 3,
+       "join_explicit": 3,
+       "fn_sum": 2,
+       "having": 2,
+       "top_limit": 2,
+       "fn_count": 2,
+       "in_list": 2,
+       "subquery": 2,
+       "distinct": 1,
+       "fn_date": 1,
+       "fn_min": 1,
+       "fn_max": 1,
+       "dml_update": 1,
+       "desc_asc": 1,
+       "fn_avg": 1
+      },
+      "query_count": 14,
+      "subquery_count": 3,
+      "max_tables_per_query": 3,
+      "max_conditions": 5
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_24maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -16378,11 +20777,38 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 19,
+      "sztringfeldolgozas": 5,
+      "osszegzes": 1,
+      "kivalogatas": 1,
+      "statisztika_kiiras": 1
+     },
+     "io": {
+      "screen_out": 18,
+      "kbd_in": 2,
+      "file_in": 1,
+      "file_out": 1
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "Java"
+     ],
+     "input_rows": 750,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 829
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_24maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -16648,11 +21074,53 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "order_by": 5,
+      "desc_asc": 3,
+      "group_by": 2,
+      "fn_count": 2,
+      "top_limit": 2,
+      "fn_max": 2,
+      "fn_date": 2,
+      "alias": 1,
+      "subquery": 1,
+      "between": 1
+     },
+     "query_count": 8,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 3,
+       "order_by": 3,
+       "alias": 2,
+       "fn_count": 2,
+       "desc_asc": 2,
+       "join_explicit": 2,
+       "dml_delete": 1,
+       "distinct": 1,
+       "is_null": 1,
+       "group_by": 1,
+       "like": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_24maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -16680,11 +21148,33 @@
      "type": "cs"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 2,
+      "sztringfeldolgozas": 2,
+      "osszegzes": 1
+     },
+     "io": {
+      "screen_out": 4
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#",
+      "Java"
+     ],
+     "input_rows": 1,
+     "input_cols": 18,
+     "input_separator": "vessző",
+     "feladatlap_words": 369
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_24maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -16840,14 +21330,23 @@
       "oszlopszelesseg": 3,
       "adatimport": 1
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HA": 2190
+      },
+      "function_pairs": {},
+      "formula_count": 2190,
+      "formula_depth_max": 1,
+      "functions_per_formula_max": 1
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_24okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -16871,11 +21370,61 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "group_by": 5,
+      "alias": 3,
+      "order_by": 3,
+      "fn_count": 3,
+      "distinct": 3,
+      "having": 3,
+      "in_list": 3,
+      "subquery": 3,
+      "fn_min": 2,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "fn_max": 1
+     },
+     "query_count": 11,
+     "subquery_count": 3,
+     "max_tables_per_query": 3,
+     "max_conditions": 8,
+     "sql": {
+      "sql_clauses": {
+       "where": 12,
+       "group_by": 6,
+       "alias": 4,
+       "fn_count": 4,
+       "having": 3,
+       "order_by": 3,
+       "in_list": 3,
+       "subquery": 3,
+       "fn_min": 2,
+       "desc_asc": 2,
+       "like": 2,
+       "join_explicit": 2,
+       "fn_max": 1,
+       "distinct": 1,
+       "is_null": 1,
+       "dml_update": 1,
+       "top_limit": 1
+      },
+      "query_count": 14,
+      "subquery_count": 3,
+      "max_tables_per_query": 3,
+      "max_conditions": 8
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_24okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -16898,11 +21447,39 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 18,
+      "maximumkivalasztas": 12,
+      "sztringfeldolgozas": 5,
+      "megszamlalas": 3,
+      "kereses": 3,
+      "osszegzes": 1,
+      "eldontes": 1
+     },
+     "io": {
+      "screen_out": 16,
+      "kbd_in": 6
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "Java",
+      "Python"
+     ],
+     "input_rows": 1705,
+     "input_cols": 4,
+     "input_separator": "tabulátor",
+     "feladatlap_words": 842
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_24okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -17114,15 +21691,15 @@
      },
      "xlsx": {
       "functions": {
-       "MAX": 100,
-       "DARABTELI": 60,
-       "HOL.VAN": 40,
-       "INDEX": 40
+       "MAX": 75,
+       "DARABTELI": 45,
+       "HOL.VAN": 30,
+       "INDEX": 30
       },
       "function_pairs": {
-       "HOL.VAN+INDEX": 40
+       "HOL.VAN+INDEX": 30
       },
-      "formula_count": 200,
+      "formula_count": 150,
       "formula_depth_max": 2,
       "functions_per_formula_max": 2
      }
@@ -17170,11 +21747,48 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 3,
+      "group_by": 2,
+      "having": 2,
+      "fn_count": 2,
+      "order_by": 1,
+      "alias": 1,
+      "distinct": 1
+     },
+     "query_count": 4,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 2,
+     "sql": {
+      "sql_clauses": {
+       "where": 5,
+       "order_by": 2,
+       "desc_asc": 2,
+       "alias": 2,
+       "fn_count": 2,
+       "join_explicit": 2,
+       "dml_update": 1,
+       "dml_delete": 1,
+       "like": 1,
+       "group_by": 1
+      },
+      "query_count": 6,
+      "subquery_count": 0,
+      "max_tables_per_query": 2,
+      "max_conditions": 2
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_24okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -17210,11 +21824,35 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "maximumkivalasztas": 6,
+      "fajlkezeles": 2,
+      "osszegzes": 1
+     },
+     "io": {
+      "screen_out": 4,
+      "kbd_in": 3
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java"
+     ],
+     "input_rows": 1,
+     "input_cols": 15,
+     "input_separator": "vessző",
+     "feladatlap_words": 298
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_24okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -17343,14 +21981,42 @@
       "rejtett": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HAHIBA": 1420,
+       "SZÖVEG.TALÁL": 1420,
+       "RADIÁN": 710,
+       "SZUM": 710,
+       "ARCCOS": 355,
+       "COS": 355,
+       "SIN": 355,
+       "HA": 355,
+       "HOL.VAN": 2,
+       "INDEX": 2,
+       "MIN": 1,
+       "MAX": 1,
+       "DARABHATÖBB": 1
+      },
+      "function_pairs": {
+       "HAHIBA+SZÖVEG.TALÁL": 1420,
+       "ARCCOS+COS": 355,
+       "ARCCOS+SIN": 355,
+       "COS+SIN": 355,
+       "HA+SZUM": 355,
+       "HOL.VAN+INDEX": 2
+      },
+      "formula_count": 3200,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 6
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_25maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -17374,11 +22040,50 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 6,
+      "order_by": 5,
+      "group_by": 2,
+      "like": 1,
+      "desc_asc": 1,
+      "fn_count": 1,
+      "distinct": 1,
+      "subquery": 1,
+      "alias": 1
+     },
+     "query_count": 11,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 6,
+       "order_by": 5,
+       "group_by": 2,
+       "alias": 2,
+       "desc_asc": 2,
+       "fn_count": 2,
+       "like": 1,
+       "distinct": 1,
+       "subquery": 1,
+       "having": 1
+      },
+      "query_count": 8,
+      "subquery_count": 1,
+      "max_tables_per_query": 3,
+      "max_conditions": 4
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_25maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -17401,11 +22106,43 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 25,
+      "megszamlalas": 13,
+      "datumkezeles": 10,
+      "osszegzes": 6,
+      "maximumkivalasztas": 6,
+      "kereses": 6,
+      "sztringfeldolgozas": 5,
+      "eldontes": 4,
+      "statisztika_kiiras": 2,
+      "kivalasztas": 1,
+      "rendezes": 1
+     },
+     "io": {
+      "screen_out": 17,
+      "file_out": 6,
+      "kbd_in": 5,
+      "file_in": 1
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "Python"
+     ],
+     "input_rows": 361,
+     "input_cols": 5,
+     "input_separator": "pontosvessző",
+     "feladatlap_words": 848
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_25maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -17577,11 +22314,32 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 3,
+      "group_by": 2,
+      "fn_count": 2,
+      "like": 1,
+      "order_by": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "alias": 1,
+      "having": 1
+     },
+     "query_count": 5,
+     "subquery_count": 0,
+     "max_tables_per_query": 1,
+     "max_conditions": 2,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_25maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -17604,11 +22362,33 @@
      "type": "cs"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "osszegzes": 3,
+      "fajlkezeles": 2,
+      "megszamlalas": 1
+     },
+     "io": {
+      "kbd_in": 4,
+      "screen_out": 4
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C#"
+     ],
+     "input_rows": null,
+     "input_cols": null,
+     "input_separator": null,
+     "feladatlap_words": 533
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_25maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -17843,14 +22623,35 @@
       "igazitas": 1,
       "adatimport": 2
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "HOL.VAN": 120,
+       "INDEX": 120,
+       "NAGY": 80,
+       "MAX": 40,
+       "HA": 38,
+       "NEM": 38,
+       "ÉS": 38,
+       "JOBB": 38
+      },
+      "function_pairs": {
+       "HOL.VAN+INDEX": 120,
+       "HA+NEM": 38,
+       "HA+ÉS": 38,
+       "NEM+ÉS": 38
+      },
+      "formula_count": 316,
+      "formula_depth_max": 3,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_25okt_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -17874,11 +22675,59 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "order_by": 6,
+      "fn_count": 5,
+      "group_by": 4,
+      "top_limit": 3,
+      "fn_max": 3,
+      "distinct": 2,
+      "alias": 2,
+      "desc_asc": 2,
+      "fn_min": 2,
+      "like": 1,
+      "having": 1,
+      "subquery": 1
+     },
+     "query_count": 18,
+     "subquery_count": 2,
+     "max_tables_per_query": 3,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "where": 20,
+       "order_by": 10,
+       "subquery": 10,
+       "fn_count": 10,
+       "group_by": 8,
+       "top_limit": 4,
+       "desc_asc": 4,
+       "fn_max": 4,
+       "like": 4,
+       "distinct": 4,
+       "alias": 4,
+       "fn_min": 2,
+       "having": 2,
+       "in_list": 2,
+       "between": 2
+      },
+      "query_count": 26,
+      "subquery_count": 12,
+      "max_tables_per_query": 3,
+      "max_conditions": 5
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_25okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -17901,11 +22750,34 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 8,
+      "minimumkivalasztas": 6,
+      "osszegzes": 1,
+      "sztringfeldolgozas": 1
+     },
+     "io": {
+      "screen_out": 10,
+      "kbd_in": 3
+     },
+     "subtask_count": 6,
+     "solution_langs": [
+      "Python"
+     ],
+     "input_rows": 76,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 647
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_25okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -18040,15 +22912,15 @@
      },
      "xlsx": {
       "functions": {
-       "HA": 183,
-       "SZUM": 39,
-       "DARABTELI": 15,
-       "VÉL": 12
+       "HA": 122,
+       "SZUM": 26,
+       "DARABTELI": 10,
+       "VÉL": 8
       },
       "function_pairs": {
-       "HA+VÉL": 12
+       "HA+VÉL": 8
       },
-      "formula_count": 237,
+      "formula_count": 158,
       "formula_depth_max": 2,
       "functions_per_formula_max": 2
      }
@@ -18088,11 +22960,32 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 3,
+      "order_by": 3,
+      "desc_asc": 3,
+      "alias": 2,
+      "is_null": 1,
+      "top_limit": 1,
+      "group_by": 1,
+      "having": 1,
+      "fn_count": 1
+     },
+     "query_count": 4,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 2,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_25okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -18124,11 +23017,32 @@
      "type": "cpp"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "osszegzes": 8,
+      "maximumkivalasztas": 6,
+      "fajlkezeles": 2
+     },
+     "io": {
+      "screen_out": 6
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "C++"
+     ],
+     "input_rows": 1,
+     "input_cols": 16,
+     "input_separator": "vessző",
+     "feladatlap_words": 380
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_25okt_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -18253,14 +23167,31 @@
       "rendezes": 2,
       "adatimport": 3
      },
-     "xlsx": null
+     "xlsx": {
+      "functions": {
+       "GYÖK": 440,
+       "HATVÁNY": 440,
+       "HOL.VAN": 3,
+       "INDEX": 3,
+       "SZUM": 1,
+       "MIN": 1
+      },
+      "function_pairs": {
+       "GYÖK+HATVÁNY": 440,
+       "HOL.VAN+INDEX": 3
+      },
+      "formula_count": 445,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 3
+     }
     }
    },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_26maj_ut.pdf",
     "features_from": [
-     "utmutato"
+     "utmutato",
+     "xlsx"
     ]
    },
    "warnings": []
@@ -18284,11 +23215,55 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 7,
+      "fn_sum": 6,
+      "order_by": 4,
+      "alias": 4,
+      "fn_count": 3,
+      "group_by": 3,
+      "distinct": 2,
+      "having": 1,
+      "like": 1,
+      "between": 1,
+      "top_limit": 1,
+      "subquery": 1
+     },
+     "query_count": 9,
+     "subquery_count": 1,
+     "max_tables_per_query": 3,
+     "max_conditions": 6,
+     "sql": {
+      "sql_clauses": {
+       "where": 8,
+       "fn_sum": 6,
+       "group_by": 5,
+       "alias": 4,
+       "order_by": 4,
+       "fn_count": 3,
+       "having": 2,
+       "subquery": 2,
+       "distinct": 2,
+       "like": 1,
+       "between": 1,
+       "top_limit": 1
+      },
+      "query_count": 9,
+      "subquery_count": 2,
+      "max_tables_per_query": 3,
+      "max_conditions": 6
+     }
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_26maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato",
+     "sql"
+    ]
    },
    "warnings": []
   },
@@ -18311,11 +23286,34 @@
     }
    ],
    "solutions": [],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 18,
+      "maximumkivalasztas": 5,
+      "osszegzes": 4,
+      "megszamlalas": 2
+     },
+     "io": {
+      "screen_out": 14,
+      "kbd_in": 7
+     },
+     "subtask_count": 8,
+     "solution_langs": [
+      "Python"
+     ],
+     "input_rows": 150,
+     "input_cols": 3,
+     "input_separator": "tabulátor",
+     "feladatlap_words": 1181
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "e_digkult_26maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   },
@@ -18472,11 +23470,31 @@
      "type": "accdb"
     }
    ],
-   "features": {},
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 10,
+      "order_by": 2,
+      "between": 1,
+      "top_limit": 1,
+      "desc_asc": 1,
+      "distinct": 1,
+      "like": 1,
+      "alias": 1
+     },
+     "query_count": 10,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": null
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_26maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato"
+    ]
    },
    "warnings": []
   },
@@ -18504,11 +23522,35 @@
      "type": "py"
     }
    ],
-   "features": {},
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "minimumkivalasztas": 8,
+      "maximumkivalasztas": 5,
+      "kereses": 3,
+      "fajlkezeles": 2,
+      "osszegzes": 1
+     },
+     "io": {
+      "kbd_in": 4,
+      "screen_out": 2
+     },
+     "subtask_count": 5,
+     "solution_langs": [
+      "Python"
+     ],
+     "input_rows": 1,
+     "input_cols": 14,
+     "input_separator": "vessző",
+     "feladatlap_words": 392
+    }
+   },
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_26maj_ut.pdf",
-    "features_from": []
+    "features_from": [
+     "utmutato+feladatlap"
+    ]
    },
    "warnings": []
   }

@@ -3,9 +3,9 @@
 Egy rekord = egy feladat egy vizsgan. A feladatok az utmutato-PDF szakaszaibol
 jonnek (lasd split_utmutato), a temakor-hozzarendeles a feladatlap-PDF nevebol.
 
-Az 1. fazisban csak a tablazatkezeles-feladatok kapnak `features` mezot; a tobbi
-temakor rekordja letrejon (cim, temakor, forras- es megoldasfajlok), de az elemzes
-a kesobbi fazisokban keszul el.
+A 2. fazis vegen a tablazatkezeles, az adatbazis-kezeles es a programozas kap
+`features` mezot; a tobbi temakor rekordja letrejon (cim, temakor, forras- es
+megoldasfajlok), de az elemzes a 3. fazisban keszul el.
 """
 from __future__ import annotations
 
@@ -16,6 +16,8 @@ from . import __version__
 from .build_exams import pick_utmutato
 from .config import DATA_DIR
 from .discover import Exam
+from .parsers import adatbazis as adatbazis_parser
+from .parsers import programozas as programozas_parser
 from .parsers import tablazat as tablazat_parser
 from .parsers.common import word_count
 from .pdf_text import extract
@@ -82,13 +84,43 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
             "features_from": [],
         }
 
+        if "adatbazis" in topics:
+            stats, queries = adatbazis_parser.from_utmutato(s.text)
+            sql_files = [p for p in exam.all_solution_files if p.suffix.lower() == ".sql"]
+            sql_stats, sql_warn = adatbazis_parser.from_sql_files(sql_files)
+            task_warnings += sql_warn
+
+            features["adatbazis"] = {
+                **stats.as_dict(),
+                "sql": sql_stats.as_dict() if sql_stats.query_count else None,
+            }
+            if stats.query_count:
+                provenance["features_from"].append("utmutato")
+            else:
+                task_warnings.append("az adatbázis-feladatban egy lekérdezés sem található")
+            if sql_stats.query_count:
+                provenance["features_from"].append("sql")
+            del queries        # a lekerdezes szovege nem kerul a kimenetbe (szerzoi jog)
+
+        if "programozas" in topics:
+            tf = exam.topics["programozas"]
+            feladatlap_text = "\n".join(extract(p).text for p in tf.feladatlap_pdfs)
+            stats = programozas_parser.analyse(
+                s.text, feladatlap_text, tf.forras_files, exam.all_solution_files
+            )
+            features["programozas"] = {
+                **stats.as_dict(),
+                "feladatlap_words": word_count(feladatlap_text),
+            }
+            provenance["features_from"].append("utmutato+feladatlap")
+            if not stats.algorithms:
+                task_warnings.append(
+                    "a programozás-feladatban egy típusalgoritmus-kulcsszó sem található"
+                )
+
         if "tablazat" in topics:
             stats, skills = tablazat_parser.from_utmutato(s.text)
-            xlsx = [
-                p
-                for p in exam.topics["tablazat"].solution_files
-                if p.suffix.lower() == ".xlsx"
-            ]
+            xlsx = [p for p in exam.all_solution_files if p.suffix.lower() == ".xlsx"]
             xstats, xwarn = tablazat_parser.from_xlsx(xlsx)
             task_warnings += xwarn
 

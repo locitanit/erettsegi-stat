@@ -1,0 +1,86 @@
+# SQL-záradékok és -függvények, amiket a lekérdezésekben keresünk.
+#
+# A mintákat az útmutatóból kinyert SQL-blokkokra és a .sql mintamegoldásokra
+# alkalmazzuk, nem a magyar prózára. key / label / patterns.
+
+- key: distinct
+  label: DISTINCT
+  patterns: ['\bDISTINCT\b']
+- key: where
+  label: WHERE
+  patterns: ['\bWHERE\b']
+- key: group_by
+  label: GROUP BY
+  patterns: ['\bGROUP\s+BY\b']
+- key: having
+  label: HAVING
+  patterns: ['\bHAVING\b']
+- key: order_by
+  label: ORDER BY
+  patterns: ['\bORDER\s+BY\b']
+- key: top_limit
+  label: TOP / LIMIT
+  patterns: ['\bTOP\s+\d', '\bLIMIT\b']
+- key: like
+  label: LIKE
+  patterns: ['\bLIKE\b']
+- key: in_list
+  label: IN
+  patterns: ['\bIN\s*\(']
+- key: between
+  label: BETWEEN
+  patterns: ['\bBETWEEN\b']
+- key: is_null
+  label: IS NULL
+  patterns: ['\bIS\s+(NOT\s+)?NULL\b']
+- key: union
+  label: UNION
+  patterns: ['\bUNION\b']
+- key: join_explicit
+  label: JOIN (kifejtett)
+  patterns: ['\b(INNER|LEFT|RIGHT|FULL|CROSS)?\s*JOIN\b']
+- key: alias
+  label: Álnév (AS)
+  patterns: ['\bAS\b']
+- key: desc_asc
+  label: Rendezési irány (ASC/DESC)
+  patterns: ['\b(ASC|DESC)\b']
+
+- key: fn_count
+  label: COUNT
+  patterns: ['\bCOUNT\s*\(']
+- key: fn_sum
+  label: SUM
+  patterns: ['\bSUM\s*\(']
+- key: fn_avg
+  label: AVG
+  patterns: ['\bAVG\s*\(']
+- key: fn_min
+  label: MIN
+  patterns: ['\bMIN\s*\(']
+- key: fn_max
+  label: MAX
+  patterns: ['\bMAX\s*\(']
+
+- key: fn_date
+  label: Dátumfüggvény (YEAR, MONTH…)
+  patterns: ['\b(YEAR|MONTH|DAY|DATE|NOW|DATEPART|WEEKDAY)\s*\(']
+- key: fn_text
+  label: Szövegfüggvény (LEFT, MID…)
+  patterns: ['\b(LEFT|RIGHT|MID|LEN|LENGTH|INSTR|SUBSTR|SUBSTRING|UCASE|LCASE|TRIM)\s*\(']
+
+- key: dml_insert
+  label: INSERT
+  patterns: ['\bINSERT\s+INTO\b']
+- key: dml_update
+  label: UPDATE
+  patterns: ['\bUPDATE\b']
+- key: dml_delete
+  label: DELETE
+  patterns: ['\bDELETE\s+FROM\b']
+- key: ddl_create
+  label: CREATE TABLE
+  patterns: ['\bCREATE\s+TABLE\b']
+- key: select_into
+  label: SELECT … INTO (táblakészítő)
+  patterns: ['\bINTO\s+\w+\s*\n?\s*FROM\b', '\bSELECT\b[\s\S]{0,300}?\bINTO\b']
