@@ -133,6 +133,22 @@ A típusalgoritmus-felismerés kulcsszó-alapú becslés: az útmutató nem neve
 a típusalgoritmust, csak leírja a feladatot. A számok trendre jók, pontos
 darabszámnak nem.
 
+## Szövegszerkesztés, weblap, prezentáció és pontszámok
+
+| Mutató | Érték |
+|---|---|
+| Szövegszerkesztés-feladat / kulcsszóval | 60 / 60 |
+| Weblap-feladat / HTML-mintamegoldással | 29 / 29 |
+| Prezentáció-feladat / kulcsszóval | 50 / 50 |
+| Feladat pontszámmal | 259 / 346 |
+| Vizsga pontszámmal | 64 |
+
+A pontszámok a pontozótábla xlsx-ből jönnek, nem a PDF-ből: ott a keretezés
+elcsúsztatja a számokat. Egy vizsga pontjai csak akkor kerülnek be, ha az
+összpontszám pontosan 100 (közép) vagy 120 (emelt).
+
+2012 utáni feladatok figyelmeztetéssel: **0 / 253 (0.0 %)** – a terv szerinti küszöb 10 %.
+
 ## Feladat-vágási figyelmeztetések
 
 | Vizsga | Figyelmeztetés |

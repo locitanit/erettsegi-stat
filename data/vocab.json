@@ -1288,5 +1288,273 @@
    "key": "file_out",
    "label": "Kiírás fájlba"
   }
+ ],
+ "text_ops": [
+  {
+   "key": "stilus",
+   "label": "Stílus használata"
+  },
+  {
+   "key": "tartalomjegyzek",
+   "label": "Tartalomjegyzék"
+  },
+  {
+   "key": "tabulator",
+   "label": "Tabulátor"
+  },
+  {
+   "key": "hasab",
+   "label": "Hasáb"
+  },
+  {
+   "key": "tablazat",
+   "label": "Táblázat"
+  },
+  {
+   "key": "kep",
+   "label": "Kép beszúrása"
+  },
+  {
+   "key": "korbefuttatas",
+   "label": "Képkörbefuttatás"
+  },
+  {
+   "key": "iniciale",
+   "label": "Iniciálé"
+  },
+  {
+   "key": "elofej_elolab",
+   "label": "Élőfej, élőláb"
+  },
+  {
+   "key": "oldalszam",
+   "label": "Oldalszámozás"
+  },
+  {
+   "key": "labjegyzet",
+   "label": "Lábjegyzet"
+  },
+  {
+   "key": "szakasztores",
+   "label": "Szakasz- vagy oldaltörés"
+  },
+  {
+   "key": "kordokumentum",
+   "label": "Körlevél"
+  },
+  {
+   "key": "felsorolas",
+   "label": "Felsorolás, számozás"
+  },
+  {
+   "key": "szegely_mintazat",
+   "label": "Szegély, mintázat"
+  },
+  {
+   "key": "betuformazas",
+   "label": "Betűformázás"
+  },
+  {
+   "key": "bekezdesformazas",
+   "label": "Bekezdésformázás"
+  },
+  {
+   "key": "szimbolum",
+   "label": "Szimbólum"
+  },
+  {
+   "key": "alakzat",
+   "label": "Alakzat, rajz"
+  },
+  {
+   "key": "oldalbeallitas",
+   "label": "Oldalbeállítás"
+  },
+  {
+   "key": "elvalasztas",
+   "label": "Elválasztás"
+  },
+  {
+   "key": "pdf_mentes",
+   "label": "PDF-mentés"
+  },
+  {
+   "key": "kereses_csere",
+   "label": "Keresés és csere"
+  }
+ ],
+ "presentation_ops": [
+  {
+   "key": "diaminta",
+   "label": "Diaminta, sablon"
+  },
+  {
+   "key": "attunes",
+   "label": "Áttűnés"
+  },
+  {
+   "key": "animacio",
+   "label": "Animáció"
+  },
+  {
+   "key": "hivatkozas",
+   "label": "Hivatkozás, akciógomb"
+  },
+  {
+   "key": "dia_diagram",
+   "label": "Diagram a dián"
+  },
+  {
+   "key": "dia_tablazat",
+   "label": "Táblázat a dián"
+  },
+  {
+   "key": "alakzat",
+   "label": "Alakzat"
+  },
+  {
+   "key": "kep_vagas",
+   "label": "Kép vágása, méretezése"
+  },
+  {
+   "key": "hatter",
+   "label": "Háttér"
+  },
+  {
+   "key": "jegyzet",
+   "label": "Jegyzet"
+  },
+  {
+   "key": "felsorolas",
+   "label": "Felsorolás a dián"
+  },
+  {
+   "key": "vektorgrafika",
+   "label": "Vektorgrafika"
+  },
+  {
+   "key": "raszter",
+   "label": "Raszteres kép"
+  },
+  {
+   "key": "reteg",
+   "label": "Réteg"
+  },
+  {
+   "key": "atlatszosag",
+   "label": "Átlátszóság"
+  },
+  {
+   "key": "halmazmuvelet",
+   "label": "Halmazművelet"
+  },
+  {
+   "key": "csomopont",
+   "label": "Csomópont-szerkesztés"
+  },
+  {
+   "key": "export",
+   "label": "Exportálás (PNG, SVG, JPG)"
+  },
+  {
+   "key": "meret_px",
+   "label": "Méret képpontban"
+  },
+  {
+   "key": "szinkod",
+   "label": "Színkód megadása"
+  },
+  {
+   "key": "forgatas_tukrozes",
+   "label": "Forgatás, tükrözés"
+  }
+ ],
+ "web_ops": [
+  {
+   "key": "kulso_css",
+   "label": "Külső stíluslap"
+  },
+  {
+   "key": "belso_css",
+   "label": "Belső stílus"
+  },
+  {
+   "key": "kijelolo_osztaly",
+   "label": "Osztály-kijelölő"
+  },
+  {
+   "key": "kijelolo_id",
+   "label": "Azonosító-kijelölő"
+  },
+  {
+   "key": "tablazatos_elrendezes",
+   "label": "Táblázat a lapon"
+  },
+  {
+   "key": "kep_beillesztes",
+   "label": "Kép a lapon"
+  },
+  {
+   "key": "hivatkozas",
+   "label": "Hivatkozás"
+  },
+  {
+   "key": "lista",
+   "label": "Lista"
+  },
+  {
+   "key": "urlap",
+   "label": "Űrlap"
+  },
+  {
+   "key": "media",
+   "label": "Videó vagy hang"
+  },
+  {
+   "key": "keretrendszer",
+   "label": "Keretrendszer (pl. Bootstrap)"
+  },
+  {
+   "key": "reszponziv",
+   "label": "Reszponzív elrendezés"
+  },
+  {
+   "key": "szinkod",
+   "label": "Színkód"
+  },
+  {
+   "key": "karakterkodolas",
+   "label": "Karakterkódolás"
+  },
+  {
+   "key": "oldalcim",
+   "label": "Oldalcím (title)"
+  }
+ ],
+ "selector_types": [
+  {
+   "key": "elem",
+   "label": "Elem"
+  },
+  {
+   "key": "osztaly",
+   "label": "Osztály"
+  },
+  {
+   "key": "id",
+   "label": "Azonosító"
+  },
+  {
+   "key": "leszarmazott",
+   "label": "Leszármazott"
+  },
+  {
+   "key": "pszeudo",
+   "label": "Pszeudo-osztály"
+  },
+  {
+   "key": "attributum",
+   "label": "Attribútum"
+  }
  ]
 }

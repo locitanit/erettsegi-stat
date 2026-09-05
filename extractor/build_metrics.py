@@ -103,6 +103,46 @@ def build_metrics(tasks: list[dict]) -> dict[str, dict]:
                 ),
             }
 
+    text_ops: dict[str, dict[str, int]] = {}
+    presentation_ops: dict[str, dict[str, int]] = {}
+    web_ops: dict[str, dict[str, int]] = {}
+    html_tags: dict[str, dict[str, int]] = {}
+    css_props: dict[str, dict[str, int]] = {}
+    selector_types: dict[str, dict[str, int]] = {}
+    points_by_topic: dict[str, dict[str, float]] = {}
+    exam_shape: dict[str, dict] = {}
+
+    for task in tasks:
+        exam_id = task["exam_id"]
+        feats = task.get("features") or {}
+
+        if feats.get("szoveg"):
+            _add(text_ops, exam_id, feats["szoveg"].get("ops", {}))
+        if feats.get("prezentacio"):
+            _add(presentation_ops, exam_id, feats["prezentacio"].get("ops", {}))
+        web = feats.get("weblap")
+        if web:
+            _add(web_ops, exam_id, web.get("ops", {}))
+            _add(html_tags, exam_id, web.get("html_tags", {}))
+            _add(css_props, exam_id, web.get("css_props", {}))
+            _add(selector_types, exam_id, web.get("selector_types", {}))
+
+        # Pontarany temakoronkent. Ha egy feladat ket temakorhoz tartozik,
+        # a pontjat egyenlo"en osztjuk el kozottuk.
+        points = task.get("exam_points")
+        topics = task.get("topics") or []
+        if points and topics:
+            share = round(points / len(topics), 1)
+            bucket = points_by_topic.setdefault(exam_id, {})
+            for topic in topics:
+                bucket[topic] = round(bucket.get(topic, 0) + share, 1)
+            shape = exam_shape.setdefault(
+                exam_id, {"total_points": 0, "task_count": 0, "subtask_count": 0}
+            )
+            shape["total_points"] += points
+            shape["task_count"] += 1
+            shape["subtask_count"] += task.get("subtask_count") or 0
+
     return {
         "excel_functions.json": functions,
         "excel_function_pairs.json": pairs,
@@ -116,6 +156,14 @@ def build_metrics(tasks: list[dict]) -> dict[str, dict]:
         "programozas_io.json": prog_io,
         "solution_langs.json": solution_langs,
         "programozas_shape.json": prog_shape,
+        "text_ops.json": text_ops,
+        "presentation_ops.json": presentation_ops,
+        "web_ops.json": web_ops,
+        "html_tags.json": html_tags,
+        "css_props.json": css_props,
+        "selector_types.json": selector_types,
+        "points_by_topic.json": points_by_topic,
+        "exam_shape.json": exam_shape,
         "task_titles.json": dict(titles),
     }
 

@@ -1,0 +1,49 @@
+# Weblapkészítési műveletek az útmutató pontozási soraiból.
+# A HTML-elemeket és a CSS-tulajdonságokat NEM innen számoljuk: azokat a
+# mintamegoldás .html és .css fájljaiból olvassuk ki (parsers/weblap.py).
+
+- key: kulso_css
+  label: Külső stíluslap
+  patterns: ['külső stílus', 'stíluslap.{0,20}(csatolt|hivatkoz)', '<link', '\.css állomány']
+- key: belso_css
+  label: Belső stílus
+  patterns: ['belső stílus', '<style', 'style attribútum']
+- key: kijelolo_osztaly
+  label: Osztály-kijelölő
+  patterns: ['osztály(t|ként|ot)? (hozott létre|használ|definiál)', '\bclass\b', '\.osztály']
+- key: kijelolo_id
+  label: Azonosító-kijelölő
+  patterns: ['\bid\b.{0,20}(kijelölő|azonosító)', '#azonosító']
+- key: tablazatos_elrendezes
+  label: Táblázat a lapon
+  patterns: ['táblázat', '<table']
+- key: kep_beillesztes
+  label: Kép a lapon
+  patterns: ['képet? (szúrt|illesztett|helyezett) be', '<img', 'alt attribútum']
+- key: hivatkozas
+  label: Hivatkozás
+  patterns: ['hivatkozás', 'link(et|ek)?\b', '<a ']
+- key: lista
+  label: Lista
+  patterns: ['felsorolás', 'számozott lista', '<ul', '<ol']
+- key: urlap
+  label: Űrlap
+  patterns: ['űrlap', '<form', 'beviteli mező']
+- key: media
+  label: Videó vagy hang
+  patterns: ['<video', '<audio', 'videó(t|k)?\b', 'hangállomány']
+- key: keretrendszer
+  label: Keretrendszer (pl. Bootstrap)
+  patterns: ['bootstrap', 'keretrendszer']
+- key: reszponziv
+  label: Reszponzív elrendezés
+  patterns: ['reszponzív', 'viewport', 'media query', '@media']
+- key: szinkod
+  label: Színkód
+  patterns: ['#[0-9a-fA-F]{3,6}\b', 'RGB', 'színkód']
+- key: karakterkodolas
+  label: Karakterkódolás
+  patterns: ['UTF-8', 'karakterkódolás', 'charset']
+- key: oldalcim
+  label: Oldalcím (title)
+  patterns: ['böngésző.{0,25}(cím|fejléc)', '<title', 'oldal címe']

@@ -1,0 +1,71 @@
+# Szövegszerkesztési műveletek az útmutató pontozási soraiból.
+
+- key: stilus
+  label: Stílus használata
+  patterns: ['stílus(t|sal|ok|ban)?\b', 'Normál stílus', 'Címsor \d']
+- key: tartalomjegyzek
+  label: Tartalomjegyzék
+  patterns: ['tartalomjegyzék']
+- key: tabulator
+  label: Tabulátor
+  patterns: ['tabulátor']
+- key: hasab
+  label: Hasáb
+  patterns: ['hasáb']
+- key: tablazat
+  label: Táblázat
+  patterns: ['táblázat(ot|ban|ba|a|nak)?\b', 'cellák egyesít', 'sor(t|okat) szúrt be']
+- key: kep
+  label: Kép beszúrása
+  patterns: ['képet? (szúrt|illesztett) be', 'beszúrta a .{0,20}\.(jpg|png|gif)', 'kép mérete']
+- key: korbefuttatas
+  label: Képkörbefuttatás
+  patterns: ['körbefuttat', 'szövegtörés', 'elrendezés.{0,15}(szoros|négyzetes)']
+- key: iniciale
+  label: Iniciálé
+  patterns: ['iniciálé']
+- key: elofej_elolab
+  label: Élőfej, élőláb
+  patterns: ['élőfej', 'élőláb', 'fejléc(be|et|ben)', 'lábléc']
+- key: oldalszam
+  label: Oldalszámozás
+  patterns: ['oldalszám']
+- key: labjegyzet
+  label: Lábjegyzet
+  patterns: ['lábjegyzet', 'végjegyzet']
+- key: szakasztores
+  label: Szakasz- vagy oldaltörés
+  patterns: ['szakasztörés', 'oldaltörés', 'hasábtörés']
+- key: kordokumentum
+  label: Körlevél
+  patterns: ['körlevél', 'kördokumentum', 'kördokumentum']
+- key: felsorolas
+  label: Felsorolás, számozás
+  patterns: ['felsorolás', 'számozott lista', 'listajel']
+- key: szegely_mintazat
+  label: Szegély, mintázat
+  patterns: ['szegély', 'mintázat', 'háttérszín', 'kitöltőszín']
+- key: betuformazas
+  label: Betűformázás
+  patterns: ['betűtípus', 'betűméret', 'félkövér', 'dőlt', 'aláhúz', 'kiskapitális', 'betűstílus']
+- key: bekezdesformazas
+  label: Bekezdésformázás
+  patterns: ['sorkizárt', 'behúzás', 'térköz', 'sorköz', 'igazít(ás|ott)']
+- key: szimbolum
+  label: Szimbólum
+  patterns: ['szimbólum', 'speciális karakter']
+- key: alakzat
+  label: Alakzat, rajz
+  patterns: ['alakzat', 'szövegdoboz', 'rajzobjektum', 'WordArt']
+- key: oldalbeallitas
+  label: Oldalbeállítás
+  patterns: ['oldalbeállítás', 'margó', 'tájolás', '(A4|B5)-ös', 'lapméret']
+- key: elvalasztas
+  label: Elválasztás
+  patterns: ['elválasztás']
+- key: pdf_mentes
+  label: PDF-mentés
+  patterns: ['PDF-be', 'PDF formátum', 'pdf néven']
+- key: kereses_csere
+  label: Keresés és csere
+  patterns: ['keresés és csere', 'cserélte? le', 'cserével']

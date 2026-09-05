@@ -197,6 +197,54 @@ def build_report(
         a("darabszámnak nem.")
         a("")
 
+    if tasks:
+        a("## Szövegszerkesztés, weblap, prezentáció és pontszámok")
+        a("")
+        by_topic_tasks: dict[str, list[dict]] = defaultdict(list)
+        for t in tasks:
+            for topic in t["topics"]:
+                by_topic_tasks[topic].append(t)
+
+        def with_feature(topic: str, feature: str, field: str) -> int:
+            return sum(
+                1
+                for t in by_topic_tasks[topic]
+                if (t["features"].get(feature) or {}).get(field)
+            )
+
+        web = by_topic_tasks["weblap"]
+        with_html = sum(
+            1 for t in web if (t["features"].get("weblap") or {}).get("page_count")
+        )
+        with_points = [t for t in tasks if t.get("exam_points")]
+        exams_with_points = {t["exam_id"] for t in with_points}
+
+        a("| Mutató | Érték |")
+        a("|---|---|")
+        a(f"| Szövegszerkesztés-feladat / kulcsszóval | {len(by_topic_tasks['szoveg'])} / "
+          f"{with_feature('szoveg', 'szoveg', 'ops')} |")
+        a(f"| Weblap-feladat / HTML-mintamegoldással | {len(web)} / {with_html} |")
+        prez = len(by_topic_tasks["prezentacio"]) + len(by_topic_tasks["prezentacio_grafika"])
+        prez_ok = with_feature("prezentacio", "prezentacio", "ops") + with_feature(
+            "prezentacio_grafika", "prezentacio", "ops"
+        )
+        a(f"| Prezentáció-feladat / kulcsszóval | {prez} / {prez_ok} |")
+        a(f"| Feladat pontszámmal | {len(with_points)} / {len(tasks)} |")
+        a(f"| Vizsga pontszámmal | {len(exams_with_points)} |")
+        a("")
+        a("A pontszámok a pontozótábla xlsx-ből jönnek, nem a PDF-ből: ott a keretezés")
+        a("elcsúsztatja a számokat. Egy vizsga pontjai csak akkor kerülnek be, ha az")
+        a("összpontszám pontosan 100 (közép) vagy 120 (emelt).")
+        a("")
+
+        # A TERV 8. elfogadasi feltetele: 2012 utan < 10 % feladat figyelmeztetessel.
+        recent = [t for t in tasks if int(t["exam_id"][:4]) > 2012]
+        warned_recent = [t for t in recent if t["warnings"]]
+        share = (len(warned_recent) / len(recent) * 100) if recent else 0
+        a(f"2012 utáni feladatok figyelmeztetéssel: **{len(warned_recent)} / {len(recent)} "
+          f"({share:.1f} %)** – a terv szerinti küszöb 10 %.")
+        a("")
+
     if task_warnings:
         a("## Feladat-vágási figyelmeztetések")
         a("")

@@ -4,6 +4,9 @@ import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Placeholder from "./components/Placeholder";
 import Adatbazis from "./pages/Adatbazis";
+import Attekintes from "./pages/Attekintes";
+import KeywordTopic from "./pages/KeywordTopic";
+import Weblap from "./pages/Weblap";
 import Esedekes from "./pages/Esedekes";
 import Programozas from "./pages/Programozas";
 import Tablazatkezeles from "./pages/Tablazatkezeles";
@@ -65,13 +68,37 @@ export default function App() {
       {/* Csak a tartalom gorduljon: igy az oldalsav es a szurosav helyben marad. */}
       <main className="min-w-0 flex-1 md:h-screen md:overflow-y-auto">
         <Routes>
-          <Route path="/" element={<Placeholder title="Áttekintés" phase="3. fázisban" />} />
+          <Route path="/" element={<Attekintes />} />
           <Route path="/tablazatkezeles" element={<Tablazatkezeles />} />
           <Route path="/adatbazis" element={<Adatbazis />} />
           <Route path="/programozas" element={<Programozas />} />
-          <Route path="/szovegszerkesztes" element={<Placeholder title="Szövegszerkesztés" phase="3. fázisban" />} />
-          <Route path="/weblap" element={<Placeholder title="Weblap" phase="3. fázisban" />} />
-          <Route path="/prezentacio" element={<Placeholder title="Prezentáció és grafika" phase="3. fázisban" />} />
+          <Route
+            path="/szovegszerkesztes"
+            element={
+              <KeywordTopic
+                title="Szövegszerkesztés"
+                lead="A javítási útmutatók pontozási soraiban felismert szövegszerkesztési műveletek."
+                metricFile="text_ops.json"
+                vocabKey="text_ops"
+                csvName="szovegszerkesztes.csv"
+                colorIndex={1}
+              />
+            }
+          />
+          <Route path="/weblap" element={<Weblap />} />
+          <Route
+            path="/prezentacio"
+            element={
+              <KeywordTopic
+                title="Prezentáció és grafika"
+                lead="A javítási útmutatók pontozási soraiban felismert prezentációs és grafikai műveletek. 2022-től a két témakör egy feladatban szerepel."
+                metricFile="presentation_ops.json"
+                vocabKey="presentation_ops"
+                csvName="prezentacio_grafika.csv"
+                colorIndex={5}
+              />
+            }
+          />
           <Route path="/esedekes" element={<Esedekes />} />
           <Route path="/vizsgak" element={<Vizsgak />} />
           <Route path="/adatokrol" element={<Adatokrol />} />

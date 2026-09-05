@@ -70,6 +70,7 @@ class TopicFiles:
     forras_files: list[Path] = field(default_factory=list)
     utmutato_pdfs: list[Path] = field(default_factory=list)
     solution_files: list[Path] = field(default_factory=list)
+    scoring_sheets: list[Path] = field(default_factory=list)   # pontozotabla xlsx
 
 
 @dataclass
@@ -84,6 +85,15 @@ class Exam:
     @property
     def id(self) -> str:
         return self.period.exam_id(self.level)
+
+    @property
+    def scoring_sheets(self) -> list[Path]:
+        """A vizsga pontozotablai, fajlnev szerint egyszer."""
+        seen: dict[str, Path] = {}
+        for tf in self.topics.values():
+            for p in tf.scoring_sheets:
+                seen.setdefault(p.name.lower(), p)
+        return sorted(seen.values(), key=lambda p: p.name.lower())
 
     @property
     def all_solution_files(self) -> list[Path]:
@@ -130,6 +140,10 @@ def _classify_into(tf: TopicFiles, sub: str, path: Path) -> None:
         tf.utmutato_pdfs.append(path)
         return
     if is_scoring_sheet(name):
+        # A pontozotabla nem mintamegoldas, de a pontszamok egyetlen megbizhato
+        # forrasa: a PDF tordelese szethuzza a szamokat, az xlsx nem.
+        if ext in {".xlsx", ".xlsm"}:
+            tf.scoring_sheets.append(path)
         return
     if ext == ".pdf":
         return  # egyeb PDF az utmutato mappaban (ertekelolap stb.) - kihagyjuk

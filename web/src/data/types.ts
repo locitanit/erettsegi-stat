@@ -62,6 +62,10 @@ export interface VocabFile {
   sql_keywords: VocabLabel[];
   algorithms: VocabLabel[];
   programozas_io: VocabLabel[];
+  text_ops: VocabLabel[];
+  presentation_ops: VocabLabel[];
+  web_ops: VocabLabel[];
+  selector_types: VocabLabel[];
 }
 
 export interface VocabLabel {

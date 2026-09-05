@@ -1,0 +1,200 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2007m_kozep_inf": {
+"tablazatos_elrendezes": 4,
+"hivatkozas": 1,
+"szinkod": 4
+},
+"2007o_kozep_inf": {
+"tablazatos_elrendezes": 9,
+"hivatkozas": 1,
+"szinkod": 4,
+"oldalcim": 1
+},
+"2008m_emelt_inf": {
+"tablazatos_elrendezes": 5,
+"hivatkozas": 2,
+"lista": 2
+},
+"2008m_kozep_inf": {
+"tablazatos_elrendezes": 5,
+"hivatkozas": 5,
+"lista": 2,
+"szinkod": 2
+},
+"2008o_emelt_inf": {
+"tablazatos_elrendezes": 8,
+"hivatkozas": 13,
+"szinkod": 1,
+"oldalcim": 1
+},
+"2008o_kozep_inf": {
+"tablazatos_elrendezes": 7,
+"hivatkozas": 4,
+"lista": 1,
+"szinkod": 1,
+"oldalcim": 1
+},
+"2009m_emelt_inf": {
+"tablazatos_elrendezes": 12,
+"hivatkozas": 6,
+"szinkod": 5,
+"oldalcim": 1
+},
+"2009m_kozep_inf": {
+"tablazatos_elrendezes": 5,
+"lista": 1,
+"szinkod": 2,
+"oldalcim": 1
+},
+"2009o_kozep_inf": {
+"tablazatos_elrendezes": 2,
+"hivatkozas": 2,
+"lista": 2,
+"szinkod": 4,
+"oldalcim": 1
+},
+"2010m_emelt_inf": {
+"tablazatos_elrendezes": 11,
+"kep_beillesztes": 1,
+"hivatkozas": 12,
+"szinkod": 10
+},
+"2010m_kozep_inf": {
+"tablazatos_elrendezes": 4,
+"hivatkozas": 3,
+"lista": 3,
+"szinkod": 2,
+"oldalcim": 1
+},
+"2010o_emelt_inf": {
+"tablazatos_elrendezes": 9,
+"hivatkozas": 22,
+"lista": 1,
+"szinkod": 7
+},
+"2011m_emelt_inf": {
+"tablazatos_elrendezes": 14,
+"kep_beillesztes": 2,
+"hivatkozas": 10,
+"lista": 6,
+"szinkod": 4,
+"oldalcim": 1
+},
+"2011m_kozep_inf": {
+"tablazatos_elrendezes": 13,
+"hivatkozas": 5,
+"szinkod": 6
+},
+"2013m_emelt_inf": {
+"tablazatos_elrendezes": 11,
+"hivatkozas": 7,
+"lista": 1,
+"szinkod": 6,
+"oldalcim": 1
+},
+"2013m_kozep_inf": {
+"tablazatos_elrendezes": 4,
+"hivatkozas": 4,
+"szinkod": 8,
+"oldalcim": 2
+},
+"2014o_emelt_inf": {
+"tablazatos_elrendezes": 10,
+"hivatkozas": 8,
+"szinkod": 2,
+"oldalcim": 1
+},
+"2014o_kozep_inf": {
+"tablazatos_elrendezes": 14,
+"hivatkozas": 9,
+"szinkod": 3,
+"oldalcim": 1
+},
+"2016m_kozep_inf": {
+"tablazatos_elrendezes": 10,
+"hivatkozas": 5,
+"szinkod": 1,
+"oldalcim": 1
+},
+"2017m_emelt_inf": {
+"tablazatos_elrendezes": 3,
+"kep_beillesztes": 2,
+"hivatkozas": 13,
+"lista": 1,
+"szinkod": 7,
+"oldalcim": 1
+},
+"2017m_kozep_inf": {
+"tablazatos_elrendezes": 12,
+"hivatkozas": 5,
+"lista": 3,
+"szinkod": 3,
+"oldalcim": 1
+},
+"2017o_emelt_inf": {
+"tablazatos_elrendezes": 11,
+"hivatkozas": 10,
+"szinkod": 7,
+"oldalcim": 1
+},
+"2019m_emelt_inf": {
+"kijelolo_osztaly": 1,
+"tablazatos_elrendezes": 2,
+"kep_beillesztes": 3,
+"hivatkozas": 3,
+"lista": 2,
+"szinkod": 2,
+"oldalcim": 1
+},
+"2020m_emelt_inf": {
+"kijelolo_osztaly": 2,
+"tablazatos_elrendezes": 3,
+"kep_beillesztes": 4,
+"hivatkozas": 3,
+"szinkod": 4,
+"oldalcim": 1
+},
+"2020o_emelt_inf": {
+"kijelolo_osztaly": 3,
+"tablazatos_elrendezes": 2,
+"kep_beillesztes": 2,
+"hivatkozas": 4,
+"lista": 3,
+"szinkod": 5,
+"oldalcim": 1
+},
+"2021o_kozep_inf": {
+"tablazatos_elrendezes": 5,
+"hivatkozas": 10,
+"lista": 7,
+"szinkod": 5,
+"oldalcim": 1
+},
+"2024o_emelt_dk": {
+"kijelolo_osztaly": 1,
+"tablazatos_elrendezes": 5,
+"kep_beillesztes": 4,
+"hivatkozas": 2,
+"szinkod": 3,
+"oldalcim": 1
+},
+"2025m_emelt_dk": {
+"kijelolo_osztaly": 1,
+"tablazatos_elrendezes": 3,
+"kep_beillesztes": 2,
+"hivatkozas": 5,
+"lista": 1,
+"oldalcim": 1
+},
+"2026m_emelt_dk": {
+"kijelolo_osztaly": 5,
+"tablazatos_elrendezes": 3,
+"kep_beillesztes": 5,
+"hivatkozas": 2,
+"szinkod": 23,
+"oldalcim": 1
+}
+}
+}

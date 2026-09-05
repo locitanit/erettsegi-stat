@@ -1,0 +1,68 @@
+# Prezentáció és grafika műveletei az útmutató pontozási soraiból.
+# 2022-től a két témakör egy feladatba került, ezért egy szótárban vannak,
+# de a címke jelzi, melyik területhez tartozik.
+
+- key: diaminta
+  label: Diaminta, sablon
+  patterns: ['diaminta', 'mintadia', 'sablon']
+- key: attunes
+  label: Áttűnés
+  patterns: ['áttűnés', 'diaváltás']
+- key: animacio
+  label: Animáció
+  patterns: ['animáci', 'mozgatás effektus']
+- key: hivatkozas
+  label: Hivatkozás, akciógomb
+  patterns: ['akciógomb', 'hiperhivatkozás', 'ugrás a .{0,15}diára']
+- key: dia_diagram
+  label: Diagram a dián
+  patterns: ['diagram']
+- key: dia_tablazat
+  label: Táblázat a dián
+  patterns: ['táblázat']
+- key: alakzat
+  label: Alakzat
+  patterns: ['alakzat', 'szövegdoboz', 'sokszög', 'ellipszis', 'téglalap']
+- key: kep_vagas
+  label: Kép vágása, méretezése
+  patterns: ['körülvág', 'levágta a kép', 'kép mérete', 'átméretez']
+- key: hatter
+  label: Háttér
+  patterns: ['háttér(szín|kép|ként)?']
+- key: jegyzet
+  label: Jegyzet
+  patterns: ['jegyzet(et|ben)?\b', 'előadói jegyzet']
+- key: felsorolas
+  label: Felsorolás a dián
+  patterns: ['felsorolás', 'listajel']
+
+- key: vektorgrafika
+  label: Vektorgrafika
+  patterns: ['vektorgrafik', '\bSVG\b', 'görbe', 'Bézier']
+- key: raszter
+  label: Raszteres kép
+  patterns: ['raszter', 'képpont', 'pixel']
+- key: reteg
+  label: Réteg
+  patterns: ['réteg(et|ben|ek)?\b']
+- key: atlatszosag
+  label: Átlátszóság
+  patterns: ['átlátszó', 'áttetsző', 'opacit']
+- key: halmazmuvelet
+  label: Halmazművelet
+  patterns: ['halmazművelet', 'kivonás|unió|metszet', 'egyesít(ette|és) az alakzat']
+- key: csomopont
+  label: Csomópont-szerkesztés
+  patterns: ['csomópont', 'útvonal szerkeszt']
+- key: export
+  label: Exportálás (PNG, SVG, JPG)
+  patterns: ['exportál', 'mentette .{0,20}(png|svg|jpg|jpeg) ', '\.(png|svg|jpg)\b']
+- key: meret_px
+  label: Méret képpontban
+  patterns: ['\d{2,4}\s*[×x]\s*\d{2,4}\s*(képpont|pixel|px)', 'képpont méret']
+- key: szinkod
+  label: Színkód megadása
+  patterns: ['RGB', 'színkód', '#[0-9a-fA-F]{6}']
+- key: forgatas_tukrozes
+  label: Forgatás, tükrözés
+  patterns: ['forgat', 'tükröz', 'elforgat']

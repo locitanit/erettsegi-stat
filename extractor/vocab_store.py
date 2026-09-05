@@ -131,6 +131,17 @@ def vocab_payload() -> dict:
         + [{"key": "subquery", "label": "Allekérdezés"}],
         "algorithms": _labels("algorithm_keywords.yaml"),
         "programozas_io": _labels("programozas_io.yaml"),
+        "text_ops": _labels("text_ops.yaml"),
+        "presentation_ops": _labels("presentation_ops.yaml"),
+        "web_ops": _labels("web_ops.yaml"),
+        "selector_types": [
+            {"key": "elem", "label": "Elem"},
+            {"key": "osztaly", "label": "Osztály"},
+            {"key": "id", "label": "Azonosító"},
+            {"key": "leszarmazott", "label": "Leszármazott"},
+            {"key": "pszeudo", "label": "Pszeudo-osztály"},
+            {"key": "attributum", "label": "Attribútum"},
+        ],
     }
 
 

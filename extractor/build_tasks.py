@@ -3,9 +3,8 @@
 Egy rekord = egy feladat egy vizsgan. A feladatok az utmutato-PDF szakaszaibol
 jonnek (lasd split_utmutato), a temakor-hozzarendeles a feladatlap-PDF nevebol.
 
-A 2. fazis vegen a tablazatkezeles, az adatbazis-kezeles es a programozas kap
-`features` mezot; a tobbi temakor rekordja letrejon (cim, temakor, forras- es
-megoldasfajlok), de az elemzes a 3. fazisban keszul el.
+A 3. fazis vegen mind a hat temakor kap `features` mezot. A pontszamok a
+pontozotabla xlsx-bo"l jonnek (lasd parsers/points.py), nem a PDF-bo"l.
 """
 from __future__ import annotations
 
@@ -17,6 +16,9 @@ from .build_exams import pick_utmutato
 from .config import DATA_DIR
 from .discover import Exam
 from .parsers import adatbazis as adatbazis_parser
+from .parsers import points as points_parser
+from .parsers import szoveg as szoveg_parser
+from .parsers import weblap as weblap_parser
 from .parsers import programozas as programozas_parser
 from .parsers import tablazat as tablazat_parser
 from .parsers.common import word_count
@@ -54,6 +56,20 @@ def _solution_records(exam: Exam, topics: list[str]) -> list[dict]:
     return out
 
 
+def _points_fields(tp: points_parser.TaskPoints | None) -> dict:
+    """A feladat pontszam-mezoi. Ha nincs pontozotabla, minden None."""
+    if tp is None:
+        return {"points": None, "exam_points": None, "subtask_count": None,
+                "subtask_points": []}
+    d = tp.as_dict()
+    return {
+        "points": d["points"],
+        "exam_points": d["exam_points"],
+        "subtask_count": d["subtask_count"],
+        "subtask_points": d["subtask_points"],
+    }
+
+
 def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
     """Egy vizsga feladat-rekordjai + vizsgaszintu figyelmeztetesek."""
     warnings: list[str] = []
@@ -73,6 +89,15 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
     mapping, method, w3 = match_topics(sections, topic_files, exam.exam_topics)
     warnings += w3
 
+    # Pontszamok a pontozotablabol. Csak akkor hasznaljuk, ha a vizsga osszpontszama
+    # a hivatalos 100 (kozep) vagy 120 (emelt) - kulonben elrontottuk az olvasast.
+    task_points, wp = points_parser.read_exam_points(exam.scoring_sheets)
+    warnings += wp
+    total = points_parser.exam_total(task_points)
+    if task_points and total not in (100, 120):
+        warnings.append(f"a pontozótábla összpontszáma {total}, nem 100 vagy 120 – a pontok kimaradnak")
+        task_points = {}
+
     tasks: list[dict] = []
     for s in sections:
         topics = mapping.get(s.task_no, [])
@@ -83,6 +108,32 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
             "utmutato": utmutato.name,
             "features_from": [],
         }
+
+        if "szoveg" in topics:
+            features["szoveg"] = {"ops": szoveg_parser.text_ops(s.text)}
+            provenance["features_from"].append("utmutato")
+
+        if "prezentacio" in topics or "prezentacio_grafika" in topics:
+            features["prezentacio"] = {"ops": szoveg_parser.presentation_ops(s.text)}
+            provenance["features_from"].append("utmutato")
+
+        if "weblap" in topics:
+            web_files = [
+                p
+                for p in exam.all_solution_files
+                if p.suffix.lower() in {".html", ".htm", ".css"}
+            ]
+            web_stats, web_warn = weblap_parser.from_solution_files(web_files)
+            task_warnings += web_warn
+            features["weblap"] = {
+                **web_stats.as_dict(),
+                "ops": weblap_parser.from_utmutato(s.text),
+            }
+            provenance["features_from"].append("utmutato")
+            if web_stats.page_count:
+                provenance["features_from"].append("html")
+            else:
+                task_warnings.append("a weblap-feladathoz nincs HTML mintamegoldás")
 
         if "adatbazis" in topics:
             stats, queries = adatbazis_parser.from_utmutato(s.text)
@@ -147,7 +198,7 @@ def build_exam_tasks(exam: Exam) -> tuple[list[dict], list[str]]:
                 "task_no": s.task_no,
                 "title": s.title,
                 "topics": topics,
-                "points": None,          # a 2. fazistol
+                **_points_fields(task_points.get(s.task_no)),
                 "text_stats": {"utmutato_words": word_count(s.text)},
                 "sources": _source_records(exam, topics),
                 "solutions": _solution_records(exam, topics),

@@ -1,0 +1,79 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2011m_emelt_inf": {
+"elem": 3
+},
+"2011m_kozep_inf": {
+"osztaly": 25,
+"pszeudo": 6,
+"elem": 2
+},
+"2014o_emelt_inf": {
+"osztaly": 8,
+"pszeudo": 3,
+"elem": 1
+},
+"2016m_kozep_inf": {
+"pszeudo": 6,
+"elem": 2
+},
+"2017m_emelt_inf": {
+"elem": 5,
+"id": 2,
+"osztaly": 2,
+"pszeudo": 1
+},
+"2017m_kozep_inf": {
+"elem": 4,
+"osztaly": 2,
+"id": 1
+},
+"2017o_emelt_inf": {
+"elem": 6,
+"pszeudo": 1,
+"osztaly": 1,
+"id": 1
+},
+"2019m_emelt_inf": {
+"elem": 9,
+"pszeudo": 5,
+"id": 5,
+"osztaly": 3,
+"attributum": 2
+},
+"2020m_emelt_inf": {
+"elem": 10,
+"id": 6,
+"osztaly": 4,
+"pszeudo": 4
+},
+"2020o_emelt_inf": {
+"osztaly": 15,
+"elem": 11,
+"pszeudo": 8,
+"id": 1
+},
+"2021o_kozep_inf": {
+"osztaly": 11,
+"elem": 7,
+"pszeudo": 6,
+"leszarmazott": 3,
+"attributum": 1
+},
+"2024o_emelt_dk": {
+"elem": 7,
+"id": 3,
+"osztaly": 3
+},
+"2025m_emelt_dk": {
+"osztaly": 6,
+"elem": 4
+},
+"2026m_emelt_dk": {
+"elem": 9,
+"osztaly": 3,
+"id": 2
+}
+}
+}

@@ -1,0 +1,411 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2005o_emelt_inf": {
+"attunes": 2,
+"animacio": 4,
+"alakzat": 2,
+"hatter": 3,
+"felsorolas": 1,
+"export": 2
+},
+"2007m_kozep_inf": {
+"alakzat": 8,
+"szinkod": 1
+},
+"2007o_kozep_inf": {
+"attunes": 3,
+"animacio": 6,
+"kep_vagas": 2,
+"hatter": 3,
+"szinkod": 1
+},
+"2008m_kozep_inf": {
+"alakzat": 3,
+"kep_vagas": 1,
+"raszter": 2,
+"export": 2,
+"meret_px": 2,
+"szinkod": 2,
+"forgatas_tukrozes": 3
+},
+"2008o_kozep_inf": {
+"dia_tablazat": 2,
+"kep_vagas": 1,
+"hatter": 1,
+"felsorolas": 1,
+"export": 5,
+"szinkod": 3
+},
+"2009m_kozep_inf": {
+"animacio": 3,
+"felsorolas": 3,
+"export": 2
+},
+"2009o_emelt_inf": {
+"animacio": 1,
+"dia_tablazat": 8,
+"alakzat": 5,
+"hatter": 1,
+"felsorolas": 7,
+"reteg": 1,
+"halmazmuvelet": 1,
+"export": 2
+},
+"2009o_kozep_inf": {
+"animacio": 1,
+"alakzat": 2,
+"felsorolas": 2,
+"export": 4,
+"szinkod": 2,
+"forgatas_tukrozes": 1
+},
+"2010m_kozep_inf": {
+"dia_diagram": 5,
+"dia_tablazat": 4
+},
+"2010o_kozep_inf": {
+"animacio": 2,
+"alakzat": 7,
+"hatter": 1,
+"felsorolas": 1,
+"export": 2,
+"szinkod": 7
+},
+"2012m_kozep_inf": {
+"attunes": 2,
+"animacio": 1,
+"dia_tablazat": 1,
+"alakzat": 9,
+"felsorolas": 3,
+"atlatszosag": 1,
+"szinkod": 4
+},
+"2012o_kozep_inf": {
+"attunes": 2,
+"dia_tablazat": 2,
+"alakzat": 13,
+"felsorolas": 2,
+"szinkod": 7
+},
+"2013o_kozep_inf": {
+"attunes": 3,
+"animacio": 6,
+"felsorolas": 5,
+"export": 3,
+"szinkod": 3
+},
+"2014m_emelt_inf": {
+"attunes": 2,
+"animacio": 1,
+"alakzat": 6,
+"felsorolas": 2,
+"export": 13,
+"szinkod": 4,
+"forgatas_tukrozes": 2
+},
+"2014m_kozep_inf": {
+"animacio": 2,
+"alakzat": 4,
+"kep_vagas": 1,
+"hatter": 3,
+"felsorolas": 4,
+"export": 8,
+"szinkod": 3,
+"forgatas_tukrozes": 2
+},
+"2015m_kozep_inf": {
+"attunes": 1,
+"kep_vagas": 2,
+"felsorolas": 7,
+"export": 7,
+"szinkod": 6
+},
+"2015o_kozep_inf": {
+"attunes": 2,
+"animacio": 1,
+"alakzat": 19,
+"kep_vagas": 2,
+"felsorolas": 1,
+"export": 5,
+"szinkod": 6
+},
+"2016o_kozep_inf": {
+"attunes": 2,
+"animacio": 1,
+"dia_tablazat": 2,
+"alakzat": 10,
+"kep_vagas": 2,
+"hatter": 1,
+"felsorolas": 2,
+"export": 1,
+"szinkod": 1
+},
+"2017o_kozep_inf": {
+"attunes": 2,
+"animacio": 2,
+"dia_diagram": 3,
+"dia_tablazat": 3,
+"kep_vagas": 3,
+"felsorolas": 4,
+"raszter": 1,
+"atlatszosag": 1,
+"export": 7,
+"szinkod": 2,
+"forgatas_tukrozes": 1
+},
+"2018m_kozep_inf": {
+"animacio": 3,
+"alakzat": 12,
+"szinkod": 2
+},
+"2018o_kozep_inf": {
+"attunes": 2,
+"alakzat": 10,
+"felsorolas": 2,
+"atlatszosag": 1,
+"export": 6,
+"szinkod": 7
+},
+"2019m_kozep_inf": {
+"attunes": 2,
+"animacio": 2,
+"dia_tablazat": 5,
+"alakzat": 2,
+"kep_vagas": 1,
+"felsorolas": 5,
+"raszter": 2,
+"export": 1,
+"szinkod": 4
+},
+"2019o_emelt_inf": {
+"alakzat": 9,
+"felsorolas": 2,
+"export": 16,
+"szinkod": 5
+},
+"2019o_kozep_inf": {
+"attunes": 2,
+"alakzat": 10,
+"kep_vagas": 3,
+"felsorolas": 1,
+"raszter": 1,
+"export": 3,
+"szinkod": 7
+},
+"2020m_kozep_inf": {
+"attunes": 2,
+"animacio": 2,
+"dia_tablazat": 4,
+"alakzat": 1,
+"kep_vagas": 2,
+"felsorolas": 3,
+"export": 6,
+"szinkod": 1,
+"forgatas_tukrozes": 2
+},
+"2020o_kozep_inf": {
+"attunes": 2,
+"animacio": 1,
+"alakzat": 2,
+"kep_vagas": 2,
+"hatter": 1,
+"felsorolas": 4,
+"export": 7,
+"szinkod": 4,
+"forgatas_tukrozes": 1
+},
+"2021m_emelt_inf": {
+"attunes": 1,
+"alakzat": 23,
+"export": 3,
+"szinkod": 8
+},
+"2021m_kozep_inf": {
+"attunes": 2,
+"animacio": 3,
+"dia_tablazat": 3,
+"alakzat": 5,
+"kep_vagas": 2,
+"felsorolas": 3,
+"export": 1,
+"szinkod": 4
+},
+"2022m_emelt_dk": {
+"animacio": 3,
+"alakzat": 7,
+"export": 7,
+"szinkod": 2
+},
+"2022m_kozep_dk": {
+"alakzat": 20,
+"kep_vagas": 1,
+"hatter": 3,
+"atlatszosag": 2,
+"export": 8,
+"szinkod": 7
+},
+"2022m_kozep_inf": {
+"animacio": 2,
+"dia_tablazat": 4,
+"alakzat": 6,
+"hatter": 3,
+"felsorolas": 2,
+"export": 9,
+"szinkod": 5
+},
+"2022o_emelt_dk": {
+"alakzat": 31,
+"vektorgrafika": 3,
+"raszter": 1,
+"csomopont": 1,
+"export": 4,
+"szinkod": 2
+},
+"2022o_kozep_dk": {
+"alakzat": 24,
+"hatter": 2,
+"vektorgrafika": 2,
+"export": 4,
+"szinkod": 1,
+"forgatas_tukrozes": 10
+},
+"2022o_kozep_inf": {
+"attunes": 3,
+"animacio": 3,
+"alakzat": 11,
+"felsorolas": 2,
+"export": 6,
+"forgatas_tukrozes": 8
+},
+"2023m_emelt_dk": {
+"alakzat": 19,
+"kep_vagas": 1,
+"hatter": 1,
+"vektorgrafika": 2,
+"export": 6,
+"szinkod": 2
+},
+"2023m_kozep_dk": {
+"dia_tablazat": 13,
+"alakzat": 8,
+"hatter": 5,
+"vektorgrafika": 3,
+"szinkod": 13
+},
+"2023m_emelt_inf": {
+"animacio": 1,
+"alakzat": 13,
+"kep_vagas": 2,
+"hatter": 2,
+"felsorolas": 3,
+"vektorgrafika": 2,
+"export": 6,
+"szinkod": 6
+},
+"2023m_kozep_inf": {
+"dia_tablazat": 6,
+"hatter": 2,
+"atlatszosag": 2,
+"export": 9,
+"szinkod": 2
+},
+"2023o_kozep_dk": {
+"kep_vagas": 2,
+"hatter": 2,
+"raszter": 13,
+"reteg": 4,
+"atlatszosag": 1,
+"export": 4,
+"forgatas_tukrozes": 4
+},
+"2023o_emelt_inf": {
+"alakzat": 27,
+"felsorolas": 3
+},
+"2023o_kozep_inf": {
+"attunes": 1,
+"animacio": 1,
+"dia_tablazat": 4,
+"alakzat": 9,
+"felsorolas": 3,
+"szinkod": 4
+},
+"2024m_kozep_dk": {
+"alakzat": 13,
+"vektorgrafika": 6,
+"export": 1,
+"szinkod": 6
+},
+"2024o_emelt_dk": {
+"dia_tablazat": 3,
+"alakzat": 4,
+"kep_vagas": 3,
+"hatter": 2,
+"raszter": 15,
+"reteg": 2,
+"atlatszosag": 1,
+"export": 10,
+"szinkod": 2,
+"forgatas_tukrozes": 3
+},
+"2024o_kozep_dk": {
+"attunes": 2,
+"animacio": 2,
+"alakzat": 18,
+"hatter": 1,
+"atlatszosag": 1,
+"export": 1,
+"forgatas_tukrozes": 1
+},
+"2025m_emelt_dk": {
+"dia_tablazat": 3,
+"hatter": 1,
+"felsorolas": 1,
+"raszter": 9,
+"export": 3,
+"meret_px": 2
+},
+"2025m_kozep_dk": {
+"alakzat": 24,
+"hatter": 2,
+"vektorgrafika": 3,
+"szinkod": 4,
+"forgatas_tukrozes": 9
+},
+"2025o_emelt_dk": {
+"dia_tablazat": 15,
+"alakzat": 14,
+"felsorolas": 4,
+"vektorgrafika": 8,
+"export": 7,
+"szinkod": 4,
+"forgatas_tukrozes": 2
+},
+"2025o_kozep_dk": {
+"attunes": 2,
+"alakzat": 8,
+"kep_vagas": 4,
+"hatter": 1,
+"felsorolas": 4,
+"atlatszosag": 6,
+"export": 11,
+"szinkod": 2
+},
+"2026m_emelt_dk": {
+"dia_tablazat": 3,
+"alakzat": 4,
+"hatter": 1,
+"vektorgrafika": 4,
+"export": 19,
+"szinkod": 23,
+"forgatas_tukrozes": 4
+},
+"2026m_kozep_dk": {
+"animacio": 3,
+"alakzat": 14,
+"hatter": 1,
+"export": 1
+}
+}
+}
