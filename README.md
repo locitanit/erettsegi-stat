@@ -4,7 +4,9 @@ A digitális kultúra / informatika érettségik (2005–) adatalapú elemzése.
 Élő oldal: <https://locitanit.github.io/erettsegi-stat/>
 
 A teljes terv és az elfogadási feltételek: [TERV.md](TERV.md).
-Jelenlegi állapot: **0. fázis** (váz) – a vizsgák felderítése és a Vizsgák oldal kész.
+Jelenlegi állapot: **1. fázis kész** – a vizsgák felderítése, az útmutató-vágás, a
+táblázatkezelés-elemzés, a Táblázatkezelés és a „Mikor volt utoljára” oldal.
+Az idegen nyelvű vizsgák nem szerepelnek az elemzésben (nincs saját nyelvű útmutatójuk).
 
 ## Hogyan működik
 
@@ -86,7 +88,7 @@ Az `npm run dev` és `npm run build` előtt automatikusan lefut a `sync-data`, a
 | `extractor/` | a Python adatkinyerő (CLI: `python -m extractor`) |
 | `extractor/vocab/` | szótárak YAML-ban – ezeket szerkeszd, ne a kódot |
 | `extractor/overrides/` | kézi javítások időszakonként |
-| `data/` | a kimenet: `exams.json`, `VALIDATION.md`, `metrics/` – ez van git-ben |
+| `data/` | a kimenet: `exams.json`, `tasks.json`, `vocab.json`, `metrics/`, `VALIDATION.md` – ez van git-ben |
 | `web/` | a weboldal (Vite + React + TypeScript + ECharts) |
 
 ## Forrás és szerzői jog
