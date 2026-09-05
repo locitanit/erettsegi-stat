@@ -7,6 +7,7 @@ frontend a csuszkaval kijelolt tartomanyra ujraszamolas nelkul osszegezhessen
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -17,6 +18,35 @@ from .vocab_store import vocab_payload
 
 # Ezeket csak fajlba irjuk, a bongeszo nem keri le o"ket.
 WEB_UNUSED = frozenset({"task_titles.json", "excel_functions_xlsx.json"})
+
+
+def _choice_topics(tasks: list[dict]) -> dict[str, dict[str, int]]:
+    """Az emelt szint valaszthato feladatanak "dokumentumkeszites" aga.
+
+    2022-to"l az emelt vizsga 1. feladata ket valtozatban jon: az egyik mindig
+    tablazatkezeles, a masik dokumentumkeszites (szovegszerkesztes, prezentacio
+    es grafika vagy weblap). Az erdekes kerdes az, hogy ez a masik ag mibol all -
+    a tobbi feladat aranya ugyanis rogzitett, abbol nem jon ki informacio.
+    """
+    groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for task in tasks:
+        m = re.match(r"^(\d)([AB])$", task["task_no"])
+        if m:
+            groups[(task["exam_id"], m.group(1))].append(task)
+
+    out: dict[str, dict[str, int]] = {}
+    for (exam_id, _num), pair in groups.items():
+        if len(pair) < 2:
+            continue
+        others = [t for t in pair if "tablazat" not in t["topics"]]
+        # Csak akkor ertelmezheto, ha pontosan az egyik ag a tablazatkezeles.
+        if len(others) != len(pair) - 1:
+            continue
+        bucket = out.setdefault(exam_id, {})
+        for task in others:
+            for topic in task["topics"]:
+                bucket[topic] = bucket.get(topic, 0) + 1
+    return out
 
 
 def _add(target: dict[str, dict[str, int]], exam_id: str, counts: dict[str, int]) -> None:
@@ -148,6 +178,7 @@ def build_metrics(tasks: list[dict]) -> dict[str, dict]:
             shape["subtask_count"] += task.get("subtask_count") or 0
 
     return {
+        "valaszthato_dokumentum.json": _choice_topics(tasks),
         "excel_functions.json": functions,
         "excel_function_pairs.json": pairs,
         "excel_functions_xlsx.json": functions_xlsx,

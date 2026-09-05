@@ -4,10 +4,16 @@ A digitális kultúra / informatika érettségik (2005–) adatalapú elemzése.
 Élő oldal: <https://locitanit.github.io/erettsegi-stat/>
 
 A teljes terv és az elfogadási feltételek: [TERV.md](TERV.md).
-Jelenlegi állapot: **kész (4. fázis)**. Mind a hat témakörnek van elemzése és oldala,
+Jelenlegi állapot: **kész**. Mind a hat témakörnek van elemzése és oldala,
 megvannak a pontszámok és az Áttekintés oldal. Mind a 83 útmutató hibátlanul
-feldolgozható, a bővítés-menet bitre azonos eredményt ad, és a Lighthouse
-mind a négy mutatóban 90 fölött van.
+feldolgozható, és a bővítés-menet bitre azonos eredményt ad.
+
+A felület alapbeállítása: 2022-től (digitális kultúra), emelt szint, digitális
+kultúra, „vizsgák %-a” mérték. A fejlécen beállított szűrők oldalváltáskor
+megmaradnak, és a rangsorok mindig az éppen választott mérték szerint rendeződnek.
+
+A tervezett „Mikor volt utoljára” oldal kimaradt: a listája szinte csak
+táblázatkezelési tételeket tartalmazott, és nem volt jól értelmezhető.
 Az idegen nyelvű vizsgák nem szerepelnek az elemzésben (nincs saját nyelvű útmutatójuk).
 
 ## Hogyan működik

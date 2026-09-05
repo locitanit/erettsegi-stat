@@ -5,7 +5,7 @@ import FilterBar from "../components/FilterBar";
 import PageLayout from "../components/PageLayout";
 import RankChart from "../charts/RankChart";
 import Tabs from "../components/Tabs";
-import { aggregate, downloadCsv, toCsv } from "../data/aggregate";
+import { aggregate, downloadCsv, sortedBy, toCsv } from "../data/aggregate";
 import { hu } from "../data/loader";
 import { labelMap, useAnalysis } from "../state/useAnalysis";
 
@@ -30,15 +30,18 @@ export default function Weblap() {
   const opsLabel = useMemo(() => labelMap(vocab?.web_ops), [vocab]);
   const selectorLabel = useMemo(() => labelMap(vocab?.selector_types), [vocab]);
 
-  const tagRows = useMemo(() => aggregate(tags, htmlScope), [tags, htmlScope]);
-  const propRows = useMemo(() => aggregate(props, htmlScope), [props, htmlScope]);
-  const selectorRows = useMemo(() => aggregate(selectors, htmlScope), [selectors, htmlScope]);
-  const opsRows = useMemo(() => aggregate(ops, opsScope), [ops, opsScope]);
-
   const byCount = (r: { pct: number; total: number }) =>
     filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.total;
   const byExam = (r: { pct: number; examCount: number }) =>
     filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.examCount;
+
+  const tagRows = useMemo(() => sortedBy(aggregate(tags, htmlScope), byCount), [tags, htmlScope, filters.norm]);
+  const propRows = useMemo(() => sortedBy(aggregate(props, htmlScope), byCount), [props, htmlScope, filters.norm]);
+  const selectorRows = useMemo(
+    () => sortedBy(aggregate(selectors, htmlScope), byCount),
+    [selectors, htmlScope, filters.norm],
+  );
+  const opsRows = useMemo(() => sortedBy(aggregate(ops, opsScope), byExam), [ops, opsScope, filters.norm]);
 
   if (error) {
     return (

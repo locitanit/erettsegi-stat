@@ -1,0 +1,33 @@
+{
+"generated_by": "extractor 0.1.0",
+"by_exam": {
+"2022o_emelt_dk": {
+"prezentacio_grafika": 1
+},
+"2023m_emelt_dk": {
+"prezentacio_grafika": 1
+},
+"2023o_emelt_dk": {
+"szoveg": 1
+},
+"2024m_emelt_dk": {
+"szoveg": 1
+},
+"2024o_emelt_dk": {
+"prezentacio_grafika": 1,
+"weblap": 1
+},
+"2025m_emelt_dk": {
+"prezentacio_grafika": 1,
+"weblap": 1
+},
+"2025o_emelt_dk": {
+"prezentacio_grafika": 1,
+"szoveg": 1
+},
+"2026m_emelt_dk": {
+"prezentacio_grafika": 1,
+"weblap": 1
+}
+}
+}

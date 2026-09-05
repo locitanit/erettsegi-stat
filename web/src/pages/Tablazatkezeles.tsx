@@ -8,7 +8,7 @@ import PageLayout from "../components/PageLayout";
 import RankChart from "../charts/RankChart";
 import Tabs from "../components/Tabs";
 import TrendChart from "../charts/TrendChart";
-import { aggregate, downloadCsv, occurrences, toCsv, trendByPeriod } from "../data/aggregate";
+import { aggregate, downloadCsv, occurrences, sortedBy, toCsv, trendByPeriod } from "../data/aggregate";
 import type { Row } from "../data/aggregate";
 import { hu, levelLabel } from "../data/loader";
 import type { Exam, MetricsFile, VocabFile } from "../data/types";
@@ -38,17 +38,6 @@ export default function Tablazatkezeles() {
   const skills = metrics["tablazat_skills.json"] ?? null;
   const complexity = metrics["tablazat_complexity.json"] ?? null;
 
-  const funcRows = useMemo(() => aggregate(functions, scope), [functions, scope]);
-  const pairRows = useMemo(() => aggregate(pairs, scope), [pairs, scope]);
-  const skillRows = useMemo(() => aggregate(skills, scope), [skills, scope]);
-  const skillLabel = useMemo(() => labelMap(vocab?.tablazat_skills), [vocab]);
-
-  const familyOf = useMemo(() => {
-    const map = new Map<string, string>();
-    for (const f of vocab?.functions ?? []) map.set(f.canon, f.family);
-    return map;
-  }, [vocab]);
-
   /** A képlet-darabszám itt értelmes mérték: egy képlet egyszer számít. */
   const funcValue = (r: Row) => (filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.total);
   const funcUnit = filters.norm === "pct" ? "%" : "képlet";
@@ -56,6 +45,23 @@ export default function Tablazatkezeles() {
   const skillValue = (r: Row) =>
     filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.examCount;
   const skillUnit = filters.norm === "pct" ? "%" : "vizsga";
+
+  const funcRows = useMemo(
+    () => sortedBy(aggregate(functions, scope), funcValue),
+    [functions, scope, filters.norm],
+  );
+  const pairRows = useMemo(() => aggregate(pairs, scope), [pairs, scope]);
+  const skillRows = useMemo(
+    () => sortedBy(aggregate(skills, scope), skillValue),
+    [skills, scope, filters.norm],
+  );
+  const skillLabel = useMemo(() => labelMap(vocab?.tablazat_skills), [vocab]);
+
+  const familyOf = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const f of vocab?.functions ?? []) map.set(f.canon, f.family);
+    return map;
+  }, [vocab]);
 
   if (error) {
     return (

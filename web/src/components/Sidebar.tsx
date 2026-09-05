@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 /** Legfeljebb 9 menupont, fix sorrend, almenu nelkul (TERV 6.3). */
 export const NAV = [
@@ -9,17 +9,18 @@ export const NAV = [
   { to: "/szovegszerkesztes", label: "Szövegszerkesztés", topic: "szoveg" },
   { to: "/weblap", label: "Weblap", topic: "weblap" },
   { to: "/prezentacio", label: "Prezentáció és grafika", topic: "prezentacio_grafika" },
-  { to: "/esedekes", label: "Mikor volt utoljára", topic: null },
   { to: "/vizsgak", label: "Vizsgák", topic: null },
 ] as const;
 
 export default function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
+  // A szuroallapot a query stringben el; oldalvaltaskor visszuk magunkkal.
+  const { search } = useLocation();
   return (
     <nav aria-label="Fő menü" className="flex flex-col gap-px">
       {NAV.map((item) => (
         <NavLink
           key={item.to}
-          to={item.to}
+          to={{ pathname: item.to, search }}
           end={"end" in item ? item.end : false}
           onClick={onNavigate}
           className="group relative flex items-center rounded-[5px] px-3 py-[7px] text-[13.5px] no-underline"

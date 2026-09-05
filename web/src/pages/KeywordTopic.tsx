@@ -4,7 +4,7 @@ import ChartCard from "../components/ChartCard";
 import FilterBar from "../components/FilterBar";
 import PageLayout from "../components/PageLayout";
 import RankChart from "../charts/RankChart";
-import { aggregate, downloadCsv, toCsv } from "../data/aggregate";
+import { aggregate, downloadCsv, sortedBy, toCsv } from "../data/aggregate";
 import { hu } from "../data/loader";
 import type { VocabFile } from "../data/types";
 import { labelMap, useAnalysis } from "../state/useAnalysis";
@@ -38,11 +38,11 @@ export default function KeywordTopic({
   const scope = withData(metricFile);
   const data = metrics[metricFile] ?? null;
   const label = useMemo(() => labelMap(vocab?.[vocabKey]), [vocab, vocabKey]);
-  const rows = useMemo(() => aggregate(data, scope), [data, scope]);
-
   const value = (r: { pct: number; examCount: number }) =>
     filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.examCount;
   const unit = filters.norm === "pct" ? "%" : "vizsga";
+
+  const rows = useMemo(() => sortedBy(aggregate(data, scope), value), [data, scope, filters.norm]);
 
   if (error) {
     return (

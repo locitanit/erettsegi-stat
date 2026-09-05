@@ -1,19 +1,14 @@
 import { useMemo } from "react";
-import { Link } from "react-router-dom";
-import type { EChartsOption } from "echarts";
+import { Link, useLocation } from "react-router-dom";
 import ChartCard from "../components/ChartCard";
-import EChart from "../charts/EChart";
 import FilterBar from "../components/FilterBar";
 import PageLayout from "../components/PageLayout";
-import TrendChart from "../charts/TrendChart";
-import { aggregate } from "../data/aggregate";
+import RankChart from "../charts/RankChart";
+import { aggregate, sortedBy } from "../data/aggregate";
 import { hu } from "../data/loader";
-import { periodKey } from "../data/periods";
-import type { Exam, MetricsFile } from "../data/types";
-import { baseOption, chartTokens, TOPIC_COLORS } from "../charts/theme";
 import { labelMap, useAnalysis } from "../state/useAnalysis";
 
-const FILES = ["points_by_topic.json", "exam_shape.json"];
+const CHOICE_FILE = "valaszthato_dokumentum.json";
 
 /** A TOP-listák: melyik metrika, milyen címke, hova visz a link. */
 const HIGHLIGHTS = [
@@ -25,37 +20,31 @@ const HIGHLIGHTS = [
   { file: "presentation_ops.json", title: "Prezentáció és grafika", to: "/prezentacio", vocab: "presentation_ops" },
 ] as const;
 
-const TOPIC_ORDER = [
-  "szoveg",
-  "prezentacio",
-  "prezentacio_grafika",
-  "weblap",
-  "tablazat",
-  "adatbazis",
-  "programozas",
-] as const;
+const TOPIC_LABEL: Record<string, string> = {
+  szoveg: "Szövegszerkesztés",
+  tablazat: "Táblázatkezelés",
+  adatbazis: "Adatbázis-kezelés",
+  programozas: "Programozás",
+  weblap: "Weblap",
+  prezentacio: "Prezentáció",
+  prezentacio_grafika: "Prezentáció és grafika",
+};
 
 export default function Attekintes() {
   const {
     filters, update, error, vocab, metrics, steps, fromIndex, toIndex, scope, withData,
-  } = useAnalysis([...FILES, ...HIGHLIGHTS.map((h) => h.file)]);
+  } = useAnalysis([CHOICE_FILE, ...HIGHLIGHTS.map((h) => h.file)]);
 
-  const points = metrics["points_by_topic.json"] ?? null;
-  const shape = metrics["exam_shape.json"] ?? null;
-  const pointScope = withData("points_by_topic.json");
+  const choice = metrics[CHOICE_FILE] ?? null;
+  const choiceScope = withData(CHOICE_FILE);
 
-  const topicLabel = useMemo(() => {
-    const labels: Record<string, string> = {
-      szoveg: "Szövegszerkesztés",
-      tablazat: "Táblázatkezelés",
-      adatbazis: "Adatbázis-kezelés",
-      programozas: "Programozás",
-      weblap: "Weblap",
-      prezentacio: "Prezentáció",
-      prezentacio_grafika: "Prezentáció és grafika",
-    };
-    return (key: string) => labels[key] ?? key;
-  }, []);
+  const choiceRows = useMemo(
+    () =>
+      sortedBy(aggregate(choice, choiceScope), (r) =>
+        filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.examCount,
+      ),
+    [choice, choiceScope, filters.norm],
+  );
 
   if (error) {
     return (
@@ -68,9 +57,7 @@ export default function Attekintes() {
     );
   }
 
-  const lastExam = [...scope].sort(
-    (a, b) => b.year - a.year || b.month - a.month,
-  )[0];
+  const lastExam = [...scope].sort((a, b) => b.year - a.year || b.month - a.month)[0];
 
   return (
     <>
@@ -84,52 +71,53 @@ export default function Attekintes() {
       />
       <PageLayout
         title="Áttekintés"
-        lead="Mennyit ér az egyes témakör a vizsgán, és mi a leggyakoribb elem témakörönként."
+        lead="Mi a leggyakoribb elem témakörönként, és miből áll az emelt szint választható feladata."
       >
         <div className="mb-4 grid gap-4 sm:grid-cols-3">
           <Stat label="Vizsga a tartományban" value={hu.format(scope.length)} />
-          <Stat
-            label="Ebből pontszámadattal"
-            value={hu.format(pointScope.length)}
-            note="a pontozótábla 2012-től érhető el"
-          />
           <Stat
             label="Legutóbbi vizsga"
             value={lastExam?.period_label ?? "–"}
             note={lastExam ? (lastExam.level === "emelt" ? "emelt" : "közép") : undefined}
           />
+          <Stat
+            label="Választható feladat"
+            value={hu.format(choiceScope.length)}
+            note="emelt vizsga A/B választással"
+          />
         </div>
 
         <div className="grid gap-4">
           <ChartCard
-            title="Hogyan oszlanak meg a pontok a témakörök között"
-            note={`n = ${hu.format(pointScope.length)} vizsga · a vizsga pontszámának százalékában`}
+            title="Miből áll az emelt szint választható dokumentumkészítés-feladata"
+            note={`n = ${hu.format(choiceScope.length)} emelt vizsga · a másik választható feladat mindig táblázatkezelés`}
           >
-            {pointScope.length ? (
-              <PointShareChart
-                exams={pointScope}
-                metrics={points}
-                topicLabel={topicLabel}
-              />
+            {choiceRows.length ? (
+              <>
+                <RankChart
+                  rows={choiceRows}
+                  label={(r) => TOPIC_LABEL[r.key] ?? r.key}
+                  value={(r) =>
+                    filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.examCount
+                  }
+                  unit={filters.norm === "pct" ? "%" : "vizsga"}
+                  colorIndex={3}
+                  ariaLabel="A választható dokumentumkészítés-feladat témakörei"
+                />
+                <p className="t-small m-0 mt-2" style={{ color: "var(--text-muted)" }}>
+                  2022-től az emelt vizsga 1. feladatát két változatban adják ki: az egyik
+                  táblázatkezelés, a másik dokumentumkészítés. Ez a diagram azt mutatja, hogy a
+                  dokumentumkészítés-változat milyen témakörökből állt. A vizsga többi feladata
+                  (adatbázis-kezelés, programozás) rögzített, és középszinten az arányok is
+                  állandóak – onnan nem nyerhető ki trend.
+                </p>
+              </>
             ) : (
               <p className="t-small m-0" style={{ color: "var(--text-muted)" }}>
-                A kiválasztott tartományban nincs pontszámadat.
+                A kiválasztott tartományban nincs A/B választásos vizsga. Ez 2022-től, emelt
+                szinten fordul elő – állítsd a szintet emeltre és az időszakot 2022-től.
               </p>
             )}
-          </ChartCard>
-
-          <ChartCard
-            title="Mekkora a vizsga"
-            note="összpontszám és a pontozási sorok száma időszakonként"
-          >
-            <TrendChart
-              labels={trendLabels(shape, pointScope)}
-              series={[
-                { name: "Összpontszám", data: trendValues(shape, pointScope, "total_points") },
-                { name: "Pontozási sor", data: trendValues(shape, pointScope, "subtask_count") },
-              ]}
-              ariaLabel="A vizsga mérete időszakonként"
-            />
           </ChartCard>
 
           <section>
@@ -140,11 +128,12 @@ export default function Attekintes() {
                   key={h.file}
                   title={h.title}
                   to={h.to}
-                  rows={aggregate(metrics[h.file] ?? null, scope).slice(0, 5)}
+                  rows={sortedBy(
+                    aggregate(metrics[h.file] ?? null, scope),
+                    (r) => r.examCount,
+                  ).slice(0, 5)}
                   label={
-                    h.vocab
-                      ? labelMap(vocab?.[h.vocab as "sql_keywords"])
-                      : (k: string) => k
+                    h.vocab ? labelMap(vocab?.[h.vocab as "sql_keywords"]) : (k: string) => k
                   }
                 />
               ))}
@@ -185,9 +174,14 @@ function TopCard({
   rows: { key: string; total: number; examCount: number }[];
   label: (key: string) => string;
 }) {
+  const { search } = useLocation();
   return (
     <div className="card p-4">
-      <Link to={to} className="t-subtitle no-underline" style={{ color: "var(--text)" }}>
+      <Link
+        to={{ pathname: to, search }}
+        className="t-subtitle no-underline"
+        style={{ color: "var(--text)" }}
+      >
         {title}
       </Link>
       {rows.length ? (
@@ -211,101 +205,4 @@ function TopCard({
       )}
     </div>
   );
-}
-
-function trendLabels(metrics: MetricsFile | null, exams: Exam[]): string[] {
-  return periodBuckets(metrics, exams, "total_points").map((b) => b.label);
-}
-
-function trendValues(metrics: MetricsFile | null, exams: Exam[], key: string): number[] {
-  return periodBuckets(metrics, exams, key).map((b) => b.value);
-}
-
-function periodBuckets(metrics: MetricsFile | null, exams: Exam[], key: string) {
-  const buckets = new Map<string, { label: string; value: number; n: number; order: number }>();
-  for (const e of exams) {
-    const pk = periodKey(e.year, e.month);
-    const entry = buckets.get(pk) ?? {
-      label: e.period_label,
-      value: 0,
-      n: 0,
-      order: e.year * 100 + e.month,
-    };
-    const v = metrics?.by_exam[e.id]?.[key];
-    if (typeof v === "number") {
-      entry.value += v;
-      entry.n += 1;
-    }
-    buckets.set(pk, entry);
-  }
-  // Idoszakonkent atlagolunk: kozep es emelt egyutt kulonben duplazna.
-  return [...buckets.values()]
-    .sort((a, b) => a.order - b.order)
-    .map((b) => ({ label: b.label, value: b.n ? Math.round(b.value / b.n) : 0 }));
-}
-
-function PointShareChart({
-  exams,
-  metrics,
-  topicLabel,
-}: {
-  exams: Exam[];
-  metrics: MetricsFile | null;
-  topicLabel: (key: string) => string;
-}) {
-  const t = chartTokens();
-
-  const periods = new Map<string, { label: string; order: number; sums: Map<string, number> }>();
-  for (const e of exams) {
-    const pk = periodKey(e.year, e.month);
-    const entry =
-      periods.get(pk) ??
-      { label: e.period_label, order: e.year * 100 + e.month, sums: new Map<string, number>() };
-    for (const [topic, value] of Object.entries(metrics?.by_exam[e.id] ?? {})) {
-      entry.sums.set(topic, (entry.sums.get(topic) ?? 0) + value);
-    }
-    periods.set(pk, entry);
-  }
-  const ordered = [...periods.values()].sort((a, b) => a.order - b.order);
-  const topics = TOPIC_ORDER.filter((t2) => ordered.some((p) => p.sums.has(t2)));
-
-  const option: EChartsOption = {
-    ...baseOption(),
-    legend: { ...baseOption().legend, type: "scroll" },
-    grid: { left: 8, right: 16, top: 30, bottom: 8, containLabel: true },
-    tooltip: {
-      ...baseOption().tooltip,
-      trigger: "axis",
-      axisPointer: { type: "shadow" },
-      valueFormatter: (v) => `${Number(v).toFixed(0)}%`,
-    },
-    xAxis: {
-      type: "category",
-      data: ordered.map((p) => p.label),
-      axisLine: { lineStyle: { color: t.border } },
-      axisTick: { show: false },
-      axisLabel: { color: t.faint, fontSize: 10, rotate: 45, hideOverlap: true },
-    },
-    yAxis: {
-      type: "value",
-      max: 100,
-      axisLine: { show: false },
-      axisTick: { show: false },
-      splitLine: { lineStyle: { color: t.border } },
-      axisLabel: { color: t.faint, formatter: "{value}%" },
-    },
-    series: topics.map((topic) => ({
-      type: "bar" as const,
-      stack: "total",
-      name: topicLabel(topic),
-      barMaxWidth: 18,
-      itemStyle: { color: TOPIC_COLORS[topic] },
-      data: ordered.map((p) => {
-        const total = [...p.sums.values()].reduce((a, b) => a + b, 0);
-        return total ? Math.round(((p.sums.get(topic) ?? 0) / total) * 100) : 0;
-      }),
-    })),
-  };
-
-  return <EChart option={option} height={330} ariaLabel="Pontarányok témakörönként" />;
 }

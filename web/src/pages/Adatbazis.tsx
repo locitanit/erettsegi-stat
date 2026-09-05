@@ -6,7 +6,7 @@ import PageLayout from "../components/PageLayout";
 import Tabs from "../components/Tabs";
 import RankChart from "../charts/RankChart";
 import TrendChart from "../charts/TrendChart";
-import { aggregate, downloadCsv, occurrences, toCsv, trendByPeriod } from "../data/aggregate";
+import { aggregate, downloadCsv, occurrences, sortedBy, toCsv, trendByPeriod } from "../data/aggregate";
 import { hu, levelLabel } from "../data/loader";
 import { labelMap, useAnalysis } from "../state/useAnalysis";
 
@@ -26,12 +26,12 @@ export default function Adatbazis() {
   const complexity = metrics["adatbazis_complexity.json"] ?? null;
 
   const label = useMemo(() => labelMap(vocab?.sql_keywords), [vocab]);
-  const rows = useMemo(() => aggregate(clauses, scope), [clauses, scope]);
-  const fileRows = useMemo(() => aggregate(fromFiles, scope), [fromFiles, scope]);
-
   const value = (r: { pct: number; total: number }) =>
     filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.total;
   const unit = filters.norm === "pct" ? "%" : "lekérdezés";
+
+  const rows = useMemo(() => sortedBy(aggregate(clauses, scope), value), [clauses, scope, filters.norm]);
+  const fileRows = useMemo(() => aggregate(fromFiles, scope), [fromFiles, scope]);
 
   if (error) {
     return (

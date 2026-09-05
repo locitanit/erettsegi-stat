@@ -7,7 +7,6 @@ const Adatbazis = lazy(() => import("./pages/Adatbazis"));
 const Attekintes = lazy(() => import("./pages/Attekintes"));
 const KeywordTopic = lazy(() => import("./pages/KeywordTopic"));
 const Weblap = lazy(() => import("./pages/Weblap"));
-const Esedekes = lazy(() => import("./pages/Esedekes"));
 const Programozas = lazy(() => import("./pages/Programozas"));
 const Tablazatkezeles = lazy(() => import("./pages/Tablazatkezeles"));
 const Vizsgak = lazy(() => import("./pages/Vizsgak"));
@@ -53,7 +52,7 @@ export default function App() {
         <Sidebar onNavigate={() => setMenuOpen(false)} />
         <div className="mt-5 border-t pt-3" style={{ borderColor: "var(--border)" }}>
           <NavLink
-            to="/adatokrol"
+            to={{ pathname: "/adatokrol", search: location.search }}
             className="block rounded-[5px] px-3 py-[7px] text-[13px] no-underline"
             style={({ isActive }) => ({
               color: isActive ? "var(--text)" : "var(--text-faint)",
@@ -101,7 +100,6 @@ export default function App() {
               />
             }
           />
-          <Route path="/esedekes" element={<Esedekes />} />
           <Route path="/vizsgak" element={<Vizsgak />} />
           <Route path="/adatokrol" element={<Adatokrol />} />
           <Route path="*" element={<Placeholder title="Nincs ilyen oldal" phase="menüből elérhető oldalakon" />} />

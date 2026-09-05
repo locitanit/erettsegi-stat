@@ -128,10 +128,10 @@ export default function Adatokrol() {
                 </td>
               </tr>
               <tr>
-                <td>Eltelt időszak</td>
+                <td>Rendezés</td>
                 <td>
-                  A „Mikor volt utoljára” oldalon: hány vizsgaidőszak telt el az utolsó
-                  előfordulás óta a tartomány végéig.
+                  A rangsorok mindig az éppen kiválasztott mérték szerint rendeződnek, a
+                  legnagyobbal elöl. Mérték váltásakor a sorrend is változik.
                 </td>
               </tr>
             </tbody>

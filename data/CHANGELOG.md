@@ -1,5 +1,12 @@
 # Adatváltozások
 
+## 2026-09-05 – felületi javítások
+- Új metrika: `valaszthato_dokumentum.json` – az emelt szint A/B választható
+  feladatának „dokumentumkészítés” ága milyen témakörökből áll (8 vizsga).
+  Ez az egyetlen pontarány, amiből trend nyerhető: a többi feladat aránya rögzített.
+- Az Áttekintésről kikerült a pontarány- és a vizsgaméret-diagram, a
+  Programozásról a feladatlap-hossz, és a „Mikor volt utoljára” oldal megszűnt.
+
 ## 2026-09-05 – 4. fázis (minőség)
 - A 2010-es útmutató „2A Vírusok” alakú fejlécét is felismeri a vágó, így
   **mind a 83 útmutató hibátlanul feldolgozható** (348 feladat, 83 táblázat-feladat).

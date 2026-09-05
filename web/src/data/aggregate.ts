@@ -65,6 +65,14 @@ export function aggregate(metrics: MetricsFile | null, exams: Exam[]): Row[] {
   return rows.sort((a, b) => b.total - a.total || a.key.localeCompare(b.key, "hu"));
 }
 
+/**
+ * Ujrarendezes a megjelenitett mertek szerint. A "darab" es a "vizsgák %-a"
+ * mas sorrendet ad, ezert a mertek valtasakor a rangsornak is valtoznia kell.
+ */
+export function sortedBy(rows: Row[], value: (r: Row) => number): Row[] {
+  return [...rows].sort((a, b) => value(b) - value(a) || a.key.localeCompare(b.key, "hu"));
+}
+
 /** Egy kulcs idobeli alakulasa: idoszakonkenti darabszam. */
 export function trendByPeriod(
   metrics: MetricsFile | null,

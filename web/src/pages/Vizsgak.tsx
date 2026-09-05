@@ -147,8 +147,10 @@ export default function Vizsgak() {
           Idegen nyelvű vizsgák
         </label>
 
+        {/* A gomb az alapbeallitasra all vissza (emelt, digitalis kultura),
+            nem "minden vizsgara" - a szuro allapota oldalak kozott is megmarad. */}
         <button className="btn ml-auto" onClick={reset}>
-          Szűrők törlése
+          Alapbeállítás
         </button>
       </div>
 

@@ -6,7 +6,7 @@ import PageLayout from "../components/PageLayout";
 import Tabs from "../components/Tabs";
 import RankChart from "../charts/RankChart";
 import TrendChart from "../charts/TrendChart";
-import { aggregate, downloadCsv, toCsv, trendByPeriod } from "../data/aggregate";
+import { aggregate, downloadCsv, sortedBy, toCsv, trendByPeriod } from "../data/aggregate";
 import { hu } from "../data/loader";
 import { labelMap, useAnalysis } from "../state/useAnalysis";
 
@@ -33,15 +33,18 @@ export default function Programozas() {
   const algoLabel = useMemo(() => labelMap(vocab?.algorithms), [vocab]);
   const ioLabel = useMemo(() => labelMap(vocab?.programozas_io), [vocab]);
 
-  const algoRows = useMemo(() => aggregate(algorithms, scope), [algorithms, scope]);
-  const ioRows = useMemo(() => aggregate(io, scope), [io, scope]);
-  const langRows = useMemo(() => aggregate(langs, scope), [langs, scope]);
-
   // A kulcsszo-talalatok nyers szama felrevezeto (egy hosszabb feladatszovegben
   // tobbszor szerepel ugyanaz a szo), ezert a merteke "hany vizsgan fordult elo".
   const value = (r: { pct: number; examCount: number }) =>
     filters.norm === "pct" ? Number(r.pct.toFixed(1)) : r.examCount;
   const unit = filters.norm === "pct" ? "%" : "vizsga";
+
+  const algoRows = useMemo(
+    () => sortedBy(aggregate(algorithms, scope), value),
+    [algorithms, scope, filters.norm],
+  );
+  const ioRows = useMemo(() => sortedBy(aggregate(io, scope), value), [io, scope, filters.norm]);
+  const langRows = useMemo(() => aggregate(langs, scope), [langs, scope]);
 
   if (error) {
     return (
@@ -203,16 +206,6 @@ export default function Programozas() {
               />
             </ChartCard>
 
-            <ChartCard
-              title="Mennyit kell elolvasni"
-              note="a feladatlap szavainak száma"
-            >
-              <TrendChart
-                labels={shapeLabels}
-                series={[{ name: "Szavak száma", data: shapeSeries("feladatlap_words") }]}
-                ariaLabel="A feladatlap hossza időszakonként"
-              />
-            </ChartCard>
           </div>
         )}
       </PageLayout>
