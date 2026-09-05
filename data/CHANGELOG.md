@@ -5,7 +5,10 @@
   feladatának „dokumentumkészítés” ága milyen témakörökből áll (8 vizsga).
   Ez az egyetlen pontarány, amiből trend nyerhető: a többi feladat aránya rögzített.
 - Az Áttekintésről kikerült a pontarány- és a vizsgaméret-diagram, a
-  Programozásról a feladatlap-hossz, és a „Mikor volt utoljára” oldal megszűnt.
+  Programozásról a feladatlap-hossz és a nyelvek fül, és a „Mikor volt utoljára”
+  oldal megszűnt. A `solution_langs` metrika megmarad fájlban, de a böngésző már
+  nem kéri le: a vizsgázó szabadon választ nyelvet, az OH mintamegoldásának
+  nyelve nem mond semmit a vizsgáról.
 
 ## 2026-09-05 – 4. fázis (minőség)
 - A 2010-es útmutató „2A Vírusok” alakú fejlécét is felismeri a vágó, így

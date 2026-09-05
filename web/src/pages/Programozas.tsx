@@ -10,13 +10,8 @@ import { aggregate, downloadCsv, sortedBy, toCsv, trendByPeriod } from "../data/
 import { hu } from "../data/loader";
 import { labelMap, useAnalysis } from "../state/useAnalysis";
 
-const FILES = [
-  "algorithms.json",
-  "programozas_io.json",
-  "solution_langs.json",
-  "programozas_shape.json",
-];
-type Tab = "algoritmusok" | "nyelvek" | "feladat";
+const FILES = ["algorithms.json", "programozas_io.json", "programozas_shape.json"];
+type Tab = "algoritmusok" | "feladat";
 
 export default function Programozas() {
   const {
@@ -27,7 +22,6 @@ export default function Programozas() {
   const scope = withData("algorithms.json");
   const algorithms = metrics["algorithms.json"] ?? null;
   const io = metrics["programozas_io.json"] ?? null;
-  const langs = metrics["solution_langs.json"] ?? null;
   const shape = metrics["programozas_shape.json"] ?? null;
 
   const algoLabel = useMemo(() => labelMap(vocab?.algorithms), [vocab]);
@@ -44,7 +38,6 @@ export default function Programozas() {
     [algorithms, scope, filters.norm],
   );
   const ioRows = useMemo(() => sortedBy(aggregate(io, scope), value), [io, scope, filters.norm]);
-  const langRows = useMemo(() => aggregate(langs, scope), [langs, scope]);
 
   if (error) {
     return (
@@ -72,14 +65,13 @@ export default function Programozas() {
       />
       <PageLayout
         title="Programozás"
-        lead="A feladatlapok és útmutatók szövegéből becsült típusalgoritmusok, a be- és kimenet módja, és az OH mintamegoldásainak nyelve."
+        lead="A feladatlapok és útmutatók szövegéből becsült típusalgoritmusok, a be- és kimenet módja, és a feladat mérete."
       >
         <Tabs
           value={tab}
           onChange={setTab}
           options={[
             { value: "algoritmusok", label: "Típusalgoritmusok" },
-            { value: "nyelvek", label: "Nyelvek" },
             { value: "feladat", label: "A feladat mérete" },
           ]}
         />
@@ -144,39 +136,6 @@ export default function Programozas() {
                 unit={unit}
                 colorIndex={1}
                 ariaLabel="Be- és kimenet módja"
-              />
-            </ChartCard>
-          </div>
-        )}
-
-        {tab === "nyelvek" && scope.length > 0 && (
-          <div className="grid gap-4">
-            <ChartCard
-              title="Milyen nyelven adja ki az OH a mintamegoldást"
-              note={`n = ${hu.format(scope.length)} vizsga · egy vizsgához több nyelv is tartozhat`}
-            >
-              <RankChart
-                rows={langRows}
-                value={(r) => r.examCount}
-                unit="vizsga"
-                colorIndex={4}
-                ariaLabel="Mintamegoldások nyelve"
-              />
-            </ChartCard>
-
-            <ChartCard
-              title="Mikor jelent meg egy-egy nyelv"
-              note="hány vizsgán szerepelt az adott időszakban"
-            >
-              <TrendChart
-                labels={trendByPeriod(langs, scope, langRows[0]?.key ?? "").map((p) => p.label)}
-                series={langRows.map((r) => ({
-                  name: r.key,
-                  data: trendByPeriod(langs, scope, r.key).map((p) => p.value),
-                }))}
-                stacked
-                height={300}
-                ariaLabel="Mintamegoldás-nyelvek időszakonként"
               />
             </ChartCard>
           </div>

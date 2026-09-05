@@ -16,8 +16,12 @@ from .config import DATA_DIR, METRICS_DIR
 from .vocab_store import vocab_payload
 
 
-# Ezeket csak fajlba irjuk, a bongeszo nem keri le o"ket.
-WEB_UNUSED = frozenset({"task_titles.json", "excel_functions_xlsx.json"})
+# Ezeket csak fajlba irjuk, a bongeszo nem keri le o"ket. A megoldas-nyelvek azert
+# maradtak ki, mert a vizsgazo szabadon valaszt nyelvet - az OH mintamegoldasanak
+# nyelve nem mond semmit a vizsgarol.
+WEB_UNUSED = frozenset(
+    {"task_titles.json", "excel_functions_xlsx.json", "solution_langs.json"}
+)
 
 
 def _choice_topics(tasks: list[dict]) -> dict[str, dict[str, int]]:

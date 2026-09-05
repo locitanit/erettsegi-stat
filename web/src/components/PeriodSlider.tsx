@@ -1,5 +1,16 @@
 import { MARKERS, type PeriodStep } from "../data/periods";
 
+/** A gyorsgombok altal beallitott tartomanyok. */
+function presets(steps: PeriodStep[], max: number) {
+  const dk = steps.findIndex((s) => s.year >= 2022);
+  return [
+    { label: "Digitális kultúra (2022–)", from: dk < 0 ? 0 : dk, to: max },
+    // Ket vizsgaidoszak esik egy evre, tehat ot ev = tiz lepes.
+    { label: "Utolsó 5 év", from: Math.max(0, max - 9), to: max },
+    { label: "Minden", from: 0, to: max },
+  ];
+}
+
 /**
  * Dupla fogantyus idoszak-csuszka. A lepesek a LETEZO idoszakok (nem evek),
  * mert a vizsgak nem egyenletesen kovetik egymast (majus/oktober, kimarado evek).
@@ -81,25 +92,19 @@ export default function PeriodSlider({
         />
       </div>
 
+      {/* A gyorsgomb akkor aktiv, ha a csuszka pontosan az altala beallitott
+          tartomanyon all. Kezi allitas utan egyik sem az. */}
       <div className="mt-0.5 flex gap-2">
-        <button
-          className="btn !px-2 !py-0.5 !text-[11.5px]"
-          onClick={() => {
-            const i = steps.findIndex((s) => s.year >= 2022);
-            onChange(i < 0 ? 0 : i, max);
-          }}
-        >
-          Digitális kultúra (2022–)
-        </button>
-        <button
-          className="btn !px-2 !py-0.5 !text-[11.5px]"
-          onClick={() => onChange(Math.max(0, max - 9), max)}
-        >
-          Utolsó 5 év
-        </button>
-        <button className="btn !px-2 !py-0.5 !text-[11.5px]" onClick={() => onChange(0, max)}>
-          Minden
-        </button>
+        {presets(steps, max).map((p) => (
+          <button
+            key={p.label}
+            className="btn !px-2 !py-0.5 !text-[11.5px]"
+            aria-pressed={from === p.from && to === p.to}
+            onClick={() => onChange(p.from, p.to)}
+          >
+            {p.label}
+          </button>
+        ))}
       </div>
     </div>
   );
