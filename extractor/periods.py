@@ -56,7 +56,7 @@ class Period:
         """Ember altal olvashato cimke, pl. '2023. majus (idegen, informatika)'."""
         extra = []
         if self.variant == "idegen":
-            extra.append("idegen nyelvu")
+            extra.append("idegen nyelvű")
         if self.subject == "informatika" and self.year >= DIGKULT_FROM_YEAR:
             extra.append("informatika")
         suffix = f" ({', '.join(extra)})" if extra else ""
