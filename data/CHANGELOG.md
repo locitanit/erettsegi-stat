@@ -8,6 +8,8 @@
   Jelenleg egyetlen override sem kell.
 - A bővítés-menet ellenőrizve: időszak kivétele és `--period`-del visszatétele
   bitre azonos kimenetet ad.
+- Új: `metrics/_all.json` gyűjtőfájl. A böngésző ezt az egyet kéri le a húsz
+  külön fájl helyett; a külön fájlok megmaradnak átnézésre.
 
 ## 2026-09-05 – 3. fázis (szöveg, weblap, prezentáció, pontszámok)
 - Mind a hat témakörnek van elemzése.

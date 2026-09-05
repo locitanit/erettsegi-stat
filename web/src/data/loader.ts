@@ -77,14 +77,45 @@ export function loadVocab(): Promise<VocabFile> {
   return vocabCache;
 }
 
-/** Egy metrika-fajl a data/metrics mappabol, pl. "excel_functions.json". */
+interface MetricsBundle {
+  generated_by: string;
+  files: Record<string, MetricsFile["by_exam"]>;
+}
+
+let bundleCache: Promise<MetricsBundle> | null = null;
+
+/**
+ * Minden metrika egyetlen gyujtofajlbol (`metrics/_all.json`). Kulon-kulon
+ * huszonegy apro fajl lekerese a halozati kesleltetes miatt tobb masodperc lenne;
+ * a gyujtofajl tomoritve ~20 kB. Ha hianyzik, az egyedi fajl a tartalek.
+ */
+function loadBundle(): Promise<MetricsBundle> {
+  if (!bundleCache) {
+    bundleCache = fetchJson<MetricsBundle>(dataUrl("metrics/_all.json"), "_all.json").catch(
+      (e) => {
+        bundleCache = null;
+        throw e;
+      },
+    );
+  }
+  return bundleCache;
+}
+
+/** Egy metrika, pl. "excel_functions.json". */
 export function loadMetrics(name: string): Promise<MetricsFile> {
   let p = metricsCache.get(name);
   if (!p) {
-    p = fetchJson<MetricsFile>(dataUrl(`metrics/${name}`), name).catch((e) => {
-      metricsCache.delete(name);
-      throw e;
-    });
+    p = loadBundle()
+      .then((bundle) => {
+        const by_exam = bundle.files[name];
+        if (!by_exam) throw new Error(`hiányzó metrika: ${name}`);
+        return { generated_by: bundle.generated_by, by_exam };
+      })
+      .catch(() => fetchJson<MetricsFile>(dataUrl(`metrics/${name}`), name))
+      .catch((e) => {
+        metricsCache.delete(name);
+        throw e;
+      });
     metricsCache.set(name, p);
   }
   return p;

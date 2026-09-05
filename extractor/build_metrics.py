@@ -15,6 +15,10 @@ from .config import DATA_DIR, METRICS_DIR
 from .vocab_store import vocab_payload
 
 
+# Ezeket csak fajlba irjuk, a bongeszo nem keri le o"ket.
+WEB_UNUSED = frozenset({"task_titles.json", "excel_functions_xlsx.json"})
+
+
 def _add(target: dict[str, dict[str, int]], exam_id: str, counts: dict[str, int]) -> None:
     if not counts:
         return
@@ -169,10 +173,17 @@ def build_metrics(tasks: list[dict]) -> dict[str, dict]:
 
 
 def write_metrics(tasks: list[dict], out_dir: Path | None = None) -> list[Path]:
+    """Metrika-fajlok + egy gyujtofajl.
+
+    A kulon fajlok olvashatoak es konnyen atnezheto"k. A bongeszo" viszont a
+    gyujtofajlt (`_all.json`) toltile egyetlen keressel: kulon-kulon 20 apro
+    fajl lekerese a halozati kesleltetes miatt tobb masodperc lenne.
+    """
     out_dir = out_dir or METRICS_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
+    metrics = build_metrics(tasks)
     written: list[Path] = []
-    for name, data in build_metrics(tasks).items():
+    for name, data in metrics.items():
         path = out_dir / name
         path.write_text(
             json.dumps(
@@ -184,6 +195,21 @@ def write_metrics(tasks: list[dict], out_dir: Path | None = None) -> list[Path]:
             encoding="utf-8",
         )
         written.append(path)
+
+    # A gyujtofajlba csak az kerul, amit a weboldal tenylegesen hasznal: a
+    # feladatcimeket es az xlsx-bo"l szamolt fuggvenyeket csak atnezeshez irjuk ki.
+    web_metrics = {k: v for k, v in metrics.items() if k not in WEB_UNUSED}
+    bundle = out_dir / "_all.json"
+    bundle.write_text(
+        json.dumps(
+            {"generated_by": f"extractor {__version__}", "files": web_metrics},
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    written.append(bundle)
     return written
 
 

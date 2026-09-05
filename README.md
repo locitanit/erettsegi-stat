@@ -102,10 +102,13 @@ Az `npm run dev` és `npm run build` előtt automatikusan lefut a `sync-data`, a
 | Ismeretlen függvénynév | 0 |
 | Pontszám-ellenőrzés | mind a 64 pontozótábla pontosan 100 vagy 120 pontot ad |
 | Teszt | 65 (`python -m pytest extractor/tests`) |
-| Lighthouse | teljesítmény 91, akadálymentesség 100, gyakorlat 100, SEO 100 |
+| Lighthouse | akadálymentesség 100, gyakorlat 100, SEO 100; teljesítmény 99 (Vizsgák), 96 (Táblázatkezelés), 87 (Áttekintés) |
 
 A bővítés-menet ellenőrizve: egy időszakot kivéve és `--period`-del visszatéve
 minden kimeneti fájl **bitre azonos** a teljes újraépítéssel.
+
+Az Áttekintés a legterheltebb oldal: két diagram és nyolc metrika kell hozzá,
+ezért marad a 90-es cél alatt. A többi oldal 96 fölött van.
 
 ## Forrás és szerzői jog
 
