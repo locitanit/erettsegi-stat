@@ -146,13 +146,13 @@
 "screen_out": 10,
 "kbd_in": 6
 },
-"2022m_emelt_dk": {
-"screen_out": 13,
-"kbd_in": 3
-},
 "2022m_kozep_dk": {
 "screen_out": 9,
 "kbd_in": 1
+},
+"2022m_emelt_inf": {
+"screen_out": 13,
+"kbd_in": 3
 },
 "2022o_emelt_dk": {
 "screen_out": 15,

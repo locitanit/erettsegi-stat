@@ -196,15 +196,15 @@
 "task_count": 3,
 "subtask_count": 90
 },
-"2022m_emelt_dk": {
-"total_points": 120,
-"task_count": 4,
-"subtask_count": 112
-},
 "2022m_kozep_dk": {
 "total_points": 100,
 "task_count": 5,
 "subtask_count": 121
+},
+"2022m_emelt_inf": {
+"total_points": 120,
+"task_count": 4,
+"subtask_count": 112
 },
 "2022m_kozep_inf": {
 "total_points": 120,

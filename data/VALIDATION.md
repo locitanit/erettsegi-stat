@@ -1,6 +1,6 @@
 # Adatminőségi riport
 
-Generálva: 2026-09-05 · extractor 0.1.0
+Generálva: 2026-10-31 · extractor 0.1.0
 
 ## Összesítés
 
@@ -8,13 +8,13 @@ Generálva: 2026-09-05 · extractor 0.1.0
 |---|---|
 | Vizsgák száma | 133 |
 | Középszint / emelt | 68 / 65 |
-| Informatika / digitális kultúra | 105 / 28 |
+| Informatika / digitális kultúra | 107 / 26 |
 | Normál / idegen nyelvű | 95 / 38 |
 | Időszakok | 2005–2026 |
 | Van javítási útmutató | 121 / 133 |
 | Van feladatlap | 133 / 133 |
 | Szöveg nem nyerhető ki (ocr_needed) | 0 |
-| Figyelmeztetéssel | 51 |
+| Figyelmeztetéssel | 50 |
 
 ## Sémahibák
 
@@ -89,9 +89,8 @@ Nincs.
 | `2020m_kozep_inf_id` | 2020. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2021m_emelt_inf_id` | 2021. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2021m_kozep_inf_id` | 2021. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
-| `2022m_emelt_dk` | 2022. május | emelt | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva |
-| `2022m_emelt_dk_id` | 2022. május (idegen nyelvű) | emelt | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva; idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2022m_kozep_dk_id` | 2022. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
+| `2022m_emelt_inf_id` | 2022. május (idegen nyelvű, informatika) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2022m_kozep_inf_id` | 2022. május (idegen nyelvű, informatika) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2023m_emelt_dk_id` | 2023. május (idegen nyelvű) | emelt | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
 | `2023m_kozep_dk_id` | 2023. május (idegen nyelvű) | kozep | idegen nyelvű vizsga, de csak magyar nyelvű útmutató van |
@@ -165,7 +164,6 @@ elcsúsztatja a számokat. Egy vizsga pontjai csak akkor kerülnek be, ha az
 | `2007m_emelt_inf` | nincs javítási útmutató PDF |
 | `2011o_emelt_inf` | nincs javítási útmutató PDF |
 | `2011o_kozep_inf` | nincs javítási útmutató PDF |
-| `2022m_emelt_dk` | nincs a tárgyhoz illő útmutató, másik tárgyé lett használva |
 
 ## Megjegyzés
 

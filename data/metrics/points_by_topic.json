@@ -232,18 +232,18 @@
 "tablazat": 30.0,
 "adatbazis": 20.0
 },
-"2022m_emelt_dk": {
-"prezentacio": 30.0,
-"tablazat": 15.0,
-"adatbazis": 30.0,
-"programozas": 45.0
-},
 "2022m_kozep_dk": {
 "szoveg": 25.0,
 "prezentacio_grafika": 20.0,
 "tablazat": 25.0,
 "adatbazis": 15.0,
 "programozas": 15.0
+},
+"2022m_emelt_inf": {
+"prezentacio": 30.0,
+"tablazat": 15.0,
+"adatbazis": 30.0,
+"programozas": 45.0
 },
 "2022m_kozep_inf": {
 "szoveg": 40.0,

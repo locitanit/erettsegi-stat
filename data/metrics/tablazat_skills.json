@@ -374,14 +374,6 @@
 "igazitas": 1,
 "adatimport": 1
 },
-"2022m_emelt_dk": {
-"felt_formazas": 4,
-"egyeni_szamformatum": 1,
-"abszolut_hivatkozas": 2,
-"szegely_mintazat": 1,
-"igazitas": 2,
-"oszlopszelesseg": 1
-},
 "2022m_kozep_dk": {
 "diagram_oszlop": 4,
 "datum_formatum": 1,
@@ -390,6 +382,14 @@
 "szegely_mintazat": 2,
 "igazitas": 2,
 "adatimport": 2
+},
+"2022m_emelt_inf": {
+"felt_formazas": 4,
+"egyeni_szamformatum": 1,
+"abszolut_hivatkozas": 2,
+"szegely_mintazat": 1,
+"igazitas": 2,
+"oszlopszelesseg": 1
 },
 "2022m_kozep_inf": {
 "diagram_oszlop": 8,

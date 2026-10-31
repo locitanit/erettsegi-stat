@@ -253,18 +253,6 @@
 "dml_delete": 1,
 "having": 1
 },
-"2022m_emelt_dk": {
-"alias": 3,
-"join_explicit": 3,
-"where": 2,
-"group_by": 2,
-"order_by": 2,
-"top_limit": 2,
-"desc_asc": 2,
-"fn_sum": 2,
-"fn_count": 1,
-"dml_insert": 1
-},
 "2022m_kozep_dk": {
 "where": 4,
 "alias": 3,
@@ -276,6 +264,18 @@
 "is_null": 1,
 "fn_count": 1,
 "fn_avg": 1
+},
+"2022m_emelt_inf": {
+"alias": 3,
+"join_explicit": 3,
+"where": 2,
+"group_by": 2,
+"order_by": 2,
+"top_limit": 2,
+"desc_asc": 2,
+"fn_sum": 2,
+"fn_count": 1,
+"dml_insert": 1
 },
 "2022m_kozep_inf": {
 "where": 4,

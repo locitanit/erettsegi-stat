@@ -349,17 +349,17 @@
 "max_tables_per_query": 3,
 "max_conditions": 5
 },
-"2022m_emelt_dk": {
-"query_count": 11,
-"subquery_count": 0,
-"max_tables_per_query": 2,
-"max_conditions": 4
-},
 "2022m_kozep_dk": {
 "query_count": 7,
 "subquery_count": 1,
 "max_tables_per_query": 2,
 "max_conditions": 1
+},
+"2022m_emelt_inf": {
+"query_count": 11,
+"subquery_count": 0,
+"max_tables_per_query": 2,
+"max_conditions": 4
 },
 "2022m_kozep_inf": {
 "query_count": 11,

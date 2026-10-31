@@ -70,3 +70,29 @@ def test_exams_json_mezoi(minta_storage):
     assert rec["has"]["megoldas_xlsx"] is True
     assert rec["topics"] == ["tablazat", "adatbazis"]      # topic_order szerinti sorrend
     assert rec["source_types"] == {"txt": 1}
+
+
+def test_csak_informatika_utmutato_informatika_vizsga(tmp_path):
+    """2022. majus emelt: utotag nelkuli mappa, de csak e_inf_ utmutato -> informatika."""
+    root = tmp_path / "dig_kult_erettsegi"
+    for per, ut in [("2022 május", "e_inf_22maj_ut.pdf"),
+                    ("2022 május (idegen)", "e_inf_22maj_ut.pdf"),
+                    ("2022 október", "e_digkult_22okt_ut.pdf"),
+                    ("2022 október (informatika)", "e_inf_22okt_ut.pdf")]:
+        d = root / "emelt" / "tablazat" / per
+        (d / "feladatlap").mkdir(parents=True)
+        (d / "javitasi_utmutato").mkdir(parents=True)
+        (d / "feladatlap" / "A.pdf").write_bytes(b"%PDF-1.4\n")
+        (d / "javitasi_utmutato" / ut).write_bytes(b"%PDF-1.4\n")
+    # kozep 2022 majus: mindket targy utmutatoja ott van -> marad digitalis kultura
+    d = root / "kozep" / "tablazat" / "2022 május"
+    (d / "feladatlap").mkdir(parents=True)
+    (d / "javitasi_utmutato").mkdir(parents=True)
+    (d / "javitasi_utmutato" / "k_digkult_22maj_ut.pdf").write_bytes(b"%PDF-1.4\n")
+    (d / "javitasi_utmutato" / "k_inf_22maj_ut.pdf").write_bytes(b"%PDF-1.4\n")
+
+    exams = {e.id: e for e in discover(root)}
+    assert set(exams) == {"2022m_emelt_inf", "2022m_emelt_inf_id", "2022o_emelt_dk",
+                          "2022o_emelt_inf", "2022m_kozep_dk"}
+    assert exams["2022m_emelt_inf"].period.subject == "informatika"
+    assert exams["2022m_emelt_inf"].period.label == "2022. május (informatika)"

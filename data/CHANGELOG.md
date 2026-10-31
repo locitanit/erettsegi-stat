@@ -1,5 +1,12 @@
 # Adatváltozások
 
+## 2026-10-31 – a 2022. májusi emelt vizsga tárgya
+- A 2022. májusi emelt vizsga informatika volt, nem digitális kultúra: az azonosítója
+  `2022m_emelt_dk`-ról `2022m_emelt_inf`-re változott (az idegen nyelvű változaté is).
+- A vizsga tárgyát mostantól az útmutató fájlneve dönti el (`e_inf_` / `e_digkult_`).
+- Emelt szinten az első digitális kultúra vizsga így a 2022. októberi. A középszintű
+  2022. május digitális kultúra maradt.
+
 ## 2026-09-05 – felületi javítások
 - Új metrika: `valaszthato_dokumentum.json` – az emelt szint A/B választható
   feladatának „dokumentumkészítés” ága milyen témakörökből áll (8 vizsga).

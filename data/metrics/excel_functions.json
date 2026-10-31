@@ -549,7 +549,17 @@
 "SZUM": 1,
 "SZORZATÖSSZEG": 1
 },
-"2022m_emelt_dk": {
+"2022m_kozep_dk": {
+"SZUM": 2,
+"SZORZATÖSSZEG": 1,
+"HA": 1,
+"MAX": 1,
+"HOL.VAN": 1,
+"INDEX": 1,
+"VKERES": 1,
+"MA": 1
+},
+"2022m_emelt_inf": {
 "HA": 4,
 "DARAB2": 4,
 "DARABTELI": 3,
@@ -560,16 +570,6 @@
 "MINHA": 1,
 "AB.DARAB2": 1,
 "DARABHATÖBB": 1
-},
-"2022m_kozep_dk": {
-"SZUM": 2,
-"SZORZATÖSSZEG": 1,
-"HA": 1,
-"MAX": 1,
-"HOL.VAN": 1,
-"INDEX": 1,
-"VKERES": 1,
-"MA": 1
 },
 "2022m_kozep_inf": {
 "SZUMHATÖBB": 4,

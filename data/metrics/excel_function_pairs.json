@@ -235,7 +235,10 @@
 "FKERES+HA": 2,
 "HOL.VAN+INDEX": 2
 },
-"2022m_emelt_dk": {
+"2022m_kozep_dk": {
+"HOL.VAN+INDEX": 1
+},
+"2022m_emelt_inf": {
 "DARAB2+HA": 2,
 "DARAB2+DARABTELI": 1,
 "DARABTELI+HA": 1,
@@ -243,9 +246,6 @@
 "HA+VAGY": 1,
 "HOSSZ+VAGY": 1,
 "DARABTELI+KICSI": 1
-},
-"2022m_kozep_dk": {
-"HOL.VAN+INDEX": 1
 },
 "2022o_emelt_dk": {
 "HOL.VAN+INDEX": 6

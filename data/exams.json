@@ -6057,76 +6057,6 @@
    "warnings": []
   },
   {
-   "id": "2022m_emelt_dk",
-   "year": 2022,
-   "month": 5,
-   "level": "emelt",
-   "subject": "digitalis_kultura",
-   "variant": "normal",
-   "period_label": "2022. május",
-   "period_raw": "2022 május",
-   "storage_dir": "emelt/2022 május",
-   "topics": [
-    "prezentacio",
-    "tablazat",
-    "adatbazis",
-    "programozas"
-   ],
-   "file_counts": {
-    "feladatlap_pdf": 4,
-    "forras": 5,
-    "megoldas": 20
-   },
-   "source_types": {
-    "txt": 2,
-    "zip": 3
-   },
-   "solution_types": {
-    "accdb": 1,
-    "cpp": 1,
-    "cs": 2,
-    "css": 1,
-    "html": 1,
-    "java": 2,
-    "js": 1,
-    "pkt": 1,
-    "png": 1,
-    "pptx": 1,
-    "sql": 1,
-    "txt": 5,
-    "xaml": 1,
-    "xlsx": 1
-   },
-   "has": {
-    "feladatlap": true,
-    "utmutato": true,
-    "forras": true,
-    "megoldas_xlsx": true,
-    "megoldas_sql": true,
-    "megoldas_access": true,
-    "megoldas_program": true,
-    "megoldas_web": true,
-    "megoldas_doc": false,
-    "megoldas_prez": true,
-    "megoldas_kep": true
-   },
-   "pages": {
-    "feladatlap": 9,
-    "utmutato": 12
-   },
-   "text_ok": {
-    "feladatlap": true,
-    "utmutato": true
-   },
-   "ocr_needed": false,
-   "total_points": null,
-   "layout": "rmg_tools",
-   "notes": null,
-   "warnings": [
-    "nincs a tárgyhoz illő útmutató, másik tárgyé lett használva"
-   ]
-  },
-  {
    "id": "2022m_kozep_dk",
    "year": 2022,
    "month": 5,
@@ -6198,77 +6128,6 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": []
-  },
-  {
-   "id": "2022m_emelt_dk_id",
-   "year": 2022,
-   "month": 5,
-   "level": "emelt",
-   "subject": "digitalis_kultura",
-   "variant": "idegen",
-   "period_label": "2022. május (idegen nyelvű)",
-   "period_raw": "2022 május (idegen)",
-   "storage_dir": "emelt/2022 május (idegen)",
-   "topics": [
-    "weblap",
-    "tablazat",
-    "adatbazis",
-    "programozas"
-   ],
-   "file_counts": {
-    "feladatlap_pdf": 4,
-    "forras": 5,
-    "megoldas": 20
-   },
-   "source_types": {
-    "txt": 2,
-    "zip": 3
-   },
-   "solution_types": {
-    "accdb": 1,
-    "cpp": 1,
-    "cs": 2,
-    "css": 1,
-    "html": 1,
-    "java": 2,
-    "js": 1,
-    "pkt": 1,
-    "png": 1,
-    "pptx": 1,
-    "sql": 1,
-    "txt": 5,
-    "xaml": 1,
-    "xlsx": 1
-   },
-   "has": {
-    "feladatlap": true,
-    "utmutato": true,
-    "forras": true,
-    "megoldas_xlsx": true,
-    "megoldas_sql": true,
-    "megoldas_access": true,
-    "megoldas_program": true,
-    "megoldas_web": true,
-    "megoldas_doc": false,
-    "megoldas_prez": true,
-    "megoldas_kep": true
-   },
-   "pages": {
-    "feladatlap": 9,
-    "utmutato": 12
-   },
-   "text_ok": {
-    "feladatlap": true,
-    "utmutato": true
-   },
-   "ocr_needed": false,
-   "total_points": null,
-   "layout": "rmg_tools",
-   "notes": null,
-   "warnings": [
-    "nincs a tárgyhoz illő útmutató, másik tárgyé lett használva",
-    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
-   ]
   },
   {
    "id": "2022m_kozep_dk_id",
@@ -6346,6 +6205,74 @@
    ]
   },
   {
+   "id": "2022m_emelt_inf",
+   "year": 2022,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "normal",
+   "period_label": "2022. május (informatika)",
+   "period_raw": "2022 május (informatika)",
+   "storage_dir": "emelt/2022 május (informatika)",
+   "topics": [
+    "prezentacio",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 5,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": []
+  },
+  {
    "id": "2022m_kozep_inf",
    "year": 2022,
    "month": 5,
@@ -6414,6 +6341,76 @@
    "layout": "rmg_tools",
    "notes": null,
    "warnings": []
+  },
+  {
+   "id": "2022m_emelt_inf_id",
+   "year": 2022,
+   "month": 5,
+   "level": "emelt",
+   "subject": "informatika",
+   "variant": "idegen",
+   "period_label": "2022. május (idegen nyelvű, informatika)",
+   "period_raw": "2022 május (idegen) (informatika)",
+   "storage_dir": "emelt/2022 május (idegen) (informatika)",
+   "topics": [
+    "weblap",
+    "tablazat",
+    "adatbazis",
+    "programozas"
+   ],
+   "file_counts": {
+    "feladatlap_pdf": 4,
+    "forras": 5,
+    "megoldas": 20
+   },
+   "source_types": {
+    "txt": 2,
+    "zip": 3
+   },
+   "solution_types": {
+    "accdb": 1,
+    "cpp": 1,
+    "cs": 2,
+    "css": 1,
+    "html": 1,
+    "java": 2,
+    "js": 1,
+    "pkt": 1,
+    "png": 1,
+    "pptx": 1,
+    "sql": 1,
+    "txt": 5,
+    "xaml": 1,
+    "xlsx": 1
+   },
+   "has": {
+    "feladatlap": true,
+    "utmutato": true,
+    "forras": true,
+    "megoldas_xlsx": true,
+    "megoldas_sql": true,
+    "megoldas_access": true,
+    "megoldas_program": true,
+    "megoldas_web": true,
+    "megoldas_doc": false,
+    "megoldas_prez": true,
+    "megoldas_kep": true
+   },
+   "pages": {
+    "feladatlap": 9,
+    "utmutato": 12
+   },
+   "text_ok": {
+    "feladatlap": true,
+    "utmutato": true
+   },
+   "ocr_needed": false,
+   "total_points": null,
+   "layout": "rmg_tools",
+   "notes": null,
+   "warnings": [
+    "idegen nyelvű vizsga, de csak magyar nyelvű útmutató van"
+   ]
   },
   {
    "id": "2022m_kozep_inf_id",

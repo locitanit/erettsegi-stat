@@ -350,13 +350,6 @@
 "SZUM": 9,
 "SZORZATÖSSZEG": 3
 },
-"2022m_emelt_dk": {
-"HA": 44,
-"DARAB2": 44,
-"DARABTELI": 14,
-"KICSI": 1,
-"AB.DARAB2": 1
-},
 "2022m_kozep_dk": {
 "SZUM": 13,
 "SZUMHATÖBB": 12,
@@ -367,6 +360,13 @@
 "INDEX": 1,
 "MA": 1,
 "DARABHATÖBB": 1
+},
+"2022m_emelt_inf": {
+"HA": 44,
+"DARAB2": 44,
+"DARABTELI": 14,
+"KICSI": 1,
+"AB.DARAB2": 1
 },
 "2022m_kozep_inf": {
 "SZUMHATÖBB": 12,

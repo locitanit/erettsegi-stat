@@ -1793,36 +1793,6 @@
 ]
 }
 ],
-"2022m_emelt_dk": [
-{
-"task_no": "1",
-"title": "Forgalomirányítás",
-"topics": [
-"prezentacio"
-]
-},
-{
-"task_no": "2",
-"title": "Fakultáció",
-"topics": [
-"tablazat"
-]
-},
-{
-"task_no": "3",
-"title": "Vasútvonalak",
-"topics": [
-"adatbazis"
-]
-},
-{
-"task_no": "4",
-"title": "Építményadó",
-"topics": [
-"programozas"
-]
-}
-],
 "2022m_kozep_dk": [
 {
 "task_no": "1",
@@ -1855,6 +1825,36 @@
 {
 "task_no": "5",
 "title": "Robot",
+"topics": [
+"programozas"
+]
+}
+],
+"2022m_emelt_inf": [
+{
+"task_no": "1",
+"title": "Forgalomirányítás",
+"topics": [
+"prezentacio"
+]
+},
+{
+"task_no": "2",
+"title": "Fakultáció",
+"topics": [
+"tablazat"
+]
+},
+{
+"task_no": "3",
+"title": "Vasútvonalak",
+"topics": [
+"adatbazis"
+]
+},
+{
+"task_no": "4",
+"title": "Építményadó",
 "topics": [
 "programozas"
 ]

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import json
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 from .config import (
@@ -232,12 +232,44 @@ def discover_oh_raw(storage: Path) -> dict[str, Exam]:
     return exams
 
 
+def _utmutato_subjects(exam: Exam) -> set[str]:
+    """A vizsga utmutato-PDF-jeinek targykodjai: {"digkult"} / {"inf"} / mindketto."""
+    subjects: set[str] = set()
+    for tf in exam.topics.values():
+        for p in tf.utmutato_pdfs:
+            m = UTMUTATO_RE.match(p.name.lower()) or OH_RAW_RE.match(p.name.lower())
+            if m:
+                subjects.add("digkult" if m.group("subj") == "digkult" else "inf")
+    return subjects
+
+
+def fix_subjects(exams: dict[str, Exam]) -> dict[str, Exam]:
+    """A targyat az utmutato fajlneve donti el, nem csak az evszam.
+
+    A mappanev-szabaly (2022-tol digitalis kultura, hacsak nincs "(informatika)"
+    utotag) ott teved, ahol egy idoszakban CSAK informatika vizsga volt - pl. a
+    2022. majusi emelt: annak a letolto regebben nem adott utotagot, igy
+    digitalis kulturanak latszott (e_inf_22maj_ut.pdf). Ha a vizsganak csak
+    informatika-utmutatoja van, informatika vizsgava sorolom at.
+    """
+    out: dict[str, Exam] = {}
+    for key, exam in exams.items():
+        if exam.period.subject == "digitalis_kultura" and _utmutato_subjects(exam) == {"inf"}:
+            fixed = replace(exam.period, subject="informatika")
+            new_key = fixed.exam_id(exam.level)
+            if new_key not in exams and new_key not in out:
+                exam.period = fixed
+                key = new_key
+        out[key] = exam
+    return out
+
+
 def discover(storage: Path) -> list[Exam]:
     """Mindket elrendezes; utkozesnel az rmg_tools nyer."""
     storage = Path(storage)
     topic_order = load_topic_order(storage)
-    exams = discover_rmg_tools(storage, topic_order)
-    for key, exam in discover_oh_raw(storage).items():
+    exams = fix_subjects(discover_rmg_tools(storage, topic_order))
+    for key, exam in fix_subjects(discover_oh_raw(storage)).items():
         if key not in exams:
             exams[key] = exam
     return sorted(exams.values(), key=lambda e: (e.period.sort_key, e.level))

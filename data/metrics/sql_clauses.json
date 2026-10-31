@@ -770,7 +770,17 @@
 "fn_max": 1,
 "having": 1
 },
-"2022m_emelt_dk": {
+"2022m_kozep_dk": {
+"order_by": 5,
+"desc_asc": 4,
+"group_by": 3,
+"fn_count": 3,
+"where": 2,
+"distinct": 2,
+"top_limit": 1,
+"subquery": 1
+},
+"2022m_emelt_inf": {
 "where": 9,
 "order_by": 3,
 "group_by": 3,
@@ -781,16 +791,6 @@
 "having": 1,
 "desc_asc": 1,
 "fn_count": 1
-},
-"2022m_kozep_dk": {
-"order_by": 5,
-"desc_asc": 4,
-"group_by": 3,
-"fn_count": 3,
-"where": 2,
-"distinct": 2,
-"top_limit": 1,
-"subquery": 1
 },
 "2022m_kozep_inf": {
 "where": 11,

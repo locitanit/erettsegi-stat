@@ -238,16 +238,16 @@
 "sztringfeldolgozas": 1,
 "matrix": 1
 },
-"2022m_emelt_dk": {
-"fajlkezeles": 24,
-"sztringfeldolgozas": 4,
-"osszegzes": 2,
-"rendezes": 2
-},
 "2022m_kozep_dk": {
 "minimumkivalasztas": 3,
 "megszamlalas": 1,
 "osszegzes": 1
+},
+"2022m_emelt_inf": {
+"fajlkezeles": 24,
+"sztringfeldolgozas": 4,
+"osszegzes": 2,
+"rendezes": 2
 },
 "2022o_emelt_dk": {
 "fajlkezeles": 11,

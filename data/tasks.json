@@ -24415,428 +24415,6 @@
    "warnings": []
   },
   {
-   "id": "2022m_emelt_dk_1",
-   "exam_id": "2022m_emelt_dk",
-   "task_no": "1",
-   "title": "Forgalomirányítás",
-   "topics": [
-    "prezentacio"
-   ],
-   "points": 30,
-   "exam_points": 30,
-   "subtask_count": 30,
-   "subtask_points": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-   ],
-   "text_stats": {
-    "utmutato_words": 751
-   },
-   "sources": [
-    {
-     "name": "forgalomiranyitas.zip",
-     "type": "zip"
-    }
-   ],
-   "solutions": [
-    {
-     "name": "KarakterDekodolo.cs",
-     "type": "cs"
-    },
-    {
-     "name": "MainWindow.xaml",
-     "type": "xaml"
-    },
-    {
-     "name": "MainWindow.xaml.cs",
-     "type": "cs"
-    },
-    {
-     "name": "bank.txt",
-     "type": "txt"
-    },
-    {
-     "name": "dekodol.txt",
-     "type": "txt"
-    },
-    {
-     "name": "KarakterDekodolo.java",
-     "type": "java"
-    },
-    {
-     "name": "KarakterDekodoloGUI.java",
-     "type": "java"
-    },
-    {
-     "name": "fakultacio.xlsx",
-     "type": "xlsx"
-    }
-   ],
-   "features": {
-    "prezentacio": {
-     "ops": {
-      "animacio": 3,
-      "alakzat": 7,
-      "export": 7,
-      "szinkod": 2
-     }
-    }
-   },
-   "provenance": {
-    "topics_from": "cim",
-    "utmutato": "e_inf_22maj_ut.pdf",
-    "features_from": [
-     "utmutato"
-    ],
-    "override": []
-   },
-   "warnings": []
-  },
-  {
-   "id": "2022m_emelt_dk_2",
-   "exam_id": "2022m_emelt_dk",
-   "task_no": "2",
-   "title": "Fakultáció",
-   "topics": [
-    "tablazat"
-   ],
-   "points": 15,
-   "exam_points": 15,
-   "subtask_count": 13,
-   "subtask_points": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    2,
-    1,
-    2,
-    1,
-    1,
-    1,
-    1
-   ],
-   "text_stats": {
-    "utmutato_words": 648
-   },
-   "sources": [
-    {
-     "name": "fakultacioforras.txt",
-     "type": "txt"
-    }
-   ],
-   "solutions": [
-    {
-     "name": "epitmenyado.cpp",
-     "type": "cpp"
-    },
-    {
-     "name": "fizetendo.txt",
-     "type": "txt"
-    },
-    {
-     "name": "utca.txt",
-     "type": "txt"
-    }
-   ],
-   "features": {
-    "tablazat": {
-     "functions": {
-      "HA": 4,
-      "DARAB2": 4,
-      "DARABTELI": 3,
-      "SZUM": 1,
-      "HOSSZ": 1,
-      "VAGY": 1,
-      "KICSI": 1,
-      "MINHA": 1,
-      "AB.DARAB2": 1,
-      "DARABHATÖBB": 1
-     },
-     "function_pairs": {
-      "DARAB2+HA": 2,
-      "DARAB2+DARABTELI": 1,
-      "DARABTELI+HA": 1,
-      "HA+HOSSZ": 1,
-      "HA+VAGY": 1,
-      "HOSSZ+VAGY": 1,
-      "DARABTELI+KICSI": 1
-     },
-     "formula_count": 12,
-     "formula_depth_max": 3,
-     "functions_per_formula_max": 4,
-     "skills": {
-      "felt_formazas": 4,
-      "egyeni_szamformatum": 1,
-      "abszolut_hivatkozas": 2,
-      "szegely_mintazat": 1,
-      "igazitas": 2,
-      "oszlopszelesseg": 1
-     },
-     "xlsx": {
-      "functions": {
-       "HA": 44,
-       "DARAB2": 44,
-       "DARABTELI": 14,
-       "KICSI": 1,
-       "AB.DARAB2": 1
-      },
-      "function_pairs": {
-       "DARAB2+DARABTELI": 13,
-       "DARAB2+HA": 13,
-       "DARABTELI+HA": 13,
-       "DARABTELI+KICSI": 1
-      },
-      "formula_count": 77,
-      "formula_depth_max": 2,
-      "functions_per_formula_max": 4
-     }
-    }
-   },
-   "provenance": {
-    "topics_from": "cim",
-    "utmutato": "e_inf_22maj_ut.pdf",
-    "features_from": [
-     "utmutato",
-     "xlsx"
-    ],
-    "override": []
-   },
-   "warnings": []
-  },
-  {
-   "id": "2022m_emelt_dk_3",
-   "exam_id": "2022m_emelt_dk",
-   "task_no": "3",
-   "title": "Vasútvonalak",
-   "topics": [
-    "adatbazis"
-   ],
-   "points": 30,
-   "exam_points": 30,
-   "subtask_count": 29,
-   "subtask_points": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    2,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-   ],
-   "text_stats": {
-    "utmutato_words": 772
-   },
-   "sources": [
-    {
-     "name": "vasutvonalak.zip",
-     "type": "zip"
-    },
-    {
-     "name": "vasutvonalak_sql.zip",
-     "type": "zip"
-    }
-   ],
-   "solutions": [],
-   "features": {
-    "adatbazis": {
-     "sql_clauses": {
-      "where": 9,
-      "order_by": 3,
-      "group_by": 3,
-      "alias": 3,
-      "fn_max": 2,
-      "is_null": 1,
-      "in_list": 1,
-      "having": 1,
-      "desc_asc": 1,
-      "fn_count": 1
-     },
-     "query_count": 11,
-     "subquery_count": 0,
-     "max_tables_per_query": 2,
-     "max_conditions": 4,
-     "sql": {
-      "sql_clauses": {
-       "alias": 3,
-       "join_explicit": 3,
-       "where": 2,
-       "group_by": 2,
-       "order_by": 2,
-       "top_limit": 2,
-       "desc_asc": 2,
-       "fn_sum": 2,
-       "fn_count": 1,
-       "dml_insert": 1
-      },
-      "query_count": 5,
-      "subquery_count": 0,
-      "max_tables_per_query": 3,
-      "max_conditions": 1
-     }
-    }
-   },
-   "provenance": {
-    "topics_from": "cim",
-    "utmutato": "e_inf_22maj_ut.pdf",
-    "features_from": [
-     "utmutato",
-     "sql"
-    ],
-    "override": []
-   },
-   "warnings": []
-  },
-  {
-   "id": "2022m_emelt_dk_4",
-   "exam_id": "2022m_emelt_dk",
-   "task_no": "4",
-   "title": "Építményadó",
-   "topics": [
-    "programozas"
-   ],
-   "points": 45,
-   "exam_points": 45,
-   "subtask_count": 40,
-   "subtask_points": [
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    2,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    2,
-    1,
-    1,
-    2,
-    1,
-    1,
-    1,
-    1,
-    2,
-    1,
-    1,
-    1,
-    2,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1
-   ],
-   "text_stats": {
-    "utmutato_words": 915
-   },
-   "sources": [
-    {
-     "name": "utca.txt",
-     "type": "txt"
-    }
-   ],
-   "solutions": [],
-   "features": {
-    "programozas": {
-     "algorithms": {
-      "fajlkezeles": 24,
-      "sztringfeldolgozas": 4,
-      "osszegzes": 2,
-      "rendezes": 2
-     },
-     "io": {
-      "screen_out": 13,
-      "kbd_in": 3
-     },
-     "subtask_count": 7,
-     "solution_langs": [
-      "C#",
-      "C++",
-      "Java"
-     ],
-     "input_rows": 544,
-     "input_cols": 1,
-     "input_separator": null,
-     "feladatlap_words": 715
-    }
-   },
-   "provenance": {
-    "topics_from": "cim",
-    "utmutato": "e_inf_22maj_ut.pdf",
-    "features_from": [
-     "utmutato+feladatlap"
-    ],
-    "override": []
-   },
-   "warnings": []
-  },
-  {
    "id": "2022m_kozep_dk_1",
    "exam_id": "2022m_kozep_dk",
    "task_no": "1",
@@ -25394,6 +24972,428 @@
    "provenance": {
     "topics_from": "cim",
     "utmutato": "k_digkult_22maj_ut.pdf",
+    "features_from": [
+     "utmutato+feladatlap"
+    ],
+    "override": []
+   },
+   "warnings": []
+  },
+  {
+   "id": "2022m_emelt_inf_1",
+   "exam_id": "2022m_emelt_inf",
+   "task_no": "1",
+   "title": "Forgalomirányítás",
+   "topics": [
+    "prezentacio"
+   ],
+   "points": 30,
+   "exam_points": 30,
+   "subtask_count": 30,
+   "subtask_points": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "text_stats": {
+    "utmutato_words": 751
+   },
+   "sources": [
+    {
+     "name": "forgalomiranyitas.zip",
+     "type": "zip"
+    }
+   ],
+   "solutions": [
+    {
+     "name": "KarakterDekodolo.cs",
+     "type": "cs"
+    },
+    {
+     "name": "MainWindow.xaml",
+     "type": "xaml"
+    },
+    {
+     "name": "MainWindow.xaml.cs",
+     "type": "cs"
+    },
+    {
+     "name": "bank.txt",
+     "type": "txt"
+    },
+    {
+     "name": "dekodol.txt",
+     "type": "txt"
+    },
+    {
+     "name": "KarakterDekodolo.java",
+     "type": "java"
+    },
+    {
+     "name": "KarakterDekodoloGUI.java",
+     "type": "java"
+    },
+    {
+     "name": "fakultacio.xlsx",
+     "type": "xlsx"
+    }
+   ],
+   "features": {
+    "prezentacio": {
+     "ops": {
+      "animacio": 3,
+      "alakzat": 7,
+      "export": 7,
+      "szinkod": 2
+     }
+    }
+   },
+   "provenance": {
+    "topics_from": "cim",
+    "utmutato": "e_inf_22maj_ut.pdf",
+    "features_from": [
+     "utmutato"
+    ],
+    "override": []
+   },
+   "warnings": []
+  },
+  {
+   "id": "2022m_emelt_inf_2",
+   "exam_id": "2022m_emelt_inf",
+   "task_no": "2",
+   "title": "Fakultáció",
+   "topics": [
+    "tablazat"
+   ],
+   "points": 15,
+   "exam_points": 15,
+   "subtask_count": 13,
+   "subtask_points": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "text_stats": {
+    "utmutato_words": 648
+   },
+   "sources": [
+    {
+     "name": "fakultacioforras.txt",
+     "type": "txt"
+    }
+   ],
+   "solutions": [
+    {
+     "name": "epitmenyado.cpp",
+     "type": "cpp"
+    },
+    {
+     "name": "fizetendo.txt",
+     "type": "txt"
+    },
+    {
+     "name": "utca.txt",
+     "type": "txt"
+    }
+   ],
+   "features": {
+    "tablazat": {
+     "functions": {
+      "HA": 4,
+      "DARAB2": 4,
+      "DARABTELI": 3,
+      "SZUM": 1,
+      "HOSSZ": 1,
+      "VAGY": 1,
+      "KICSI": 1,
+      "MINHA": 1,
+      "AB.DARAB2": 1,
+      "DARABHATÖBB": 1
+     },
+     "function_pairs": {
+      "DARAB2+HA": 2,
+      "DARAB2+DARABTELI": 1,
+      "DARABTELI+HA": 1,
+      "HA+HOSSZ": 1,
+      "HA+VAGY": 1,
+      "HOSSZ+VAGY": 1,
+      "DARABTELI+KICSI": 1
+     },
+     "formula_count": 12,
+     "formula_depth_max": 3,
+     "functions_per_formula_max": 4,
+     "skills": {
+      "felt_formazas": 4,
+      "egyeni_szamformatum": 1,
+      "abszolut_hivatkozas": 2,
+      "szegely_mintazat": 1,
+      "igazitas": 2,
+      "oszlopszelesseg": 1
+     },
+     "xlsx": {
+      "functions": {
+       "HA": 44,
+       "DARAB2": 44,
+       "DARABTELI": 14,
+       "KICSI": 1,
+       "AB.DARAB2": 1
+      },
+      "function_pairs": {
+       "DARAB2+DARABTELI": 13,
+       "DARAB2+HA": 13,
+       "DARABTELI+HA": 13,
+       "DARABTELI+KICSI": 1
+      },
+      "formula_count": 77,
+      "formula_depth_max": 2,
+      "functions_per_formula_max": 4
+     }
+    }
+   },
+   "provenance": {
+    "topics_from": "cim",
+    "utmutato": "e_inf_22maj_ut.pdf",
+    "features_from": [
+     "utmutato",
+     "xlsx"
+    ],
+    "override": []
+   },
+   "warnings": []
+  },
+  {
+   "id": "2022m_emelt_inf_3",
+   "exam_id": "2022m_emelt_inf",
+   "task_no": "3",
+   "title": "Vasútvonalak",
+   "topics": [
+    "adatbazis"
+   ],
+   "points": 30,
+   "exam_points": 30,
+   "subtask_count": 29,
+   "subtask_points": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "text_stats": {
+    "utmutato_words": 772
+   },
+   "sources": [
+    {
+     "name": "vasutvonalak.zip",
+     "type": "zip"
+    },
+    {
+     "name": "vasutvonalak_sql.zip",
+     "type": "zip"
+    }
+   ],
+   "solutions": [],
+   "features": {
+    "adatbazis": {
+     "sql_clauses": {
+      "where": 9,
+      "order_by": 3,
+      "group_by": 3,
+      "alias": 3,
+      "fn_max": 2,
+      "is_null": 1,
+      "in_list": 1,
+      "having": 1,
+      "desc_asc": 1,
+      "fn_count": 1
+     },
+     "query_count": 11,
+     "subquery_count": 0,
+     "max_tables_per_query": 2,
+     "max_conditions": 4,
+     "sql": {
+      "sql_clauses": {
+       "alias": 3,
+       "join_explicit": 3,
+       "where": 2,
+       "group_by": 2,
+       "order_by": 2,
+       "top_limit": 2,
+       "desc_asc": 2,
+       "fn_sum": 2,
+       "fn_count": 1,
+       "dml_insert": 1
+      },
+      "query_count": 5,
+      "subquery_count": 0,
+      "max_tables_per_query": 3,
+      "max_conditions": 1
+     }
+    }
+   },
+   "provenance": {
+    "topics_from": "cim",
+    "utmutato": "e_inf_22maj_ut.pdf",
+    "features_from": [
+     "utmutato",
+     "sql"
+    ],
+    "override": []
+   },
+   "warnings": []
+  },
+  {
+   "id": "2022m_emelt_inf_4",
+   "exam_id": "2022m_emelt_inf",
+   "task_no": "4",
+   "title": "Építményadó",
+   "topics": [
+    "programozas"
+   ],
+   "points": 45,
+   "exam_points": 45,
+   "subtask_count": 40,
+   "subtask_points": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "text_stats": {
+    "utmutato_words": 915
+   },
+   "sources": [
+    {
+     "name": "utca.txt",
+     "type": "txt"
+    }
+   ],
+   "solutions": [],
+   "features": {
+    "programozas": {
+     "algorithms": {
+      "fajlkezeles": 24,
+      "sztringfeldolgozas": 4,
+      "osszegzes": 2,
+      "rendezes": 2
+     },
+     "io": {
+      "screen_out": 13,
+      "kbd_in": 3
+     },
+     "subtask_count": 7,
+     "solution_langs": [
+      "C#",
+      "C++",
+      "Java"
+     ],
+     "input_rows": 544,
+     "input_cols": 1,
+     "input_separator": null,
+     "feladatlap_words": 715
+    }
+   },
+   "provenance": {
+    "topics_from": "cim",
+    "utmutato": "e_inf_22maj_ut.pdf",
     "features_from": [
      "utmutato+feladatlap"
     ],

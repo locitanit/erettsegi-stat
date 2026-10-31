@@ -175,17 +175,17 @@
 "input_cols": 1,
 "feladatlap_words": 811
 },
-"2022m_emelt_dk": {
-"subtask_count": 7,
-"input_rows": 544,
-"input_cols": 1,
-"feladatlap_words": 715
-},
 "2022m_kozep_dk": {
 "subtask_count": 3,
 "input_rows": 0,
 "input_cols": 0,
 "feladatlap_words": 280
+},
+"2022m_emelt_inf": {
+"subtask_count": 7,
+"input_rows": 544,
+"input_cols": 1,
+"feladatlap_words": 715
 },
 "2022o_emelt_dk": {
 "subtask_count": 6,
